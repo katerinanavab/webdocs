@@ -1,5 +1,5 @@
 # 📖 Course Docs for *Pre-AP CS: Web Development*
-### FOR EDUCATIONAL USE
+### *** FOR EDUCATIONAL USE ***
 
 ## Built with `just-the-docs-template`
 ### `just-the-docs-template` creates a [Jekyll] site that uses the [Just the Docs] theme. 
