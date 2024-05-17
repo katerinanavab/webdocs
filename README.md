@@ -1,4 +1,4 @@
-# just-the-docs-template
+# Web Docs for Pre-AP CS using `just-the-docs-template`
 
 This is a *bare-minimum* template to create a [Jekyll] site that:
 
