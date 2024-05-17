@@ -1,4 +1,5 @@
-# Web Docs for Pre-AP CS using `just-the-docs-template`
+# 📖 Course Docs for *Pre-AP CS: Web Development*
+### Built with `just-the-docs-template`
 
 This is a *bare-minimum* template to create a [Jekyll] site that:
 
