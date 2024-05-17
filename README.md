@@ -1,9 +1,9 @@
 # 📖 Course Docs for *Pre-AP CS: Web Development*
 ### *** FOR EDUCATIONAL USE ***
 
-## Built with `just-the-docs-template`
-### `just-the-docs-template` creates a [Jekyll] site that uses the [Just the Docs] theme. 
-* To get started with creating a site, simply click "[use this template]" to create a GitHub repository.
+### Built with `just-the-docs-template`
+* Template creates a [Jekyll] site that uses the [Just the Docs] theme. 
+* To get started with creating a site like this, simply click "[use this template]" to create a GitHub repository.
 * [Browse documentation] to learn more about how to use this theme.
 * This repository is licensed under the [MIT License]. You are generally free to reuse or extend upon this code as you see fit; just include the original copy of the license (which is preserved when you "make a template").
 
