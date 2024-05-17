@@ -1,8 +1,10 @@
 title: Web Docs
-description: Documentation, class notes, & project instructions for Pre-AP Computer Science: Web Development.
+description: Course materials for Pre-AP Computer Science: Web Development
 theme: just-the-docs
 
 url: https://webdocs.coderina.dev
 
 aux_links:
-  "Instructor Site": - "https://coderina.dev"
+  "Instructor Site": 
+    - "https://coderina.dev"
+
