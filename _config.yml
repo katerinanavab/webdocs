@@ -9,3 +9,8 @@ aux_links:
     - "https://coderina.dev"
 
 logo: "logo-introcs.png"
+
+back_to_top: true
+back_to_top_text: "Back to top"
+
+footer_content: "Copyright &copy; 2024 Katerina Navab. Distributed by an <a href=\"https://github.com/just-the-docs/just-the-docs/tree/main/LICENSE.txt\">MIT license.</a> <a href=\"https://pages.github.com/\">This site is powered by GitHub Pages.</a>"
