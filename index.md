@@ -1,6 +1,7 @@
 ---
 title: Home
 layout: home
+nav_order: 1
 ---
 
 # Intro Computer Science: Web Development
