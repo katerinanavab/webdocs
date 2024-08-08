@@ -1,8 +1,11 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: Web Docs
+description: Course materials for Intro Computer Science: Web Development
 theme: just-the-docs
 
 url: https://katerinanavab.github.io/webdocs
 
 aux_links:
   Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  Instructor Site: https://coderina.dev
+
+footer_content: "Copyright &copy; 2024 Katerina Navab. Distributed by an <a href=\"https://github.com/just-the-docs/just-the-docs/tree/main/LICENSE.txt\">MIT license.</a> <a href=\"https://pages.github.com/\">This site is powered by GitHub Pages.</a>"
