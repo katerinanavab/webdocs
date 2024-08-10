@@ -1,5 +1,5 @@
 ---
 layout: default
-title: "ℹ️ Course Information"
+title: "*️⃣ Course Information"
 nav_order: 1
 ---
