@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: notes
 title: "3️⃣ Bootstrap"
 nav_order: 4
 ---
