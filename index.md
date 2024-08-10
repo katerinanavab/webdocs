@@ -1,6 +1,7 @@
 ---
 title: Home
 layout: home
+nav_exclude: true
 ---
 
 # Intro Computer Science: Web Development
