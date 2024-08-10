@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: "1️⃣ Basic HTML & CSS"
 nav_order: 2
 ---
