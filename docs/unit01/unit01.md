@@ -1,5 +1,5 @@
 ---
 layout: default
-title: "1. Basic HTML/CSS"
+title: "1️⃣ Basic HTML & CSS"
 nav_order: 2
 ---
