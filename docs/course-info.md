@@ -73,37 +73,37 @@ Programming projects are evaluated via a qualitative system considering a progra
   </tr></thead>
 <tbody>
   <tr>
-    <td class="fs-1 lh-0">A submission that exceeds standard expectations, often reflecting additional work beyond the requirements or gets the job done in a particularly elegant way. Rarely awarded, but well-earned.</td>
+    <td class="fs-1">A submission that exceeds standard expectations, often reflecting additional work beyond the requirements or gets the job done in a particularly elegant way. Rarely awarded, but well-earned.</td>
     <td class="text-center">6/5</td>
     <td class="text-center">110%</td>
   </tr>
   <tr>
-    <td class="fs-1 lh-0">A submission that satisfies all the requirements for the assignment and demonstrates sufficient effort. It reflects solid understanding and a job well done.</td>
+    <td class="fs-1">A submission that satisfies all the requirements for the assignment and demonstrates sufficient effort. It reflects solid understanding and a job well done.</td>
     <td class="text-center">5/5</td>
     <td class="text-center">100%</td>
   </tr>
   <tr>
-    <td class="fs-1 lh-0">A submission that meets most of the requirements for the assignment, possibly with a few small problems. Alternatively, it may meet all of the base requirements but through a "bare minimum" effort.</td>
+    <td class="fs-1">A submission that meets most of the requirements for the assignment, possibly with a few small problems. Alternatively, it may meet all of the base requirements but through a "bare minimum" effort.</td>
     <td class="text-center">4/5</td>
     <td class="text-center">90%</td>
   </tr>
   <tr>
-    <td class="fs-1 lh-0">A submission that has several problems that cause it to fall short of the requirements for the assignment. It may also demonstrate some misunderstanding of the underlying concepts.</td>
+    <td class="fs-1">A submission that has several problems that cause it to fall short of the requirements for the assignment. It may also demonstrate some misunderstanding of the underlying concepts.</td>
     <td class="text-center">3/5</td>
     <td class="text-center">80%</td>
   </tr>
   <tr>
-    <td class="fs-1 lh-0">A submission that has extremely serious problems (i.e. the program does not compile or run), but nonetheless shows some effort and understanding.</td>
+    <td class="fs-1">A submission that has extremely serious problems (i.e. the program does not compile or run), but nonetheless shows some effort and understanding.</td>
     <td class="text-center">2/5</td>
     <td class="text-center">70%</td>
   </tr>
   <tr>
-    <td class="fs-1 lh-0">A submission that shows little effort and does not represent passing work.</td>
+    <td class="fs-1">A submission that shows little effort and does not represent passing work.</td>
     <td class="text-center">1/5</td>
     <td class="text-center">60%</td>
   </tr>
   <tr>
-    <td class="fs-1 lh-0">Assignment “submitted” but has insufficient evidence of individual work.</td>
+    <td class="fs-1">Assignment “submitted” but has insufficient evidence of individual work.</td>
     <td class="text-center">0/5</td>
     <td class="text-center">50%</td>
   </tr>
