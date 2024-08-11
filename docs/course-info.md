@@ -60,20 +60,22 @@ nav_order: 1
 </details>
 
 ### Project Grading Rubric
-<small>Programming projects are evaluated via a qualitative system considering a program’s efficiency, legibility, correctness, completeness, comments, etc. This rubric employs a 5-point scale appropriate for shorter projects and in-class coding exercises. An extra credit point may be awarded for exceptional effort. The assignment score is then adjusted to be out of 10 points, as students earn a baseline of 50% credit for submitted work. For long-term projects, the assignment's overall weight is doubled.</small>
+
+Programming projects are evaluated via a qualitative system considering a program’s efficiency, legibility, correctness, completeness, comments, etc. This rubric employs a 5-point scale appropriate for shorter projects and in-class coding exercises. An extra credit point may be awarded for exceptional effort. The assignment score is then adjusted to be out of 10 points, as students earn a baseline of 50% credit for submitted work. For long-term projects, the assignment's overall weight is doubled.
+{: .fs-3 }
 
 <div>
 <table><thead>
   <tr>
-    <th><span style="text-align: center; font-weight:400;">EVALUATION</span></th>
-    <th><span style="text-align: center; font-weight:400;">SCORE</span></th>
-    <th><span style="text-align: center; font-weight:400;">PERCENT</span></th>
+    <th><span style="text-align: center;">EVALUATION</span></th>
+    <th><span style="text-align: center;">SCORE</span></th>
+    <th><span style="text-align: center;">PERCENT</span></th>
   </tr></thead>
 <tbody>
   <tr>
-    <td>A submission that exceeds standard expectations, often reflecting additional work beyond the requirements or gets the job done in a particularly elegant way. Rarely awarded, but well-earned.</td>
-    <td>6/5</td>
-    <td>110%</td>
+    <td><span class="fs-2">A submission that exceeds standard expectations, often reflecting additional work beyond the requirements or gets the job done in a particularly elegant way. Rarely awarded, but well-earned.</span></td>
+    <td><span style="text-align: center;">6/5</span></td>
+    <td><span style="text-align: center;">110%</span></td>
   </tr>
   <tr>
     <td>A submission that satisfies all the requirements for the assignment and demonstrates sufficient effort. It reflects solid understanding and a job well done.</td>
