@@ -57,59 +57,47 @@ PARTICIPATION (20% of total grade)
 Programming projects are evaluated via a qualitative system considering a program’s efficiency, legibility, correctness, completeness, comments, etc. This rubric employs a 5-point scale appropriate for shorter projects and in-class coding exercises. Extra credit may be awarded for exceptional effort, up to 2 additional points. The assignment score is then adjusted to be out of 10 points, as students earn a baseline of 50% credit for submitted work. For long-term projects, the assignment's overall weight is doubled.
 
 <div>
- <style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}
-.tg .tg-baqh{text-align:center;vertical-align:top}
-.tg .tg-fymr{border-color:inherit;font-weight:bold;text-align:left;vertical-align:top}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
-</style>
-<table class="tg"><thead>
+<table><thead>
   <tr>
-    <th class="tg-fymr">EVALUATION</th>
-    <th class="tg-1wig">SCORE</th>
-    <th class="tg-1wig">PERCENT</th>
+    <th>EVALUATION</th>
+    <th>SCORE</th>
+    <th>PERCENT</th>
   </tr></thead>
 <tbody>
   <tr>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">A submission that exceeds standard expectations, often reflecting additional work beyond the requirements or gets the job done in a particularly elegant way. </span>Rarely awarded, but well-earned.</td>
-    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">6/5</span></td>
-    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">110% </span></td>
+    <td><span style="font-weight:400;font-style:normal;text-decoration:none">A submission that exceeds standard expectations, often reflecting additional work beyond the requirements or gets the job done in a particularly elegant way. </span>Rarely awarded, but well-earned.</td>
+    <td><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">6/5</span></td>
+    <td><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">110% </span></td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">A submission that satisfies all the requirements for the assignment and demonstrates sufficient effort. It reflects solid understanding and a job well done.</span></td>
-    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">5/5</span></td>
-    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">100%</span></td>
+    <td><span style="font-weight:400;font-style:normal;text-decoration:none">A submission that satisfies all the requirements for the assignment and demonstrates sufficient effort. It reflects solid understanding and a job well done.</span></td>
+    <td><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">5/5</span></td>
+    <td><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">100%</span></td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">A submission that meets most of the requirements for the assignment, possibly with a few small problems. Alternatively, it may meet all of the base requirements but through a "bare minimum" effort.</span></td>
-    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">4/5</span></td>
-    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">90%</span></td>
+    <td><span style="font-weight:400;font-style:normal;text-decoration:none">A submission that meets most of the requirements for the assignment, possibly with a few small problems. Alternatively, it may meet all of the base requirements but through a "bare minimum" effort.</span></td>
+    <td><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">4/5</span></td>
+    <td><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">90%</span></td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">A submission that has several problems that cause it to fall short of the requirements for the assignment. It may also demonstrate some misunderstanding of the underlying concepts.</span></td>
-    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">3/5</span></td>
-    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">80%</span></td>
+    <td><span style="font-weight:400;font-style:normal;text-decoration:none">A submission that has several problems that cause it to fall short of the requirements for the assignment. It may also demonstrate some misunderstanding of the underlying concepts.</span></td>
+    <td><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">3/5</span></td>
+    <td><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">80%</span></td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">A submission that has extremely serious problems (i.e. the program does not compile or run), but nonetheless shows some effort and understanding.</span></td>
-    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">2/5</span></td>
-    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">70%</span></td>
+    <td><span style="font-weight:400;font-style:normal;text-decoration:none">A submission that has extremely serious problems (i.e. the program does not compile or run), but nonetheless shows some effort and understanding.</span></td>
+    <td><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">2/5</span></td>
+    <td><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">70%</span></td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">A submission that shows little effort and does not represent passing work.</span></td>
-    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">1/5</span></td>
-    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">60%</span></td>
+    <td><span style="font-weight:400;font-style:normal;text-decoration:none">A submission that shows little effort and does not represent passing work.</span></td>
+    <td><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">1/5</span></td>
+    <td><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">60%</span></td>
   </tr>
   <tr>
-    <td class="tg-0pky"><span style="font-weight:400;font-style:normal;text-decoration:none">Assignment “submitted” but has insufficient evidence of individual work.</span></td>
-    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">0/5</span></td>
-    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">50%</span></td>
+    <td><span style="font-weight:400;font-style:normal;text-decoration:none">Assignment “submitted” but has insufficient evidence of individual work.</span></td>
+    <td><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">0/5</span></td>
+    <td><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">50%</span></td>
   </tr>
 </tbody></table>
 </div>
