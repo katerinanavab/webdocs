@@ -54,50 +54,50 @@ PARTICIPATION (20% of total grade)
   * There are no bad questions, and chances are if you are wondering about it, someone else in the class is too! If you feel most comfortable waiting until after class, that is okay, but do keep communication open between us.
 
 ### Project Grading Rubric
-Programming projects are evaluated via a qualitative system considering a program’s efficiency, legibility, correctness, completeness, comments, etc. This rubric employs a 5-point scale appropriate for shorter projects and in-class coding exercises. Extra credit may be awarded for exceptional effort, up to 2 additional points. The assignment score is then adjusted to be out of 10 points, as students earn a baseline of 50% credit for submitted work. For long-term projects, the assignment's overall weight is doubled.
+Programming projects are evaluated via a qualitative system considering a program’s efficiency, legibility, correctness, completeness, comments, etc. This rubric employs a 5-point scale appropriate for shorter projects and in-class coding exercises. An extra credit point may be awarded for exceptional effort. The assignment score is then adjusted to be out of 10 points, as students earn a baseline of 50% credit for submitted work. For long-term projects, the assignment's overall weight is doubled.
 
 <div>
 <table><thead>
   <tr>
-    <th>EVALUATION</th>
-    <th>SCORE</th>
-    <th>PERCENT</th>
+    <th><span style="text-align: center; font-weight:400;">EVALUATION</span></th>
+    <th><span style="text-align: center; font-weight:400;">SCORE</span></th>
+    <th><span style="text-align: center; font-weight:400;">PERCENT</span></th>
   </tr></thead>
 <tbody>
   <tr>
-    <td><span style="font-weight:400;font-style:normal;text-decoration:none">A submission that exceeds standard expectations, often reflecting additional work beyond the requirements or gets the job done in a particularly elegant way. </span>Rarely awarded, but well-earned.</td>
-    <td><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">6/5</span></td>
-    <td><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">110% </span></td>
+    <td>A submission that exceeds standard expectations, often reflecting additional work beyond the requirements or gets the job done in a particularly elegant way. Rarely awarded, but well-earned.</td>
+    <td>6/5</td>
+    <td>110%</td>
   </tr>
   <tr>
-    <td><span style="font-weight:400;font-style:normal;text-decoration:none">A submission that satisfies all the requirements for the assignment and demonstrates sufficient effort. It reflects solid understanding and a job well done.</span></td>
-    <td><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">5/5</span></td>
-    <td><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">100%</span></td>
+    <td>A submission that satisfies all the requirements for the assignment and demonstrates sufficient effort. It reflects solid understanding and a job well done.</td>
+    <td>5/5</td>
+    <td>100%</td>
   </tr>
   <tr>
-    <td><span style="font-weight:400;font-style:normal;text-decoration:none">A submission that meets most of the requirements for the assignment, possibly with a few small problems. Alternatively, it may meet all of the base requirements but through a "bare minimum" effort.</span></td>
-    <td><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">4/5</span></td>
-    <td><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">90%</span></td>
+    <td>A submission that meets most of the requirements for the assignment, possibly with a few small problems. Alternatively, it may meet all of the base requirements but through a "bare minimum" effort.</td>
+    <td>4/5</td>
+    <td>90%</td>
   </tr>
   <tr>
-    <td><span style="font-weight:400;font-style:normal;text-decoration:none">A submission that has several problems that cause it to fall short of the requirements for the assignment. It may also demonstrate some misunderstanding of the underlying concepts.</span></td>
-    <td><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">3/5</span></td>
-    <td><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">80%</span></td>
+    <td>A submission that has several problems that cause it to fall short of the requirements for the assignment. It may also demonstrate some misunderstanding of the underlying concepts.</td>
+    <td>3/5</td>
+    <td>80%</td>
   </tr>
   <tr>
-    <td><span style="font-weight:400;font-style:normal;text-decoration:none">A submission that has extremely serious problems (i.e. the program does not compile or run), but nonetheless shows some effort and understanding.</span></td>
-    <td><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">2/5</span></td>
-    <td><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">70%</span></td>
+    <td>A submission that has extremely serious problems (i.e. the program does not compile or run), but nonetheless shows some effort and understanding.</td>
+    <td>2/5</td>
+    <td>70%</td>
   </tr>
   <tr>
-    <td><span style="font-weight:400;font-style:normal;text-decoration:none">A submission that shows little effort and does not represent passing work.</span></td>
-    <td><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">1/5</span></td>
-    <td><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">60%</span></td>
+    <td>A submission that shows little effort and does not represent passing work.</td>
+    <td>1/5</td>
+    <td>60%</td>
   </tr>
   <tr>
-    <td><span style="font-weight:400;font-style:normal;text-decoration:none">Assignment “submitted” but has insufficient evidence of individual work.</span></td>
-    <td><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">0/5</span></td>
-    <td><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">50%</span></td>
+    <td>Assignment “submitted” but has insufficient evidence of individual work.</td>
+    <td>0/5</td>
+    <td>50%</td>
   </tr>
 </tbody></table>
 </div>
