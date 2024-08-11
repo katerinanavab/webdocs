@@ -1,13 +1,15 @@
 ---
 layout: default
-title: "*️⃣ Course Info"
+title: "Course Info"
 nav_order: 1
 ---
 
-## Course Expectations
+# Course Information
 
-### Assignments & Grading
-PROJECTS (50% of total grade)
+<details markdown="block">
+<summary>Assignments & Grading</summary>
+
+### PROJECTS (50% of total grade)
 * Programming projects serve as the bulk of our coursework, and will be completed/submitted through Replit, with grades/feedback posted on BlackBaud.
 * Projects are graded on a 5-point scale, and extra credit is always available to encourage effort and creativity.
   * See "Grading Rubric" section below!
@@ -17,7 +19,7 @@ PROJECTS (50% of total grade)
   * When re-working your projects, you are encouraged to come to office hours for help or more feedback. I am way more likely to grade your work favorably if you've shown effort towards improving your skills...
   * Coding is an iterative process which means it is VERY normal not to have your programs working perfectly the first time! Programmers often have to edit their code many times. 
 
-HOMEWORK (30% of total grade)
+### HOMEWORK (30% of total grade)
 * Homework will be assigned in the form of a "CodeCollab": like posting on a class discussion board, but with a shared goal of figuring out how some 🔍 mystery code 🔍 works.
 * Due weekly on FRIDAYS @11:59pm❗
   * At the beginning of each week, I will post a DISCUSSION assignment that includes a Replit link to a working program that you will analyze collaboratively.
@@ -27,7 +29,7 @@ HOMEWORK (30% of total grade)
 * ⏰ Lateness Policy: Late homework may only receive up to 75% credit if submitted UNDER one week late, or up to 50% credit if submitted OVER one week late.
   * Whenever you submit work after the assignment has been graded, you must SEND ME AN EMAIL, otherwise I will not be notified.
 
-PARTICIPATION (20% of total grade)
+### PARTICIPATION (20% of total grade)
 * Participation is graded weekly (up to 2 points max per class period) and will be evaluated based on adherence to these key values: being respectful, prepared, and engaged.
   * Being respectful of your community means being mindful of and kind toward your environment, and the people within – this includes arriving on-time to commitments.
     * ⏰ If you are over 5 minutes late, you must first get a LATE PASS from the Upper School Office and then enter the classroom QUIETLY as to not disrupt the class.
@@ -35,8 +37,11 @@ PARTICIPATION (20% of total grade)
   * Being prepared for class means you have your laptop ready (unless otherwise instructed) within the first 5 minutes of class. It also means you arrive with a positive attitude and are ready to learn!
   * Show you are engaged by volunteering answers/comments, staying on task, and completing classwork as directed. You are expected to take your own notes while new material is being introduced, to contribute during group activities, and be open to collaborating with all classmates.
 * ⚠️ NON-NEGOTIABLES: Be aware that tardiness, off-task behavior, and side conversations will have a negative impact on your grade. However, arriving on-time with a positive attitude is a great way to earn an easy 100% for your participation grade ☺︎
+</details>
 
-### Other Classroom Policies
+<details markdown="block">
+<summary>Classroom Policies</summary>
+
 * ⏰ My **schedule** → posted on Room 71's door & on Blackbaud
   * I prefer **"drop-ins" for office hours**: meaning it's your responsibility to look at my schedule, pick a free period we share, and come find me in Room #71. 
   * ONLY IF you do not have ANY of the above periods free, then you may email me to schedule an appointment at a different time. Include a list of your free periods in your email!
@@ -52,9 +57,10 @@ PARTICIPATION (20% of total grade)
   * Please pick up after yourself, don't leave trash behind, and don't expect that other people (like your teacher) will clean up your messes.
 * Finally, some mindset tips: I strongly encourage you all to be proactive about your learning, embrace creativity, take responsibility for your work, and never be afraid to ask for help!!!
   * There are no bad questions, and chances are if you are wondering about it, someone else in the class is too! If you feel most comfortable waiting until after class, that is okay, but do keep communication open between us.
+</details>
 
 ### Project Grading Rubric
-Programming projects are evaluated via a qualitative system considering a program’s efficiency, legibility, correctness, completeness, comments, etc. This rubric employs a 5-point scale appropriate for shorter projects and in-class coding exercises. An extra credit point may be awarded for exceptional effort. The assignment score is then adjusted to be out of 10 points, as students earn a baseline of 50% credit for submitted work. For long-term projects, the assignment's overall weight is doubled.
+<small>Programming projects are evaluated via a qualitative system considering a program’s efficiency, legibility, correctness, completeness, comments, etc. This rubric employs a 5-point scale appropriate for shorter projects and in-class coding exercises. An extra credit point may be awarded for exceptional effort. The assignment score is then adjusted to be out of 10 points, as students earn a baseline of 50% credit for submitted work. For long-term projects, the assignment's overall weight is doubled.</small>
 
 <div>
 <table><thead>
