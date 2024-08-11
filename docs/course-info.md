@@ -61,8 +61,9 @@ nav_order: 1
 
 ### Project Grading Rubric
 
+{: .highlight }
+A paragraph
 Programming projects are evaluated via a qualitative system considering a program’s efficiency, legibility, correctness, completeness, comments, etc. This rubric employs a 5-point scale appropriate for shorter projects and in-class coding exercises. An extra credit point may be awarded for exceptional effort. The assignment score is then adjusted to be out of 10 points, as students earn a baseline of 50% credit for submitted work. For long-term projects, the assignment's overall weight is doubled.
-{: .fs-3 }
 
 <div>
 <table><thead>
