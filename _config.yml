@@ -4,7 +4,7 @@ theme: just-the-docs
 
 url: https://katerinanavab.github.io/webdocs
 
-logo: "assets/logo-introcs.png"
+logo: "assets/webdocs-logo.png"
 
 aux_links_new_tab: true
 aux_links:
