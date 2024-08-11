@@ -7,7 +7,27 @@ nav_order: 1
 # Course Information
 
 <details markdown="block">
-<summary>Assignments & Grading</summary>
+<summary>Classroom Policies</summary>
+
+* ⏰ My **schedule** → posted on Room 71's door & on Blackbaud
+  * I prefer **"drop-ins" for office hours**: meaning it's your responsibility to look at my schedule, pick a free period we share, and come find me in Room #71. 
+  * ONLY IF you do not have ANY of the above periods free, then you may email me to schedule an appointment at a different time. Include a list of your free periods in your email!
+* 📝 Leave a **sticky note on my desk** for anything you want me to remember to do. *Ex: “Please re-grade my project”*
+* 🖊️ **Student supplies** (pens, pencils, sticky notes, etc.) will always be available to borrow, located up front by the whiteboard. No need to ask, but please return pens/pencils after class! 
+* 🤞 SILENTLY SIGNAL that you need to leave for the bathroom or water by holding up crossed fingers 🤞
+  * Just make sure I acknowledge you are leaving the room first!!! Wait for me to give a thumbs up 👍
+  * Please DO NOT raise your hand and verbally ask to leave, especially when it would interrupt someone.
+* 📱NO PHONES! → new BWL Upper School policy. If you are caught with a cell phone in class, it will be confiscated immediately and you will be sent to the Upper School office. 
+* Common courtesy stuff:
+  * Student actions that interfere with teaching or learning in the classroom will NOT be tolerated. Please do not spend your class time on distracting apps, having side conversations, or doing work for other classes. 
+  * Respect others’ property. Avoid touching or writing on anything that does not belong to you (including tables, books, teacher’s belongings, walls, etc.)
+  * Please pick up after yourself, don't leave trash behind, and don't expect that other people (like your teacher) will clean up your messes.
+* Finally, some mindset tips: I strongly encourage you all to be proactive about your learning, embrace creativity, take responsibility for your work, and never be afraid to ask for help!!!
+  * There are no bad questions, and chances are if you are wondering about it, someone else in the class is too! If you feel most comfortable waiting until after class, that is okay, but do keep communication open between us.
+</details>
+
+<details markdown="block">
+<summary>Assignments & Grading Details</summary>
 
 ### PROJECTS (50% of total grade)
 * Programming projects serve as the bulk of our coursework, and will be completed/submitted through Replit, with grades/feedback posted on BlackBaud.
@@ -37,26 +57,6 @@ nav_order: 1
   * Being prepared for class means you have your laptop ready (unless otherwise instructed) within the first 5 minutes of class. It also means you arrive with a positive attitude and are ready to learn!
   * Show you are engaged by volunteering answers/comments, staying on task, and completing classwork as directed. You are expected to take your own notes while new material is being introduced, to contribute during group activities, and be open to collaborating with all classmates.
 * ⚠️ NON-NEGOTIABLES: Be aware that tardiness, off-task behavior, and side conversations will have a negative impact on your grade. However, arriving on-time with a positive attitude is a great way to earn an easy 100% for your participation grade ☺︎
-</details>
-
-<details markdown="block">
-<summary>Classroom Policies</summary>
-
-* ⏰ My **schedule** → posted on Room 71's door & on Blackbaud
-  * I prefer **"drop-ins" for office hours**: meaning it's your responsibility to look at my schedule, pick a free period we share, and come find me in Room #71. 
-  * ONLY IF you do not have ANY of the above periods free, then you may email me to schedule an appointment at a different time. Include a list of your free periods in your email!
-* 📝 Leave a **sticky note on my desk** for anything you want me to remember to do. *Ex: “Please re-grade my project”*
-* 🖊️ **Student supplies** (pens, pencils, sticky notes, etc.) will always be available to borrow, located up front by the whiteboard. No need to ask, but please return pens/pencils after class! 
-* 🤞 SILENTLY SIGNAL that you need to leave for the bathroom or water by holding up crossed fingers 🤞
-  * Just make sure I acknowledge you are leaving the room first!!! Wait for me to give a thumbs up 👍
-  * Please DO NOT raise your hand and verbally ask to leave, especially when it would interrupt someone.
-* 📱NO PHONES! → new BWL Upper School policy. If you are caught with a cell phone in class, it will be confiscated immediately and you will be sent to the Upper School office. 
-* Common courtesy stuff:
-  * Student actions that interfere with teaching or learning in the classroom will NOT be tolerated. Please do not spend your class time on distracting apps, having side conversations, or doing work for other classes. 
-  * Respect others’ property. Avoid touching or writing on anything that does not belong to you (including tables, books, teacher’s belongings, walls, etc.)
-  * Please pick up after yourself, don't leave trash behind, and don't expect that other people (like your teacher) will clean up your messes.
-* Finally, some mindset tips: I strongly encourage you all to be proactive about your learning, embrace creativity, take responsibility for your work, and never be afraid to ask for help!!!
-  * There are no bad questions, and chances are if you are wondering about it, someone else in the class is too! If you feel most comfortable waiting until after class, that is okay, but do keep communication open between us.
 </details>
 
 ### Project Grading Rubric
