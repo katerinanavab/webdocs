@@ -15,6 +15,8 @@ Text can be **bold**, _italic_, or ~~strikethrough~~.
 ##### Heading 5
 ###### Heading 6
 
+---
+
 #### Callouts 
 
 {: .highlight }
@@ -32,12 +34,16 @@ New
 {: .warning }
 Warning
 
+---
+
 #### Buttons
 [Link button](https://just-the-docs.com){: .btn }
 [Link button](https://just-the-docs.com){: .btn .btn-purple }
 [Link button](https://just-the-docs.com){: .btn .btn-blue }
 [Link button](https://just-the-docs.com){: .btn .btn-green }
 [Link button](https://just-the-docs.com){: .btn .btn-outline }
+
+---
 
 #### Labels
 Default label
@@ -52,13 +58,18 @@ Stable
 New release
 {: .label .label-purple }
 
-Coming soon
-{: .label .label-yellow }
-
 Deprecated
 {: .label .label-red }
 
+---
+
 #### Lists
+
+* Unordered
+* List
+
+1. Ordered
+2. List
 
 - [ ] hello, this is a todo item
 - [ ] hello, this is another todo item
