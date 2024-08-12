@@ -19,10 +19,10 @@ nav_order: 1
   * Coding is an iterative process which means it is VERY normal not to have your programs working perfectly the first time! Programmers often have to edit their code many times.
  
 <details>
-<summary>Project Grading Rubric</summary>
+<summary><strong>PROJECT GRADING RUBRIC</strong></summary>
 
-{: .highlight .fs-3 }
-Programming projects are evaluated via a qualitative system considering a program’s **efficiency**, **legibility**, **correctness**, **completeness**, **comments**, etc. This rubric employs a 5-point scale. The assignment score is then adjusted to be out of 10 points, such that students earn a baseline of 50% credit for submitted work. Extra credit may be awarded for exceptional effort!
+<p class="fs-3 highlight">Programming projects are evaluated via a qualitative system considering a program’s efficiency, legibility, correctness, completeness, comments, etc. This rubric employs a 5-point scale. The assignment score is then adjusted to be out of 10 points, such that students earn a baseline of 50% credit for submitted work. Extra credit may be awarded for exceptional effort!</p>
+
 
 <div>
 <table><thead>
