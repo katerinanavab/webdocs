@@ -3,6 +3,11 @@ layout: default
 title: "TEST"
 ---
 
+#### MARKDOWN BASICS
+Text can be **bold**, _italic_, or ~~strikethrough~~.
+
+[Link to another page](/just-the-docs/).
+
 # Heading 1
 ## Heading 2
 ### Heading 3
