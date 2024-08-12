@@ -3,6 +3,9 @@ $jtdpurple: #7153ED;
 h1 {
 	color: $jtdpurple;
 }
-h2 {
-	color: $jtdpurple;
-}
+
+$body-font-family: roboto, sans-serif;
+//$mono-font-family: "SFMono-Regular", Menlo, Consolas, Monospace;
+$body-line-height: 1.2;
+$content-line-height: 1.4;
+$body-heading-line-height: 1.1;
