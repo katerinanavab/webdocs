@@ -22,7 +22,7 @@ liquid:
 callouts_level: quiet # or loud
 callouts:
   highlight:
-    color: yellow
+    color: myyellow
   important:
     title: Important
     color: myblue
@@ -31,7 +31,7 @@ callouts:
     color: mygreen
   note:
     title: Note
-    color: purple
+    color: mypurple
   warning:
     title: Warning
     color: myred
