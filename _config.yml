@@ -4,8 +4,8 @@ theme: just-the-docs
 
 url: https://katerinanavab.github.io/webdocs
 
-logo: "assets/webdocs-logo.png"
-favicon_ico: "assets/webdocs-favicon/favicon.ico"
+logo: "assets/logo-webdocs.png"
+favicon_ico: "favicon.ico"
 
 aux_links_new_tab: true
 aux_links:
