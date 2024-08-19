@@ -74,17 +74,17 @@ nav_order: 1
 
 </details>
 
-* 💯 **GRADE IMPROVEMENT POLICY**: You may re-submit projects for a full RE-GRADE, but you must email me to let me know which project, and it must be completed at least one week BEFORE the end of the current quarter.
+* 💯 **GRADE IMPROVEMENT POLICY**: You may <span class="bg-yellow-000">re-submit projects for a full RE-GRADE</span>, but you must email me to let me know which project, and it must be completed at least one week BEFORE the end of the current quarter.
   * When re-working your projects, you are encouraged to come to office hours for help or more feedback. I am way more likely to grade your work favorably if you've shown effort towards improving your skills...
   * Coding is an iterative process which means it is VERY normal not to have your programs working perfectly the first time! Programmers often have to edit their code many times.
   
-* ⏰ **LATE WORK POLICY**: Late projects may only receive up to 75% credit if submitted UNDER one week late, or up to 50% credit if submitted OVER one week late.
+* ⏰ **LATE WORK POLICY**: Late projects may only receive up to <span class="bg-yellow-000">75% credit if submitted UNDER one week late</span>, or up to <span class="bg-yellow-000">50% credit if submitted OVER one week late</span>.
 
 > {: .warning }
-> Whenever you submit work late, after the assignment has been graded, you must **SEND ME AN EMAIL**! Otherwise I will not be notified.
+> Whenever you submit work late, especially after the assignment has been graded on BlackBaud, you must **SEND ME AN EMAIL**! Otherwise I will not be notified.
 
 ### Homework (30% of total grade)
-* 💬 Homework will be assigned in the form of a "**CodeCollab**": like posting on a discussion board, but with a shared goal of figuring out how some 🔍 mystery code 🔍 works.
+* 💬 Homework will be assigned in the form of a `CodeCollab`: like posting on a discussion board, but with a shared goal of figuring out how some 🔍 mystery code 🔍 works.
 
 > {: .highlight }
 > CodeCollabs are always **due on FRIDAYS @11:59pm**❗
@@ -96,7 +96,7 @@ nav_order: 1
 * ⏰ **LATE WORK POLICY**: Late homework may only receive up to 75% credit if submitted UNDER one week late, or up to 50% credit if submitted OVER one week late.
 
 > {: .warning }
-> Whenever you submit work late, after the assignment has been graded, you must **SEND ME AN EMAIL**! Otherwise I will not be notified.
+> Whenever you submit work late, especially after the assignment has been graded on BlackBaud, you must **SEND ME AN EMAIL**! Otherwise I will not be notified.
 
 ### Participation (20% of total grade)
 * 👥 Participation is graded weekly (up to 2 points max per class period) and will be evaluated based on adherence to these key values: being **respectful**, **prepared**, and **engaged**.
