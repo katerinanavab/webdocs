@@ -5,7 +5,10 @@ nav_order: 1
 ---
 
 # Course Information
+1. TOC
+{:toc}
 
+---
 ## Assignments & Grading
 
 ### PROJECTS (50% of total grade)
