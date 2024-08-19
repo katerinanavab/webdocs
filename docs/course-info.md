@@ -105,7 +105,7 @@ nav_order: 1
 * TBD (To Be _Discussed_)
 
 ### Other Classroom Policies
-* 🗓️ **Office Hours / Extra Help** is held during <span style="color: mypurple;">7th period (1:00-1:45pm) any day of the week in Room #71</span>.
+* 🗓️ **Office Hours / Extra Help** is held during <span>7th period (1:00-1:45pm) any day of the week in Room #71</span>.
  
 {: .note } ONLY IF you do not have 7th period free, then you may email me to schedule an appointment at a different time. _Include a list of your free periods in your email!_
 
