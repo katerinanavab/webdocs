@@ -18,18 +18,8 @@ nav_order: 1
 
 ### Projects (50% of total grade)
 * 💻 Programming projects serve as the bulk of our coursework, and will be completed/submitted through **Replit**, with grades/feedback posted on **BlackBaud**.
-* Projects are graded on a 5-point scale, and **extra credit** is always available to encourage effort and creativity.
-  * _See "Grading Rubric" section below._
- 
-* 💯 **GRADE IMPROVEMENT POLICY**: You may re-submit projects for a full RE-GRADE, but you must email me to let me know which project, and it must be completed at least one week BEFORE the end of the current quarter.
-  * When re-working your projects, you are encouraged to come to office hours for help or more feedback. I am way more likely to grade your work favorably if you've shown effort towards improving your skills...
-  * Coding is an iterative process which means it is VERY normal not to have your programs working perfectly the first time! Programmers often have to edit their code many times.
-  
-* ⏰ **LATE WORK POLICY**: Late projects may only receive up to 75% credit if submitted UNDER one week late, or up to 50% credit if submitted OVER one week late.
+* Projects are graded on a 5-point scale, and **EXTRA CREDIT** is always available to encourage effort and creativity. _See the rubric section below for details._
 
-> {: .warning }
-> Whenever you submit work late, after the assignment has been graded, you must **SEND ME AN EMAIL**! Otherwise I will not be notified.
- 
 <details>
 <summary><strong>PROJECT GRADING RUBRIC</strong></summary>
 
@@ -83,6 +73,15 @@ nav_order: 1
 </div>
 
 </details>
+
+* 💯 **GRADE IMPROVEMENT POLICY**: You may re-submit projects for a full RE-GRADE, but you must email me to let me know which project, and it must be completed at least one week BEFORE the end of the current quarter.
+  * When re-working your projects, you are encouraged to come to office hours for help or more feedback. I am way more likely to grade your work favorably if you've shown effort towards improving your skills...
+  * Coding is an iterative process which means it is VERY normal not to have your programs working perfectly the first time! Programmers often have to edit their code many times.
+  
+* ⏰ **LATE WORK POLICY**: Late projects may only receive up to 75% credit if submitted UNDER one week late, or up to 50% credit if submitted OVER one week late.
+
+> {: .warning }
+> Whenever you submit work late, after the assignment has been graded, you must **SEND ME AN EMAIL**! Otherwise I will not be notified.
 
 ### Homework (30% of total grade)
 * 💬 Homework will be assigned in the form of a "**CodeCollab**": like posting on a discussion board, but with a shared goal of figuring out how some 🔍 mystery code 🔍 works.
