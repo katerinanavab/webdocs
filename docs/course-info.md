@@ -105,8 +105,10 @@ nav_order: 1
 * TBD (To Be _Discussed_)
 
 ### Other Classroom Policies
-* 🗓️ **Office Hours / Extra Help** is held during **7th period (1:00-1:45pm) any day of the week in Room #71**. 
-  * ONLY IF you do not have 7th period free on ANY day, then you may email me to schedule an appointment at a different time. _Include a list of your free periods in your email!_
+* 🗓️ **Office Hours / Extra Help** is held during <span style="color: mypurple;">7th period (1:00-1:45pm) any day of the week in Room #71</span>.
+ 
+{: .note } ONLY IF you do not have 7th period free, then you may email me to schedule an appointment at a different time. _Include a list of your free periods in your email!_
+
 * 📝 You can leave a **sticky note on my desk** for anything you want me to remember to do. *Ex: “Please re-grade my project”*
 * 🖊️ **Student supplies** (pens, pencils, sticky notes, etc.) will always be available to borrow, located up front by the whiteboard. No need to ask, but please return pens/pencils after class! 
 * 🤞 **SILENTLY SIGNAL** that you need to leave for the bathroom or water by holding up crossed fingers.
