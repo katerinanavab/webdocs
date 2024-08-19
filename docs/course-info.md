@@ -21,7 +21,10 @@ nav_order: 1
 * Projects are graded on a 5-point scale, and **extra credit** is always available to encourage effort and creativity.
   * _See "Grading Rubric" section below._
 * ⏰ **LATE WORK POLICY**: Late projects may only receive up to 75% credit if submitted UNDER one week late, or up to 50% credit if submitted OVER one week late.
-  * Whenever you submit work after the assignment has been graded, you must SEND ME AN EMAIL, otherwise I will not be notified.
+
+> {: .warning }
+> Whenever you submit work late, after the assignment has been graded, you must **SEND ME AN EMAIL**! Otherwise I will not be notified.
+
 * 💯 **GRADE IMPROVEMENT POLICY**: You may re-submit projects for a full RE-GRADE, but you must email me to let me know which project, and it must be completed at least one week BEFORE the end of the current quarter.
   * When re-working your projects, you are encouraged to come to office hours for help or more feedback. I am way more likely to grade your work favorably if you've shown effort towards improving your skills...
   * Coding is an iterative process which means it is VERY normal not to have your programs working perfectly the first time! Programmers often have to edit their code many times.
@@ -84,14 +87,16 @@ nav_order: 1
 * 💬 Homework will be assigned in the form of a "**CodeCollab**": like posting on a discussion board, but with a shared goal of figuring out how some 🔍 mystery code 🔍 works.
 
 > {: .highlight }
-> Homework is **due weekly on FRIDAYS @11:59pm**❗
+> CodeCollabs are always **due on FRIDAYS @11:59pm**❗
 
-  * At the beginning of each week, I will **post a DISCUSSION assignment on BlackBaud** that includes a Replit link to a working program that you will **analyze collaboratively**.
-   * All of the CodeCollab programs can also be found on my Replit profile page: [replit.com/@katerinanavab](replit.com/@katerinanavab)
+* _How it works:_ At the beginning of each week, I will **post a DISCUSSION assignment on BlackBaud** that includes a Replit link to a working program that you will **analyze collaboratively**.
+  * All of the CodeCollab programs can also be found on my Replit profile page: [replit.com/@katerinanavab](replit.com/@katerinanavab)
   * To earn full credit, you must post **at least two (2) comments**: one standalone, and one response to a classmate.
   * CodeCollabs will be reviewed together during the first class period of the following week.
 * ⏰ **LATE WORK POLICY**: Late homework may only receive up to 75% credit if submitted UNDER one week late, or up to 50% credit if submitted OVER one week late.
-  * Whenever you submit work after the assignment has been graded, you must SEND ME AN EMAIL, otherwise I will not be notified.
+
+> {: .warning }
+> Whenever you submit work late, after the assignment has been graded, you must **SEND ME AN EMAIL**! Otherwise I will not be notified.
 
 ### Participation (20% of total grade)
 * 👥 Participation is graded weekly (up to 2 points max per class period) and will be evaluated based on adherence to these key values: being **respectful**, **prepared**, and **engaged**.
