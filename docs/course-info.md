@@ -82,9 +82,12 @@ nav_order: 1
 
 ### Homework (30% of total grade)
 * 💬 Homework will be assigned in the form of a "**CodeCollab**": like posting on a discussion board, but with a shared goal of figuring out how some 🔍 mystery code 🔍 works.
-* **Due weekly on FRIDAYS @11:59pm**❗
+
+> { .highlight }
+> Homework is **due weekly on FRIDAYS @11:59pm**❗
+
   * At the beginning of each week, I will **post a DISCUSSION assignment on BlackBaud** that includes a Replit link to a working program that you will **analyze collaboratively**.
-    * All of the CodeCollab programs can also be found on my Replit profile page: [replit.com/@katerinanavab](replit.com/@katerinanavab)
+   * All of the CodeCollab programs can also be found on my Replit profile page: [replit.com/@katerinanavab](replit.com/@katerinanavab)
   * To earn full credit, you must post **at least two (2) comments**: one standalone, and one response to a classmate.
   * CodeCollabs will be reviewed together during the first class period of the following week.
 * ⏰ **LATE WORK POLICY**: Late homework may only receive up to 75% credit if submitted UNDER one week late, or up to 50% credit if submitted OVER one week late.
