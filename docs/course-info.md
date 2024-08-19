@@ -5,6 +5,11 @@ nav_order: 1
 ---
 
 # Course Information
+{: .no_toc }
+
+## Table of Contents
+{: .no_toc .text-delta }
+
 1. TOC
 {:toc}
 
