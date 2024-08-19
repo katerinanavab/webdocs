@@ -4,7 +4,7 @@ layout: home
 nav_exclude: true
 ---
 
-# Intro Computer Science: Web Development
+# Pre-AP Computer Science: Web Development
 Welcome to our course website! 💻
 
 ### Course Description
