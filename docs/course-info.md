@@ -102,16 +102,16 @@ nav_order: 1
 ## Policies
 
 ### AI Usage Policies
-* TBD
+* TBD (To Be _Discussed_)
 
 ### Other Classroom Policies
-* 🗓️ My **schedule** → posted on Room 71's door & on Blackbaud
-  * I prefer **"drop-ins" for office hours**: meaning it's your responsibility to look at my schedule, pick a free period we share, and come find me in Room #71. 
-  * ONLY IF you do not have ANY of the above periods free, then you may email me to schedule an appointment at a different time. _Include a list of your free periods in your email!_
+* 🗓️ **Office Hours / Extra Help** is held during **7th period (1:00-1:45pm) any day of the week in Room #71**. 
+  * ONLY IF you do not have 7th period free on ANY day, then you may email me to schedule an appointment at a different time. _Include a list of your free periods in your email!_
 * 📝 You can leave a **sticky note on my desk** for anything you want me to remember to do. *Ex: “Please re-grade my project”*
 * 🖊️ **Student supplies** (pens, pencils, sticky notes, etc.) will always be available to borrow, located up front by the whiteboard. No need to ask, but please return pens/pencils after class! 
-* 🤞 **SILENTLY SIGNAL** that you need to leave for the bathroom or water by holding up crossed fingers 🤞. Just make sure I acknowledge you are leaving the room first!!! Wait for me to give a thumbs up 👍
-* 📱 **NO PHONES!** → as per the new BWL Upper School policy. If you are caught with a cell phone in class, it will be confiscated immediately and you will be sent to the Upper School office. 
+* 🤞 **SILENTLY SIGNAL** that you need to leave for the bathroom or water by holding up crossed fingers.
+ * Just make sure I acknowledge you are leaving the room first!!! Wait for me to give a thumbs up 👍
+* 📱 **NO PHONES!** → as per the new BWL Upper School policy, phones must be locked up downstairs while you are in classes. If you are caught with a cell phone in class, it will be confiscated immediately and you will be sent to the Upper School office. 
 * 😊 **Common courtesy** stuff:
   * Student actions that interfere with teaching or learning in the classroom will NOT be tolerated. Please do not spend your class time on distracting apps, having side conversations, or doing work for other classes. 
   * Respect others’ property. Avoid touching or writing on anything that does not belong to you (including tables, books, teacher’s belongings, walls, etc.)
