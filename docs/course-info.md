@@ -16,8 +16,8 @@ nav_order: 1
 ---
 ## Assignments & Grading
 
-### 💻 Projects (50% of total grade)
-* Programming projects serve as the bulk of our coursework, and will be completed/submitted through **Replit**, with grades/feedback posted on **BlackBaud**.
+### Projects (50% of total grade)
+* 💻 Programming projects serve as the bulk of our coursework, and will be completed/submitted through **Replit**, with grades/feedback posted on **BlackBaud**.
 * Projects are graded on a 5-point scale, and **extra credit** is always available to encourage effort and creativity.
   * _See "Grading Rubric" section below._
 * ⏰ **LATE WORK POLICY**: Late projects may only receive up to 75% credit if submitted UNDER one week late, or up to 50% credit if submitted OVER one week late.
@@ -80,8 +80,8 @@ nav_order: 1
 
 </details>
 
-### 💬 Homework (30% of total grade)
-* Homework will be assigned in the form of a "**CodeCollab**": like posting on a discussion board, but with a shared goal of figuring out how some 🔍 mystery code 🔍 works.
+### Homework (30% of total grade)
+* 💬 Homework will be assigned in the form of a "**CodeCollab**": like posting on a discussion board, but with a shared goal of figuring out how some 🔍 mystery code 🔍 works.
 * **Due weekly on FRIDAYS @11:59pm**❗
   * At the beginning of each week, I will **post a DISCUSSION assignment on BlackBaud** that includes a Replit link to a working program that you will **analyze collaboratively**.
     * All of the CodeCollab programs can also be found on my Replit profile page: [replit.com/@katerinanavab](replit.com/@katerinanavab)
@@ -90,18 +90,18 @@ nav_order: 1
 * ⏰ **LATE WORK POLICY**: Late homework may only receive up to 75% credit if submitted UNDER one week late, or up to 50% credit if submitted OVER one week late.
   * Whenever you submit work after the assignment has been graded, you must SEND ME AN EMAIL, otherwise I will not be notified.
 
-### 👥 Participation (20% of total grade)
-* Participation is graded weekly (up to 2 points max per class period) and will be evaluated based on adherence to these key values: being respectful, prepared, and engaged.
-  * Being respectful of your community means being mindful of and kind toward your environment, and the people within – this includes arriving on-time to commitments.
+### Participation (20% of total grade)
+* 👥 Participation is graded weekly (up to 2 points max per class period) and will be evaluated based on adherence to these key values: being **respectful**, **prepared**, and **engaged**.
+  * Being **respectful** of your community means being mindful of and kind toward your environment, and the people within – this includes arriving on-time to commitments.
     * ⏰ If you are over 5 minutes late, you must first get a LATE PASS from the Upper School Office and then enter the classroom QUIETLY as to not disrupt the class.
     * **GRADING**: Unexcused lateness always results in a deduction of 1 point for the day, and unexcused absence results in a deduction of 2 points (a 0/2 for the day).
-  * Being prepared for class means you have your laptop ready (unless otherwise instructed) within the first 5 minutes of class. It also means you arrive with a positive attitude and are ready to learn!
-  * Show you are engaged by volunteering answers/comments, staying on task, and completing classwork as directed. You are expected to take your own notes while new material is being introduced, to contribute during group activities, and be open to collaborating with all classmates.
-* ⚠️ **NON-NEGOTIABLES**: Be aware that tardiness, off-task behavior, and side conversations will have a negative impact on your grade. However, arriving on-time with a positive attitude is a great way to earn an easy 100% for your participation grade ☺︎
+  * Being **prepared** for class means you have your laptop ready (unless otherwise instructed) within the first 5 minutes of class. It also means you arrive with a positive attitude and are ready to learn!
+  * Show you are **engaged** by volunteering answers/comments, staying on task, and completing classwork as directed. You are expected to take your own notes while new material is being introduced, to contribute during group activities, and be open to collaborating with all classmates.
+* ⚠️ **NON-NEGOTIABLES**: Be aware that tardiness, off-task behavior, and side conversations will have a negative impact on your grade. _However, arriving on-time with a positive attitude is a great way to earn an easy 100% for your participation grade_ ☺︎
 
 ## Policies
 
-### 🧠 AI Usage Policies
+### AI Usage Policies
 * TBD
 
 ### Other Classroom Policies
