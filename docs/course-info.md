@@ -83,7 +83,7 @@ nav_order: 1
 ### Homework (30% of total grade)
 * 💬 Homework will be assigned in the form of a "**CodeCollab**": like posting on a discussion board, but with a shared goal of figuring out how some 🔍 mystery code 🔍 works.
 
-> { .highlight }
+> {: .highlight }
 > Homework is **due weekly on FRIDAYS @11:59pm**❗
 
   * At the beginning of each week, I will **post a DISCUSSION assignment on BlackBaud** that includes a Replit link to a working program that you will **analyze collaboratively**.
