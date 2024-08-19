@@ -118,10 +118,11 @@ nav_order: 1
 > {: .note } 
 > You may email me to schedule an appointment at a different time, ONLY IF you are unavailable during 7th period all days of the week. _Include a list of your free periods in your email!_
 
-* 📝 You can leave a **sticky note on my desk** for anything you want me to remember to do. *Ex: “Please re-grade my project”*
+* 📝 You can leave a **sticky note on my desk** for anything you want me to remember to do.
+  * _Ex: “Please re-grade my project”_
 * 🖊️ **Student supplies** (pens, pencils, sticky notes, etc.) will always be available to borrow, located up front by the whiteboard. No need to ask, but please return pens/pencils after class! 
 * 🤞 **SILENTLY SIGNAL** that you need to leave for the bathroom or water by holding up crossed fingers.
- * Just make sure I acknowledge you are leaving the room first!!! Wait for me to give a thumbs up 👍
+  * Just make sure I acknowledge you are leaving the room first!!! Wait for me to give a thumbs up 👍
 * 📱 **NO PHONES!** → as per the new BWL Upper School policy, phones must be locked up downstairs while you are in classes. If you are caught with a cell phone in class, it will be confiscated immediately and you will be sent to the Upper School office. 
 * 😊 **Common courtesy** stuff:
   * Student actions that interfere with teaching or learning in the classroom will NOT be tolerated. Please do not spend your class time on distracting apps, having side conversations, or doing work for other classes. 
