@@ -99,7 +99,7 @@ nav_order: 1
   * Show you are **engaged** by volunteering answers/comments, staying on task, and completing classwork as directed. You are expected to take your own notes while new material is being introduced, to contribute during group activities, and be open to collaborating with all classmates.
 * ⚠️ **NON-NEGOTIABLES**: Be aware that tardiness, off-task behavior, and side conversations will have a negative impact on your grade. _However, arriving on-time with a positive attitude is a great way to earn an easy 100% for your participation grade_ ☺︎
 
-## Policies
+## Expectations & Policies
 
 ### AI Usage Policies
 * TBD (To Be _Discussed_)
