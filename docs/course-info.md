@@ -17,7 +17,7 @@ nav_order: 1
 ## Assignments & Grading
 
 ### Projects (50% of total grade)
-* 💻 Programming projects serve as the bulk of our coursework, and will be completed through **Replit**, with grades and feedback posted on **BlackBaud**.
+* 💻 **Projects** serve as the bulk of our coursework, and are completed on **Replit**, with grades and feedback posted on **BlackBaud**.
 
 * 💯 **GRADE IMPROVEMENT POLICY**: You may <span class="highlighter">re-submit projects for a full RE-GRADE</span>, but you must email me to let me know which project, and it must be completed at least one week BEFORE the end of the current quarter.
   * When re-working your projects, you are encouraged to come to office hours for help or more feedback. I am way more likely to grade your work favorably if you've shown effort towards improving your skills...
@@ -85,7 +85,7 @@ nav_order: 1
 </details>
 
 ### Homework (30% of total grade)
-* 💬 Homework will be assigned in the form of a `CodeCollab`: like posting on a discussion board, but with a shared goal of figuring out how some 🔍 mystery code 🔍 works.
+* 💬 **Homework** is assigned in the form of a `CodeCollab`: like posting on a discussion board, but instead of talking about a book or article, the class has a shared goal of figuring out how some 🔍 mystery code 🔍 works.
 
 > {: .highlight }
 > CodeCollabs are always **due on FRIDAYS @11:59pm**❗
@@ -100,7 +100,7 @@ nav_order: 1
 > Whenever you submit work late, especially after the assignment has been graded on BlackBaud, you must **SEND ME AN EMAIL**! Otherwise I will not be notified.
 
 ### Participation (20% of total grade)
-* 👥 Participation is graded weekly (up to 2 points max per class period) and will be evaluated based on adherence to these key values: being **respectful**, **prepared**, and **engaged**.
+* 👥 **Participation** is graded weekly (up to 2 points max per class period) and will be evaluated based on adherence to these key values: being **respectful**, **prepared**, and **engaged**.
   * Being <span class="highlighter">respectful</span> of your community means being mindful of and kind toward your environment, and the people within – this includes arriving **on-time** to commitments.
 
 > {: .warning }
@@ -118,7 +118,7 @@ nav_order: 1
 * TBD (To Be _Discussed_)
 
 ### Other Classroom Policies
-* 🗓️ **Office Hours / Extra Help** is held during <span class="highlighter">7th period (1:00-1:45pm) any day of the week in Room #71</span>. Drop-ins are welcome, meaning there is no need to let me know in advance if you plan on stopping by during 7th period.
+* 🗓️ **Office Hours / Extra Help** is held in <span class="highlighter">Room #71</span> during <span class="highlighter">7th period (1:00-1:45pm) any day of the week</span>. Drop-ins are welcome, meaning there is no need to let me know in advance if you plan on stopping by during 7th period.
  
 > {: .note } 
 > You may email me to schedule an appointment at a different time, ONLY IF you are unavailable during 7th period all days of the week. _Include a list of your free periods in your email!_
@@ -131,7 +131,7 @@ nav_order: 1
 * 😊 **Common courtesy** stuff:
   * Student actions that interfere with teaching or learning in the classroom will NOT be tolerated. Please do not spend your class time on distracting apps, having side conversations, or doing work for other classes. 
   * Respect others’ property. Avoid touching or writing on anything that does not belong to you (including tables, books, teacher’s belongings, walls, etc.)
-  * Please pick up after yourself, don't leave trash behind, and don't expect that other people (_like your teacher_) will clean up your messes.
+  * Please pick up after yourself, don't leave trash behind, and don't expect that other people (like your teacher) will clean up your messes.
 
 > {: .important }
 > 🧠 Finally, some **mindset** tips: I strongly encourage you all to be **proactive** about your learning, embrace **creativity**, take **responsibility** for your work, and _never be afraid to ask for help_!!! There are no bad questions, and chances are if you are wondering about it, someone else in the class is too. If you feel most comfortable waiting until after class, that is okay, but do keep communication open between us.
@@ -139,9 +139,6 @@ nav_order: 1
 ## FAQs
 
 ### How to use Replit for coding projects
-TUTORIAL COMING SOON!
-
-### How to submit work on BlackBaud
 TUTORIAL COMING SOON!
 
 ### How to do CodeCollab homework assignments
