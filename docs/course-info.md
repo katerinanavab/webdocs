@@ -114,8 +114,18 @@ nav_order: 1
 
 ## Expectations & Policies
 
-### AI Usage Policies
-* TBD (To Be _Discussed_)
+### AI Usage Policies 
+* **Generative Artificial Intelligence (GenAI)** tools like ChatGPT are a significant technological advancement that has the potential to support your learning, especially in Computer Science. But with any new technology, there are significant limitations and risks associated with its use, misuse, and overuse. *[Source](https://www.aiforeducation.io/ai-resources/drafting-a-genai-academic-policy)*
+* To support appropriate use of GenAI tools in your learning, these **three steps** should always be taken when determining if and when to use GenAI tools:
+
+ 1. **Check with your teacher** if the project or assignment can be completed with the support of a GenAI tool.
+ 2. If the tool is allowed, **track your conversation** with the tool by cutting and pasting the interaction in a document that you can share with your teacher.
+ 3. **Cite the use of the tool** when submitting your work. Here is an example with APA style formatting:
+
+`OpenAI. (2023). ChatGPT (Mar 14 version) [Large language model]. https://chat.openai.com/chat`
+
+> {: .warning }
+> If these steps are not followed, your use of GenAI tools will be considered an **academic integrity violation**.
 
 ### Other Classroom Policies
 * 🗓️ **Office Hours / Extra Help** is held in <span class="highlighter">Room #71</span> during <span class="highlighter">7th period (1:00-1:45pm) any day of the week</span>. Drop-ins are welcome, meaning there is no need to let me know in advance if you plan on stopping by during 7th period.
