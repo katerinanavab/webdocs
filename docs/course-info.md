@@ -122,7 +122,7 @@ nav_order: 1
 > 2. If the tool is allowed, **track your conversation** with the tool by cutting and pasting the interaction in a document that you can share with your teacher.
 > 3. **Cite the use of the tool** when submitting your work. Here is an example with APA style formatting: `OpenAI. (2023). ChatGPT (Mar 14 version) [Large language model]. https://chat.openai.com/chat`
 
-> {: .warning }
+> {: .warning .fs-3 }
 > If these steps are not followed, your use of GenAI tools will be considered an **academic integrity violation**.
 
 <details>
@@ -140,18 +140,18 @@ nav_order: 1
   <tr>
     <td class="fs-1">
      <ul>
-      <li>Help me brainstorm creative ideas</li>
+      <li>Help brainstorm creative ideas</li>
       <li>Explain concepts in a different way</li>
-      <li>Critique and provide feedback on my code</li>
-      <li>Teach me how to add a new, specific feature to my <strong>working</strong> program</li>
+      <li>Critique and provide feedback on code</li>
+      <li>Teach how to add a new, specific feature to an <strong>already working</strong> program</li>
      </ul>
     </td>
    <td class="fs-1">
      <ul>
       <li>Completing any written assignments, like homework discussions</li>
-      <li>Asking GenAI to write a significant portion of your code for a program</li>
+      <li>Asking GenAI to write a significant portion of code for a program</li>
       <li>Copying any amount of code without understanding how it works</li>
-      <li>Not asking for permission to use GenAI tools, not checking for inaccuracies, and not citing my work with GenAI</li>
+      <li>Not asking for permission to use GenAI tools, not checking for inaccuracies, and not citing work with GenAI</li>
      </ul>
     </td>
   </tr>
