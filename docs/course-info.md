@@ -100,10 +100,11 @@ nav_order: 1
 
 ### Participation (20% of total grade)
 * 👥 Participation is graded weekly (up to 2 points max per class period) and will be evaluated based on adherence to these key values: being **respectful**, **prepared**, and **engaged**.
-  * Being <span class="highlighter">respectful/span> of your community means being mindful of and kind toward your environment, and the people within – this includes arriving on-time to commitments.
+  * Being <span class="highlighter">respectful</span> of your community means being mindful of and kind toward your environment, and the people within – this includes arriving **on-time** to commitments.
 
 > {: .warning }
 > ⏰ If you are **over 5 minutes late**, you must first get a LATE PASS from the Upper School Office and then enter the classroom QUIETLY as to not disrupt the class.
+> 
 > Unexcused lateness always results in a deduction of 1 point for the day, and unexcused absence results in a deduction of 2 points (a 0/2 for the day).
 
   * Being <span class="highlighter">prepared</span> for class means you have your laptop ready (unless otherwise instructed) within the first 5 minutes of class. It also means you arrive with a positive attitude and are ready to learn!
@@ -126,13 +127,13 @@ nav_order: 1
 * 📝 You can leave a **sticky note on my desk** for anything you want me to remember to do.
   * _Ex: “Please re-grade my project”_
 * 🖊️ **Student supplies** (pens, pencils, sticky notes, etc.) will always be available to borrow, located up front by the whiteboard. No need to ask, but please return pens/pencils after class! 
-* 🤞 **SILENTLY SIGNAL** that you need to leave for the bathroom or water by holding up crossed fingers.
-  * Just make sure I acknowledge you are leaving the room first!!! Wait for me to give a thumbs up 👍
+* 🤞 **SILENTLY SIGNAL** that you need to leave for the bathroom or water by holding up crossed fingers. Just make sure I acknowledge you are leaving the room first - wait for me to give a thumbs up 👍
 * 📱 **NO PHONES!** → as per the new BWL Upper School policy, phones must be locked up downstairs while you are in classes. If you are caught with a cell phone in class, it will be confiscated immediately and you will be sent to the Upper School office. 
 * 😊 **Common courtesy** stuff:
   * Student actions that interfere with teaching or learning in the classroom will NOT be tolerated. Please do not spend your class time on distracting apps, having side conversations, or doing work for other classes. 
   * Respect others’ property. Avoid touching or writing on anything that does not belong to you (including tables, books, teacher’s belongings, walls, etc.)
   * Please pick up after yourself, don't leave trash behind, and don't expect that other people (_like your teacher_) will clean up your messes.
-* 🧠 Finally, some **mindset** tips: I strongly encourage you all to be proactive about your learning, embrace creativity, take responsibility for your work, and never be afraid to ask for help!!!
-  * There are no bad questions, and chances are if you are wondering about it, someone else in the class is too! If you feel most comfortable waiting until after class, that is okay, but do keep communication open between us.
+
+> {: .important }
+> 🧠 Finally, some **mindset** tips: I strongly encourage you all to be **proactive** about your learning, embrace **creativity**, take **responsibility** for your work, and _never be afraid to ask for help_!!! There are no bad questions, and chances are if you are wondering about it, someone else in the class is too. If you feel most comfortable waiting until after class, that is okay, but do keep communication open between us.
 
