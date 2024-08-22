@@ -118,14 +118,44 @@ nav_order: 1
 * **Generative Artificial Intelligence (GenAI)** tools like ChatGPT are a significant technological advancement that has the potential to support your learning, especially in Computer Science. But with any new technology, there are significant limitations and risks associated with its use, misuse, and overuse. *[Source](https://www.aiforeducation.io/ai-resources/drafting-a-genai-academic-policy)*
 * To support appropriate use of GenAI tools in your learning, these **three steps** should always be taken when determining if and when to use GenAI tools:
 
- 1. **Check with your teacher** if the project or assignment can be completed with the support of a GenAI tool.
- 2. If the tool is allowed, **track your conversation** with the tool by cutting and pasting the interaction in a document that you can share with your teacher.
- 3. **Cite the use of the tool** when submitting your work. Here is an example with APA style formatting:
-
-`OpenAI. (2023). ChatGPT (Mar 14 version) [Large language model]. https://chat.openai.com/chat`
+> 1. **Check with your teacher** if the project or assignment can be completed with the support of a GenAI tool.
+> 2. If the tool is allowed, **track your conversation** with the tool by cutting and pasting the interaction in a document that you can share with your teacher.
+> 3. **Cite the use of the tool** when submitting your work. Here is an example with APA style formatting: `OpenAI. (2023). ChatGPT (Mar 14 version) [Large language model]. https://chat.openai.com/chat`
 
 > {: .warning }
 > If these steps are not followed, your use of GenAI tools will be considered an **academic integrity violation**.
+
+<details>
+<summary><strong>EXAMPLES OF AI USE</strong></summary>
+<div>
+<table><thead>
+  <tr>
+    <th class="text-center fw-700">Appropriate Use</th>
+    <th class="text-center fw-700">Inappropriate Use</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td class="fs-1">
+     <ul>
+      <li>Help me brainstorm ideas for a creative project</li>
+      <li>Explain concepts or vocabulary in a different way</li>
+      <li>Teach me how to add a specific feature to my program</li>
+      <li>Provide feedback on my work for areas of improvement</li>
+     </ul>
+    </td>
+   <td class="fs-1">
+     <ul>
+      <li>Completing any written assignments, like homework discussions</li>
+      <li>Asking GenAI to write a significant portion of your code for a program</li>
+      <li>Copying any amount of code without understanding how it works</li>
+      <li>Not asking for permission to use GenAI tools, not checking for inaccuracies, and not citing my work with GenAI</li>
+     </ul>
+    </td>
+  </tr>
+</tbody></table>
+</div>
+
+</details>
 
 ### Other Classroom Policies
 * 🗓️ **Office Hours / Extra Help** is held in <span class="highlighter">Room #71</span> during <span class="highlighter">7th period (1:00-1:45pm) any day of the week</span>. Drop-ins are welcome, meaning there is no need to let me know in advance if you plan on stopping by during 7th period.
