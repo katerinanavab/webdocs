@@ -74,11 +74,11 @@ nav_order: 1
 
 </details>
 
-* 💯 **GRADE IMPROVEMENT POLICY**: You may <span class="bg-yellow-000">re-submit projects for a full RE-GRADE</span>, but you must email me to let me know which project, and it must be completed at least one week BEFORE the end of the current quarter.
+* 💯 **GRADE IMPROVEMENT POLICY**: You may <span class="highlighter">re-submit projects for a full RE-GRADE</span>, but you must email me to let me know which project, and it must be completed at least one week BEFORE the end of the current quarter.
   * When re-working your projects, you are encouraged to come to office hours for help or more feedback. I am way more likely to grade your work favorably if you've shown effort towards improving your skills...
   * Coding is an iterative process which means it is VERY normal not to have your programs working perfectly the first time! Programmers often have to edit their code many times.
   
-* ⏰ **LATE WORK POLICY**: Late projects may only receive up to <span class="bg-yellow-000">75% credit if submitted UNDER one week late</span>, or up to <span class="bg-yellow-000">50% credit if submitted OVER one week late</span>.
+* ⏰ **LATE WORK POLICY**: Late projects may only receive up to <span class="highlighter">75% credit if submitted UNDER one week late</span>, or up to <span class="highlighter">50% credit if submitted OVER one week late</span>.
 
 > {: .warning }
 > Whenever you submit work late, especially after the assignment has been graded on BlackBaud, you must **SEND ME AN EMAIL**! Otherwise I will not be notified.
@@ -100,12 +100,17 @@ nav_order: 1
 
 ### Participation (20% of total grade)
 * 👥 Participation is graded weekly (up to 2 points max per class period) and will be evaluated based on adherence to these key values: being **respectful**, **prepared**, and **engaged**.
-  * Being **respectful** of your community means being mindful of and kind toward your environment, and the people within – this includes arriving on-time to commitments.
-    * ⏰ If you are over 5 minutes late, you must first get a LATE PASS from the Upper School Office and then enter the classroom QUIETLY as to not disrupt the class.
-    * **GRADING**: Unexcused lateness always results in a deduction of 1 point for the day, and unexcused absence results in a deduction of 2 points (a 0/2 for the day).
-  * Being **prepared** for class means you have your laptop ready (unless otherwise instructed) within the first 5 minutes of class. It also means you arrive with a positive attitude and are ready to learn!
-  * Show you are **engaged** by volunteering answers/comments, staying on task, and completing classwork as directed. You are expected to take your own notes while new material is being introduced, to contribute during group activities, and be open to collaborating with all classmates.
-* ⚠️ **NON-NEGOTIABLES**: Be aware that tardiness, off-task behavior, and side conversations will have a negative impact on your grade. _However, arriving on-time with a positive attitude is a great way to earn an easy 100% for your participation grade_ ☺︎
+  * Being <span class="highlighter">respectful/span> of your community means being mindful of and kind toward your environment, and the people within – this includes arriving on-time to commitments.
+
+> {: .warning }
+> ⏰ If you are **over 5 minutes late**, you must first get a LATE PASS from the Upper School Office and then enter the classroom QUIETLY as to not disrupt the class.
+> Unexcused lateness always results in a deduction of 1 point for the day, and unexcused absence results in a deduction of 2 points (a 0/2 for the day).
+
+  * Being <span class="highlighter">prepared</span> for class means you have your laptop ready (unless otherwise instructed) within the first 5 minutes of class. It also means you arrive with a positive attitude and are ready to learn!
+  * Show you are <span class="highlighter">engaged</span> by volunteering answers/comments, staying on task, and completing classwork as directed. You are expected to take your own notes while new material is being introduced, to contribute during group activities, and be open to collaborating with all classmates.
+
+> {: .highlight }
+> ⚠️ **NON-NEGOTIABLES**: Be aware that tardiness, off-task behavior, and side conversations will have a negative impact on your grade. _However, arriving on-time with a positive attitude is a great way to earn an easy 100% for your participation grade_ ☺︎
 
 ## Expectations & Policies
 
@@ -113,7 +118,7 @@ nav_order: 1
 * TBD (To Be _Discussed_)
 
 ### Other Classroom Policies
-* 🗓️ **Office Hours / Extra Help** is held during <span class="bg-yellow-000">7th period (1:00-1:45pm) any day of the week in Room #71</span>. Drop-ins are welcome, meaning there is no need to let me know in advance if you plan on stopping by during 7th period.
+* 🗓️ **Office Hours / Extra Help** is held during <span class="highlighter">7th period (1:00-1:45pm) any day of the week in Room #71</span>. Drop-ins are welcome, meaning there is no need to let me know in advance if you plan on stopping by during 7th period.
  
 > {: .note } 
 > You may email me to schedule an appointment at a different time, ONLY IF you are unavailable during 7th period all days of the week. _Include a list of your free periods in your email!_
