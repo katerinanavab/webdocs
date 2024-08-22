@@ -127,6 +127,9 @@ nav_order: 1
 
 <details>
 <summary><strong>EXAMPLES OF AI USE</strong></summary>
+
+<p class="fs-3 note">These examples are specific to my Computer Science classes and are subject to change as we explore appropriate AI usage throughout the year. Always check with your teacher before using GenAI tools!!!</p>
+ 
 <div>
 <table><thead>
   <tr>
@@ -137,10 +140,10 @@ nav_order: 1
   <tr>
     <td class="fs-1">
      <ul>
-      <li>Help me brainstorm ideas for a creative project</li>
-      <li>Explain concepts or vocabulary in a different way</li>
-      <li>Teach me how to add a specific feature to my program</li>
-      <li>Provide feedback on my work for areas of improvement</li>
+      <li>Help me brainstorm creative ideas</li>
+      <li>Explain concepts in a different way</li>
+      <li>Critique and provide feedback on my code</li>
+      <li>Teach me how to add a new, specific feature to my <strong>working</strong> program</li>
      </ul>
     </td>
    <td class="fs-1">
