@@ -20,12 +20,12 @@ nav_order: 1
 To earn full credit, you must contribute at least **two (2) valid comments** in the discussion before Friday night.
 
 #### Checklist
-[] At least one (1) of your comments must be a **standalone post** where you focus on analyzing small sections of code.
+- [ ] At least one (1) of your comments must be a **standalone post** where you focus on analyzing small sections of code.
 
 > DO NOT attempt to explain the entire program by yourself.
 
-[] Use line numbers and be specific with vocabulary when referring to parts of the program.
-[] At least one (1) of your comments must be a direct response to another classmate (save this for later in the week).
+- [ ] Use line numbers and be specific with vocabulary when referring to parts of the program.
+- [ ] At least one (1) of your comments must be a direct response to another classmate (save this for later in the week).
 
 See the below section for more detailed guidelines for what qualifies as a "valid" or "acceptable" comment.
 
