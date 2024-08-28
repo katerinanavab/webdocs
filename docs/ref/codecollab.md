@@ -1,3 +1,10 @@
+---
+layout: default
+title: "💬 CodeCollab HW" 
+parent: References
+nav_order: 1
+---
+
 # CodeCollab Homework Instructions
 
 ### How to Start
