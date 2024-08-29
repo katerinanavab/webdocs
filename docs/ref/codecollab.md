@@ -2,7 +2,7 @@
 layout: default
 title: "💬 CodeCollab HW" 
 parent: References
-nav_order: 1
+nav_order: 0
 ---
 
 # CodeCollab Homework Instructions
