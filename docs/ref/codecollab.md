@@ -21,12 +21,13 @@ To earn full credit, you must contribute at least **two (2) valid comments** in 
 
 #### Checklist
 - [ ] At least one (1) of your comments must be a **paragraph-long post** where you analyze/attempt to explain a section of code. This is considered your "individual contribution" and it's the most important part of the assignment.
-  * _Try to pick an area of the program that no one else has talked about yet._
-  * _Focus on small sections - do not attempt to explain the entire program by yourself!_
-  > * _Use line numbers and vocabulary terms when referring to code._
+  * This is collaborative _- so try to pick an area that no one else has talked about yet._
+  * Focus on small sections _- do not attempt to explain the entire program by yourself!_
+  * Be specific - _use line numbers and vocabulary terms when referring to code._
 
 - [ ] At least one (1) of your comments must be a **direct reply on another classmate's post**.
-  * _Save this part for later in the week._
+  * Save this part for later in the week.
+  * Your response must extend the conversation in some way - l_ike expanding on a concept brought up, giving another example, asking a question, sharing a relevant resource, etc_.
 
 ### Guidelines & Tips
 
