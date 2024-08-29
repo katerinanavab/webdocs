@@ -1,10 +1,9 @@
 ---
-layout: notes
-title: "PROJ 1.1: Make a Recipe" 
+layout: project
+title: "💻 Project 1.1"
+name: "Make a Recipe"
 parent: "1️⃣ Basic HTML & CSS"
 ---
-
-{: .no_toc }
 
 ### Overview
 
