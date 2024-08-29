@@ -11,6 +11,7 @@ nav_order: 1
 1. Find the discussion assignment on BlackBaud.
 2. Follow the provided link to the Replit program.
 3. Select `FORK` to make your own copy of the program to run, test, and modify the code.
+   
   > * Your copy will be saved in the `MY REPLS` section of Replit.
   > * You can always access my original copy at the link above and fork a new copy if you need to start over.
   
