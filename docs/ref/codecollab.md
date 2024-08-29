@@ -8,11 +8,11 @@ nav_order: 1
 # CodeCollab Homework Instructions
 
 ### How to Start
-1. Find the discussion assignment on **BlackBaud**.
+1. Find the discussion assignment for the current week on **BlackBaud**.
 2. Follow the provided link to the **Replit** program.
-3. Select `FORK` to **make your own copy** of the program to **run**, **test**, and **modify** the code.
+3. Click `FORK` to **make your own copy** of the program to **run**, **test**, and **modify** the code.
    
-  > Your forked copy of the program will be saved in the `MY REPLS` section of Replit. You can always access my original copy at the provided link and fork a new copy if you need to start over.
+  > Your **forked copy** of the program will be saved in the `MY REPLS` section of Replit. You can always access my **original copy** at the provided link and fork a new copy if you need to start over.
   
 ### Discussion Requirements
 
@@ -33,6 +33,7 @@ To earn full credit, you must contribute at least **two (2) valid comments** in 
 
 * 🛠️ Start by tinkering with and manipulating the existing code on your forked copy of the Replit program. 
   * **Make small changes one at a time**, press `RUN`, then observe the resulting **output**. This will help you visualize and understand the **cause and effect** of different code instructions.
+  * *EX:* A simple "experiment" you can always do is to **delete/comment-out a single line of code** and see what happens.
 * When writing your discussion post, **describe your process** of tinkering with the code and your **observations**.
 * Try to explain what your observations mean in terms of higher level objectives (*like programming & computational thinking concepts*) and lower level objectives (_like syntax & vocabulary_).
   * *EX:* Explaining the overall goal / task achieved of a code section would count as a "higher level objective"
