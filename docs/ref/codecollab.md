@@ -27,7 +27,7 @@ To earn full credit, you must contribute at least **two (2) valid comments** in 
 
 - [ ] At least one (1) of your comments must be a **direct reply on another classmate's post**.
   * Save this part for later in the week.
-  * Your response must extend the conversation in some way - l_ike expanding on a concept brought up, giving another example, asking a question, sharing a relevant resource, etc_.
+  * Your response must extend the conversation in some way - _like expanding on a concept brought up, giving another example, asking a question, sharing a relevant resource, etc_.
 
 ### Guidelines & Tips
 
