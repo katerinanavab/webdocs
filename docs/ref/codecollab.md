@@ -17,7 +17,7 @@ nav_order: 1
 ### Discussion Requirements
 
 {: .highlight }
-To earn full credit, you must contribute at least **two (2) valid comments** in the discussion before Friday night.
+To earn full credit, you must contribute at least **two (2) valid comments** in the discussion before Friday night. See the below section for more detailed guidelines for what qualifies as a "valid" or "acceptable" comment.
 
 #### Checklist
 - [ ] At least one (1) of your comments must be a **paragraph-long post** where you analyze/attempt to explain a section of code. This is considered your "individual contribution" and it's the most important part of the assignment.
@@ -27,8 +27,6 @@ To earn full credit, you must contribute at least **two (2) valid comments** in 
 
 - [ ] At least one (1) of your comments must be a direct reply on another classmate's post.
   > * Save this part for later in the week.
-
-See the below section for more detailed guidelines for what qualifies as a "valid" or "acceptable" comment.
 
 ### Guidelines & Tips
 
