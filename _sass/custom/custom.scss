@@ -36,11 +36,11 @@ h3 {
 }
  
 .setup::before {
-        color: $green-300;
-        content: "Setup";
-        display: block;
-        font-weight: bold;
-        text-transform: uppercase;
-        font-size: .75em;
-        padding-bottom: .125rem;
+	color: $green-300;
+    content: "Setup";
+    display: block;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: .75em;
+    padding-bottom: .125rem;
 }
