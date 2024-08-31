@@ -1,6 +1,6 @@
 ---
 layout: project
-title: "💻 PROJECT #1.2"
+title: "💻PROJECT #1.2"
 projectname: "Landing Page"
 parent: "1️⃣ Web Dev Foundations"
 nav_order: 5
