@@ -19,7 +19,7 @@ h3 {
 	background-color: #fcf2c2;
 	border-radius: 2px;	
 }
-div.task, blockquote.task {
+.task {
     background: rgba($purple-000, 0.2);
     border-left: $border-radius solid $purple-300;
     border-radius: $border-radius;
@@ -36,56 +36,4 @@ div.task, blockquote.task {
         padding-bottom: .125rem;
     }
     
-    > .task-title {
-      color: $purple-300;
-      display: block;
-      font-weight: bold;
-      text-transform: uppercase;
-      font-size: .75em;
-      padding-bottom: .125rem;
-    }
-}
-
-div.task-title, blockquote.task-title {
-    background: rgba($purple-000, 0.2);
-    border-left: $border-radius solid $purple-300;
-    border-radius: $border-radius;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12), 0 3px 10px rgba(0, 0, 0, 0.08);
-    padding: .8rem;
-    > p:first-child {
-      margin-top: 0;
-      margin-bottom: 0;
-      color: $purple-300;
-      display: block;
-      font-weight: bold;
-      text-transform: uppercase;
-      font-size: .75em;
-      padding-bottom: .125rem;
-    }
-}
-
-blockquote.task {
-  margin-left: 0;
-  margin-right: 0;
-  
-  > p:first-child {
-    margin-top: 0;
-  }
-    
-  > p:last-child {
-    margin-bottom: 0;
-  }
-}
-
-blockquote.task-title {
-  margin-left: 0;
-  margin-right: 0;
-  
-  > p:nth-child(2) {
-    margin-top: 0;
-  }
-    
-  > p:last-child {
-    margin-bottom: 0;
-  }
 }
