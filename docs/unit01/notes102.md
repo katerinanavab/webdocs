@@ -23,7 +23,7 @@ Many great resources out there keep referring to HTML and CSS as *programming la
 
 <div class="task" markdown="1">
 
-1. Read [HTML vs CSS vs JavaScript](https://brytdesigns.com/html-css-javascript-whats-the-difference/) to get a quick overview of the relationship between HTML, CSS, and JavaScript.
+1. Read [HTML vs CSS vs JavaScript](https://brytdesigns.com/html-css-javascript-whats-the-difference/) to get a quick overview of the relationship between HTML, CSS, and JavaScript. Discuss with the class. 
 2. Save [DevDocs.io](https://devdocs.io) as a bookmark for future reference. It's a massive API documentation collection maintained by [FreeCodeCamp](https://freecodecamp.org). Read the 'Welcome' message for more information.
 
 </div>
@@ -202,8 +202,6 @@ To complete the boilerplate, add a `<body>` element to the `index.html` file. Th
 
 <div class="task" markdown="1">
 
-1. Watch and follow along to Kevin Powell's brilliant [Building Your First Web Page video](https://www.youtube.com/watch?v=V8UAEoOvqFg&t=93s).
-
 1. Build some muscle memory by deleting the contents of the `index.html` file and trying to write out all the boilerplate again from memory. Don't worry if you have to peek at the lesson content the first few times if you get stuck. Just keep going until you can do it a couple of times from memory.
 
 </div>
@@ -233,7 +231,6 @@ In this module, we will learn about the text-based elements:
 - How to create HTML comments.
 
 ### Paragraphs
-{:.no_toc}
 
 What would you expect the following text to output on an HTML page?
 
@@ -276,7 +273,6 @@ Changing our example from before to use paragraph elements fixes the issue:
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 ### Headings
-{:.no_toc}
 
 Headings are different from other HTML text elements: they are displayed larger and bolder than other text to signify that they are headings.
 
@@ -297,7 +293,6 @@ Headings are defined much like paragraphs. For example, to create an h1 heading,
 Using the correct level of heading is important as levels provide a hierarchy to the content. An h1 heading should always be used for the heading of the overall page, and the lower level headings should be used as the headings for content in smaller sections of the page.
 
 ### Strong element
-{:.no_toc}
 
 The `<strong>` element makes text bold. It also semantically marks text as important; this affects tools, like screen readers, that users with visual impairments will rely on to use your website. The tone of voice on some screen readers will change to communicate the importance of the text within a strong element. To define a strong element, we wrap text content in a `<strong>` tag.
 
@@ -328,7 +323,6 @@ But you will probably find yourself using the strong element much more in combin
 Sometimes you will want to make text bold without giving it an important meaning. You'll learn how to do that in the CSS lessons later in the curriculum.
 
 ### Em element
-{:.no_toc}
 
 The `<em>` element makes text italic. It also semantically places emphasis on the text, which again may affect things like screen readers. To define an emphasised element, wrap the text content in an `<em>` tag.
 
@@ -410,8 +404,6 @@ In order to write an HTML comment, we just enclose the comment with `<!--` and `
 
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-
-#### Activity
 <div class="task" markdown="1">
 
 1. To get some practice working with text in HTML, create a plain blog article page which uses different headings, uses paragraphs, and has some text in the paragraphs bolded and italicized. You can use [Lorem Ipsum](https://en.wikipedia.org/wiki/Lorem_ipsum) to generate dummy text, in place of real text as you build your sites.
@@ -482,8 +474,6 @@ Ordered lists are created using the `<ol>` element. Each individual item in them
 
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-### Activity
-
 <div class="task" markdown="1">
 
 To get some practice using lists, create a new HTML document and create the following lists:
@@ -496,6 +486,7 @@ To get some practice using lists, create a new HTML document and create the foll
 </div>
 
 #### Knowledge check
+{:.no_toc}
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
@@ -513,16 +504,14 @@ The following questions are an opportunity to reflect on key topics in this less
 ---
 ## Links and Images
 
-Links are one of the key features of HTML. They allow us to link to other HTML pages on the web. In fact, this is why it's called the web. In this lesson, we will learn how to create links and add some visual flair to our websites by embedding images.
-
-### Learning Objectives
+Links are one of the key features of HTML. They allow us to link to other HTML pages on the web. In fact, this is why it was named the "web" 🕸️. In this lesson, we will learn how to create links and add some visual flair to our websites by embedding images:
 
 - How to create links to pages on other websites on the internet.
 - How to create links to other pages on your own websites.
 - The difference between absolute and relative links.
 - How to display an image on a webpage using HTML.
 
-### Preparation
+### SETUP
 
 To get some practice using links and images throughout this lesson we need an HTML project to work with.
 
@@ -535,7 +524,7 @@ To get some practice using links and images throughout this lesson we need an HT
 <h1>Homepage</h1>
 ```
 
-### Anchor elements
+### Anchor elements (links)
 
 To create a link in HTML, we use the anchor element. An anchor element is defined by wrapping the text or another HTML element we want to be a link with an `<a>` tag.
 
@@ -560,6 +549,7 @@ By default, any text wrapped with an anchor tag without an `href` attribute will
 It's worth noting you can use anchor tags to link to any kind of resource on the internet, not just other HTML documents. You can link to videos, pdf files, images, and so on, but for the most part, you will be linking to other HTML documents.
 
 ### Opening links in a new tab
+{:.no_toc}
 
 The method shown above opens links in the same tab as the webpage containing them. This is the default behaviour of most browsers and it can be changed relatively easily. All we need is another attribute: the `target` attribute.
 
@@ -580,6 +570,7 @@ Why do we need this added behaviour for opening links in new tabs? Security reas
 Note that you may be fine if you forget to add `rel="noopener noreferrer"` since more recent versions of browsers [provide security](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#security_and_privacy) if only `target="_blank"` is present. Nevertheless, in line with good coding practices and to err on the side of caution, it is recommended to always pair a `target="_blank"` with a `rel="noopener noreferrer"`.
 
 ### Absolute and relative links
+{:.no_toc}
 
 Generally, there are two kinds of links we will create:
 
@@ -587,6 +578,7 @@ Generally, there are two kinds of links we will create:
 - Links to pages located on our own websites.
 
 #### Absolute links
+{:.no_toc}
 
 Links to pages on other websites on the internet are called absolute links. A typical absolute link will be made up of the following parts: `protocol://domain/path`. An absolute link will always contain the protocol and domain of the destination.
 
@@ -595,6 +587,7 @@ We've already seen an absolute link in action. The link we created to The Odin P
 `https://www.theodinproject.com/about`
 
 #### Relative links
+{:.no_toc}
 
 Links to other pages within our own website are called relative links. Relative links do not include the domain name, since it is another page on the same site, it assumes the domain name will be the same as the page we created the link on.
 
@@ -658,12 +651,13 @@ In many cases, this will work just fine; however, you can still run into unexpec
 ```
 
 #### A metaphor
+{:.no_toc}
 
 Absolute and relative links are a tricky concept to build a good mental model of, a metaphor may help:
 
 Think of your domain name (`town.com`) as a town, the directory in which your website is located (`/museum`) as a museum, and each page on your website as a room in the museum (`/museum/movie_room.html` and `/museum/shops/coffee_shop.html`). Relative links like `./shops/coffee_shop.html` are directions from the current room (the museum movie room `/museum/movie_room.html`) to another room (the museum shop). Absolute links, on the other hand, are full directions including the protocol (`https`), domain name (`town.com`) and the path from that domain name (`/museum/shops/coffee_shop.html`): `https://town.com/museum/shops/coffee_shop.html`.
 
-### Images
+### Image elements
 
 Websites would be fairly boring if they could only display text. Luckily HTML provides a wide variety of elements for displaying all sorts of different media. The most widely used of these is the image element.
 
@@ -743,6 +737,7 @@ Finally add the image to the `index.html` file:
 Save the `index.html` file and open it in a browser to view Charles in all his glory.
 
 ### Parent directories
+{:.no_toc}
 
 What if we want to use the dog image in the about page? We would first have to go up one level out of the pages directory into its parent directory so we could then access the images directory.
 
@@ -761,6 +756,7 @@ To break this down:
 Using the metaphor we used earlier, using `../` in a filepath is kind of like stepping out from the room you are currently in to the main hallway so you can go to another room.
 
 ### Alt attribute
+{:.no_toc}
 
 <span id="two-attributes"></span>Besides the src attribute, every image element must also have an alt (alternative text) attribute.
 
@@ -781,6 +777,7 @@ This is how the The Odin Project logo example we used earlier looks with an alt 
 As a bit of practice, add an alt attribute to the dog image we added to the `odin-links-and-images` project.
 
 ### Image size attributes
+{:.no_toc}
 
 While not strictly required, specifying height and width
 attributes in image tags helps the browser layout the page without causing the page to jump and flash.
@@ -801,18 +798,8 @@ Here is our Odin Project logo example with height and width tags included:
 
 Go ahead and update the `odin-links-and-images` project with width and height tags on the dog image.
 
-### Assignment
-
-<div class="lesson-content__panel" markdown="1">
-
-1. Watch Kevin Powell's [HTML Links Video](https://www.youtube.com/watch?v=tsEQgGjSmkM).
-1. Watch Kevin Powell's [HTML Images Video](https://www.youtube.com/watch?v=0xoztJCHpbQ).
-1. Watch Kevin Powell's [File Structure Video](https://www.youtube.com/watch?v=ta3Oxx7Yqbo).
-1. [Read about the four main image formats that can be used on the web](https://internetingishard.netlify.app/html-and-css/links-and-images/#image-formats).
-
-</div>
-
-### Knowledge check
+#### Knowledge check
+{:.no_toc}
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
@@ -826,13 +813,13 @@ The following questions are an opportunity to reflect on key topics in this less
 - [How do you access a parent directory in a filepath?](#parent-filepath)
 - [What are the four main image formats that you can use for images on the web?](https://internetingishard.netlify.app/html-and-css/links-and-images/#image-formats)
 
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
+#### Additional resources
+{:.no_toc}
 
 - [Interneting is hard's treatment on HTML links and images](https://internetingishard.netlify.app/html-and-css/links-and-images)
 - [What happened the day Google decided links including (`/`) were malware](https://www.itpro.co.uk/609724/google-apologises-after-blacklisting-entire-internet)
 - [Chris Coyier's When to use target="_blank" on CSS-Tricks](https://css-tricks.com/use-target_blank/)
+- [Read about the four main image formats that can be used on the web](https://internetingishard.netlify.app/html-and-css/links-and-images/#image-formats).
 - If you're looking to deepen your understanding of the various image formats used on the web, [the following article which is titled: Which is the Best Image Format for Your Website?](https://imagekit.io/blog/best-image-format-for-web/) from imagekit.io is a great resource. It offers a detailed comparison of JPEG, PNG, GIF, and WebP formats, helping you choose the right one for your needs. Note that the article doesn't cover SVG, but it's still an excellent guide for the other common formats.
 
 ---
