@@ -5,11 +5,14 @@ parent: "1️⃣ Web Dev Foundations"
 nav_order: 2
 ---
 
-## Table of Contents
-{: .no_toc .text-delta }
-
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
 1. TOC
 {:toc}
+</details>
 
 ---
 ## Introduction to HTML
