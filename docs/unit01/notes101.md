@@ -46,7 +46,7 @@ The web development industry has a long history of successful developers with va
 </div>
 
 #### Additional Resources
-{:. no_toc }
+{: .no_toc }
 
 - [Quora: How can I Become a Really Good Web Developer?](http://www.quora.com/Computer-Programming/How-can-I-become-a-really-good-Web-Developer-starting-from-now-at-age-20-before-age-25)
 - [Quora: What makes a great web developer?](http://www.quora.com/What-makes-a-great-web-developer)
