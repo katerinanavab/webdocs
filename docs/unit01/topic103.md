@@ -17,6 +17,7 @@ nav_order: 3
 ---
 
 #### Acknowledgement
+{: .no_toc }
 
 Content on this page is adapted from [The Odin Project](www.theodinproject.com).
 {: .fs-2 }
