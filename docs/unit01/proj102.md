@@ -21,50 +21,32 @@ Get your project as close as you can to the design, but do not worry about getti
 
 {: .warning }
 
-_A note about images on the web:_ You do not have the legal right to use just any image that you find on the web. There are many free images to be found, but make sure that the image you use is actually free for you to use, and make sure to credit the creator of the image in your project. 
-
-Some good places to **find free-to-use images on the web** include [Pexels](https://www.pexels.com/), [Pixabay](https://pixabay.com/), and [Unsplash](https://unsplash.com/).
+_A note about images on the web:_ You do not have the legal right to use just any image that you find on the web. There are many free images to be found, but make sure that the image you use is actually free for you to use, and make sure to credit the creator of the image in your project. Some good places to **find free-to-use images on the web** include [Pexels](https://www.pexels.com/), [Pixabay](https://pixabay.com/), and [Unsplash](https://unsplash.com/).
 
 
-<div class="new" markdown="1">
+<div class="new" markdown="block">
  
 1. On [Replit](https://replit.com/~), click `+ Create Repl` on the sidebar to open a **NEW PROJECT**
 2. In the pop-up menu, select `HTML, CSS, JS` as the **TEMPLATE**
-3. Specify the **TITLE** following this pattern: `Unit1_Project1_YourName`
+3. Specify the **TITLE** following this pattern: `Unit1_Project1_FirstNameLastInitial`
 
 </div>
 
 ### Instructions & Requirements
 
-<div class="lesson-content__panel" markdown="1">
-
-Don't forget to commit early & often! You can [reference the Commit Message lesson](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/commit-messages)!
-
+<div class="note" markdown="block">
+ 
 1. Download the design images and take a look at what you're going to be creating here. [Image One (Full Design)](https://cdn.statically.io/gh/TheOdinProject/curriculum/81a5d553f4073e593d23a6ab00d50eef8620796d/foundations/html_css/project/imgs/01.png), [Image Two (Color and Fonts)](https://cdn.statically.io/gh/TheOdinProject/curriculum/69e40b6fcacf567f77243547b7f89df75dd8c3d0/foundations/html_css/project/imgs/02.png)
     1. The font that's being used in the images is `Roboto`.
-    1. Hero text is the statement that appears at the top of a web page.
+    1. "Hero text" is the statement that appears at the top of a web page.
 1. There are many ways to tackle a project like this, and it can be overwhelming to look at a blank HTML document and not know where to start. Our suggestion: take it one section at a time. The website you're creating has 4 main sections (and a footer), so pick one and get it into pretty good shape before moving on. Starting at the top is always a solid plan.
-1. For the section you're working on, begin by getting all the content onto the page before beginning to style it. In other words, do the HTML and *then* do the CSS. You'll probably have to go back to the HTML once you start styling, but bouncing back and forth from the beginning will take more time and may cause more frustration. (Note: you don't need to use more than one stylesheet. Using only one CSS file is adequate for this project).
+1. For the section you're working on, begin by getting all the content onto the page before beginning to style it. In other words, do the HTML and *then* do the CSS. You'll probably have to go back to the HTML once you start styling, but bouncing back and forth from the beginning will take more time and may cause more frustration.
+> Note: You don't need to use more than one stylesheet. Using only one CSS file is adequate for this project.
 1. Many of the elements on this page are very similar to things you saw in our flexbox exercises... feel free to go back to those if you need a refresher.
 1. Do not worry about making your project look nice on a mobile device. We'll learn that later.
-1. When you finish, don't forget to push it up to GitHub!
+1. When you finish, don't forget to publish it on Replit, and then submit the link on Blackbaud!
 
 </div>
-
-### Viewing your project on the web
-
-If you want to show your work (the project) to others, or submit a solution below, you will need to publish your site so that others can access it from the web, rather than just on your local machine. The good news is that if you have your project on GitHub (as described above), then doing this is straightforward.
-
-GitHub allows you to publish web projects directly from a GitHub repository. Doing this will allow you to access your project from `your-github-username.github.io/your-github-repo-name`
-
-There are a couple of ways to go about publishing your project, but the simplest is the following:
-
-- Make sure that the main HTML file of your project is called `index.html`. If it is not, you need to rename it.
-- Go to your GitHub repo on the web and click the **Settings** button as shown in the screenshot below.
-    ![Screenshot pointing to the Settings located in an example repository](https://cdn.statically.io/gh/TheOdinProject/curriculum/81a5d553f4073e593d23a6ab00d50eef8620796d/foundations/html_css/project/imgs/03.png)
-- Click on **Pages** on the left side bar.
-- Change the **Branch** from `None` to `main` and click Save.
-- It may take a few minutes (the GitHub website says up to 10), but your project should be accessible over the web from `your-github-username.github.io/your-github-repo-name` (obviously substituting your own details in the link).
 
 ---
 
