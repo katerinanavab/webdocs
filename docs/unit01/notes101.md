@@ -29,14 +29,16 @@ Earlier, we mentioned that web development work could be in the front end, the b
 
 * `Full-stack developers` are comfortable working with both the front and back ends.
 
-### Motivation for Coding
+---
+
+## Coding Motivation
 Learning to code is incredibly rewarding but can also be difficult and frustrating. The strongest assets you can have as a student are a desire to build, a problem-solving mind, and persistence in the face of setbacks.
 
 The web development industry has a long history of successful developers with varying backgrounds, so people tend to care more about what you’ve actually **built** than how you got there.
 
 <div class="task" markdown="1">
 
-1. Read our course website's [Mindset & Motivation Tips](https://coderina.dev/webdocs/docs/ref/mindset.html) page.
+1. Read our course website's [Mindset & Motivation Tips](https://coderina.dev/webdocs/docs/ref/mindset.html) page and follow along with the activities in class.
 1. Check out the post ["Why Learning to Code is **So Damn Hard**"](https://web.archive.org/web/20230630111131/https://www.thinkful.com/blog/why-learning-to-code-is-so-damn-hard/) so you have a good idea of what the journey ahead is like.
 1. Read the [Wikipedia entry on web design](https://en.wikipedia.org/wiki/Web_design) that describes the breadth of the web development profession.
 1. Read Udacity's blog post on [front-end, back-end and full stack developers.](https://www.udacity.com/blog/2020/12/front-end-vs-back-end-vs-full-stack-web-developers.html)
