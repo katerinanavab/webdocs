@@ -5,13 +5,6 @@ parent: "1️⃣ Web Dev Foundations"
 nav_order: 4
 ---
 
-## Table of Contents
-{: .no_toc .text-delta }
-
-1. TOC
-{:toc}
-
----
 ## Flexbox Layouts
 ### Introduction
 
