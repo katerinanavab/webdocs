@@ -29,7 +29,7 @@ Earlier, we mentioned that web development work could be in the front end, the b
 
 * `Full-stack developers` are comfortable working with both the front and back ends.
 
-### Motivation
+### Motivation for Coding
 Learning to code is incredibly rewarding but can also be difficult and frustrating. The strongest assets you can have as a student are a desire to build, a problem-solving mind, and persistence in the face of setbacks.
 
 The web development industry has a long history of successful developers with varying backgrounds, so people tend to care more about what you’ve actually **built** than how you got there.
@@ -43,7 +43,8 @@ The web development industry has a long history of successful developers with va
 
 </div>
 
-### Additional Resources
+#### Additional Resources
+{:. no_toc }
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
