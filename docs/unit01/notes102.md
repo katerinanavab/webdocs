@@ -91,8 +91,7 @@ The following questions are an opportunity to reflect on key topics in this less
 
 All HTML documents have the same basic structure or boilerplate that needs to be in place before anything useful can be done. In this lesson, we will explore the different parts of this boilerplate and see how it all fits together.
 
-### Creating an HTML file
-{:.no_toc}
+### SETUP
 
 To demonstrate an HTML boilerplate, we first need an HTML file to work with.
 
@@ -104,7 +103,7 @@ To let the computer know we want to create an HTML file, we need to append the f
 
 It is worth noting that we named our HTML file `index`. We should always name the HTML file that will contain the homepage of our website `index.html`. This is because web servers will by default look for an `index.html` page when users land on our websites -- and not having one will cause big problems.
 
-### The DOCTYPE
+### The DOCTYPE Declaration
 {:.no_toc}
 
 Every HTML page starts with a doctype declaration. The doctype's purpose is to tell the browser what version of HTML it should use to render the document. The latest version of HTML is HTML5, and the doctype for that version is `<!DOCTYPE html>`.
@@ -119,7 +118,7 @@ However, we probably won't ever want to be using an older version of HTML, so we
 
 Open the `index.html` file created earlier in your text editor and add `<!DOCTYPE html>` to the very first line.
 
-### HTML element
+### HTML Element
 {:.no_toc}
 
 After we declare the doctype, we need to provide an `<html>` element. This is what's known as the root element of the document, meaning that every other element in the document will be a descendant of it.
@@ -141,7 +140,7 @@ Noticed the word `lang` here? It represents an HTML attribute which is associate
 
 `lang` specifies the language of the text content in that element. This attribute is primarily used for improving accessibility of the webpage. It allows assistive technologies, for example screen readers, to adapt according to the language and invoke correct pronunciation.
 
-### Head element
+### Head Element
 {:.no_toc}
 
 The `<head>` element is where we put important meta-information **about** our webpages, and stuff required for our webpages to render correctly in the browser.
@@ -160,14 +159,14 @@ Back in our `index.html` file, let's add a `<head>` element with a `<meta>` elem
 </html>
 ```
 
-#### Meta element
+#### Meta Element
 {:.no_toc}
 
 We should always have the `<meta>` tag with the charset encoding of the webpage in the `<head>` element: `<meta charset="utf-8">`.
 
 Setting the encoding is very important because it ensures that the webpage will display special symbols and characters from different languages correctly in the browser.
 
-#### Title element
+#### Title Element
 {:.no_toc}
 
 Another element we should always include in the head of an HTML document is the `<title>` element:
@@ -180,7 +179,7 @@ If we didn't include a `<title>` element, the webpage's title would default to i
 
 There are many more elements that can go within the head of an HTML document. However, for now it's only crucial to know about the two elements we have covered here. We will introduce more elements that go into the head throughout the rest of the curriculum.
 
-### Body element
+### Body Element
 {:.no_toc}
 
 The final element needed to complete the HTML boilerplate is the `<body>` element. This is where all the content that will be displayed to users will go - the text, images, lists, links, and so on.
@@ -221,7 +220,7 @@ The following questions are an opportunity to reflect on key topics in this less
 
 Most content on the web is text-based, so you will find yourself needing to work with HTML text elements quite a bit.
 
-In this module, we will learn about the text-based elements:
+In this module, we will learn about the text-based elements, including:
 
 - How to create paragraphs.
 - How to create headings.
@@ -230,7 +229,7 @@ In this module, we will learn about the text-based elements:
 - The relationships between nested elements.
 - How to create HTML comments.
 
-### Paragraphs
+### Paragraph Element
 
 What would you expect the following text to output on an HTML page?
 
@@ -272,7 +271,7 @@ Changing our example from before to use paragraph elements fixes the issue:
 
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-### Headings
+### Heading Elements
 
 Headings are different from other HTML text elements: they are displayed larger and bolder than other text to signify that they are headings.
 
@@ -292,7 +291,7 @@ Headings are defined much like paragraphs. For example, to create an h1 heading,
 
 Using the correct level of heading is important as levels provide a hierarchy to the content. An h1 heading should always be used for the heading of the overall page, and the lower level headings should be used as the headings for content in smaller sections of the page.
 
-### Strong element
+### Strong (Bold) Element
 
 The `<strong>` element makes text bold. It also semantically marks text as important; this affects tools, like screen readers, that users with visual impairments will rely on to use your website. The tone of voice on some screen readers will change to communicate the importance of the text within a strong element. To define a strong element, we wrap text content in a `<strong>` tag.
 
@@ -322,7 +321,7 @@ But you will probably find yourself using the strong element much more in combin
 
 Sometimes you will want to make text bold without giving it an important meaning. You'll learn how to do that in the CSS lessons later in the curriculum.
 
-### Em element
+### Emphasised (Italic) Element
 
 The `<em>` element makes text italic. It also semantically places emphasis on the text, which again may affect things like screen readers. To define an emphasised element, wrap the text content in an `<em>` tag.
 
@@ -350,7 +349,7 @@ Again, like the strong element, you will find yourself mostly using the `<em>` e
 
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-### Nesting and indentation
+### Nesting and Indentation
 {:.no_toc}
 
 You may have noticed that in all the examples in this lesson we indent any elements that are within other elements. This is known as nesting elements.
@@ -387,7 +386,7 @@ We use indentation to make the level of nesting clear and readable for ourselves
 
 The parent, child, and sibling relationships between elements will become much more important later when we start styling our HTML with CSS and adding behavior with JavaScript. For now, however, it is just important to know the distinction between how elements are related and the terminology used to describe their relationships.
 
-### HTML comments
+### HTML Comments
 {:.no_toc}
 
 HTML comments are not visible to the browser; they allow us to *comment* on our code so that other developers or our future selves can read them and get some context about something that might not be clear in the code.
@@ -440,7 +439,7 @@ Luckily, with HTML there are a couple of different types of lists at your dispos
 - unordered list
 - ordered list
 
-### Unordered lists
+### Unordered Lists
 
 If you want to have a list of items where the order doesn't matter, like a shopping list of items that can be bought in any order, then you can use an unordered list.
 
@@ -458,7 +457,7 @@ Each list item in an unordered list begins with a bullet point:
 
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-### Ordered lists
+### Ordered Lists
 
 If you instead want to create a list of items where the order *does* matter, like step-by-step instructions for a recipe, or your top 10 favorite TV shows, then you can use an ordered list.
 
@@ -524,7 +523,7 @@ To get some practice using links and images throughout this lesson we need an HT
 <h1>Homepage</h1>
 ```
 
-### Anchor elements (links)
+### Anchor (Link) Element
 
 To create a link in HTML, we use the anchor element. An anchor element is defined by wrapping the text or another HTML element we want to be a link with an `<a>` tag.
 
@@ -548,28 +547,7 @@ By default, any text wrapped with an anchor tag without an `href` attribute will
 
 It's worth noting you can use anchor tags to link to any kind of resource on the internet, not just other HTML documents. You can link to videos, pdf files, images, and so on, but for the most part, you will be linking to other HTML documents.
 
-### Opening links in a new tab
-{:.no_toc}
-
-The method shown above opens links in the same tab as the webpage containing them. This is the default behaviour of most browsers and it can be changed relatively easily. All we need is another attribute: the `target` attribute.
-
-While `href` specifies the destination link, `target` specifies where the linked resource will be opened. If it is not present, then, by default, it will take on the `_self` value which opens the link in the current tab. To open the link in a new tab or window (depends on browser settings) you can set it to `_blank` as follows:
-
-```html
-<a href="https://www.theodinproject.com/about" target="_blank" rel="noopener noreferrer">About The Odin Project</a>
-```
-
-<span id="target-security"></span>You may have noticed that we snuck in the `rel` attribute above. This attribute is used to describe the relation between the current page and the linked document.
-
-The `noopener` value prevents the opened link from gaining access to the webpage from which it was opened.
-
-The `noreferrer` value prevents the opened link from knowing which webpage or resource has a link (or 'reference') to it. The `noreferrer` value also includes the `noopener` behaviour and thus can be used by itself as well.
-
-Why do we need this added behaviour for opening links in new tabs? Security reasons. The prevention of access that is caused by `noopener` prevents [phishing attacks](https://www.ibm.com/topics/phishing) where the opened link may change the original webpage to a different one to trick users. This is referred to as [tabnabbing](https://owasp.org/www-community/attacks/Reverse_Tabnabbing). Adding the `noreferrer` value can be done if you wish to not let the opened link know that your webpage links to it.
-
-Note that you may be fine if you forget to add `rel="noopener noreferrer"` since more recent versions of browsers [provide security](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#security_and_privacy) if only `target="_blank"` is present. Nevertheless, in line with good coding practices and to err on the side of caution, it is recommended to always pair a `target="_blank"` with a `rel="noopener noreferrer"`.
-
-### Absolute and relative links
+### Absolute and Relative Links
 {:.no_toc}
 
 Generally, there are two kinds of links we will create:
@@ -577,7 +555,7 @@ Generally, there are two kinds of links we will create:
 - Links to pages on other websites on the internet.
 - Links to pages located on our own websites.
 
-#### Absolute links
+#### Absolute Links
 {:.no_toc}
 
 Links to pages on other websites on the internet are called absolute links. A typical absolute link will be made up of the following parts: `protocol://domain/path`. An absolute link will always contain the protocol and domain of the destination.
