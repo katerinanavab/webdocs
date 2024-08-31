@@ -3,7 +3,7 @@ layout: project
 title: "💻 Project 1.2"
 projectname: "Landing Page"
 parent: "1️⃣ Web Dev Foundations"
-nav_order: 4
+nav_order: 5
 ---
 
 ### Introduction
@@ -78,3 +78,10 @@ There are a couple of ways to go about publishing your project, but the simplest
 - Click on **Pages** on the left side bar.
 - Change the **Branch** from `None` to `main` and click Save.
 - It may take a few minutes (the GitHub website says up to 10), but your project should be accessible over the web from `your-github-username.github.io/your-github-repo-name` (obviously substituting your own details in the link).
+
+---
+
+#### Acknowledgement
+
+Content on this page is adapted from [The Odin Project](www.theodinproject.com).
+{: .fs-2 }
