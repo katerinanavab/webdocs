@@ -4,13 +4,13 @@ title: "📓1.4: Flexbox"
 parent: "1️⃣ Web Dev Foundations"
 nav_order: 4
 ---
-<details open markdown="block" class="fs-2 custom-toc">
-  <summary class="text-delta">
-    TABLE OF CONTENTS
-  </summary>
+
+## Table of Contents
+{: .no_toc .text-delta }
+
+{: .fs-2 }
 - TOC
 {:toc}
-</details>
 
 ---
 ## Flexbox Layouts
