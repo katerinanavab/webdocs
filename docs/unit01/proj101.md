@@ -1,16 +1,10 @@
 ---
 layout: project
 title: "💻 Project 1.1"
-projectname: "Make a Recipe"
+projectname: "Recipe Website"
 parent: "1️⃣ Web Dev Foundations"
 nav_order: 4
 ---
-
-### Overview
-
-### Instructions
-
-### Requirements
 
 ### Introduction
 
