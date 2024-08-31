@@ -10,6 +10,7 @@ nav_order: 0
 ## Table of Contents
 {: .no_toc .text-delta }
 
+{: .fs-2 }
 1. TOC
 {:toc}
 
