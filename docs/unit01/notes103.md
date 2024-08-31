@@ -201,7 +201,7 @@ You can take the two elements above and combine them with the following:
 }
 ```
 
-In general, you can't chain more than one type selector since an element can’t be two different types at once. For example, chaining two type selectors like `div` and `p` would give us the selector `divp`, which wouldn't work since the selector would try to find a literal `<divp>` element, which doesn’t exist.
+> In general, you can't chain more than one type selector since an element can’t be two different types at once. For example, chaining two type selectors like `div` and `p` would give us the selector `divp`, which wouldn't work since the selector would try to find a literal `<divp>` element, which doesn’t exist.
 
 #### Descendant combinator
 {: .no_toc }
@@ -386,21 +386,12 @@ If you need to add a *unique* style for a *single* element, this method can work
 
 <div class="task" markdown="1">
 
-1. Go to our [CSS exercises repository](https://github.com/TheOdinProject/css-exercises) and read the README. Then, once you know how to use the exercises, navigate to the `foundations` directory. Review each README file prior to completing the following exercises in order:
-
-    - `01-css-methods`
-    - `02-class-id-selectors`
-    - `03-group-selectors`
-    - `04-chain-selectors`
-    - `05-descendant-combinator`
-
-    Note: Solutions for these exercises can be found in the `solution` folder of each exercise.
+1. Play the [CSS Diner](https://flukeout.github.io/) game to practice **selectors**.
 
 </div>
 
-### Additional Resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
+#### Additional Resources
+{: .no_toc }
 
 - [Mozilla CSS values and units](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units) can be used to learn the various types of values possible in absolute or relative terms.
 
@@ -505,14 +496,8 @@ In this final example, the first rule uses an ID selector, while the second rule
 
 While the `color: red` declaration would take precedence, the `background-color: yellow` declaration would still be applied since there's no conflicting declaration for it.
 
-<div class="lesson-note" markdown="1">
-
-##### Not everything adds to specificity
-{: .no_toc }
-
-When comparing selectors, you may come across special symbols for the universal selector (`*`) as well as combinators (`+`, `~`, `>`, and an empty space). These symbols do not add any specificity in and of themselves.
-
-</div>
+{: .highlight }
+**Not everything adds to specificity!** When comparing selectors, you may come across special symbols for the universal selector (`*`) as well as combinators (`+`, `~`, `>`, and an empty space). These symbols do not add any specificity in and of themselves.
 
 ```css
 /* rule 1 */
@@ -617,8 +602,6 @@ Remember the Recipe page you created as practice from the HTML Foundations secti
 #### Additional resources
 {: .no_toc }
 
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
 - [The CSS Cascade](https://2019.wattenberger.com/blog/css-cascade) is a great, interactive read that goes a little more in detail about other factors that affect what CSS rules actually end up being applied.
 - [CSS Specificity Explained](https://www.youtube.com/watch?v=c0kfcP_nD9E) from Kevin Powell goes through various specificity examples and gives some advice on avoiding wrestling with specificity.
 - [CSS Specificity Calculator](https://specificity.keegan.st/) allows you to fill in your own selectors and have their specificity calculated and visualized.
@@ -655,7 +638,7 @@ The Styles panel also allows you to edit styles directly in the browser. You can
 
 <div class="task" markdown="1">
 
-1. Go through the following sections of the [official Chrome DevTools docs](https://developers.google.com/web/tools/chrome-devtools):
+Go through the following sections of the [official Chrome DevTools docs](https://developers.google.com/web/tools/chrome-devtools):
 
    - [Devtools overview](https://developer.chrome.com/docs/devtools/overview/): don't navigate to any other pages linked here; just get familiar with *what* tools are available in the DevTools, rather than how to use all of them right now.
    - [Open Chrome DevTools](https://developer.chrome.com/docs/devtools/open/): similar to what we went over above, but with some nice extras.
@@ -666,8 +649,6 @@ The Styles panel also allows you to edit styles directly in the browser. You can
 
 #### Additional resources
 {: .no_toc }
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - This article about how we can [utilize CSS overview in the developer tools](https://www.freecodecamp.org/news/how-to-use-css-overview-in-chrome-developer-tools/) to check the colors, font styles, media-queries, etc. used on a particular webpage.
 
@@ -758,14 +739,13 @@ Inline elements, however, do not start on a new line. They appear in line with w
 
 Inline-block elements behave like inline elements, but with block-style padding and margin. `display: inline-block` is a useful tool to know about, but in practice, you'll probably end up reaching for flexbox more often if you're trying to line up a bunch of boxes. Flexbox will be covered in-depth in the next lesson.
 
-### Divs and spans
-{: .no_toc }
+### Div and Span Elements
 
 We can't talk about block and inline elements without discussing divs and spans. All the other HTML elements we have encountered so far give meaning to their content. For example, paragraph elements tell the browser to display the text it contains as a paragraph. Strong elements tell the browser which texts within are important and so on. Yet, divs and spans give no particular meaning to their content. They are just generic boxes that can contain anything.
 
 Having elements like this available to us is a lot more useful than it may first appear. We will often need elements that serve no other purpose than to be "hook" elements. We can give an id or class to target them for styling with CSS. Another use case we will face regularly is grouping related elements under one parent element to correctly position them on the page. Divs and spans provide us with the ability to do this.
 
-Div is a block-level element by default. It is commonly used as a container element to group other elements. Divs allow us to *divide* the page into different blocks and apply styling to those blocks.
+`div` is a **block-level** element by default. It is commonly used as a container element to group other elements. Divs allow us to *divide* the page into different blocks and apply styling to those blocks.
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="KKXXbwR" data-preview="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
 
@@ -777,7 +757,7 @@ Div is a block-level element by default. It is commonly used as a container elem
 
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-Span is an inline-level element by default. It can be used to group text content and inline HTML elements for styling and should only be used when no other semantic HTML element is appropriate.
+`span` is an **inline-level** element by default. It can be used to group text content and inline HTML elements for styling and should only be used when no other semantic HTML element is appropriate.
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="abLLPor" data-preview="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
 
@@ -789,17 +769,13 @@ Span is an inline-level element by default. It can be used to group text content
 
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
+<br>
+
 <div class="task" markdown="1">
 
 1. The concept of "Normal flow" is implied in the box-model resources, but isn't laid out very specifically. Read ["Normal Flow" from MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Normal_Flow) to make sure you understand how elements lay themselves out by default.
 1. W3 schools' ["HTML Block and Inline Elements"](https://www.w3schools.com/html/html_blocks.asp) has a description and a list of all the default block and inline elements.
 1. The Digital Ocean tutorial ["Inline vs Inline-block Display in CSS"](https://www.digitalocean.com/community/tutorials/css-display-inline-vs-inline-block) has a couple of great examples that clarify the difference between `inline` and `inline-block`.
-1. Go to our [CSS exercises repository](https://github.com/TheOdinProject/css-exercises) and navigate to the `margin-and-padding` directory. Review each README file prior to completing the following exercises in order:
-   - `01-margin-and-padding-1`
-   - `02-margin-and-padding-2`
-
-   Note: Solutions for these exercises can be found in the `solution` folder of each exercise.
-
 1. Apply what you learned about the box model to improve the look of your Recipe page's `index.html` homepage. Currently, it's just a plain list, so get creative with layouts, colors, and styles to make your page uniquely captivating.
 
 </div>
