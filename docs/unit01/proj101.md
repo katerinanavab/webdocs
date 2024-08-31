@@ -32,7 +32,6 @@ But it's important to keep in mind that this project is just to build your HTML 
 2. Add an `h1` heading in the body section that describes the main title of the website (like _"My Favorite Recipes"_ or _"Sweet Treats for Fall"_).
 
 </div> 
-<br>
 
 #### Iteration 2: Start Recipe Page
 
@@ -47,7 +46,6 @@ But it's important to keep in mind that this project is just to build your HTML 
 _Example:_ Under the `<h1>My Recipes</h1>` heading, write out the link like so: `<a href="recipes/recipename.html">Recipe Title</a>`. The text of the link should again be replaced with the actual recipe name.
 
 </div>
-<br>
 
 #### Iteration 3: Add Recipe Page Content
 
@@ -60,7 +58,6 @@ Your new recipe page must have the following content:
 1. Finally, under the ingredients list, add a "Steps" heading followed by an **ordered list** of the steps needed for making the dish.
 
 </div>
-<br>
 
 #### Iteration 4: Add More Recipes
 
