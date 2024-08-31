@@ -28,7 +28,7 @@ _A note about images on the web:_ You do not have the legal right to use just an
  
 1. On [Replit](https://replit.com/~), click `+ Create Repl` on the sidebar to open a **NEW PROJECT**
 2. In the pop-up menu, select `HTML, CSS, JS` as the **TEMPLATE**
-3. Specify the **TITLE** following this pattern: `Unit1_Project1_FirstNameLastInitial`
+3. Specify the **TITLE** following this pattern: `CS1_Unit1_Proj1_FirstNameLastInitial`
 
 </div>
 
