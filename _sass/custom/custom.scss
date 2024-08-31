@@ -27,6 +27,16 @@ h3 {
     padding: .8rem;
 }
 
+.task::before {
+	color: $purple-300;
+    content: "Setup";
+    display: block;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: .75em;
+    padding-bottom: .125rem;
+}
+
 .setup {
     background: rgba($green-000, 0.2);
     border-left: $border-radius solid $green-300;
@@ -36,11 +46,25 @@ h3 {
 }
  
 .setup::before {
-	color: $green-300;
+		color: $green-300;
     content: "Setup";
     display: block;
     font-weight: bold;
     text-transform: uppercase;
     font-size: .75em;
     padding-bottom: .125rem;
+}
+
+blockquote.setup, blockquote.task {
+	background: #EDEBEE;
+  margin-left: 0;
+  margin-right: 0;
+  
+  > p:first-child {
+    margin-top: 0;
+  }
+    
+  > p:last-child {
+    margin-bottom: 0;
+  }
 }
