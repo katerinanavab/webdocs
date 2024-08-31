@@ -14,7 +14,7 @@ The website will consist of a main index page which will have links to a few rec
 
 But it's important to keep in mind that this project is just to build your HTML chops; we will revisit this project in the future to style it up with CSS.
 
-<div class="new" markdown="1">
+<div class="new" markdown="block">
  
 1. On [Replit](https://replit.com/~), click `+ Create Repl` on the sidebar to open a **NEW PROJECT**
 2. In the pop-up menu, select `HTML, CSS, JS` as the **TEMPLATE**
