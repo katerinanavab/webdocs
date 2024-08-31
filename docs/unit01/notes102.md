@@ -11,7 +11,7 @@ nav_order: 2
   </summary>
   {: .text-delta }
 - TOC
-{:toc} {: fs-1 }
+{:toc}
 </details>
 
 ---
