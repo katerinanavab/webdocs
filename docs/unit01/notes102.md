@@ -34,8 +34,6 @@ Many great resources out there keep referring to HTML and CSS as *programming la
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [What do HTML and CSS stand for?](https://brytdesigns.com/html-css-javascript-whats-the-difference/#What_is_HTML)
-- [Between HTML and CSS, which would you use for putting paragraphs of text on a webpage?](#html-and-css)
-- [Between HTML and CSS, which would you use for changing the font and background color of a button?](#html-and-css)
 - [What is the difference between HTML, CSS and JavaScript?](https://brytdesigns.com/html-css-javascript-whats-the-difference/)
 
 ---
@@ -55,9 +53,9 @@ A full paragraph element looks like this:
 
 Let's break this down:
 
-- `<p>` is the opening tag.
-- `some text content` represents content wrapped within the opening and closing tags.
-- `</p>` is the closing tag.
+- `<p>` is the **opening tag**.
+- `some text content` represents **content** wrapped within the opening and closing tags.
+- `</p>` is the **closing tag**.
 
 You can think of elements as containers for content. The opening and closing tags tell the browser what content the element contains. The browser can then use that information to determine how it should interpret and format the content.
 
@@ -72,56 +70,36 @@ Some HTML elements do not have a closing tag. These elements just have a single 
 
 You might also see these referred to as self-closing tags. But those are just void elements with a forward slash(/) at the end like: `<br />` or `<img />`. You're likely to see self-closing tags used often for historical reasons. Browsers will be able to render them just fine, but the latest version of the HTML specification discourages their use and considers them invalid.
 
-<div class="task" markdown="1">
-
-1. Watch Kevin Powell's [Introduction to HTML Video](https://www.youtube.com/watch?v=LGQuIIv2RVA).
-
-</div>
-
-#### Knowledge Check
-{:.no_toc}
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What is an HTML tag?](#elements-and-tags)
-- [What are the three parts of an HTML element?](#elements-and-tags)
-
 ---
 ## HTML Boilerplate
 
-All HTML documents have the same basic structure or boilerplate that needs to be in place before anything useful can be done. In this lesson, we will explore the different parts of this boilerplate and see how it all fits together.
-
-### SETUP
+All HTML documents have the same **basic structure** or **boilerplate** that needs to be in place before anything useful can be done. In this lesson, we will explore the different parts of this boilerplate and see how it all fits together.
 
 To demonstrate an HTML boilerplate, we first need an HTML file to work with.
 
-Create a new folder on your computer and name it `html-boilerplate`. Within that folder create a new file and name it `index.html`.
+<div class="setup" markdown="block">
 
-You're probably already familiar with a lot of different types of files, for example doc, pdf, and image files.
+1. On [Replit](https://replit.com/~), click `+ Create Repl` on the sidebar to open a **NEW PROJECT**
+2. In the pop-up menu, select `HTML, CSS, JS` as the **TEMPLATE**
+3. Specify the **TITLE** following this pattern: `CS1_Unit1_Notes`
 
-To let the computer know we want to create an HTML file, we need to append the filename with the `.html` extension, as we have done when creating the `index.html` file.
+</div>
+
+Within the project you'll find a file named `index.html`.
+
+You're probably already familiar with a lot of different types of files, for example doc, pdf, and image files. To let the computer know we want to create an HTML file, we need to append the filename with the `.html` extension, as we have done when creating the `index.html` file.
 
 It is worth noting that we named our HTML file `index`. We should always name the HTML file that will contain the homepage of our website `index.html`. This is because web servers will by default look for an `index.html` page when users land on our websites -- and not having one will cause big problems.
 
 ### The DOCTYPE Declaration
 {:.no_toc}
 
-Every HTML page starts with a doctype declaration. The doctype's purpose is to tell the browser what version of HTML it should use to render the document. The latest version of HTML is HTML5, and the doctype for that version is `<!DOCTYPE html>`.
-
-The doctypes for older versions of HTML were a bit more complicated. For example, this is the doctype declaration for HTML4:
-
-```html
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-```
-
-However, we probably won't ever want to be using an older version of HTML, so we'll always use `<!DOCTYPE html>`.
-
-Open the `index.html` file created earlier in your text editor and add `<!DOCTYPE html>` to the very first line.
+Every HTML page starts with a **doctype declaration**. The doctype's purpose is to tell the browser what version of HTML it should use to render the document. The latest version of HTML is HTML5, and the doctype for that version is `<!DOCTYPE html>`.
 
 ### HTML Element
 {:.no_toc}
 
-After we declare the doctype, we need to provide an `<html>` element. This is what's known as the root element of the document, meaning that every other element in the document will be a descendant of it.
+After we declare the doctype, we need to provide an `<html>` element. This is what's known as the **root element** of the document, meaning that every other element in the document will be a descendant of it.
 
 This becomes more important later on when we learn about manipulating HTML with JavaScript. For now, just know that the `<html>` element should be included on every HTML document.
 
@@ -133,12 +111,7 @@ Back in the `index.html` file, let's add the `<html>` element by typing out its 
 </html>
 ```
 
-Noticed the word `lang` here? It represents an HTML attribute which is associated with the given HTML tag i.e. `<html>` in this case. These attributes provide additional information about HTML elements. (More about `HTML attributes` in the following lesson.)
-
-#### What is the lang attribute?
-{:.no_toc}
-
-`lang` specifies the language of the text content in that element. This attribute is primarily used for improving accessibility of the webpage. It allows assistive technologies, for example screen readers, to adapt according to the language and invoke correct pronunciation.
+Noticed the word `lang` here? It represents an HTML attribute which is associated with the given HTML tag i.e. `<html>` in this case. These attributes provide additional information about HTML elements. (More about `HTML Attributes` in the following lesson.)
 
 ### Head Element
 {:.no_toc}
@@ -162,7 +135,7 @@ Back in our `index.html` file, let's add a `<head>` element with a `<meta>` elem
 #### Meta Element
 {:.no_toc}
 
-We should always have the `<meta>` tag with the charset encoding of the webpage in the `<head>` element: `<meta charset="utf-8">`.
+We should always have the `<meta>` tag with the **charset encoding** of the webpage in the `<head>` element: `<meta charset="utf-8">`.
 
 Setting the encoding is very important because it ensures that the webpage will display special symbols and characters from different languages correctly in the browser.
 
@@ -182,7 +155,7 @@ There are many more elements that can go within the head of an HTML document. Ho
 ### Body Element
 {:.no_toc}
 
-The final element needed to complete the HTML boilerplate is the `<body>` element. This is where all the content that will be displayed to users will go - the text, images, lists, links, and so on.
+The final element needed to complete the HTML boilerplate is the `<body>` element. This is where **all the content** that will be displayed to users will go - the text, images, lists, links, and so on.
 
 To complete the boilerplate, add a `<body>` element to the `index.html` file. The `<body>` element also goes within the `<html>` element and is always below the `<head>` element, like so:
 
@@ -204,16 +177,6 @@ To complete the boilerplate, add a `<body>` element to the `index.html` file. Th
 1. Build some muscle memory by deleting the contents of the `index.html` file and trying to write out all the boilerplate again from memory. Don't worry if you have to peek at the lesson content the first few times if you get stuck. Just keep going until you can do it a couple of times from memory.
 
 </div>
-
-#### Knowledge Check
-{:.no_toc}
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What is the purpose of the doctype declaration?](#the-doctype)
-- [What is the HTML element?](#html-element)
-- [What is the purpose of the head element?](#head-element)
-- [What is the purpose of the body element?](#body-element)
 
 ---
 ## Working with Text
@@ -409,20 +372,6 @@ In order to write an HTML comment, we just enclose the comment with `<!--` and `
 
 </div>
 
-#### Knowledge check
-{:.no_toc}
-  
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [How do you create a paragraph in HTML?](#create-paragraph-element)
-- [How do you create a heading in HTML?](#headings)
-- [How many different levels of headings are there and what is the difference between them?](#different-heading-levels)
-- [What element should you use to make text bold and important?](#strong-element)
-- [What element should you use to make text italicized to add emphasis to it?](#em-element)
-- [What relationship does an element have with any nested elements within it?](#nested-relationship)
-- [What relationship do two elements have if they are at the same level of nesting?](#elements-same-level)
-- [How do you create HTML comments?](#html-comments)
-
 #### Additional Resources
 {:.no_toc}
 
@@ -434,10 +383,7 @@ The following questions are an opportunity to reflect on key topics in this less
 
 Whether it be IMDB's top 250 movies or the FBI's most wanted, lists are everywhere on the web and you are going to need one eventually in your webpages.
 
-Luckily, with HTML there are a couple of different types of lists at your disposal:
-
-- unordered list
-- ordered list
+Luckily, with HTML there are a couple of different types of lists at your disposal: unordered or ordered.
 
 ### Unordered Lists
 
@@ -445,7 +391,7 @@ If you want to have a list of items where the order doesn't matter, like a shopp
 
 Unordered lists are created using the `<ul>` element, and <span id="li"></span>each item within the list is created using the list item element `<li>`.
 
-Each list item in an unordered list begins with a bullet point:
+Each list item in an unordered list begins with a **bullet point**:
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="powjajd" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
 
@@ -461,7 +407,7 @@ Each list item in an unordered list begins with a bullet point:
 
 If you instead want to create a list of items where the order *does* matter, like step-by-step instructions for a recipe, or your top 10 favorite TV shows, then you can use an ordered list.
 
-Ordered lists are created using the `<ol>` element. Each individual item in them is again created using the list item element `<li>`. However, each list item in an ordered list begins with a number instead:
+Ordered lists are created using the `<ol>` element. Each individual item in them is again created using the list item element `<li>`. However, each list item in an ordered list begins with a **number** instead:
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="yLXYvYp" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
 
@@ -475,7 +421,7 @@ Ordered lists are created using the `<ol>` element. Each individual item in them
 
 <div class="task" markdown="1">
 
-To get some practice using lists, create a new HTML document and create the following lists:
+To get some practice using lists, create the following lists in your HTML document:
 
 1. An unordered shopping list of your favorite foods
 1. An ordered list of todo's you need to get done today
@@ -483,15 +429,6 @@ To get some practice using lists, create a new HTML document and create the foll
 1. An ordered list of your all time top 5 favorite video games or movies
 
 </div>
-
-#### Knowledge check
-{:.no_toc}
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What HTML element is used to create an unordered list?](#unordered-lists)
-- [What HTML element is used to create an ordered list?](#ordered-lists)
-- [What HTML element is used to create list items within both unordered and ordered lists?](#li)
 
 #### Additional resources
 {:.no_toc}
@@ -509,19 +446,6 @@ Links are one of the key features of HTML. They allow us to link to other HTML p
 - How to create links to other pages on your own websites.
 - The difference between absolute and relative links.
 - How to display an image on a webpage using HTML.
-
-### SETUP
-
-To get some practice using links and images throughout this lesson we need an HTML project to work with.
-
-1. Create a new directory named `odin-links-and-images`.
-1. Within that directory, create a new file named `index.html`.
-1. Open the file in VS Code and fill in the usual HTML boilerplate.
-1. Finally, add the following h1 to the body:
-
-```html
-<h1>Homepage</h1>
-```
 
 ### Anchor (Link) Element
 
@@ -733,63 +657,23 @@ To break this down:
 
 Using the metaphor we used earlier, using `../` in a filepath is kind of like stepping out from the room you are currently in to the main hallway so you can go to another room.
 
-### Alt attribute
+### Alt Attribute
 {:.no_toc}
 
-<span id="two-attributes"></span>Besides the src attribute, every image element must also have an alt (alternative text) attribute.
+<span id="two-attributes"></span>Besides the `src` attribute, every image element must also have an `alt` (alternative text) attribute.
 
 The alt attribute is used to describe an image. It will be used in place of the image if it cannot be loaded. It is also used with screen readers to describe what the image is to visually impaired users.
 
-This is how the The Odin Project logo example we used earlier looks with an alt attribute included:
+As a bit of practice, add an `alt` attribute to the dog image we added to the project.
 
-<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="ExXjoEp" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-
-  <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/ExXjoEp">
-  image-alt-attribute</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-
-</p>
-
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
-
-As a bit of practice, add an alt attribute to the dog image we added to the `odin-links-and-images` project.
-
-### Image size attributes
+### Image Size Attributes
 {:.no_toc}
 
-While not strictly required, specifying height and width
-attributes in image tags helps the browser layout the page without causing the page to jump and flash.
+While not strictly required, specifying `height` and `width` **attributes** in image tags helps the browser layout the page without causing the page to jump and flash.
 
 It is a good habit to always specify these attributes on every image, even when the image is the correct size or you are using CSS to modify it.
 
-Here is our Odin Project logo example with height and width tags included:
-
-<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="PogmYGp" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-
-  <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/PogmYGp">
-  Image Height and Width Attributes</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-
-</p>
-
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
-
-Go ahead and update the `odin-links-and-images` project with width and height tags on the dog image.
-
-#### Knowledge check
-{:.no_toc}
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What element is used to create a link?](#anchor-elements)
-- [What is an attribute?](#attribute)
-- [What attribute tells links where to go to?](#where-to-go)
-- [What security considerations must be taken if you wish to use the target attribute to open links in a new tab/window?](#target-security)
-- [What is the difference between an absolute and relative link?](#absolute-and-relative-links)
-- [Which element is used to display an image?](#images)
-- [What two attributes do images always need to have?](#two-attributes)
-- [How do you access a parent directory in a filepath?](#parent-filepath)
-- [What are the four main image formats that you can use for images on the web?](https://internetingishard.netlify.app/html-and-css/links-and-images/#image-formats)
+Go ahead and update your project with `width` and `height` tags on the dog image.
 
 #### Additional resources
 {:.no_toc}
