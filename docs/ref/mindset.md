@@ -5,8 +5,7 @@ parent: References
 nav_order: 3
 ---
 
-# 🧠 Mindset & Motivation Tips
-### Introduction
+# 🧠 Mindset & Motivation for Programmers
 
 Learning to code is incredibly rewarding but can also be difficult and frustrating. Like any skill worth knowing, it takes time to acquire, and it can't be learned in a weekend or even a month. With that said, we believe anyone can learn how to program as long as they are willing to put in the time and effort.
 
@@ -134,17 +133,21 @@ Students often compare themselves to others who are farther along in their codin
 
 **Solution:** Only compare yourself to your past self. Have your abilities and knowledge improved from where you were last week, last month, or last year? Be proud of the progress that you've made!
 
-### Assignment
+---
 
-<div class="lesson-content__panel" markdown="1">
+<div class="task" markdown="block">
 
-1. To give your motivation a bit of a boost, read about the success of others in the [TOP Discord server's Success Stories forum](https://discord.com/channels/505093832157691914/1089990025162260570).
-1. To learn more about the growth mindset, go through the following resources:
+1. To give your **motivation** a bit of a boost, read about the success of others in the [TOP Discord server's Success Stories forum](https://discord.com/channels/505093832157691914/1089990025162260570).
+1. To learn more about the **growth mindset**, go through the following resources:
    - [Believe you can get better](https://www.ted.com/talks/carol_dweck_the_power_of_believing_that_you_can_improve)
    - [Grit](https://ted.com/talks/angela_lee_duckworth_grit_the_power_of_passion_and_perseverance)
    - [You can learn anything](https://www.khanacademy.org/college-careers-more/talks-and-interviews/talks-and-interviews-unit/conversations-with-sal/a/the-learning-myth-why-ill-never-tell-my-son-hes-smart)
 
-1. To learn more about the best ways to learn, watch this summary of [Coursera's learning how to learn course](https://www.youtube.com/watch?v=O96fE1E-rf8). The full course is linked in the additional resources.
+1. To learn more about the **best ways to learn**, watch this summary of [Coursera's learning how to learn course](https://www.youtube.com/watch?v=O96fE1E-rf8). The full course is linked in the additional resources.
+
+1. You will need to **ask for help** at some point, and with coding, there is a correct way to ask for help. Read about the [“XY Problem”](https://xyproblem.info/), which is a common pitfall both new and experienced programmers fall into when asking questions.
+1. Read and bookmark The Odin Project's community guide [How to Ask Technical Questions](https://www.theodinproject.com/guides/community/how_to_ask). It is a great reference to refer to whenever you find yourself needing to ask for help, and you might find yourself solving your own problem as you think about the points listed in the article.
+1. [Don't ask to ask, just ask](https://dontasktoask.com/) demonstrates the importance of just asking your question and not asking to ask your question.
 
 </div>
 
@@ -159,43 +162,6 @@ This section contains helpful links to related content. It isn't required, so co
 - [Why Procrastinators Procrastinate](https://waitbutwhy.com/2013/10/why-procrastinators-procrastinate.html) Learn about the Instant Gratification Monkey, Rational Decision Maker, Panic Monster, and how to navigate the Dark Playground. [Short video introduction from the same author](https://youtu.be/arj7oStGLkU)
 - [100 Days of Code](https://www.100daysofcode.com/) is a challenge that new developers often use to track their coding journey and showcase their work. Consider checking out their website if you are looking for a way to stay motivated and inspire other developers.
 - Check out the [Learning How to Learn](https://www.coursera.org/learn/learning-how-to-learn) course from Coursera.
-
-### Tips for getting the best help possible
-Along your programming journey, you will inevitably need to ask questions in an online coding community like ours or in conversations with your colleagues. While asking questions may seem rather simple, in a programming environment it is essential to ask well-formed questions with as much context as needed so you can get the most out of asking for help. In essence, “help others help you!” This lesson will provide you with the tools to effectively ask questions in communities such as our Discord chat, Stack Overflow, and in the workplace!
-
-#### Always provide your code and the surrounding context
-
-When asking a question, it is essential to provide your code, error message, terminal command, server output, and other relevant details. You should provide as much context as possible and zero in on the specific problem, such as pointing people to a specific function or line number in your code. Providing this relevant information makes it easier for others to help you.
-
-If your question does not provide any code or other relevant information, it will be difficult for others to help you. In order to fully understand your question, there will be a lot of unnecessary back and forth conversation. This can be discouraging for you because any answers with incomplete information will not solve your problem. This process can be frustrating for those helping because the meaning of your original question changes as you add more context to it. If you truly want to ask a conceptual question, you should indicate this as part of your question.
-
-#### Ask about the problem at hand, not the solution itself
-
-A lot of learners ask exactly how to approach a given task or assignment in this curriculum, such as the following:
-
-- “How do I complete Step 5 of the Rock Paper Scissors Assignment”?
-
-Keep in mind that you’re supposed to figure out how to solve the assignments yourself, and figuring out an approach is essential to your learning journey. A much better question might look like this:
-
-- “Hey, I’m trying to return a string that displays the winner in Rock Paper Scissors, but I’m getting a syntax error on line 12. How can I fix this? Here’s my code.”
-
-In sharing your attempt, people know what you’ve tried and won’t suggest things that might not have worked out for you. It also allows them to debug your current iteration of code, rather than sending you down a path that has you start all over again when you might be very close to a solution.
-
-Now, if you’re completely stuck with where to start, it’s completely fine to let people know that you’re stuck. Asking where you can start and what you can research to get on the right track empowers you to be able to resolve issues largely on your own in the future, and might even empower you to help others with the same issue later on. It is also recommended that you share your pseudo code so people can nudge you in the right direction or correct any misunderstandings you may have.
-
-#### Don’t take asking for more context to heart
-
-People who volunteer in coding communities are here to help! A question you may feel is coherent and “obvious” probably isn’t if you are being asked for more context. While something may seem "obvious" to a beginner, it's sometimes nowhere near "obvious" to an expert. An expert knows about many, many more situations that could cause an issue someone is experiencing, and would want to refrain from sending a learner down the wrong path. People take time out of their day to help, so make it as easy as possible for them to help you! There’s probably a good reason why they need more information, so trust their judgment and experience when they ask. Many people who help in coding chats are unpaid volunteers, and are in no way obligated to answer your query. But because they truly want to help you, they will ask for more information when needed!
-
-### Assignment
-
-<div class="lesson-content__panel" markdown="1">
-
-1. [Don't ask to ask, just ask](https://dontasktoask.com/) demonstrates the importance of just asking your question and not asking to ask your question.
-1. Read about the [“XY Problem”](https://xyproblem.info/), which is a common pitfall both new and experienced programmers fall into when asking questions.
-1. Read and bookmark our community guide [How to Ask Technical Questions](https://www.theodinproject.com/guides/community/how_to_ask). It is a great reference to refer to whenever you find yourself needing to ask for help, and you might find yourself solving your own problem as you think about the points listed in the article.
-
-</div>
 
 
 ---
