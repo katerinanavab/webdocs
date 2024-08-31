@@ -24,8 +24,9 @@ Get your project as close as you can to the design, but do not worry about getti
 _A note about images on the web:_ You do not have the legal right to use just any image that you find on the web. There are many free images to be found, but make sure that the image you use is actually free for you to use, and make sure to credit the creator of the image in your project. Some good places to **find free-to-use images on the web** include [Pexels](https://www.pexels.com/), [Pixabay](https://pixabay.com/), and [Unsplash](https://unsplash.com/).
 
 
-<div class="new" markdown="block">
- 
+<div class="block-setup" markdown="block">
+
+#### PROJECT SETUP
 1. On [Replit](https://replit.com/~), click `+ Create Repl` on the sidebar to open a **NEW PROJECT**
 2. In the pop-up menu, select `HTML, CSS, JS` as the **TEMPLATE**
 3. Specify the **TITLE** following this pattern: `CS1_Unit1_Proj1_FirstNameLastInitial`
@@ -34,7 +35,7 @@ _A note about images on the web:_ You do not have the legal right to use just an
 
 ### Instructions & Requirements
 
-<div class="note" markdown="block">
+<div class="block-task" markdown="block">
  
 1. Download the design images and take a look at what you're going to be creating here. [Image One (Full Design)](https://cdn.statically.io/gh/TheOdinProject/curriculum/81a5d553f4073e593d23a6ab00d50eef8620796d/foundations/html_css/project/imgs/01.png), [Image Two (Color and Fonts)](https://cdn.statically.io/gh/TheOdinProject/curriculum/69e40b6fcacf567f77243547b7f89df75dd8c3d0/foundations/html_css/project/imgs/02.png)
     1. The font that's being used in the images is `Roboto`.
