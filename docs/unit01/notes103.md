@@ -4,7 +4,15 @@ title: "📓1.3: CSS Foundations"
 parent: "1️⃣ Web Dev Foundations"
 nav_order: 3
 ---
+<details open markdown="block" class="fs-2 custom-toc">
+  <summary class="text-delta">
+    TABLE OF CONTENTS
+  </summary>
+- TOC
+{:toc}
+</details>
 
+---
 ## Introduction to CSS
 
 In the previous lesson, you learned how to write the HTML that determines how a web page is structured. The next step is to make that structure look good with some *style*, which is exactly what CSS is for. In the next few lessons, we're going to focus on what we believe are some foundational CSS concepts, things that everyone should know from the beginning — whether they are just starting out or need a refresher.
