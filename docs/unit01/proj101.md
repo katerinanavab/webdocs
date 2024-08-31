@@ -17,7 +17,7 @@ But it's important to keep in mind that this project is just to build your HTML 
 <div class="new" markdown="1">
  
 1. On [Replit](https://replit.com/~), click `+ Create Repl` on the sidebar to open a **NEW PROJECT**
-2. Select `HTML, CSS, JS` as the **TEMPLATE**
+2. In the pop-up menu, select `HTML, CSS, JS` as the **TEMPLATE**
 3. Specify the **TITLE** following this pattern: `Unit1_Project1_YourName`
 
 </div>
