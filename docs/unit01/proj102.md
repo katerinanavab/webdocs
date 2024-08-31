@@ -44,13 +44,16 @@ Get your **project as close as you can to the design**, but do not worry about g
 
 <div class="task" markdown="block">
 
-*Finally*, you are free to substitute your own content into this design. The images have some meaningless dummy content, but your task is to make up a business and personalize this page. Insert actual images in the placeholders, and feel free to play with the colors and fonts a bit too.
+*Finally*, you are free to **substitute your own content** into this design. The images just have some meaningless dummy content at the moment.
+1. Make up a fake business and personalize this page around that theme.
+2. Insert actual **images** in the placeholders.
+3. Play around with the **colors** and **fonts** a bit too.
 
 </div>
 
 {: .warning }
 
-_A note about images on the web:_ You do not have the legal right to use just any image that you find on the web. There are many free images to be found, but make sure that the image you use is actually free for you to use, and make sure to credit the creator of the image in your project. Some good places to **find free-to-use images on the web** include [Pexels](https://www.pexels.com/), [Pixabay](https://pixabay.com/), and [Unsplash](https://unsplash.com/).
+_A note about images on the web:_ You do not have the legal right to use just any image that you find on the web. There are many free images to be found, but make sure that the image you use is actually free for you to use, and make sure to credit the creator of the image in your project. Some good places to **find free-to-use images on the web** include [Pexels](https://www.pexels.com/), [Pixabay](https://pixabay.com/), [Unsplash](https://unsplash.com/), and [CleanPNG](https://www.cleanpng.com/).
 
 ---
 
