@@ -2,6 +2,7 @@
 layout: default
 title: "🧠 Mindset Tips" 
 parent: References
+nav_order: 3
 ---
 
 # 🧠 Mindset & Motivation Tips
