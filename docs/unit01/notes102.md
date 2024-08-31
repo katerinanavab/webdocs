@@ -5,11 +5,10 @@ parent: "1️⃣ Web Dev Foundations"
 nav_order: 2
 ---
 
-<details open markdown="block" class="fs-1">
-  <summary>
+<details open markdown="block" class="fs-1 custom-toc">
+  <summary class="text-delta">
     TABLE OF CONTENTS
   </summary>
-  {: .text-delta }
 - TOC
 {:toc}
 </details>
