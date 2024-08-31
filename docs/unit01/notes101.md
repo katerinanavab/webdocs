@@ -4,7 +4,15 @@ title: "📓1.1: Web Development"
 parent: "1️⃣ Web Dev Foundations"
 nav_order: 1
 ---
+<details open markdown="block" class="fs-2 custom-toc">
+  <summary class="text-delta">
+    TABLE OF CONTENTS
+  </summary>
+- TOC
+{:toc}
+</details>
 
+---
 ## Introduction to Web Development
 What do web developers do? In short, they **build and maintain websites**.
 
