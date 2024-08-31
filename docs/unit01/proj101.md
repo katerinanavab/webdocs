@@ -14,15 +14,17 @@ The website will consist of a main index page which will have links to a few rec
 
 But it's important to keep in mind that this project is just to build your HTML chops; we will revisit this project in the future to style it up with CSS.
 
-{: .new }
+<div class="setup" markdown="block">
+ 
 1. On [Replit](https://replit.com/~), click `+ Create Repl` on the sidebar to open a **NEW PROJECT**
 2. In the pop-up menu, select `HTML, CSS, JS` as the **TEMPLATE**
 3. Specify the **TITLE** following this pattern: `CS1_Unit1_Proj1_FirstNameLastInitial`
 
+</div>
 
 ### Instructions & Requirements
 
-<div class="note" markdown="block">
+<div class="task" markdown="block">
 #### Iteration 1: Create Initial Structure
 
 1. Within the Replit project, navigate to the `index.html` file.
@@ -31,7 +33,7 @@ But it's important to keep in mind that this project is just to build your HTML 
 
 </div> 
 
-<div class="note" markdown="block">
+<div class="task" markdown="block">
 #### Iteration 2: Start Recipe Page
  
 1. Create a new directory (folder) within the project and name it `recipes`.
@@ -41,7 +43,7 @@ But it's important to keep in mind that this project is just to build your HTML 
 
 </div>
 
-<div class="note" markdown="block">
+<div class="task" markdown="block">
 #### Iteration 3: Add Recipe Page Content
  
 Your new recipe page must have the following content:
@@ -52,7 +54,7 @@ Your new recipe page must have the following content:
 
 </div>
 
-<div class="note" markdown="block">
+<div class="task" markdown="block">
 #### Iteration 4: Add More Recipes
 
 1. Add **two more recipes** with identical page structures to the recipe page you've already created.
