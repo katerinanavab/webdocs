@@ -4,10 +4,12 @@ title: "📓1.1: Web Development"
 parent: "1️⃣ Web Dev Foundations"
 nav_order: 1
 ---
-<details open markdown="block" class="fs-2 custom-toc">
-  <summary class="text-delta">
+
+<details open markdown="block" class="fs-2">
+  <summary>
     TABLE OF CONTENTS
   </summary>
+  {:.text-delta}
 - TOC
 {:toc}
 </details>
