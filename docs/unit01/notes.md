@@ -1,7 +1,7 @@
 ---
 layout: notes
-title: "📓 Unit 1 Notes" 
-parent: "1️⃣ Basic HTML & CSS"
+title: "📓 Topic 1.1: Web Development" 
+parent: "1️⃣ Web Dev Foundations"
 nav_order: 1
 ---
 
