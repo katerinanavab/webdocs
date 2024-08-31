@@ -9,22 +9,13 @@ nav_order: 6
 
 ### Overview & Setup
 
-For this project you'll be creating an entire web page from a design we'll provide for you. If you've been following along you should have the skills you need to accomplish this, but it may not be easy!
+For this project you'll be **creating an entire web page from a provided design**. The design we're providing you comes in the form of 2 images: one is an image of the complete website, and one has some details about some of the fonts and colors we've used.
 
-The design we're providing you comes in the form of 2 images: one is an image of the complete website, and one has some details about some of the fonts and colors we've used.
+Do *not* be afraid to use Google or go back to the unit notes to look something up. **In real life, professional developers use Google *constantly* for things that they have been doing for years.** At this point it is not expected that you will have everything memorized, so don't worry about it. Additionally, there are a few small details that you may not have encountered in our lessons yet. *This is on purpose.* These details are minor, and easily searched (e.g. Google `css rounded corners`).
 
-Do *not* be afraid to use google or go back to previous lessons to look something up. **In real life, professional developers use google *constantly* for things that they have been doing for years.** At this point it is not expected that you will have everything memorized, so don't worry about it. Additionally, there are a few small details that you may not have encountered in our lessons yet. *This is by design.* These details are minor, and easily searched (e.g. google `css rounded corners`).
-
-Get your project as close as you can to the design, but do not worry about getting it pixel-perfect. Don't get out your ruler or count pixels to find the exact margins between the various sections. The point of this assignment is to create something from scratch and get the various elements in more or less the right position relative to the rest. It doesn't matter if you use `margin: 24px` when the design actually has `margin: 48px`.
-
-{: .warning }
-
-_A note about images on the web:_ You do not have the legal right to use just any image that you find on the web. There are many free images to be found, but make sure that the image you use is actually free for you to use, and make sure to credit the creator of the image in your project. Some good places to **find free-to-use images on the web** include [Pexels](https://www.pexels.com/), [Pixabay](https://pixabay.com/), and [Unsplash](https://unsplash.com/).
-
+Get your **project as close as you can to the design**, but do not worry about getting it pixel-perfect. Don't get out your ruler or count pixels to find the exact margins between the various sections. The point of this assignment is to create something from scratch and get the various elements in more or less the right position relative to the rest. It doesn't matter if you use `margin: 24px` when the design actually has `margin: 48px`.
 
 <div class="setup" markdown="block">
-
-#### PROJECT SETUP
 1. On [Replit](https://replit.com/~), click `+ Create Repl` on the sidebar to open a **NEW PROJECT**
 2. In the pop-up menu, select `HTML, CSS, JS` as the **TEMPLATE**
 3. Specify the **TITLE** following this pattern: `CS1_Unit1_Proj2_FirstNameLastInitial`
@@ -52,6 +43,10 @@ _A note about images on the web:_ You do not have the legal right to use just an
 <div class="task" markdown="block">
 *Finally*, you are free to substitute your own content into this design. The images have some meaningless dummy content, but your task is to make up a business and personalize this page. Insert actual images in the placeholders, and feel free to play with the colors and fonts a bit too.
 </div>
+
+{: .warning }
+
+_A note about images on the web:_ You do not have the legal right to use just any image that you find on the web. There are many free images to be found, but make sure that the image you use is actually free for you to use, and make sure to credit the creator of the image in your project. Some good places to **find free-to-use images on the web** include [Pexels](https://www.pexels.com/), [Pixabay](https://pixabay.com/), and [Unsplash](https://unsplash.com/).
 
 ---
 
