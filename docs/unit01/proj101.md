@@ -6,7 +6,7 @@ parent: "1️⃣ Web Dev Foundations"
 nav_order: 5
 ---
 
-### Introduction
+### Overview & Setup
 
 It's time to practice all of the HTML knowledge you have acquired. In this project, you are going to build a basic recipe website.
 
