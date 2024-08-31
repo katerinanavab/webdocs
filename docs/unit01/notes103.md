@@ -608,18 +608,14 @@ For an element that has both the `alert` and `warning` classes, the cascade woul
 
 <div class="task" markdown="1">
 
-1. Go back to our [CSS exercises repository](https://github.com/TheOdinProject/css-exercises) and navigate to the `foundations` directory. Review the README and complete the final exercise:
-   - `06-cascade-fix`
-
-    Note: Solutions for these exercises can be found in the `solution` folder of each exercise.
-
-1. Remember the Recipe page you created as practice from the HTML Foundations section? Well, it's rather *plain* looking, isn't it? Let's fix that by adding some CSS to it!
+Remember the Recipe page you created as practice from the HTML Foundations section? Well, it's rather *plain* looking, isn't it? Let's fix that by adding some CSS to it!
    - How you actually style it is completely open, but you should use the external CSS method (for this practice and moving forward). You should also try to use several of the properties mentioned in the previous lesson (color, background color, typography properties, etc). Take some time to play around with the various properties to get a feel for what they do. For now, don't worry at all about making it look *good*. This is just to practice and get used to writing CSS, not to make something to show off on your resume.
    - We haven't covered how to use a custom font for the `font-family` property yet, so for now take a look at [CSS Fonts](https://www.w3schools.com/Css/css_font.asp) for a list of generic font families to use, and [CSS Web Safe Fonts](https://www.w3schools.com/cssref/css_websafe_fonts.asp) for a list of fonts that are web safe. Web safe means that these are fonts that are installed on basically every computer or device (but be sure to still include a generic font family as a fallback).
 
 </div>
 
-### Additional resources
+#### Additional resources
+{: .no_toc }
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
@@ -669,6 +665,7 @@ The Styles panel also allows you to edit styles directly in the browser. You can
 </div>
 
 #### Additional resources
+{: .no_toc }
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
@@ -726,6 +723,7 @@ Be sure to study the diagrams carefully.
 </div>
 
 #### Knowledge check
+{: .no_toc }
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
@@ -807,6 +805,7 @@ Span is an inline-level element by default. It can be used to group text content
 </div>
 
 #### Knowledge check
+{: .no_toc }
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
