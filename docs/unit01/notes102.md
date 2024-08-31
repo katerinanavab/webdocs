@@ -66,6 +66,7 @@ HTML has a [vast list of predefined tags](https://developer.mozilla.org/en-US/do
 Using the correct elements for content is called semantic HTML. We will explore this in much more depth later on in the curriculum.
 
 ### Void Elements
+{:.no_toc}
 
 Some HTML elements do not have a closing tag. These elements just have a single tag, like: `<br>` or `<img>`. They are known as void elements because they are void of any content, there is nothing inside of them. No closing tag means they can't wrap content like other tags do.
 
@@ -91,6 +92,7 @@ The following questions are an opportunity to reflect on key topics in this less
 All HTML documents have the same basic structure or boilerplate that needs to be in place before anything useful can be done. In this lesson, we will explore the different parts of this boilerplate and see how it all fits together.
 
 ### Creating an HTML file
+{:.no_toc}
 
 To demonstrate an HTML boilerplate, we first need an HTML file to work with.
 
@@ -103,6 +105,7 @@ To let the computer know we want to create an HTML file, we need to append the f
 It is worth noting that we named our HTML file `index`. We should always name the HTML file that will contain the homepage of our website `index.html`. This is because web servers will by default look for an `index.html` page when users land on our websites -- and not having one will cause big problems.
 
 ### The DOCTYPE
+{:.no_toc}
 
 Every HTML page starts with a doctype declaration. The doctype's purpose is to tell the browser what version of HTML it should use to render the document. The latest version of HTML is HTML5, and the doctype for that version is `<!DOCTYPE html>`.
 
@@ -117,6 +120,7 @@ However, we probably won't ever want to be using an older version of HTML, so we
 Open the `index.html` file created earlier in your text editor and add `<!DOCTYPE html>` to the very first line.
 
 ### HTML element
+{:.no_toc}
 
 After we declare the doctype, we need to provide an `<html>` element. This is what's known as the root element of the document, meaning that every other element in the document will be a descendant of it.
 
@@ -133,10 +137,12 @@ Back in the `index.html` file, let's add the `<html>` element by typing out its 
 Noticed the word `lang` here? It represents an HTML attribute which is associated with the given HTML tag i.e. `<html>` in this case. These attributes provide additional information about HTML elements. (More about `HTML attributes` in the following lesson.)
 
 #### What is the lang attribute?
+{:.no_toc}
 
 `lang` specifies the language of the text content in that element. This attribute is primarily used for improving accessibility of the webpage. It allows assistive technologies, for example screen readers, to adapt according to the language and invoke correct pronunciation.
 
 ### Head element
+{:.no_toc}
 
 The `<head>` element is where we put important meta-information **about** our webpages, and stuff required for our webpages to render correctly in the browser.
 Inside the `<head>`, we **should not** use any element that displays content on the webpage.
@@ -155,12 +161,14 @@ Back in our `index.html` file, let's add a `<head>` element with a `<meta>` elem
 ```
 
 #### Meta element
+{:.no_toc}
 
 We should always have the `<meta>` tag with the charset encoding of the webpage in the `<head>` element: `<meta charset="utf-8">`.
 
 Setting the encoding is very important because it ensures that the webpage will display special symbols and characters from different languages correctly in the browser.
 
 #### Title element
+{:.no_toc}
 
 Another element we should always include in the head of an HTML document is the `<title>` element:
 
@@ -173,6 +181,7 @@ If we didn't include a `<title>` element, the webpage's title would default to i
 There are many more elements that can go within the head of an HTML document. However, for now it's only crucial to know about the two elements we have covered here. We will introduce more elements that go into the head throughout the rest of the curriculum.
 
 ### Body element
+{:.no_toc}
 
 The final element needed to complete the HTML boilerplate is the `<body>` element. This is where all the content that will be displayed to users will go - the text, images, lists, links, and so on.
 
@@ -190,61 +199,6 @@ To complete the boilerplate, add a `<body>` element to the `index.html` file. Th
   </body>
 </html>
 ```
-
-### Viewing HTML files in the browser
-
-The HTML boilerplate in the `index.html` file is complete at this point, but how do you view it in the browser?  There are a couple of different options:
-
-<div class="lesson-note lesson-note--warning" markdown="1">
-
-#### Use Google Chrome
-
-In order to avoid branching our lesson's instructions to accommodate for all of the differences between browsers, we are going to be using Google Chrome as our primary browser for the remainder of this course.  All references to the browser will pertain specifically to Google Chrome.  We **strongly** suggest that you use Google Chrome for all of your testing going forward.
-
-</div>
-
-1. You can drag and drop an HTML file from your text editor into the address bar of your browser.
-
-1. You can find the HTML file in your file system and then double click it. This will open up the file in the default browser your system uses.
-
-1. You can use the terminal to open the file in your browser:
-   - Ubuntu: Navigate to the directory containing the file and type `google-chrome index.html`
-   - macOS: Navigate to the directory containing the file and type `open ./index.html`
-   - WSL: Navigate to the directory containing the file and type `explorer.exe index.html`. Note, this will open up the file in the default browser your system uses.
-
-Using one of the methods above, open up the `index.html` file we have been working on. You'll notice the screen is blank. This is because we don't have anything in our body to display.
-
-Back in the `index.html` file, let's add a heading (more on these later) to the body, and save the file:
-
-```html
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>My First Webpage</title>
-  </head>
-
-  <body>
-    <h1>Hello World!</h1>
-  </body>
-</html>
-```
-
-Now, if you refresh the page in the browser, you should see the changes take effect, and the heading "Hello World!" will be displayed.
-
-### VSCode shortcut
-
-VSCode has a built-in shortcut you can use for generating all the boilerplate in one go. Please note that this shortcut only works while editing a file with the `.html` extension or a text file with the HTML language already selected. To trigger the shortcut, delete everything in the `index.html` file and just enter `!` on the first line. This will bring up a couple of options. Press the <kbd>Enter</kbd> key to choose the first one, and voila, you should have all the boilerplate populated for you.
-
-You may notice that the boilerplate produced by this shortcut includes a line we have not yet mentioned:
-
-```html
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-```
-
-This is not something we need to know about until we discuss responsive design, an advanced topic involving different screen sizes which we will cover much later in the curriculum. For now, you can leave that line as it is.
-
-It's still good to know how to write the boilerplate yourself in case you find yourself using a text editor like notepad (heaven forbid), which doesn't have this shortcut. Try not to use the shortcut in your first few HTML projects, so you can build some muscle memory for writing the boilerplate code.
 
 <div class="task" markdown="1">
 
@@ -269,7 +223,7 @@ The following questions are an opportunity to reflect on key topics in this less
 
 Most content on the web is text-based, so you will find yourself needing to work with HTML text elements quite a bit.
 
-In this lesson, we will learn about the text-based elements:
+In this module, we will learn about the text-based elements:
 
 - How to create paragraphs.
 - How to create headings.
@@ -279,6 +233,7 @@ In this lesson, we will learn about the text-based elements:
 - How to create HTML comments.
 
 ### Paragraphs
+{:.no_toc}
 
 What would you expect the following text to output on an HTML page?
 
@@ -321,6 +276,7 @@ Changing our example from before to use paragraph elements fixes the issue:
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 ### Headings
+{:.no_toc}
 
 Headings are different from other HTML text elements: they are displayed larger and bolder than other text to signify that they are headings.
 
@@ -341,6 +297,7 @@ Headings are defined much like paragraphs. For example, to create an h1 heading,
 Using the correct level of heading is important as levels provide a hierarchy to the content. An h1 heading should always be used for the heading of the overall page, and the lower level headings should be used as the headings for content in smaller sections of the page.
 
 ### Strong element
+{:.no_toc}
 
 The `<strong>` element makes text bold. It also semantically marks text as important; this affects tools, like screen readers, that users with visual impairments will rely on to use your website. The tone of voice on some screen readers will change to communicate the importance of the text within a strong element. To define a strong element, we wrap text content in a `<strong>` tag.
 
@@ -371,6 +328,7 @@ But you will probably find yourself using the strong element much more in combin
 Sometimes you will want to make text bold without giving it an important meaning. You'll learn how to do that in the CSS lessons later in the curriculum.
 
 ### Em element
+{:.no_toc}
 
 The `<em>` element makes text italic. It also semantically places emphasis on the text, which again may affect things like screen readers. To define an emphasised element, wrap the text content in an `<em>` tag.
 
@@ -399,6 +357,7 @@ Again, like the strong element, you will find yourself mostly using the `<em>` e
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 ### Nesting and indentation
+{:.no_toc}
 
 You may have noticed that in all the examples in this lesson we indent any elements that are within other elements. This is known as nesting elements.
 
@@ -435,6 +394,7 @@ We use indentation to make the level of nesting clear and readable for ourselves
 The parent, child, and sibling relationships between elements will become much more important later when we start styling our HTML with CSS and adding behavior with JavaScript. For now, however, it is just important to know the distinction between how elements are related and the terminology used to describe their relationships.
 
 ### HTML comments
+{:.no_toc}
 
 HTML comments are not visible to the browser; they allow us to *comment* on our code so that other developers or our future selves can read them and get some context about something that might not be clear in the code.
 
@@ -451,13 +411,10 @@ In order to write an HTML comment, we just enclose the comment with `<!--` and `
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 
-### Assignment
-
+#### Activity
 <div class="task" markdown="1">
 
-1. Watch Kevin Powell's [HTML Paragraph and Headings Video](https://www.youtube.com/watch?v=yqcd-XkxZNM&t=35s).
-1. Watch Kevin Powell's [HTML Bold and Italic Text Video](https://www.youtube.com/watch?v=gW6cBZLUk6M&t=5s).
-1. To get some practice working with text in HTML, create a plain blog article page which uses different headings, uses paragraphs, and has some text in the paragraphs bolded and italicized. You can use [Lorem Ipsum](https://en.wikipedia.org/wiki/Lorem_ipsum) to generate dummy text, in place of real text as you build your sites. VS Code includes a shortcut to generate lorem ipsum for you. To trigger the shortcut, type `lorem` on the line where you want the dummy text, then press the <kbd>Enter</kbd> key, and voila, you have generated dummy text without a hitch.
+1. To get some practice working with text in HTML, create a plain blog article page which uses different headings, uses paragraphs, and has some text in the paragraphs bolded and italicized. You can use [Lorem Ipsum](https://en.wikipedia.org/wiki/Lorem_ipsum) to generate dummy text, in place of real text as you build your sites.
 
 </div>
 
@@ -476,8 +433,7 @@ The following questions are an opportunity to reflect on key topics in this less
 - [How do you create HTML comments?](#html-comments)
 
 #### Additional Resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
+{:.no_toc}
 
 - [The semantic difference between &lt;strong> and &lt;b> or &lt;em> and &lt;i> tags and when to use them.](https://medium.com/@zac_heisey/when-to-use-strong-b-em-and-i-tags-in-your-markup-fa4d0af8affb)
 - [An interactive HTML text formatting article](https://www.w3schools.com/html/html_formatting.asp)
@@ -487,14 +443,10 @@ This section contains helpful links to related content. It isn't required, so co
 
 Whether it be IMDB's top 250 movies or the FBI's most wanted, lists are everywhere on the web and you are going to need one eventually in your webpages.
 
-Luckily, with HTML there are a couple of different types of lists at your disposal.
+Luckily, with HTML there are a couple of different types of lists at your disposal:
 
-### Lesson overview
-
-This section contains a general overview of topics that you will learn in this lesson.
-
-- How to create an unordered list.
-- How to create an ordered list.
+- unordered list
+- ordered list
 
 ### Unordered lists
 
@@ -530,9 +482,9 @@ Ordered lists are created using the `<ol>` element. Each individual item in them
 
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-### Assignment
+### Activity
 
-<div class="lesson-content__panel" markdown="1">
+<div class="task" markdown="1">
 
 To get some practice using lists, create a new HTML document and create the following lists:
 
@@ -543,7 +495,7 @@ To get some practice using lists, create a new HTML document and create the foll
 
 </div>
 
-### Knowledge check
+#### Knowledge check
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
@@ -551,9 +503,8 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What HTML element is used to create an ordered list?](#ordered-lists)
 - [What HTML element is used to create list items within both unordered and ordered lists?](#li)
 
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
+#### Additional resources
+{:.no_toc}
 
 - [MDN documentation on the unordered list element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul)
 - [MDN documentation on the ordered list element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol)
@@ -561,15 +512,10 @@ This section contains helpful links to related content. It isn't required, so co
 
 ---
 ## Links and Images
-### Introduction
 
-Links are one of the key features of HTML. They allow us to link to other HTML pages on the web. In fact, this is why it's called the web.
+Links are one of the key features of HTML. They allow us to link to other HTML pages on the web. In fact, this is why it's called the web. In this lesson, we will learn how to create links and add some visual flair to our websites by embedding images.
 
-In this lesson, we will learn how to create links and add some visual flair to our websites by embedding images.
-
-### Lesson overview
-
-This section contains a general overview of topics that you will learn in this lesson.
+### Learning Objectives
 
 - How to create links to pages on other websites on the internet.
 - How to create links to other pages on your own websites.
