@@ -5,7 +5,7 @@ parent: "1️⃣ Web Dev Foundations"
 nav_order: 2
 ---
 
-<details open markdown="block">
+<details open markdown="block" class="fs-1">
   <summary>
     TABLE OF CONTENTS
   </summary>
