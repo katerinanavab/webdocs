@@ -26,6 +26,16 @@ h3 {
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12), 0 3px 10px rgba(0, 0, 0, 0.08);
     padding: .8rem;
 }
+
+.setup {
+    background: rgba($green-000, 0.2);
+    border-left: $border-radius solid $green-300;
+    border-radius: $border-radius;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12), 0 3px 10px rgba(0, 0, 0, 0.08);
+    padding: .8rem;
+}
+
+/* 
 .task::before {
         color: $purple-300;
         content: "Task";
@@ -34,4 +44,5 @@ h3 {
         text-transform: uppercase;
         font-size: .75em;
         padding-bottom: .125rem;
-    }
+}
+*/
