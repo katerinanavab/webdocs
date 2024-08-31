@@ -17,15 +17,13 @@ nav_order: 3
 
 In the previous lesson, you learned how to write the HTML that determines how a web page is structured. The next step is to make that structure look good with some *style*, which is exactly what CSS is for. In the next few lessons, we're going to focus on what we believe are some foundational CSS concepts, things that everyone should know from the beginning — whether they are just starting out or need a refresher.
 
-### Lesson overview
-
-This section contains a general overview of topics that you will learn in this lesson.
+General overview of topics that you will learn in this module:
 
 - Add styles to HTML with CSS.
 - Understand how to use the class and ID attributes.
 - Add styles to specific elements using the correct selectors.
 
-### Basic syntax
+### Basic Syntax
 
 At the most basic level, CSS is made up of various rules. These rules are made up of a selector (more on this in a bit) and a semicolon-separated list of declarations, with each of those declarations being made up of a property–value pair.
 
@@ -33,17 +31,15 @@ At the most basic level, CSS is made up of various rules. These rules are made u
 
 <div class="lesson-note" markdown="1">
 
-#### Note
-
+{: .highlight }
 A `<div>` is one of the basic HTML elements. It is an empty container. In general, it is best to use other tags such as `<h1>` or `<p>` for content in your projects, but as we learn more about CSS you'll find that there are many cases where the thing you need is just a container for other elements. Many of our exercises use plain`<div>`s for simplicity. Later lessons will go into much more depth about when it is appropriate to use the various HTML elements.
-
-</div>
 
 ### Selectors
 
-Selectors refer to the HTML elements to which CSS rules apply; they're what is actually being "selected" for each rule. The following subsections don't cover every selector available, but they're by far the most common and the ones you should get comfortable using first.
+**Selectors** refer to the HTML elements to which CSS rules apply; they're what is actually being "selected" for each rule. The following subsections don't cover every selector available, but they're by far the most common and the ones you should get comfortable using first.
 
 #### Universal selector
+{: .no_toc }
 
 The universal selector will select elements of any type, hence the name "universal", and the syntax for it is a simple asterisk. In the example below, every element would have the `color: purple;` style applied to it.
 
@@ -54,6 +50,7 @@ The universal selector will select elements of any type, hence the name "univers
 ```
 
 #### Type selectors
+{: .no_toc }
 
 A type selector (or element selector) will select all elements of the given element type, and the syntax is just the name of the element:
 
@@ -77,6 +74,7 @@ div {
 Here, all three `<div>` elements would be selected, while the `<p>` element wouldn't be.
 
 #### Class selectors
+{: .no_toc }
 
 Class selectors will select all elements with the given class, which is just an attribute you place on an HTML element. Here's how you add a class to an HTML tag and select it in CSS:
 
@@ -99,6 +97,7 @@ Note the syntax for class selectors: a period immediately followed by the case-s
 Another thing you can do with the class attribute is to add multiple classes to a single element as a space-separated list, such as `class="alert-text severe-alert"`. Since whitespace is used to separate class names like this, you should never use spaces for multi-worded names and should use a hyphen instead.
 
 #### ID selectors
+{: .no_toc }
 
 ID selectors are similar to class selectors. They select an element with the given ID, which is another attribute you place on an HTML element. The major difference between classes and IDs is that an element can only have **one** ID. It cannot be repeated on a single page and should not contain any whitespace:
 
@@ -119,6 +118,7 @@ ID selectors are similar to class selectors. They select an element with the giv
 For IDs, instead of a period, we use a hashtag immediately followed by the case-sensitive value of the ID attribute. A common pitfall is people overusing the ID attribute when they don't necessarily need to, and when classes will suffice. While there are cases where using an ID makes sense or is needed, such as taking advantage of specificity or having links redirect to a section on the current page, you should use IDs **sparingly** (if at all).
 
 #### The grouping selector
+{: .no_toc }
 
 What if we have two groups of elements that share some of their style declarations?
 
@@ -157,6 +157,7 @@ Both our `.read` and `.unread` selectors share the `color: white;` and `backgrou
 Both of the examples above (with and without grouping) will have the same result, but the second example reduces the repetition of declarations and makes it easier to edit either the `color` or `background-color` for both classes at once.
 
 #### Chaining selectors
+{: .no_toc }
 
 Another way to use selectors is to chain them as a list without any separation. Let's say we had the following HTML:
 
@@ -203,6 +204,7 @@ You can take the two elements above and combine them with the following:
 In general, you can't chain more than one type selector since an element can’t be two different types at once. For example, chaining two type selectors like `div` and `p` would give us the selector `divp`, which wouldn't work since the selector would try to find a literal `<divp>` element, which doesn’t exist.
 
 #### Descendant combinator
+{: .no_toc }
 
 Combinators allow us to combine multiple selectors differently than either grouping or chaining them, as they show a relationship between the selectors. There are four types of combinators in total, but for right now we're going to only show you the **descendant combinator**, which is represented in CSS by a single space between selectors. <span id="descendant-combinator-description">A descendant combinator will only cause elements that match the last selector to be selected if they also have an ancestor (parent, grandparent, etc.) that matches the previous selector.</span>
 
@@ -239,6 +241,7 @@ There's really no limit to how many combinators you can add to a rule, so `.one 
 There are some CSS properties that you're going to be using all the time, or at the very least more often than not. We're going to introduce you to several of these properties, though this is by no means a complete list. Learning the following properties will be enough to help get you started.
 
 #### Color and background-color
+{: .no_toc }
 
 The `color` property sets an element's text color, while `background-color` sets, well, the background color of an element. I guess we're done here?
 
@@ -264,6 +267,7 @@ p {
 Take a quick look at [CSS Legal Color Values](https://www.w3schools.com/cssref/css_colors_legal.asp) to see how you can adjust the opacity of these colors by adding an alpha value.
 
 #### Typography basics and text-align
+{: .no_toc }
 
 `font-family` can be a single value or a comma-separated list of values that determine what font an element uses. Each font will fall into one of two categories, either a "font family name" like `"Times New Roman"` (we use quotes due to the whitespace between words) or a "generic family name" like `serif` (generic family names never use quotes).
 
@@ -276,6 +280,7 @@ If a browser cannot find or does not support the first font in a list, it will u
 `text-align` will align text horizontally within an element, and you can use the common keywords you may have come across in word processors as the value for this property, e.g. `text-align: center`.
 
 #### Image height and width
+{: .no_toc }
 
 Images aren't the only elements that we can adjust the height and width on, but we want to focus on them specifically in this case.
 
@@ -297,6 +302,7 @@ These properties work in conjunction with the height and width attributes in the
 Now that we've learned some basic syntax, you might be wondering *how* to add all this CSS to our HTML. There are three methods to do so.
 
 #### External CSS
+{: .no_toc }
 
 External CSS is the most common method you will come across, and it involves creating a separate file for the CSS and linking it inside of an HTML's opening and closing `<head>` tags with a void `<link>` element:
 
@@ -333,6 +339,7 @@ A couple of the pros to this method are:
 1. We only need to edit the CSS in *one* place, which is especially handy for websites with many pages that all share similar styles.
 
 #### Internal CSS
+{: .no_toc }
 
 Internal CSS (or embedded CSS) involves adding the CSS within the HTML file itself instead of creating a completely separate file. With the internal method, you place all the rules inside of a pair of opening and closing `<style>` tags, which are then placed inside of the opening and closing `<head>` tags of your HTML file. Since the styles are being placed directly inside of the `<head>` tags, we no longer need a `<link>` element that the external method requires.
 
@@ -359,6 +366,7 @@ Besides these differences, the syntax is exactly the same as the external method
 This method can be useful for adding unique styles to a *single page* of a website, but it doesn't keep things separate like the external method, and depending on how many rules and declarations there are it can cause the HTML file to get pretty big.
 
 #### Inline CSS
+{: .no_toc }
 
 Inline CSS makes it possible to add styles directly to HTML elements, though this method isn't as recommended:
 
@@ -376,9 +384,7 @@ If you need to add a *unique* style for a *single* element, this method can work
 - If you want many elements to have the same style, you would have to copy and paste the same style to each individual element, causing lots of unnecessary repetition and more bloat.
 - Any inline CSS will override the other two methods, which can cause unexpected results. (While we won't dive into it here, this can actually be taken advantage of.)
 
-### Assignment
-
-<div class="lesson-content__panel" markdown="1">
+<div class="task" markdown="1">
 
 1. Go to our [CSS exercises repository](https://github.com/TheOdinProject/css-exercises) and read the README. Then, once you know how to use the exercises, navigate to the `foundations` directory. Review each README file prior to completing the following exercises in order:
 
@@ -392,38 +398,19 @@ If you need to add a *unique* style for a *single* element, this method can work
 
 </div>
 
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What is the syntax for class and ID selectors?](#class-selectors)
-- [How would you apply a single rule to two different selectors?](#the-grouping-selector)
-- [Given an element that has an id of `title` and a class of `primary`, how would you use both attributes for a single rule?](#chaining-selectors)
-- [What does the descendant combinator do?](#descendant-combinator-description)
-- [What are the names of the three ways to add CSS to HTML?](#adding-css-to-html)
-- [What are the main differences between the three ways of adding CSS to HTML?](#external-css)
-
-### Additional resources
+### Additional Resources
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - [Mozilla CSS values and units](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units) can be used to learn the various types of values possible in absolute or relative terms.
-- [An interactive Scrim](https://scrimba.com/scrim/co12d4cf99cf2776f19e84a9d) which covers much of the material in the lesson in an interactive form.
 
 ---
 ## The Cascade
 
 In the previous lesson, we covered basic CSS syntax and selectors. Now, it's time to combine our knowledge of selectors with the *C* of CSS -- the cascade.
 
-### Lesson overview
-
-This section contains a general overview of topics that you will learn in this lesson.
-
-- What the cascade does.
-- Specificity and combining CSS selectors.
-- How inheritance affects certain properties.
-
 ### The cascade of CSS
+{: .no_toc }
 
 Sometimes we may have rules that conflict with one another, and we end up with some unexpected results. "But I wanted *these* paragraphs to be blue, why are they red like these other paragraphs?!" As frustrating as this can be, it's important to understand that CSS doesn't just *do* things against our wishes. CSS only does what we tell it to do. One exception to this is the default styles that are provided by a browser. These default styles vary from browser to browser, and they are why some elements create a large "gap" between themselves and other elements, or why buttons look the way they do, despite us not writing any CSS rules to style them that way.
 
@@ -432,6 +419,7 @@ So if you end up with some unexpected behavior like this it's either because of 
 The cascade is what determines which rules actually get applied to our HTML. There are different factors that the cascade uses to determine this. We will examine three of these factors, which will hopefully help you avoid those frustrating "I hate CSS" moments.
 
 #### Specificity
+{: .no_toc }
 
 A CSS declaration that is more specific will take precedence over less specific ones. Inline styles, which we went over in the previous lesson, have the highest specificity compared to selectors, while each type of selector has its own specificity level that contributes to how specific a declaration is. Other selectors contribute to specificity, but we're focusing only on the ones we've gone over so far:
 
@@ -520,6 +508,7 @@ While the `color: red` declaration would take precedence, the `background-color:
 <div class="lesson-note" markdown="1">
 
 ##### Not everything adds to specificity
+{: .no_toc }
 
 When comparing selectors, you may come across special symbols for the universal selector (`*`) as well as combinators (`+`, `~`, `>`, and an empty space). These symbols do not add any specificity in and of themselves.
 
@@ -568,6 +557,7 @@ h1 {
 In this example, rule 2 would have higher specificity and the `orange` value would take precedence for this element. Rule 2 uses a type selector, which has the lowest specificity value. But rule 1 uses the universal selector (`*`) which has no specificity value.
 
 #### Inheritance
+{: .no_toc }
 
 Inheritance refers to certain CSS properties that, when applied to an element, are inherited by that element's descendants, even if we don't explicitly write a rule for those descendants. Typography-based properties (`color`, `font-size`, `font-family`, etc.) are usually inherited, while most other properties aren't.
 
@@ -596,6 +586,7 @@ The exception to this is when directly targeting an element, as this always beat
 Despite the `parent` element having a higher specificity with an ID, the `child` element would have the `color: blue` style applied since that declaration directly targets it, while `color: red` from the parent is only inherited.
 
 #### Rule order
+{: .no_toc }
 
 The final factor, the end of the line, the tie-breaker of the tie-breakers. Let's say that after every other factor has been taken into account, there are still multiple conflicting rules targeting an element. How does the cascade determine which rule to apply?
 
@@ -615,9 +606,7 @@ Whichever rule was the *last* defined is the winner.
 
 For an element that has both the `alert` and `warning` classes, the cascade would run through every other factor, including inheritance (none here) and specificity (neither rule is more specific than the other). Since the `.warning` rule was the last one defined, and no other factor was able to determine which rule to apply, it's the one that gets applied to the element.
 
-### Assignment
-
-<div class="lesson-content__panel" markdown="1">
+<div class="task" markdown="1">
 
 1. Go back to our [CSS exercises repository](https://github.com/TheOdinProject/css-exercises) and navigate to the `foundations` directory. Review the README and complete the final exercise:
    - `06-cascade-fix`
@@ -630,12 +619,6 @@ For an element that has both the `alert` and `warning` classes, the cascade woul
 
 </div>
 
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [Between a rule that uses one class selector and a rule that uses three type selectors, which rule has the higher specificity?](#high-specificity-class-type)
-
 ### Additional resources
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
@@ -644,30 +627,22 @@ This section contains helpful links to related content. It isn't required, so co
 - [CSS Specificity Explained](https://www.youtube.com/watch?v=c0kfcP_nD9E) from Kevin Powell goes through various specificity examples and gives some advice on avoiding wrestling with specificity.
 - [CSS Specificity Calculator](https://specificity.keegan.st/) allows you to fill in your own selectors and have their specificity calculated and visualized.
 - [Mozilla CSS Properties Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Properties_Reference) can be used to learn if a particular CSS property is inherited or not; look for the **Inherited** field inside the **Formal Definition** section. Here's an example for [the CSS `color` property](https://developer.mozilla.org/en-US/docs/Web/CSS/color#formal_definition).
-- [Interactive Scrim on the CSS Cascade.](https://v1.scrimba.com/scrim/c9gwmnAR)
 
 ---
 
 ## Inspecting HTML & CSS
-### Introduction
 
 Being able to inspect and debug your HTML and CSS is critical for frontend development. This lesson will take us through the Chrome Dev Tools, which allow you to see detailed information about your elements and CSS rules, as well as assist you in finding and fixing problems in your code.
 
-### Lesson overview
-
-This section contains a general overview of topics that you will learn in this lesson.
-
-- You will know how to access the element inspector.
-- You will know how to select and inspect specific elements.
-- You will know how to test out HTML and CSS in the inspector.
-
 ### The inspector
+{: .no_toc }
 
 To open up the inspector, you can right-click on any element of a webpage and click "Inspect" or press F12. Go ahead and do that right now to see the HTML and CSS used on this page.
 
 Don't get overwhelmed with all the tools you're now seeing! For this lesson, we want to focus on the Elements and Styles panels.
 
 ### Inspecting elements
+{: .no_toc }
 
 In the Elements panel, you can see the entire HTML structure of your page. You can click on any of the elements in this panel to select that specific element. Alternatively, you can click the blue-highlighted icon shown below on the left, and hover over any element on the page.
 
@@ -678,12 +653,11 @@ In the Elements panel, you can see the entire HTML structure of your page. You c
 ![Overwritten style](https://cdn.statically.io/gh/TheOdinProject/curriculum/f8fd38fc62578d8e8368f5303126215a492847f0/foundations/html_css/inspecting-html-and-css/imgs/03.png)
 
 ### Testing styles in the inspector
+{: .no_toc }
 
 The Styles panel also allows you to edit styles directly in the browser. You can click inside of any individual selector to add a new rule or click on an existing attribute or value to alter it. When doing so, the webpage responds with the changes in real-time. This won’t affect the source code in your text editor, but it is extremely useful for quickly testing out various attributes and values without needing to reload the page over and over again.
 
-### Assignment
-
-<div class="lesson-content__panel" markdown="1">
+<div class="task" markdown="1">
 
 1. Go through the following sections of the [official Chrome DevTools docs](https://developers.google.com/web/tools/chrome-devtools):
 
@@ -694,15 +668,7 @@ The Styles panel also allows you to edit styles directly in the browser. You can
 
 </div>
 
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [How do you select a specific element on your page with your browser’s developer tools?](#inspecting-elements)
-- [What does a strikethrough in a CSS declaration mean in your browser’s developer tools?](#strikethrough)
-- [How do you change CSS in real time on specific elements of a web page with your browser’s developer tools?](#testing-styles-in-the-inspector)
-
-### Additional resources
+#### Additional resources
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
@@ -711,20 +677,16 @@ This section contains helpful links to related content. It isn't required, so co
 ---
 
 ## The Box Model
-### Introduction
 
 Now that you understand the basic syntax of HTML and CSS, we're going to get serious. The most important skills you need to master with CSS are *positioning* and *layout*. Changing fonts and colors is a crucial skill, but being able to put things exactly where you want them on a webpage is even more crucial. After all, how many webpages can you find where absolutely every element is just stacked one on top of another?
 
 Learning to position elements on a webpage is not that difficult once you understand just a few key concepts. Unfortunately, many learners race through learning HTML and CSS to get to JavaScript and end up missing these fundamental concepts. This leads to frustration and pain ([and funny gifs](https://giphy.com/gifs/css-13FrpeVH09Zrb2)) because all the JavaScript skills in the world are meaningless if you can't stick your elements on the page where you need them to be. So with that in mind, let's get started.
 
-### Lesson overview
-
-This section contains a general overview of topics that you will learn in this lesson.
-
 - You'll learn all about *the box model*.
 - You'll learn how to make sure elements are just the right size with `margin`, `padding`, and `borders`.
 
 ### The box model
+{: .no_toc }
 
 The first important concept that you need to understand to be successful in CSS is the box model. It isn't complicated, but skipping over it now would cause you much frustration down the line.
 
@@ -754,9 +716,7 @@ Be sure to study the diagrams carefully.
 
 ![the box model](https://cdn.statically.io/gh/TheOdinProject/curriculum/main/foundations/html_css/css-foundations/the-box-model/imgs/box-model.png)
 
-### Assignment
-
-<div class="lesson-content__panel" markdown="1">
+<div class="task" markdown="1">
 
 1. [Learn CSS Box Model In 8 Minutes](https://www.youtube.com/watch?v=rIO5326FgPE) is a straightforward overview of the box model, padding and margin. Go ahead and watch this now; it informs everything else.
 1. [box-sizing: border-box (EASY!)](https://www.youtube.com/watch?v=HdZHcFWcAd8) is an add-on to the above resource with a better explanation of 'box-sizing'.
@@ -765,7 +725,7 @@ Be sure to study the diagrams carefully.
 
 </div>
 
-### Knowledge check
+#### Knowledge check
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
@@ -778,22 +738,10 @@ The following questions are an opportunity to reflect on key topics in this less
 - [How do you set the alternative box model for all of your elements?](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model#the_alternative_css_box_model)
 - [How do you center an element horizontally?](https://css-tricks.com/almanac/properties/m/margin/#aa-auto-and-centering)
 
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- For a more interactive explanation and example, try this [Scrim on the box model](https://scrimba.com/scrim/cof3d488184abe24ec6258ab4).
-- This informative video tutorial by [Slaying The Dragon](https://youtu.be/nSst4-WbEZk?si=HbgcEB7UyLdNbE6n) offers a valuable resource for understanding the box model.
-
 ---
 ## Block and Inline
-### Introduction
 
 In the previous lesson, we discovered that different display types have unique box models, and we can modify the box calculation by changing the `display` property. CSS has two box types: `block` and `inline` boxes, which determine element behavior and interaction. The `display` property controls how HTML elements appear on the webpage. We will explore its various options further in this lesson.
-
-### Lesson overview
-
-This section contains a general overview of topics that you will learn in this lesson.
 
 - You'll learn about "Normal flow".
 - You'll learn the difference between `block` and `inline` elements.
@@ -801,16 +749,19 @@ This section contains a general overview of topics that you will learn in this l
 - You'll learn what divs and spans are.
 
 ### Block vs inline
+{: .no_toc }
 
 Most of the elements that you have learned about so far are block elements.  In other words, their default style is `display: block`. <span id="block-inline-difference"></span>By default, block elements will appear on the page stacked atop each other, each new element starting on a new line.
 
 Inline elements, however, do not start on a new line. They appear in line with whatever elements they are placed beside. A clear example of an inline element is a link, or `<a>` tag. If you stick one of these in the middle of a paragraph of text, [the link will behave like a part of the paragraph](https://www.youtube.com/watch?v=dQw4w9WgXcQ). Additionally, padding and margin behave differently on inline elements. In general, you do not want to try to put extra padding or margin on inline elements.
 
 #### The middle ground inline-block
+{: .no_toc }
 
 Inline-block elements behave like inline elements, but with block-style padding and margin. `display: inline-block` is a useful tool to know about, but in practice, you'll probably end up reaching for flexbox more often if you're trying to line up a bunch of boxes. Flexbox will be covered in-depth in the next lesson.
 
 ### Divs and spans
+{: .no_toc }
 
 We can't talk about block and inline elements without discussing divs and spans. All the other HTML elements we have encountered so far give meaning to their content. For example, paragraph elements tell the browser to display the text it contains as a paragraph. Strong elements tell the browser which texts within are important and so on. Yet, divs and spans give no particular meaning to their content. They are just generic boxes that can contain anything.
 
@@ -840,9 +791,7 @@ Span is an inline-level element by default. It can be used to group text content
 
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-### Assignment
-
-<div class="lesson-content__panel" markdown="1">
+<div class="task" markdown="1">
 
 1. The concept of "Normal flow" is implied in the box-model resources, but isn't laid out very specifically. Read ["Normal Flow" from MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Normal_Flow) to make sure you understand how elements lay themselves out by default.
 1. W3 schools' ["HTML Block and Inline Elements"](https://www.w3schools.com/html/html_blocks.asp) has a description and a list of all the default block and inline elements.
@@ -857,7 +806,7 @@ Span is an inline-level element by default. It can be used to group text content
 
 </div>
 
-### Knowledge check
+#### Knowledge check
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
@@ -867,14 +816,6 @@ The following questions are an opportunity to reflect on key topics in this less
 - [Is `button` block or inline?](https://www.w3schools.com/html/html_blocks.asp)
 - [Is `div` block or inline?](https://www.w3schools.com/html/html_blocks.asp)
 - [Is `span` block or inline?](https://www.w3schools.com/html/html_blocks.asp)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- [Learn CSS Layout](https://learnlayout.com/no-layout.html) is a tutorial that is a little dated at this point, but its examples are clear. The first 6 slides cover the material we've seen so far.
-- Watch this short video on [what the term “Normal Flow” means](https://www.youtube.com/watch?v=nfXRw06FgK8) in CSS.
-- For a more interactive explanation and example, try this [Scrim on block and inline display](https://scrimba.com/scrim/co5024997a7e46c232d9abe55).
 
 ---
 
