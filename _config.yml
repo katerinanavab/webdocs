@@ -31,7 +31,7 @@ callouts:
     title: Important
     color: blue
   new:
-    title: New
+    title: Setup
     color: green
   note:
     title: Task
