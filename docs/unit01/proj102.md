@@ -1,3 +1,11 @@
+---
+layout: project
+title: "💻 Project 1.2"
+projectname: "Landing Page"
+parent: "1️⃣ Web Dev Foundations"
+nav_order: 4
+---
+
 ### Introduction
 
 For this project you'll be creating an entire web page from a design we'll provide for you. If you've been following along you should have the skills you need to accomplish this, but it may not be easy!
