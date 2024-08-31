@@ -15,8 +15,6 @@ The website will consist of a main index page which will have links to a few rec
 But it's important to keep in mind that this project is just to build your HTML chops; we will revisit this project in the future to style it up with CSS.
 
 <div class="setup" markdown="block">
-
-#### PROJECT SETUP
 1. On [Replit](https://replit.com/~), click `+ Create Repl` on the sidebar to open a **NEW PROJECT**
 2. In the pop-up menu, select `HTML, CSS, JS` as the **TEMPLATE**
 3. Specify the **TITLE** following this pattern: `CS1_Unit1_Proj1_FirstNameLastInitial`
@@ -33,7 +31,7 @@ But it's important to keep in mind that this project is just to build your HTML 
 2. Add an `h1` heading in the body section that describes the main title of the website (like _"My Favorite Recipes"_ or _"Sweet Treats for Fall"_).
 
 </div> 
-
+<br>
 <div class="task" markdown="block">
 #### Iteration 2: Start Recipe Page
  
@@ -43,7 +41,7 @@ But it's important to keep in mind that this project is just to build your HTML 
 1. Back in the `index.html` file, add a link to the recipe page you just created. _Example:_ Under the `<h1>Odin Recipes</h1>` heading, write out the link like so: `<a href="recipes/recipename.html">Recipe Title</a>`. The text of the link should again be the recipe name.
 
 </div>
-
+<br>
 <div class="task" markdown="block">
 #### Iteration 3: Add Recipe Page Content
  
@@ -54,7 +52,7 @@ Your new recipe page must have the following content:
 1. Finally, under the ingredients list, add a "Steps" heading followed by an **ordered list** of the steps needed for making the dish.
 
 </div>
-
+<br>
 <div class="task" markdown="block">
 #### Iteration 4: Add More Recipes
 
