@@ -16,6 +16,7 @@ Do *not* be afraid to use Google or go back to the unit notes to look something 
 Get your **project as close as you can to the design**, but do not worry about getting it pixel-perfect. Don't get out your ruler or count pixels to find the exact margins between the various sections. The point of this assignment is to create something from scratch and get the various elements in more or less the right position relative to the rest. It doesn't matter if you use `margin: 24px` when the design actually has `margin: 48px`.
 
 <div class="setup" markdown="block">
+
 1. On [Replit](https://replit.com/~), click `+ Create Repl` on the sidebar to open a **NEW PROJECT**
 2. In the pop-up menu, select `HTML, CSS, JS` as the **TEMPLATE**
 3. Specify the **TITLE** following this pattern: `CS1_Unit1_Proj2_FirstNameLastInitial`
@@ -24,9 +25,9 @@ Get your **project as close as you can to the design**, but do not worry about g
 
 ### Instructions & Requirements
 
+#### Iteration 1: Copy the Structure
 <div class="task" markdown="block">
 
-#### Iteration 1: Copy the Structure
 1. Download the design images and take a look at what you're going to be creating here. [Image One (Full Design)](https://cdn.statically.io/gh/TheOdinProject/curriculum/81a5d553f4073e593d23a6ab00d50eef8620796d/foundations/html_css/project/imgs/01.png), [Image Two (Color and Fonts)](https://cdn.statically.io/gh/TheOdinProject/curriculum/69e40b6fcacf567f77243547b7f89df75dd8c3d0/foundations/html_css/project/imgs/02.png)
     1. The font that's being used in the images is `Roboto`.
     1. "Hero text" is the statement that appears at the top of a web page.
@@ -40,8 +41,11 @@ Get your **project as close as you can to the design**, but do not worry about g
 </div>
 
 #### Iteration 2: Add Your Own Content
+
 <div class="task" markdown="block">
+
 *Finally*, you are free to substitute your own content into this design. The images have some meaningless dummy content, but your task is to make up a business and personalize this page. Insert actual images in the placeholders, and feel free to play with the colors and fonts a bit too.
+
 </div>
 
 {: .warning }
