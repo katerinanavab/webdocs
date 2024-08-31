@@ -20,7 +20,7 @@ Web developers often work for clients who are trying to get their product or ser
 
 Web development could be a good profession for you if you like solving logical problems, building useful things, and experimenting with new technologies. Web developers are in high demand, generally have a good work-life balance, and command comfortable salaries. Google your specific location to get a better sense of your local web development job opportunities.
 
-### Types of web developers
+### Types of Web Developers
 Earlier, we mentioned that web development work could be in the front end, the back end, or the full stack. What exactly do these terms mean?
 
 * The `front end` is the stuff you see on the website in your browser, including the presentation of content and user interface elements like the navigation bar. Front-end developers use HTML, CSS, JavaScript, and their relevant frameworks to ensure that content is presented effectively and that users have an excellent experience.
@@ -34,16 +34,16 @@ Learning to code is incredibly rewarding but can also be difficult and frustrati
 
 The web development industry has a long history of successful developers with varying backgrounds, so people tend to care more about what you’ve actually **built** than how you got there.
 
-### Assignment
-<div class="lesson-content__panel" markdown="1">
+<div class="task" markdown="1">
 
+1. Read our course website's [Mindset & Motivation Tips](https://coderina.dev/webdocs/docs/ref/mindset.html) page.
 1. Check out the post ["Why Learning to Code is **So Damn Hard**"](https://web.archive.org/web/20230630111131/https://www.thinkful.com/blog/why-learning-to-code-is-so-damn-hard/) so you have a good idea of what the journey ahead is like.
 1. Read the [Wikipedia entry on web design](https://en.wikipedia.org/wiki/Web_design) that describes the breadth of the web development profession.
 1. Read Udacity's blog post on [front-end, back-end and full stack developers.](https://www.udacity.com/blog/2020/12/front-end-vs-back-end-vs-full-stack-web-developers.html)
 
 </div>
 
-### Additional resources
+### Additional Resources
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
