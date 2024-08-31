@@ -9,8 +9,9 @@ nav_order: 2
   <summary>
     TABLE OF CONTENTS
   </summary>
+  {: .text-delta }
 1. TOC
-{:toc}
+{:toc} {: fs-1 }
 </details>
 
 ---
