@@ -15,27 +15,21 @@ nav_order: 2
 ---
 ## Introduction to HTML
 
-### Lesson overview
+**HTML (HyperText Markup Language)** defines the structure and content of webpages. We use **HTML elements** to create all of the paragraphs, headings, lists, images, and links that make up a typical webpage. 
 
-This section contains a general overview of topics that you will learn in this lesson.
-
-- Get a basic overview of HTML, CSS and how they work together.
-
-### HTML and CSS
-
-HTML and CSS are two languages that work together to create everything that you see when you look at something on the internet. HTML is the raw data that a webpage is built out of. All the text, links, cards, lists, and buttons are created in HTML. CSS is what adds *style* to those plain elements. HTML puts information on a webpage, and CSS positions that information, gives it color, changes the font, and makes it look great!
+HTML and CSS are two languages that work together to create everything that you see when you look at something on the internet. HTML is the raw data and content that a webpage is built out of. All the text, links, cards, lists, and buttons are created in HTML. CSS is what adds *style* to those plain elements. HTML puts information on a webpage, and CSS positions that information, gives it color, changes the font, and makes it look great!
 
 Many great resources out there keep referring to HTML and CSS as *programming languages*, but if you want to get technical, labeling them as such is not quite accurate, because they are only concerned with presenting information. They are not used to program any logic. JavaScript, which you will be learning in the next section, is a programming language because it's used to make webpages do things. Yet, there is quite a lot you can do with just HTML and CSS, and you will definitely need them both. The following lessons focus on giving you the tools you need to be successful once you get to the JavaScript content as you continue through our curriculum!
 
-### Assignment
+<div class="task" markdown="1">
 
-<div class="lesson-content__panel" markdown="1">
-
-1. Read [HTML vs CSS vs JavaScript](https://brytdesigns.com/html-css-javascript-whats-the-difference/). It's a quick overview of the relationship between HTML, CSS, and JavaScript.
+1. Read [HTML vs CSS vs JavaScript](https://brytdesigns.com/html-css-javascript-whats-the-difference/) to get a quick overview of the relationship between HTML, CSS, and JavaScript.
+2. Save [DevDocs.io](https://devdocs.io) as a bookmark for future reference. It's a massive API documentation collection maintained by [FreeCodeCamp](https://freecodecamp.org). Read the 'Welcome' message for more information.
 
 </div>
 
-### Knowledge check
+#### Knowledge Check
+{:.no_toc}
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
@@ -44,33 +38,14 @@ The following questions are an opportunity to reflect on key topics in this less
 - [Between HTML and CSS, which would you use for changing the font and background color of a button?](#html-and-css)
 - [What is the difference between HTML, CSS and JavaScript?](https://brytdesigns.com/html-css-javascript-whats-the-difference/)
 
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- [FreeCodeCamp article](https://www.freecodecamp.org/news/html-css-and-javascript-explained-for-beginners/) goes into a little more depth than the assigned one. It covers things we'll be teaching explicitly in later lessons though, so don't worry about memorizing any of the details.
-
-- Save [DevDocs.io](https://devdocs.io) as a bookmark for future reference. It's a massive API documentation collection maintained by [FreeCodeCamp](https://freecodecamp.org). Read the 'Welcome' message for more information.
-
 ---
 ## Elements and Tags
 
-HTML (HyperText Markup Language) defines the structure and content of webpages. We use HTML elements to create all of the paragraphs, headings, lists, images, and links that make up a typical webpage. In this lesson, we will explore how HTML elements work.
-
-### Lesson overview
-
-This section contains a general overview of topics that you will learn in this lesson.
-
-- Explain what HTML tags are.
-- Explain what HTML elements are.
-
-### Elements and tags
-
 Almost all elements on an HTML page are just pieces of content wrapped in opening and closing HTML tags.
 
-Opening tags tell the browser that this is the start of an HTML element. They are comprised of a keyword enclosed in angle brackets `<>`. For example, an opening paragraph tag looks like this: `<p>`.
+**Opening tags** tell the browser that this is the start of an HTML element. They are comprised of a keyword enclosed in angle brackets `<>`. For example, an opening paragraph tag looks like this: `<p>`.
 
-Closing tags tell the browser where an element ends. They are almost the same as opening tags; the only difference is that they have a forward slash before the keyword. For example, a closing paragraph tag looks like this: `</p>`.
+**Closing tags** tell the browser where an element ends. They are almost the same as opening tags; the only difference is that they have a forward slash before the keyword. For example, a closing paragraph tag looks like this: `</p>`.
 
 A full paragraph element looks like this:
 
@@ -96,38 +71,24 @@ Some HTML elements do not have a closing tag. These elements just have a single 
 
 You might also see these referred to as self-closing tags. But those are just void elements with a forward slash(/) at the end like: `<br />` or `<img />`. You're likely to see self-closing tags used often for historical reasons. Browsers will be able to render them just fine, but the latest version of the HTML specification discourages their use and considers them invalid.
 
-### Assignment
-
-<div class="lesson-content__panel" markdown="1">
+<div class="task" markdown="1">
 
 1. Watch Kevin Powell's [Introduction to HTML Video](https://www.youtube.com/watch?v=LGQuIIv2RVA).
 
 </div>
 
-### Knowledge check
+#### Knowledge Check
+{:.no_toc}
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [What is an HTML tag?](#elements-and-tags)
 - [What are the three parts of an HTML element?](#elements-and-tags)
 
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- [Don't Fear the Internet's video about HTML](https://player.vimeo.com/video/24549728)
-
 ---
 ## HTML Boilerplate
 
 All HTML documents have the same basic structure or boilerplate that needs to be in place before anything useful can be done. In this lesson, we will explore the different parts of this boilerplate and see how it all fits together.
-
-### Lesson overview
-
-This section contains a general overview of topics that you will learn in this lesson.
-
-- How to write the basic boilerplate for an HTML document.
-- How to open HTML documents in your browser.
 
 ### Creating an HTML file
 
@@ -285,19 +246,16 @@ This is not something we need to know about until we discuss responsive design, 
 
 It's still good to know how to write the boilerplate yourself in case you find yourself using a text editor like notepad (heaven forbid), which doesn't have this shortcut. Try not to use the shortcut in your first few HTML projects, so you can build some muscle memory for writing the boilerplate code.
 
-### Assignment
-
-<div class="lesson-content__panel" markdown="1">
+<div class="task" markdown="1">
 
 1. Watch and follow along to Kevin Powell's brilliant [Building Your First Web Page video](https://www.youtube.com/watch?v=V8UAEoOvqFg&t=93s).
 
 1. Build some muscle memory by deleting the contents of the `index.html` file and trying to write out all the boilerplate again from memory. Don't worry if you have to peek at the lesson content the first few times if you get stuck. Just keep going until you can do it a couple of times from memory.
 
-1. Run your boilerplate through the W3 [HTML validator](https://validator.w3.org/#validate_by_input). Validators ensure your markup is correct and are an excellent learning tool, as they provide feedback on syntax errors you may be making often and aren't aware of, such as missing closing tags and extra spaces in your HTML.
-
 </div>
 
-### Knowledge check
+#### Knowledge Check
+{:.no_toc}
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
@@ -306,25 +264,12 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What is the purpose of the head element?](#head-element)
 - [What is the purpose of the body element?](#body-element)
 
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- Another option for opening your HTML pages in the browser is using the [live server extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) with VSCode. This will open your HTML document and automatically refresh it every time you save the document. However, we recommend not using this extension and instead doing it the old-fashioned way, by opening the page and refreshing the page manually in the browser for your first few HTML projects. This way, you can get used to that process and won't become reliant on extensions right away. One reason is that there may be subtle differences when using extensions. For example, live server will always use UTF-8 character encoding and not the charset value defined in your `<meta>` element. This could potentially hide some characters on your site as they will not be encoded the way you expect.
-
-- If you wish, you can add [the `lang` attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/lang) to individual elements throughout the webpage.
-
 ---
 ## Working with Text
-### Introduction
 
 Most content on the web is text-based, so you will find yourself needing to work with HTML text elements quite a bit.
 
-In this lesson, we will learn about the text-based elements you are likely to use the most.
-
-### Lesson overview
-
-This section contains a general overview of topics that you will learn in this lesson.
+In this lesson, we will learn about the text-based elements:
 
 - How to create paragraphs.
 - How to create headings.
@@ -505,20 +450,10 @@ In order to write an HTML comment, we just enclose the comment with `<!--` and `
 
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-<div class="lesson-note" markdown="1">
-
-#### VSCode keyboard shortcut
-
-If you find typing out the comments syntax tiring, the following shortcut will help you quickly create a new comment, convert any line to a comment, or uncomment any line:
-
-- Mac Users: <kbd>Cmd</kbd> + <kbd>/</kbd>
-- Windows and Linux Users: <kbd>Ctrl</kbd> + <kbd>/</kbd>
-
-</div>
 
 ### Assignment
 
-<div class="lesson-content__panel" markdown="1">
+<div class="task" markdown="1">
 
 1. Watch Kevin Powell's [HTML Paragraph and Headings Video](https://www.youtube.com/watch?v=yqcd-XkxZNM&t=35s).
 1. Watch Kevin Powell's [HTML Bold and Italic Text Video](https://www.youtube.com/watch?v=gW6cBZLUk6M&t=5s).
@@ -526,7 +461,8 @@ If you find typing out the comments syntax tiring, the following shortcut will h
 
 </div>
 
-### Knowledge check
+#### Knowledge check
+{:.no_toc}
   
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
@@ -539,7 +475,7 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What relationship do two elements have if they are at the same level of nesting?](#elements-same-level)
 - [How do you create HTML comments?](#html-comments)
 
-### Additional resources
+#### Additional Resources
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
