@@ -240,7 +240,7 @@ Headings are different from other HTML text elements: they are displayed larger 
 
 <span id='different-heading-levels'>There are 6 different levels of headings starting from `<h1>` to `<h6>`. The number within a heading tag represents that heading's level. The largest and most important heading is h1, while h6 is the tiniest heading at the lowest level.</span>
 
-Headings are defined much like paragraphs. For example, to create an h1 heading, we wrap our heading text in an `<h1>` tag.
+Headings are defined much like paragraphs. For example, to create an h1 heading, we wrap our heading text in an `<h1>` tag:
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="LYLPLbg" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
 
@@ -252,25 +252,13 @@ Headings are defined much like paragraphs. For example, to create an h1 heading,
 
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-Using the correct level of heading is important as levels provide a hierarchy to the content. An h1 heading should always be used for the heading of the overall page, and the lower level headings should be used as the headings for content in smaller sections of the page.
+Using the correct level of heading is important as levels provide a **hierarchy** to the content. An h1 heading should always be used for the heading of the overall page, and the lower level headings should be used as the headings for content in smaller sections of the page.
 
 ### Strong (Bold) Element
 
 The `<strong>` element makes text bold. It also semantically marks text as important; this affects tools, like screen readers, that users with visual impairments will rely on to use your website. The tone of voice on some screen readers will change to communicate the importance of the text within a strong element. To define a strong element, we wrap text content in a `<strong>` tag.
 
-You can use strong on its own:
-
-<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="qBjWXrB" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-
-  <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/qBjWXrB">
-  HTML-single-strong-example</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-
-</p>
-
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
-
-But you will probably find yourself using the strong element much more in combination with other text elements, like this:
+You can use strong on its own, but you will probably find yourself using the strong element much more in combination with other text elements, like this:
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="wvewqJr" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
 
@@ -288,18 +276,6 @@ Sometimes you will want to make text bold without giving it an important meaning
 
 The `<em>` element makes text italic. It also semantically places emphasis on the text, which again may affect things like screen readers. To define an emphasised element, wrap the text content in an `<em>` tag.
 
-To use `<em>` on its own:
-
-<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="wvewqpp" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-
-  <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/wvewqpp">
-  HTML-single-em-example</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-
-</p>
-
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
-
 Again, like the strong element, you will find yourself mostly using the `<em>` element with other text elements:
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="VwWZzyj" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
@@ -315,11 +291,11 @@ Again, like the strong element, you will find yourself mostly using the `<em>` e
 ### Nesting and Indentation
 {:.no_toc}
 
-You may have noticed that in all the examples in this lesson we indent any elements that are within other elements. This is known as nesting elements.
+You may have noticed that in all the examples in this lesson we indent any elements that are within other elements. This is known as **nesting elements**.
 
-<span id='nested-relationship'>When we nest elements within other elements, we create a parent and child relationship between them. The nested elements are the children and the element they are nested within is the parent.</span>
+When we nest elements within other elements, we create a **parent** and **child** relationship between them. The nested elements are the children and the element they are nested within is the parent.</span>
 
-In the following example, the body element is the parent and the paragraph is the child:
+> In the following example, which element is the parent and which element is the child?
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="oNwjEvO" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
 
@@ -331,19 +307,7 @@ In the following example, the body element is the parent and the paragraph is th
 
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-Just as in human relationships, HTML parent elements can have many children.  <span id='elements-same-level'>Elements at the same level of nesting are considered to be siblings.</span>
-
-For example, the two paragraphs in the following code are siblings, since they are both children of the body tag and are at the same level of nesting as each other:
-
-<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="ZEybrYx" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-
-  <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/ZEybrYx">
-  HTML-nesting-siblings</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-
-</p>
-
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+Just as in human relationships, HTML parent elements can have many children.  <span id='elements-same-level'>Elements at the same level of nesting are considered to be **siblings**.</span>
 
 We use indentation to make the level of nesting clear and readable for ourselves and other developers who will work with our HTML in the future. In our examples, we have indented any child elements by two spaces per nesting level.
 
@@ -352,7 +316,7 @@ The parent, child, and sibling relationships between elements will become much m
 ### HTML Comments
 {:.no_toc}
 
-HTML comments are not visible to the browser; they allow us to *comment* on our code so that other developers or our future selves can read them and get some context about something that might not be clear in the code.
+HTML **comments are not visible to the browser**; they allow us to *comment* on our code so that other developers or our future selves can read them and get some context about something that might not be clear in the code.
 
 In order to write an HTML comment, we just enclose the comment with `<!--` and `-->` tags. For example:
 
@@ -365,6 +329,8 @@ In order to write an HTML comment, we just enclose the comment with `<!--` and `
 </p>
 
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+<br> 
 
 <div class="task" markdown="1">
 
@@ -383,7 +349,7 @@ In order to write an HTML comment, we just enclose the comment with `<!--` and `
 
 Whether it be IMDB's top 250 movies or the FBI's most wanted, lists are everywhere on the web and you are going to need one eventually in your webpages.
 
-Luckily, with HTML there are a couple of different types of lists at your disposal: unordered or ordered.
+Luckily, with HTML there are a couple of different types of lists at your disposal: **unordered** or **ordered**.
 
 ### Unordered Lists
 
@@ -419,6 +385,8 @@ Ordered lists are created using the `<ol>` element. Each individual item in them
 
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
+<br> 
+
 <div class="task" markdown="1">
 
 To get some practice using lists, create the following lists in your HTML document:
@@ -440,7 +408,9 @@ To get some practice using lists, create the following lists in your HTML docume
 ---
 ## Links and Images
 
-Links are one of the key features of HTML. They allow us to link to other HTML pages on the web. In fact, this is why it was named the "web" 🕸️. In this lesson, we will learn how to create links and add some visual flair to our websites by embedding images:
+Links are one of the key features of HTML. They allow us to link to other HTML pages on the web. In fact, this is why it was named the "web" 🕸️. 
+
+In this lesson, we will learn:
 
 - How to create links to pages on other websites on the internet.
 - How to create links to other pages on your own websites.
@@ -449,9 +419,9 @@ Links are one of the key features of HTML. They allow us to link to other HTML p
 
 ### Anchor (Link) Element
 
-To create a link in HTML, we use the anchor element. An anchor element is defined by wrapping the text or another HTML element we want to be a link with an `<a>` tag.
+⚓️ To create a link in HTML, we use the **anchor** element. An anchor element is defined by wrapping the text or another HTML element we want to be a link with an `<a>` tag.
 
-Add the following to the body of the `index.html` page we created and open it in the browser:
+Add the following to the body of the `index.html` page:
 
 ```html
 <a>About The Odin Project</a>
@@ -459,9 +429,9 @@ Add the following to the body of the `index.html` page we created and open it in
 
 You may have noticed that clicking this link doesn't do anything. This is because an anchor tag on its own won't know where we want to link to. We have to tell it a destination to go to. We do this by using an HTML attribute.
 
-<span id="attribute"></span>An HTML attribute gives additional information to an HTML element and always goes in the element's opening tag. An attribute is usually made up of two parts: a name, and a value; however, not all attributes require a value. <span id="where-to-go"></span>In our case, we need to add an href (hypertext reference) attribute to the opening anchor tag. The value of the href attribute is the destination we want our link to go to.
+<span id="attribute"></span>An HTML **attribute** gives additional information to an HTML element and always goes in the element's opening tag. An attribute is usually made up of two parts: a **name**, and a **value**; however, not all attributes require a value. <span id="where-to-go"></span>In our case, we need to add an href (hypertext reference) attribute to the opening anchor tag. The value of the href attribute is the destination we want our link to go to.
 
-Add the following href attribute to the anchor element we created previously and try clicking it again, don't forget to refresh the browser so the new changes can be applied.
+Add the following `href` attribute to the anchor element we created previously and try clicking it again, don't forget to refresh the browser so the new changes can be applied.
 
 ```html
 <a href="https://www.theodinproject.com/about">About The Odin Project</a>
@@ -471,103 +441,25 @@ By default, any text wrapped with an anchor tag without an `href` attribute will
 
 It's worth noting you can use anchor tags to link to any kind of resource on the internet, not just other HTML documents. You can link to videos, pdf files, images, and so on, but for the most part, you will be linking to other HTML documents.
 
-### Absolute and Relative Links
+### Absolute vs. Relative Links
 {:.no_toc}
 
 Generally, there are two kinds of links we will create:
 
-- Links to pages on other websites on the internet.
-- Links to pages located on our own websites.
+- **Absolute Links:** Links to pages on other websites on the internet.
+  - A typical absolute link will be made up of the following parts: `protocol://domain/path`. An absolute link will always contain the protocol and domain of the destination, for example: `https://www.theodinproject.com/about`
+- **Relative Links:** Links to pages located on our own websites.
+  - Relative links do not include the domain name, since it is another page on the same site, it assumes the domain name will be the same as the page we created the link on.
 
-#### Absolute Links
-{:.no_toc}
+### Image Elements
 
-Links to pages on other websites on the internet are called absolute links. A typical absolute link will be made up of the following parts: `protocol://domain/path`. An absolute link will always contain the protocol and domain of the destination.
+Websites would be fairly boring if they could only display text. Luckily HTML provides a wide variety of elements for displaying all sorts of different media. The most widely used of these is the **image** element.
 
-We've already seen an absolute link in action. The link we created to The Odin Project's About page earlier was an absolute link as it contains the protocol and domain.
+To display an image in HTML we use the `<img>` element. Unlike the other elements we have encountered, the `<img>` element is a void element. _As we have seen earlier in the course, void elements do not need a closing tag because they are naturally empty and do not contain any content._
 
-`https://www.theodinproject.com/about`
+Instead of wrapping content with an opening and closing tag, it embeds an image into the page using a `src` **attribute** which tells the browser where the image file is located. The `src` attribute works much like the `href` attribute for anchor tags. It can embed an image using both absolute and relative paths.
 
-#### Relative links
-{:.no_toc}
-
-Links to other pages within our own website are called relative links. Relative links do not include the domain name, since it is another page on the same site, it assumes the domain name will be the same as the page we created the link on.
-
-Relative links only include the file path to the other page, *relative* to the page you are creating the link on. This is quite abstract, let's see this in action using an example.
-
-Within the `odin-links-and-images` directory, create another HTML file named `about.html` and paste the following code into it:
-
-```html
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Odin Links and Images</title>
-  </head>
-
-  <body>
-    <h1>About Page</h1>
-  </body>
-</html>
-```
-
-Back in the index page, add the following anchor element to create a link to the about page:
-
-```html
-<body>
-  <h1>Homepage</h1>
-  <a href="https://www.theodinproject.com/about">About The Odin Project</a>
-
-  <a href="about.html">About</a>
-</body>
-```
-
-Open the index file in a browser and click on the about link to make sure it is all wired together correctly. Clicking the link should go to the about page we just created.
-
-This works because the index and about page are in the same directory. That means we can use its name (`about.html`) as the link's href value.
-
-But we will usually want to organize our website directories a little better. Normally we would only have the `index.html` at the root directory and all other HTML files in their own directory.
-
-Create a directory named `pages` within the `odin-links-and-images` directory and move the `about.html` file into this new directory.
-
-Refresh the index page in the browser and then click on the about link. It will now be broken. This is because the location of the about page file has changed.
-
-To fix this, we just need to update the about link href value to include the `pages/` directory since that is the new location of the about file *relative* to the index file.
-
-```html
-<body>
-  <h1>Homepage</h1>
-  <a href="pages/about.html">About</a>
-</body>
-```
-
-Refresh the index page in the browser and try clicking the about link again, it should now be back in working order.
-
-In many cases, this will work just fine; however, you can still run into unexpected issues with this approach. Prepending `./` before the link will in most cases prevent such issues. By adding  `./` you are specifying to your code that it should start looking for the file/directory *relative* to the `current` directory.
-
-```html
-<body>
-  <h1>Homepage</h1>
-  <a href="./pages/about.html">About</a>
-</body>
-```
-
-#### A metaphor
-{:.no_toc}
-
-Absolute and relative links are a tricky concept to build a good mental model of, a metaphor may help:
-
-Think of your domain name (`town.com`) as a town, the directory in which your website is located (`/museum`) as a museum, and each page on your website as a room in the museum (`/museum/movie_room.html` and `/museum/shops/coffee_shop.html`). Relative links like `./shops/coffee_shop.html` are directions from the current room (the museum movie room `/museum/movie_room.html`) to another room (the museum shop). Absolute links, on the other hand, are full directions including the protocol (`https`), domain name (`town.com`) and the path from that domain name (`/museum/shops/coffee_shop.html`): `https://town.com/museum/shops/coffee_shop.html`.
-
-### Image elements
-
-Websites would be fairly boring if they could only display text. Luckily HTML provides a wide variety of elements for displaying all sorts of different media. The most widely used of these is the image element.
-
-To display an image in HTML we use the `<img>` element. Unlike the other elements we have encountered, the `<img>` element is a void element. As we have seen earlier in the course, void elements do not need a closing tag because they are naturally empty and do not contain any content.
-
-Instead of wrapping content with an opening and closing tag, it embeds an image into the page using a src attribute which tells the browser where the image file is located. The src attribute works much like the href attribute for anchor tags. It can embed an image using both absolute and relative paths.
-
-For example, using an absolute path we can display an image located on The Odin Project site:
+For example, using an **absolute path** we can display an image located on The Odin Project site:
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="gORbExZ" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
 
@@ -579,83 +471,29 @@ For example, using an absolute path we can display an image located on The Odin 
 
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-To display images on your website that are hosted on your own web server, you can use a relative path.
+To display images on your website that are hosted on your own web server, you can use a **relative path**.
 
-<details markdown="block">
 
-<summary class="dropDown-header">Linux, macOS, ChromeOS</summary>
-
-1. Create a new directory named `images` within the `odin-links-and-images` project.
-1. Next, [download our practice image](https://unsplash.com/photos/Mv9hjnEUHR4/download?force=true&w=640) and move it into the images directory we just created.
-1. Rename the image to `dog.jpg`.
-
-</details>
-
-<details markdown="block">
-
-<summary class="dropDown-header">WSL2</summary>
-
-When you download a file from the internet, Windows has a security feature that creates a hidden `Zone.Identifier` file with the same name as your downloaded file and it looks like `mypicture.jpg:Zone.Identifier` This file is harmless, but we'd like to avoid copying it over and cluttering up our directories.
-
-1. Create a new directory named `images` within the `odin-links-and-images` project.
+<div class="task" markdown="1">
+  
+1. Create a new directory (folder) named `images` within your project.
 
 1. Next, [download the stock dog image](https://unsplash.com/photos/Mv9hjnEUHR4/download?force=true&w=640).
 
-1. Right click on the new download at the bottom of the chrome window and select "Show in folder".
+1. Right click on the new download at the bottom of the Google Chrome window and select "Show in folder".
 
-   1. Alternatively, if you do not see anything at the bottom of the chrome window, open the "Customize and control Google Chrome kebab menu and select the "Downloads" item. This will show all of your downloads, each with its own "Show in folder" button.
+1. Click `+` in the `Files` pane of your Replit project to upload the image, or try just dragging it in.
 
-1. Drag the file from your downloads folder to VSCode's file browser into your new `images` directory.
-
-    1. Alternatively, using your Ubuntu terminal, navigate to the folder you want to copy the image to (`cd ~/odin-links-and-images` for example)
-
-    1. Type `cp <space>`
-
-    1. Drag the `dog.jpg` image from a Windows Explorer window and drop it onto the terminal window, it should appear as `"/mnt/c/users/username/Downloads/dog.jpg"`
-
-    1. Type `<space> .` to tell cp that you want to copy the file to your current working directory.
-
-        1. The full command will look something like `cp "/mnt/c/users/username/Downloads/dog.jpg" .`
-
-    1. Hit <kbd>Enter</kbd> to complete the command, and use ls to confirm the file now exists.
-
-Dragging files from Windows into the VSCode file browser prevents the `Zone.Identifier` files from being copied over. From now on, any time you need to copy pictures or other downloaded files like this into WSL2, you can do it in this way. If you ever accidentally copy these `Zone.Identifier` files into WSL2, you can safely delete them without any issue.
-
-</details>
-
-Finally add the image to the `index.html` file:
+1. Finally add the image address to the `index.html` file:
 
 ```html
 <body>
   <h1>Homepage</h1>
-  <a href="https://www.theodinproject.com/about">About The Odin Project</a>
-
-  <a href="./pages/about.html">About</a>
-
   <img src="./images/dog.jpg">
 </body>
 ```
 
-Save the `index.html` file and open it in a browser to view Charles in all his glory.
-
-### Parent directories
-{:.no_toc}
-
-What if we want to use the dog image in the about page? We would first have to go up one level out of the pages directory into its parent directory so we could then access the images directory.
-
-<span id="parent-filepath"></span>To go to the parent directory we need to use two dots in the relative filepath like this: `../`. Let's see this in action, within the body of the `about.html` file, add the following image below the heading we added earlier:
-
-```html
-<img src="../images/dog.jpg">
-```
-
-To break this down:
-
-1. First, we are going to the parent directory of the pages directory which is `odin-links-and-images`.
-1. Then, from the parent directory, we can go into the `images` directory.
-1. Finally, we can access the `dog.jpg` file.
-
-Using the metaphor we used earlier, using `../` in a filepath is kind of like stepping out from the room you are currently in to the main hallway so you can go to another room.
+</div>
 
 ### Alt Attribute
 {:.no_toc}
@@ -664,7 +502,10 @@ Using the metaphor we used earlier, using `../` in a filepath is kind of like st
 
 The alt attribute is used to describe an image. It will be used in place of the image if it cannot be loaded. It is also used with screen readers to describe what the image is to visually impaired users.
 
-As a bit of practice, add an `alt` attribute to the dog image we added to the project.
+<div class="task" markdown="1">
+  
+As a bit of practice, add an `alt` attribute to the dog image in the project.
+</div>
 
 ### Image Size Attributes
 {:.no_toc}
@@ -673,7 +514,10 @@ While not strictly required, specifying `height` and `width` **attributes** in i
 
 It is a good habit to always specify these attributes on every image, even when the image is the correct size or you are using CSS to modify it.
 
+<div class="task" markdown="1">
+  
 Go ahead and update your project with `width` and `height` tags on the dog image.
+</div>
 
 #### Additional resources
 {:.no_toc}
