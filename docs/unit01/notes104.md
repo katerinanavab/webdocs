@@ -24,6 +24,7 @@ Many resources put it near the end of their curriculum because it is somewhat ne
 - You will learn how to create useful components and layouts that go beyond just stacking and centering items.
 
 ### Before we get started
+{: .no_toc }
 
 Flexbox layouts can get a little complicated. In a previous lesson, you learned how to inspect and debug things using your browser's developer tools. Those tools will be *crucial* for you in the following lessons. If something isn't behaving the way you expect, inspecting it in the developer tools should be your first step *every time*.
 
@@ -32,6 +33,7 @@ Flexbox isn't necessarily any more difficult than the other concepts that we've 
 You will almost definitely need to come back and reference these lessons (or a couple of the resources we share with you) when you get to the assignments at the end of the section, but if you take your time and experiment with all the code examples we provide, you'll know better where to look when that time comes.
 
 ### Let's flex!
+{: .no_toc }
 
 Flexbox is a way to arrange items into rows or columns. These items will flex (i.e. grow or shrink) based on some rules that you can define. To get started, let's look at a demonstration.
 
@@ -70,6 +72,7 @@ If it's hard to see what's going on in the small embedded CodePen, feel free to 
 </div>
 
 #### Flex containers and flex items
+{: .no_toc }
 
 As you've seen, flexbox is not just a single CSS property but a whole toolbox of properties that you can use to put things where you need them. Some of these properties belong on the *flex container*, while some go on the *flex items*. This is an important concept.
 
@@ -85,14 +88,8 @@ Creating and nesting multiple flex containers and items is the primary way we wi
 
 ![complex example](https://cdn.statically.io/gh/TheOdinProject/curriculum/495704c6eb6bf33bc927534f231533a82b27b2ac/html_css/v2/foundations/flexbox/imgs/05.png)
 
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What's the difference between a flex container and a flex item?](#flex-container-item-knowledge-check)
-- [How do you create a flex item?](#how-to-create-flex-item-knowledge-check)
-
-### Additional resources
+#### Additional resources
+{: .no_toc }
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
@@ -101,17 +98,9 @@ This section contains helpful links to related content. It isn't required, so co
 
 ---
 ## Growing & Shrinking
-### Introduction
-
-Let's look a little closer at what actually happened when you put `flex: 1` on those flex items in the last lesson.
-
-### Lesson overview
-
-This section contains a general overview of topics that you will learn in this lesson.
-
-- You'll learn the 3 properties that are defined by the `flex` shorthand, and how to use them individually.
 
 ### The flex shorthand
+{: .no_toc }
 
 The `flex` declaration is actually a shorthand for 3 properties that you can set on a flex item. These properties affect how flex items size themselves within their container. You've seen some shorthand properties before, but we haven't officially defined them yet.
 
@@ -128,6 +117,7 @@ In the above screenshot, `flex: 1` equates to: `flex-grow: 1`, `flex-shrink: 1`,
 Very often you see the flex shorthand defined with only *one* value. In that case, that value is applied to `flex-grow`. So when we put `flex: 1` on our divs, we were actually specifying a shorthand of `flex: 1 1 0`.
 
 #### Flex-grow
+{: .no_toc }
 
 `flex-grow` expects a single number as its value, and that number is used as the flex-item's "growth factor". When we applied `flex: 1` to every div inside our container, we were telling every div to grow the same amount. The result of this is that every div ends up the exact same size. If we instead add `flex: 2` to just one of the divs, then that div would grow to 2x the size of the others.
 
@@ -144,6 +134,7 @@ In the following example the `flex` shorthand has values for `flex-shrink` and `
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 #### Flex-shrink
+{: .no_toc }
 
 `flex-shrink` is similar to `flex-grow`, but sets the "shrink factor" of a flex item. `flex-shrink` only ends up being applied if the size of all flex items is larger than their parent container. For example, if our 3 divs from above had a width declaration like: `width: 100px`, and `.flex-container` was smaller than `300px`, our divs would have to shrink to fit.
 
@@ -164,64 +155,55 @@ Here's an example. Note that we've also changed the `flex-basis` for reasons tha
 An important implication to notice here is that when you specify `flex-grow` or `flex-shrink`, flex items do not necessarily respect your given values for `width`. In the above example, all 3 divs are given a width of 250px, but when their parent is big enough, they grow to fill it. Likewise, when the parent is too small, the default behavior is for them to shrink to fit. This is not a bug, but it could be confusing behavior if you aren't expecting it.
 
 #### Flex-basis
+{: .no_toc }
 
 `flex-basis` sets the initial size of a flex item, so any sort of `flex-grow`ing or `flex-shrink`ing starts from that baseline size. The shorthand value defaults to `flex-basis: 0%`. The reason we had to change it to `auto` in the `flex-shrink` example is that with the basis set to `0`, those items would ignore the item's width, and everything would shrink evenly. Using `auto` as a flex-basis tells the item to check for a width declaration (`width: 250px`).
 
 <div class="lesson-note" markdown="1">
 
 #### Important note about flex-basis
+{: .no_toc }
 
 There is a difference between the default value of `flex-basis` and the way the `flex` shorthand defines it if no `flex-basis` is given. The actual default value for `flex-basis` is `auto`, but when you specify `flex: 1` on an element, it interprets that as `flex: 1 1 0`. If you want to *only* adjust an item's `flex-grow` you can do so directly, without the shorthand. Or you can be more verbose and use the full 3 value shorthand `flex: 1 1 auto`, which is also equivalent to using `flex: auto`.
 
 </div>
 
 #### What is flex auto?
+{: .no_toc }
 
 If you noticed, we mentioned a new flex shorthand `flex: auto` in the previous note. However we didn't fully introduce it. `flex: auto` is one of the shorthands of flex. When `auto` is defined as a flex keyword it is equivalent to the values of `flex-grow: 1`, `flex-shrink: 1` and `flex-basis: auto` or to `flex: 1 1 auto` using the flex shorthand. Note that `flex: auto` is not the default value when using the flex shorthand despite the name being "auto" which may be slightly confusing at first. You will encounter and learn more about `flex: auto` and its potential use-cases when reading through the assignment section.
 
 #### In practice
+{: .no_toc }
 
 In practice you will likely not be using complex values for `flex-grow`, `flex-shrink` or `flex-basis`. Generally, you're most likely to use declarations like `flex: 1;` to make divs grow evenly and `flex-shrink: 0` to keep certain divs from shrinking.
 
 It *is* possible to get fancy, and set up layouts where some columns relate to each other in a specific ratio, so it's useful to know that you can use other values, but those are relatively rare.
 
-### Assignment
-
-<div class="lesson-content__panel" markdown="1">
+<div class="task" markdown="1">
 
 1. Read [W3C's flex section](https://www.w3.org/TR/css-flexbox-1/#flex-common) to understand the basic values of common flex shorthand values.
 1. [MDN's documentation on flex](https://developer.mozilla.org/en-US/docs/Web/CSS/flex) summarizes the entire flex shorthand values, as well as introduces some new syntax that hasn't been covered in the previous article.
 
 </div>
 
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What are the 3 values defined in the shorthand `flex` property (e.g. `flex: 1 1 auto`)?](#the-flex-shorthand)
-- [What are the 3 defined values for the flex shorthand `flex:auto`?](#what-is-flex-auto)
-
-### Additional resources
+#### Additional resources
+{: .no_toc }
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - A [video exploring how flexbox works and why](https://www.youtube.com/watch?v=u044iM9xsWU&t=1s).
-- For an interactive explanation and demo, check out the [Scrim on the flex shorthand](https://scrimba.com/learn/flexbox/the-flex-property-flexbox-tutorial-cGNKJTv). For an alternative explanation you can view the [Scrim on using flex-grow, flex-shrink, and flex-basis](https://scrimba.com/learn/flexbox/flex-grow-shrink-basis-flexbox-tutorial-ck6L7fv). Note that these Scrims require logging into Scrimba in order to view.
 
 ---
 ## Flexbox Axes
-### Introduction
 
 Let's see how the orientation of items within a flex container can be controlled using the `flex-direction` property.
-
-### Lesson overview
-
-This section contains a general overview of topics that you will learn in this lesson.
 
 - You'll learn about the 2 "axes" of a flex container.
 - You'll learn how to change those axes to arrange your content in columns instead of rows.
 
 ### Axes
+{: .no_toc }
 
 The most confusing thing about flexbox is that it can work either horizontally or vertically, and some rules change a bit depending on which direction you are working with.
 The default direction for a flex container is horizontal, or `row`, but you can change the direction to vertical, or `column`. The direction can be specified in CSS like so:
@@ -257,36 +239,15 @@ We've strayed from the point slightly... We were talking about flex-direction an
 
 > There are situations where the behavior of flex-direction could change if you are using a language that is written top-to-bottom or right-to-left, but you should save worrying about that until you are ready to start making a website in Arabic or Hebrew.
 
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [How do you make flex items arrange themselves vertically instead of horizontally?](#axes)
-- [In a `column` flex-container, what does `flex-basis` refer to?](#column-flex-basis)
-- [In a `row` flex-container, what does `flex-basis` refer to?](#row-flex-basis)
-- [Why do the previous two questions have different answers?](#flex-axes)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- This [flexbox visual cheatsheet](https://flexbox.malven.co/) has some useful references to flex and its properties.
-
-- For an interactive demo, check out this [Scrim on Flexbox axes](https://scrimba.com/learn/flexbox/main-axis-and-cross-axis-flexbox-tutorial-cz94MT8). Note that this Scrim requires logging into Scrimba in order to view.
-
 ---
 ## Flexbox Alignment
-### Introduction
 
 So far everything we've touched with flexbox has used the rule `flex: 1` on all flex items, which makes the items grow or shrink equally to fill all of the available space. Very often, however, this is not the desired effect. Flex is also very useful for arranging items that have a specific size.
-
-### Lesson overview
-
-This section contains a general overview of topics that you will learn in this lesson.
 
 - You'll learn how to align items inside a flex container both vertically and horizontally.
 
 ### Alignment
+{: .no_toc }
 
 Let's look at an example.
 
@@ -317,6 +278,7 @@ To change the placement of items along the **cross axis** use `align-items`. Try
 Because `justify-content` and `align-items` are based on the main and cross axis of your container, their behavior changes when you change the flex-direction of a flex-container. For example, when you change `flex-direction` to `column`, `justify-content` aligns vertically and `align-items` aligns horizontally. The most common behavior, however, is the default, i.e. `justify-content` aligns items horizontally (because the main axis defaults to horizontal), and `align-items` aligns them vertically. One of the biggest sticking points that beginners have with flexbox is confusion when this behavior changes.
 
 #### Gap
+{: .no_toc }
 
 One very useful feature of flex is the `gap` property. Setting `gap` on a flex container adds a specified space between flex items, similar to adding a margin to the items themselves. `gap` is a *new* property so it doesn't show up in many resources yet, but it works reliably in all modern browsers, so it is safe to use and very handy! Adding `gap: 8px` to the centered example above produces the result below.
 
@@ -334,9 +296,7 @@ There's more for you to learn in the reading below, but at this point you can su
 
 Take your time going through the reading. There will be some review of the items we've already covered here, but it goes into more depth and touches on a few things that haven't been mentioned yet. Don't stress too much about trying to memorize every little detail yet; just code along with the examples and do your best to internalize everything that is *possible* with flexbox. You'll have to reach for these resources again once you get to the practice exercises, but that's perfectly acceptable. The more you use this stuff the better it will stick in your mind... and you will be using it *constantly*. Have fun!
 
-### Assignment
-
-<div class="lesson-content__panel" markdown="1">
+<div class="task" markdown="1">
 
 1. This beautiful [Interactive Guide to Flexbox](https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/) covers everything you need to know. It will help reinforce concepts we've already touched on with some really fun and creative examples. Spend some time here, some of it should be review at this point, but the foundations here are important!
 1. [Typical use cases of Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Typical_Use_Cases_of_Flexbox) is an MDN article that covers some more practical tips. Don't skip the interactive sections! Playing around with this stuff is how you learn it!
@@ -354,7 +314,8 @@ Take your time going through the reading. There will be some review of the items
 
 </div>
 
-### Knowledge check
+#### Knowledge check
+{: .no_toc }
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
@@ -362,10 +323,12 @@ The following questions are an opportunity to reflect on key topics in this less
 - [How do you use flexbox to completely center a div inside a flex container?](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Aligning_Items_in_a_Flex_Container)
 - [What's the difference between `justify-content: space-between` and `justify-content: space-around`?](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
-### Additional resources
+#### Additional resources
+{: .no_toc }
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
+- This [flexbox visual cheatsheet](https://flexbox.malven.co/) has some useful references to flex and its properties.
 - [Flexbox Froggy](https://flexboxfroggy.com/) is a funny little game for practicing moving things around with flexbox.
 - [Flexbox Zombies](https://mastery.games/flexboxzombies/) is another gamified take on flexbox. Free, but requires an account.
 - The [Basic Concepts of Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox) article on MDN is another good starting point. There are helpful examples and interactive sections.
