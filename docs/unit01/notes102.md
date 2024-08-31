@@ -7,9 +7,8 @@ nav_order: 2
 
 <details open markdown="block">
   <summary>
-    Table of contents
+    TABLE OF CONTENTS
   </summary>
-  {: .text-delta }
 1. TOC
 {:toc}
 </details>
