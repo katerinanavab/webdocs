@@ -147,3 +147,11 @@ This applies for future projects too.
 For more information read ["Learning Code" from "Becoming a TOP Success Story"](https://dev.to/theodinproject/learning-code-f56).
 
 </div>
+
+---
+
+#### Acknowledgement
+{: .no_toc }
+
+Content on this page is adapted from [The Odin Project](www.theodinproject.com).
+{: .fs-2 }
