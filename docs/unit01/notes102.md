@@ -174,7 +174,7 @@ To complete the boilerplate, add a `<body>` element to the `index.html` file. Th
 
 <div class="task" markdown="1">
 
-1. Build some muscle memory by deleting the contents of the `index.html` file and trying to write out all the boilerplate again from memory. Don't worry if you have to peek at the lesson content the first few times if you get stuck. Just keep going until you can do it a couple of times from memory.
+Build some muscle memory by deleting the contents of the `index.html` file and trying to write out all the boilerplate again from memory. Don't worry if you have to peek at the lesson content the first few times if you get stuck. Just keep going until you can do it a couple of times from memory.
 
 </div>
 
@@ -334,7 +334,7 @@ In order to write an HTML comment, we just enclose the comment with `<!--` and `
 
 <div class="task" markdown="1">
 
-1. To get some practice working with text in HTML, create a plain blog article page which uses different headings, uses paragraphs, and has some text in the paragraphs bolded and italicized. You can use [Lorem Ipsum](https://en.wikipedia.org/wiki/Lorem_ipsum) to generate dummy text, in place of real text as you build your sites.
+To get some practice working with text in HTML, create a plain blog article page which uses different **headings**, uses **paragraphs**, and has some text in the paragraphs **bolded** and **italicized**. 
 
 </div>
 
