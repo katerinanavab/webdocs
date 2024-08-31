@@ -1,6 +1,6 @@
 ---
 layout: notes
-title: "📓 Topic 1.3: CSS Foundations" 
+title: "📓1.3: CSS Foundations" 
 parent: "1️⃣ Web Dev Foundations"
 nav_order: 3
 ---
