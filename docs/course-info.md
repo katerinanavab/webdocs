@@ -11,7 +11,7 @@ nav_order: 0
 {: .no_toc .text-delta }
 
 {: .fs-2 }
-1. TOC
+- TOC
 {:toc}
 
 ---
