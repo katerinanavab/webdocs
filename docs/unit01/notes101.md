@@ -5,14 +5,12 @@ parent: "1️⃣ Web Dev Foundations"
 nav_order: 1
 ---
 
-<details open markdown="block" class="fs-2">
-  <summary>
-    TABLE OF CONTENTS
-  </summary>
-  {: .text-delta }
+## Table of Contents
+{: .no_toc .text-delta }
+
+{: .fs-2 }
 - TOC
 {:toc}
-</details>
 
 ---
 ## Introduction to Web Development
