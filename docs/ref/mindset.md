@@ -1,10 +1,10 @@
 ---
 layout: default
-title: "🧠 Mindset" 
+title: "🧠 Mindset Tips" 
 parent: References
 ---
 
-# 🧠 Mindset & Motivation
+# 🧠 Mindset & Motivation Tips
 ### Introduction
 
 Learning to code is incredibly rewarding but can also be difficult and frustrating. Like any skill worth knowing, it takes time to acquire, and it can't be learned in a weekend or even a month. With that said, we believe anyone can learn how to program as long as they are willing to put in the time and effort.
