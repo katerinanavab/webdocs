@@ -341,6 +341,6 @@ This section contains helpful links to related content. It isn't required, so co
 #### Acknowledgement
 {: .no_toc }
 
-Content on this page is adapted from [The Odin Project](www.theodinproject.com).
+Content on this page is adapted from [The Odin Project](https://www.theodinproject.com/).
 {: .fs-2 }
 
