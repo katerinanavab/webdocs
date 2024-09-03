@@ -132,7 +132,7 @@ If these steps are not followed, your use of GenAI will be considered an **acade
 <details>
 <summary><strong class="text-purple-100">EXAMPLES OF AI USE</strong></summary>
 
-<p class="fs-3 note">These examples are specific to my Computer Science classes and are subject to change as we explore appropriate AI usage throughout the year. <strong>Rule of thumb:</strong> Always check with your teacher before using GenAI tools!!!</p>
+<p class="fs-3 highlight">These examples are specific to my Computer Science classes and are subject to change as we explore appropriate AI usage throughout the year. <strong>Rule of thumb:</strong> Always check with your teacher before using GenAI tools!!!</p>
 
 <div>
 <table><thead>
