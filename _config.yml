@@ -22,10 +22,6 @@ back_to_top_text: "⬆️ BACK TO TOP"
 kramdown:
   parse_block_html: true
 
-liquid:
-   error_mode: strict
-   strict_filters: true
-
 callouts_level: quiet # or loud
 callouts:
   highlight:
@@ -34,10 +30,10 @@ callouts:
     title: Important
     color: blue
   new:
-    title: Setup
+    title: New
     color: green
   note:
-    title: Task
+    title: Note
     color: purple
   warning:
     title: Warning
