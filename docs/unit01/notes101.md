@@ -60,5 +60,5 @@ The web development industry has a long history of successful developers with va
 #### Acknowledgement
 {: .no_toc }
 
-Content on this page is adapted from [The Odin Project](www.theodinproject.com).
+Content on this page is adapted from [The Odin Project](https://www.theodinproject.com/).
 {: .fs-2 }
