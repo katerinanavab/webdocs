@@ -31,8 +31,12 @@ nav_order: 0
 
 * Projects are graded on a 5-point scale, and **EXTRA CREDIT** is always available to encourage effort and creativity. _See the rubric section below for details._
 
+<html>
+ 
 <details>
 <summary>PROJECT GRADING RUBRIC</summary>
+
+<p class="fs-3 highlight">Programming projects are evaluated via a <strong>qualitative system</strong> considering a program’s efficiency, legibility, correctness, completeness, comments, etc. The grading rubric employs a 5-point scale. The assignment score is then adjusted to be out of 10 points, such that students earn a baseline of 50% credit for submitted work. Extra credit may be awarded for exceptional effort!</p>
 
 <div>
 <table><thead>
@@ -81,8 +85,7 @@ nav_order: 0
 </div>
 
 </details>
-
-<p class="fs-3 highlight">Programming projects are evaluated via a <strong>qualitative system</strong> considering a program’s efficiency, legibility, correctness, completeness, comments, etc. The grading rubric employs a 5-point scale. The assignment score is then adjusted to be out of 10 points, such that students earn a baseline of 50% credit for submitted work. Extra credit may be awarded for exceptional effort!</p>
+</html>
 
 ### Homework (30% of total grade)
 * 💬 **Homework** is assigned in the form of a `CodeCollab`: like posting on a discussion board, but instead of talking about a book or article, the class has a shared goal of figuring out how some 🔍 mystery code 🔍 works.
@@ -125,9 +128,12 @@ nav_order: 0
 > {: .warning .fs-3 }
 > If these steps are not followed, your use of GenAI will be considered an **academic integrity violation**.
 
+<html>
 <details>
 <summary>EXAMPLES OF AI USE</summary>
- 
+
+<p class="fs-3 note">These examples are specific to my Computer Science classes and are subject to change as we explore appropriate AI usage throughout the year. <strong>Rule of thumb:</strong> Always check with your teacher before using GenAI tools!!!</p>
+
 <div>
 <table><thead>
   <tr>
@@ -157,8 +163,7 @@ nav_order: 0
 </div>
 
 </details>
-
-<p class="fs-3 note">These examples are specific to my Computer Science classes and are subject to change as we explore appropriate AI usage throughout the year. <strong>Rule of thumb:</strong> Always check with your teacher before using GenAI tools!!!</p>
+</html>
 
 ### Other Classroom Policies
 * 🗓️ **Office Hours / Extra Help** is held in <span class="highlighter">Room #71</span> on <span class="highlighter">Tue/Wed/Thu during 4th period (10:45-11:25)</span>. Drop-ins are welcome, meaning there is no need to let me know in advance if you plan on stopping by during 4th period.
