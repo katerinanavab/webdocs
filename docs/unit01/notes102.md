@@ -525,5 +525,5 @@ Go ahead and update your project with `width` and `height` tags on the dog image
 #### Acknowledgement
 {: .no_toc }
 
-Content on this page is adapted from [The Odin Project](www.theodinproject.com).
+Content on this page is adapted from [The Odin Project](https://www.theodinproject.com/).
 {: .fs-2 }
