@@ -59,5 +59,5 @@ _A note about images on the web:_ You do not have the legal right to use just an
 
 #### Acknowledgement
 
-Content on this page is adapted from [The Odin Project](www.theodinproject.com).
+Content on this page is adapted from [The Odin Project](https://www.theodinproject.com/).
 {: .fs-2 }
