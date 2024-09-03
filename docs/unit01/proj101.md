@@ -86,5 +86,5 @@ Your links won't be flashy, but for now, just focus on building them out.
 #### Acknowledgement
 {: .no_toc }
 
-Content on this page is adapted from [The Odin Project](www.theodinproject.com).
+Content on this page is adapted from [The Odin Project](https://www.theodinproject.com/).
 {: .fs-2 }
