@@ -20,9 +20,9 @@ nav_order: 0
 ### Projects (50% of total grade)
 * 💻 **Projects** serve as the bulk of our coursework and include shorter coding exercises as well as longer creative programs.
 * Projects will typically follow this workflow:
-  1. A link to a **GitHub template repository** will be provided as starter code. A `repository`, or "repo," is like a project folder that contains code files.
-  2. You will write your code in the **GitHub Codespaces IDE**. An `IDE` is an "Integrated Development Environment," which means an application where you can write and run code.
-  3. Your completed project will be submitted as a link on **Blackbaud**.
+> 1. A link to a **GitHub template repository** will be provided as starter code. A `repository`, or "repo," is like a project folder that contains code files.
+> 2. You will write your code in the **GitHub Codespaces IDE**. An `IDE` is an "Integrated Development Environment," which means an application where you can write and run code.
+> 3. Your completed project will be submitted as a link on **Blackbaud**.
 
 * 💯 **GRADE IMPROVEMENT POLICY**: You may <span class="highlighter">re-submit projects for a full RE-GRADE</span>, but you must email me to let me know which project, and it must be completed at least one week BEFORE the end of the current quarter.
   * When re-working your projects, you are encouraged to come to office hours for help or more feedback. I am way more likely to grade your work favorably if you've shown effort towards improving your skills...
