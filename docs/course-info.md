@@ -179,8 +179,10 @@ You may email me to schedule an appointment at a different time, ONLY IF you hav
   * _Ex: “Please re-grade my project”_
 * 🖊️ **Student supplies** (pens, pencils, sticky notes, etc.) will always be available to borrow, located up front by the whiteboard. No need to ask, but please return pens/pencils after class! 
 * 🤞 **SILENTLY SIGNAL** that you need to leave for the bathroom or water by holding up crossed fingers. Just make sure I acknowledge you are leaving the room first - wait for me to give a thumbs up 👍
-* 📱 **NO PHONES!** → as per the new BWL Upper School policy, phones must be locked up downstairs while you are in classes. If you are caught with a cell phone in class, it will be confiscated immediately and you will be sent to the Upper School office.
-* 🖥️ Using your personal **LAPTOP** is a privilege. If you are caught using your laptop for the wrong stuff in 
+* 📱 **NO-PHONE ZONE!** → as per the new BWL Upper School policy, phones must be locked up downstairs while you are in the building.
+  * If you are caught with a cell phone in class, it will be confiscated immediately and you will be sent to the Upper School office.
+* 🖥️ Using your personal **LAPTOP** is a _privilege_.
+  * If you are caught using your laptop for things like iMessage, Discord, etc., you will be required to use the **DESKTOP COMPUTERS** in the classroom for a period of time.
 * 😊 **Common courtesy** stuff:
   * Student actions that interfere with teaching or learning in the classroom will NOT be tolerated. Please do not spend your class time on distracting apps, having side conversations, or doing work for other classes. 
   * Respect others’ property. Avoid touching or writing on anything that does not belong to you (including tables, books, teacher’s belongings, walls, etc.)
