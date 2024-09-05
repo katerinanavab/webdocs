@@ -34,15 +34,6 @@ Earlier, we mentioned that web development work could be in the front end, the b
 
 Github provides many free opportunities for students and teachers (_unlike Replit_). [Github Classroom](https://classroom.github.com/) allows teachers to set up a classroom group based on Github repositories. Github and `git` are widely used in the computer industry, so learning to use it is great experience for students. Github now has a cloud (online) **IDE** called [Codespaces](https://github.com/features/codespaces) which you can use completely free if you join as a school or get approved as a teacher or student. 
 
-_In Codespaces, you can:_
-* Start from a **blank template** or a **repository** ("repo")
-* Open a `.py` file in the VSCode editor
-* Follow prompts to install the **Python Extension Pack**
-* Click on the `Run and Debug` (play button ▶️)
-* Follow the prompts to install the Python **debugger**
-* See the **output** of your code in the `terminal`
-
-
 #### GitHub Account Setup
 
 <div class="task" markdown="block">
