@@ -29,27 +29,6 @@ Earlier, we mentioned that web development work could be in the front end, the b
 
 * `Full-stack developers` are comfortable working with both the front and back ends.
 
-#### GitHub Classroom and Codespaces
-{:.no_toc}
-
-Github provides many free opportunities for students and teachers (_unlike Replit_). [Github Classroom](https://classroom.github.com/) allows teachers to set up a classroom group based on Github repositories. Github and `git` are widely used in the computer industry, so learning to use it is great experience for students. Github now has a cloud (online) **IDE** called [Codespaces](https://github.com/features/codespaces) which you can use completely free if you join as a school or get approved as a teacher or student. 
-
-#### GitHub Account Setup
-
-<div class="task" markdown="block">
-
-1. **Go to:** [GitHub Sign Up](https://github.com/signup)
-2. Enter your `@gbwl.org` **school email**
-3. Create a **password** that you'll remember 
-4. Enter a **username** that follows this pattern: `FirstName` `LastInitial` `GradYear`
-    > _For example:_ `KaterinaN2014`
-    > 
-    > DO NOT include your entire last name (_privacy reasons_)
-5. After verifying your account, **let me know** so I can add you to the GitHub Classroom group!
-6. Once everyone is ready, we'll follow this **tutorial**: [GitHub Workflow](https://docs.github.com/en/get-started/start-your-journey/hello-world)
-   
-</div>
-
 ---
 
 ## Coding Motivation
