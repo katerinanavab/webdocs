@@ -16,9 +16,7 @@ But it's important to keep in mind that this project is just to build your HTML 
 
 <div class="setup" markdown="block">
 
-1. On [Replit](https://replit.com/~), click `+ Create Repl` on the sidebar to open a **NEW PROJECT**
-2. In the pop-up menu, select `HTML, CSS, JS` as the **TEMPLATE**
-3. Specify the **TITLE** following this pattern: `CS1_Unit1_Proj1_FirstNameLastInitial`
+1. GITHUB INSTRUCTIONS GO HERE
 
 </div>
 
@@ -27,7 +25,7 @@ But it's important to keep in mind that this project is just to build your HTML 
 #### Iteration 1: Create Initial Structure
 <div class="task" markdown="block">
 
-1. Within the Replit project, navigate to the `index.html` file.
+1. Within the project, navigate to the `index.html` file.
 1. Ensure that it is already filled out with the usual **boilerplate HTML**.
 2. Add an `h1` heading in the body section that describes the main title of the website (like _"My Favorite Recipes"_ or _"Sweet Treats for Fall"_).
 
