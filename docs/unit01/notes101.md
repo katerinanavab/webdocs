@@ -29,45 +29,75 @@ Earlier, we mentioned that web development work could be in the front end, the b
 
 * `Full-stack developers` are comfortable working with both the front and back ends.
 
-### X-Ray Goggles
+### X-Ray Goggles Activity
 
-X-ray Goggles is a great tool that Mozilla makes to help students learn the code that powers much of what they see on the Web. X-ray Goggles is a free tool that lets you remix any page that you find on the Internet. (Note, it doesn’t change the way others see the page, it only changes the way that you see it). To use X-ray Goggles you need to install it in your Chrome or Firefox bookmarks bar. Then you can launch it on any webpage. When you launch X-ray Goggles you will be able to select images and text on a page and then shown the code behind your selection. X-ray Goggles will let you then alter the code to display new things on that page.
+🥽 [X-ray Goggles](https://x-ray-goggles.mouse.org/) is a free tool from Mozilla that lets you remix any page that you find on the Internet. (_Note: it doesn’t change the way others see the page, it only changes the way that you see it_) 
 
-#### PART A: Discuss Developer Tools 
-🌐 Use GOOGLE CHROME as your web browser!!!
-You may have to use a personal Chrome Profile rather than your BWL account
-You can go to any website, right click (or hold CONTROL + click) anywhere on the page, then select View Page Source to show the code behind a website. Another thing you can do is select Inspect to open up Chrome's Developer Tools (the code behind the website PLUS some extra features that web developers may use to test/investigate code).
-Check these out, but don’t worry – all the code behind websites is written in three different new languages so it may look pretty overwhelming at first. We’ll learn how to play around with Inspect and more Dev Tools later on in the course, but for now, we'll use something more user friendly to explore the code behind websites.
+To use X-ray Goggles you need to install it in your Chrome bookmarks bar. Then you can launch it on any webpage. When you launch X-ray Goggles you will be able to **select images and text** on a page and then shown the code behind your selection. X-ray Goggles will let you then **alter the code** to display new things on that page!
+
+#### PART A: Introduce Developer Tools 
+{:.no_toc}
+
+{:.highlight}
+🌐 Use **GOOGLE CHROME** as your web browser!!! You may have to use a _personal_ Chrome profile rather than your BWL account for this activity. 
+
+Open any website, **right click** (or hold `⌃ CONTROL` + **click** on Mac) anywhere on the page, then select `View Page Source` to show the code behind a website. Another thing you can do is select `Inspect` to open up **Chrome's Developer Tools**, which includes the code behind the website PLUS some extra features that web developers may use to test/investigate code.
+
+> Check these out, but don’t worry – all the code behind websites is written in **three different new languages** so it may look pretty overwhelming at first.
+> 
+> We’ll learn how to play around with `Inspect` and more Dev Tools later on in the course, but for now, we'll use something more user friendly to explore the code behind websites.
 
 #### PART B: Install X-Ray Goggles
-🌐 Use GOOGLE CHROME!!! 
-Follow instructions here to install X-Ray Goggles in your Bookmarks Toolbar: https://x-ray-goggles.mouse.org/
-Start on the BWL website and practice using X-Ray Goggles to change TEXT on the page
-💡 HINT: text is usually contained in HTML elements like p, h1, h2, h3, etc.
+{:.no_toc}
+
+<div class="task" markdown="block">
+
+1. Follow instructions on the <a href="https://x-ray-goggles.mouse.org/"><button type="button" name="button" class="btn">X-Ray Goggles</button></a> page to install the X-Ray Goggles Extension in your **Bookmarks Toolbar**.
+
+2. Open the BWL website and practice using X-Ray Goggles to change **TEXT** on the page
+
+  * 💡 **HINT:** text is usually contained in HTML elements like `p`, `h1`, `h2`, `h3`, etc
+
 How to modify IMAGES:
 👉 Go onto Google Image Search and find an image you would like to use, control+click on the image and select Copy Image Address
 This gives you the URL (Uniform Resource Locator - basically an address/location on the web) of the image
 Activate X-Ray Goggles by clicking on the Bookmark, then select the image on the page that you would like to change.
+
 NOTE: Some pictures might actually be a different kind of HTML element like a link, iframe, etc. so make sure it is contained in an <img> tag specifically!
 Look for the src=" (the source attribute) then delete everything until the next quotation mark (the old image's URL/address)
 Paste the copied image address (the source) and put it between the quotations that follow the src=
 Then click Update and your image should change on the website!
 
+</div>
+
 #### PART C: Hack the News Task
+{:.no_toc}
+
+
 First, discuss the definition of "hacking": https://wiki.mozilla.org/Webmaker/Teach/Terminology#Hack
+
+<div class="task" markdown="block">
+
 1. Navigate to a news website
 Try your local newspaper, your school paper, a national news site like The New York Times or CNN.
 Don’t worry — you’re not actually hacking the site for others — just yourself. You’re changing a local version of the site that only you can see. But if you take a screenshot of the page and send it to your friends, they'll never know!
+
 2. Decide on one of these fun remix themes (or one of your own)
-The year 2525: What’s on the front page of the paper in the year 2525? Are humans living on the moon yet? Have robots taken over? You decide!
-Your Birthday: Write the headlines for the day were born. Do some research to find out what happened that day. What was the weather was like? What song was most popular?
-Zombie Apocalypse: It’s the day after the zombies have risen from the dead – what is on the cover of the newspaper? Interviews with zombies? Survival tips? Ideas about what caused the spread of Zombie-ism?
+  > **The year 2525:** What’s on the front page of the paper in the year 2525? Are humans living on the moon yet? Have robots taken over? You decide!
+  > 
+  > **Your Birthday:** Write the headlines for the day were born. Do some research to find out what happened that day. What was the weather was like? What song was most popular?
+  > 
+  > **Zombie Apocalypse:** It’s the day after the zombies have risen from the dead – what is on the cover of the newspaper? Interviews with zombies? Survival tips? Ideas about what caused the spread of Zombie-ism?
+
 3. Activate the Goggles
 Click the Goggles in your bookmark toolbar to turn them on. Now when you mouse over elements of the news page, you’ll see the code underneath.
+
 4. Change the text and swap in new images
 Try changing the headlines or rewriting some of the stories. Edit some of the links and play with font size and color.
-5. Take a screenshot (Mac shortcut: COMMAND + SHIFT + 3) and email it to me!
 
+5. 📸 Take a **screenshot** (Mac shortcut: `⌘ COMMAND` + `⇧ SHIFT` + `3`) and email it to me!
+
+</div>
 ---
 
 ## Coding Motivation
