@@ -31,19 +31,19 @@ Earlier, we mentioned that web development work could be in the front end, the b
 
 ### X-Ray Goggles Activity
 
-🥽 [X-ray Goggles](https://x-ray-goggles.mouse.org/) is a free tool from Mozilla that lets you remix any page that you find on the Internet. (_Note: it doesn’t change the way others see the page, it only changes the way that you see it_) 
+🥽 [X-Ray Goggles](https://x-ray-goggles.mouse.org/) is a free tool from Mozilla that lets you remix any page that you find on the Internet. (_Note: it doesn’t change the way others see the page, it only changes the way that you see it._) 
 
-To use X-ray Goggles you need to install it in your Chrome bookmarks bar. Then you can launch it on any webpage. When you launch X-ray Goggles you will be able to **select images and text** on a page and then shown the code behind your selection. X-ray Goggles will let you then **alter the code** to display new things on that page!
+To use X-ray Goggles you need to install it in your Chrome bookmarks bar. Then you can launch it on any webpage. When you launch X-ray Goggles you will be able to **select images and text** on a page and see the **code** behind your selection. X-ray Goggles will let you then **alter the code** to display new things on that page!
+
+{:.highlight}
+🌐 Use **GOOGLE CHROME** as your web browser!!! You may have to use a _personal_ Chrome profile rather than your BWL account for this particular activity. 
 
 #### PART A: Introduce Developer Tools 
 {:.no_toc}
 
-{:.highlight}
-🌐 Use **GOOGLE CHROME** as your web browser!!! You may have to use a _personal_ Chrome profile rather than your BWL account for this activity. 
-
 Open any website, **right click** (or hold `⌃ CONTROL` + **click** on Mac) anywhere on the page, then select `View Page Source` to show the code behind a website. Another thing you can do is select `Inspect` to open up **Chrome's Developer Tools**, which includes the code behind the website PLUS some extra features that web developers may use to test/investigate code.
 
-> Check these out, but don’t worry – all the code behind websites is written in **three different new languages** so it may look pretty overwhelming at first.
+> Feel free to check these out, but don’t worry – all the code behind websites is written in **three different new languages** so it may look pretty overwhelming at first.
 > 
 > We’ll learn how to play around with `Inspect` and more Dev Tools later on in the course, but for now, we'll use something more user friendly to explore the code behind websites.
 
@@ -54,27 +54,33 @@ Open any website, **right click** (or hold `⌃ CONTROL` + **click** on Mac) any
 
 1. Follow instructions on the <a href="https://x-ray-goggles.mouse.org/"><button type="button" name="button" class="btn">X-Ray Goggles</button></a> page to install the X-Ray Goggles Extension in your **Bookmarks Toolbar**.
 
-2. Open the BWL website and practice using X-Ray Goggles to change **TEXT** on the page
+2. Open the BWL website and practice using X-Ray Goggles to change **TEXT** on the page.
 
-  * 💡 **HINT:** text is usually contained in HTML elements like `p`, `h1`, `h2`, `h3`, etc
+ > 💡 **HINT:** Text is usually contained in HTML elements like `p`, `h1`, `h2`, `h3`, etc
 
-How to modify IMAGES:
-👉 Go onto Google Image Search and find an image you would like to use, control+click on the image and select Copy Image Address
-This gives you the URL (Uniform Resource Locator - basically an address/location on the web) of the image
-Activate X-Ray Goggles by clicking on the Bookmark, then select the image on the page that you would like to change.
-
-NOTE: Some pictures might actually be a different kind of HTML element like a link, iframe, etc. so make sure it is contained in an <img> tag specifically!
-Look for the src=" (the source attribute) then delete everything until the next quotation mark (the old image's URL/address)
-Paste the copied image address (the source) and put it between the quotations that follow the src=
-Then click Update and your image should change on the website!
+3. Use X-Ray Goggles to change **IMAGES** on the page. _See below for step-by-step instructions._
 
 </div>
+
+🖼️ **HOW TO MODIFY IMAGES:** 
+
+1. Go to [Google Image Search]() and find an image you would like to use, `⌃ CONTROL` + **click** on the image and select `Copy Image Address`. This gives you the **URL** (_Uniform Resource Locator - basically an address/location on the web_) of the image.
+
+2. Activate X-Ray Goggles, then click on the image on the page that you would like to change.
+
+ > **NOTE:** Some pictures might actually be a contained in a different kind of HTML element like a link, iframe, etc. so make sure you pick something that is contained in an `<img>` tag specifically!
+
+3. Look for the `src=" ` then delete everything until the next quotation mark (_the old image's URL/address_).
+
+4. Paste the copied image address (_the new image's **source**_) between the quotations that follow the `src=`
+
+5. Then click `Update` and your image should change on the website!
 
 #### PART C: Hack the News Task
 {:.no_toc}
 
 
-First, discuss the definition of "hacking": https://wiki.mozilla.org/Webmaker/Teach/Terminology#Hack
+First, discuss the definition of "hacking": [What is Hacking?](https://wiki.mozilla.org/Webmaker/Teach/Terminology#Hack)
 
 <div class="task" markdown="block">
 
