@@ -85,7 +85,8 @@ First, discuss the definition of "hacking": [What is Hacking?](https://wiki.mozi
 
 <div class="task" markdown="block">
 
-1. Navigate to a **news website**. Try your local newspaper, your school paper, a national news site like The New York Times or CNN.
+1. Navigate to one of the following **news websites**: [BBC](https://www.bbc.com/), [Gothamist](https://gothamist.com/), [Vogue](https://www.vogue.com/fashion), [Bleacher Report](https://bleacherreport.com/).
+  > You can try another news site if you prefer, but I've confirmed that these options work well with X-Ray Goggles. 
   > Don’t worry — you’re not actually hacking the site for others — just yourself. You’re changing a _local version_ of the site that only you can see.
   > 
   > 🚨 **Be careful not to reload the page** or you will lose your changes!
