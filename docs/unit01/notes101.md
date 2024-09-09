@@ -54,21 +54,23 @@ Open any website, **right click** (or hold `⌃ CONTROL` + **click** on Mac) any
 
 1. Follow instructions on the <a href="https://x-ray-goggles.mouse.org/"><button type="button" name="button" class="btn">X-Ray Goggles</button></a> page to install the X-Ray Goggles Extension in your **Bookmarks Toolbar**.
 
-2. Open the BWL website and practice using X-Ray Goggles to change **TEXT** on the page.
+2. Staying on this website, click the **Bookmark** you just installed to activate X-Ray Goggles.
 
- > 💡 **HINT:** Text is usually contained in HTML elements like `p`, `h1`, `h2`, `h3`, etc
+3. Use X-Ray Goggles to change **TEXT** on the page.
 
-3. Use X-Ray Goggles to change **IMAGES** on the page. _See below for step-by-step instructions._
+  > 💡 **HINT:** Text is usually contained in HTML elements like `p`, `h1`, `h2`, `h3`, etc
+
+4. Use X-Ray Goggles to change **IMAGES** on the page. _See below for step-by-step instructions._
 
 </div>
 
 🖼️ **HOW TO MODIFY IMAGES:** 
 
-1. Go to [Google Image Search]() and find an image you would like to use, `⌃ CONTROL` + **click** on the image and select `Copy Image Address`. This gives you the **URL** (_Uniform Resource Locator - basically an address/location on the web_) of the image.
+1. Go to [Google Image Search](https://images.google.com/) and find an image you would like to use, `⌃ CONTROL` + **click** on the image and select `Copy Image Address`. This gives you the **URL** (_Uniform Resource Locator - basically an address/location on the web_) of the image.
 
 2. Activate X-Ray Goggles, then click on the image on the page that you would like to change.
 
- > **NOTE:** Some pictures might actually be a contained in a different kind of HTML element like a link, iframe, etc. so make sure you pick something that is contained in an `<img>` tag specifically!
+  > **NOTE:** Some pictures might actually be a contained in a different kind of HTML element like a link, iframe, etc. so make sure you pick something that is contained in an `<img>` tag specifically!
 
 3. Look for the `src=" ` then delete everything until the next quotation mark (_the old image's URL/address_).
 
@@ -76,30 +78,29 @@ Open any website, **right click** (or hold `⌃ CONTROL` + **click** on Mac) any
 
 5. Then click `Update` and your image should change on the website!
 
-#### PART C: Hack the News Task
+#### PART C: Hack the News
 {:.no_toc}
-
 
 First, discuss the definition of "hacking": [What is Hacking?](https://wiki.mozilla.org/Webmaker/Teach/Terminology#Hack)
 
 <div class="task" markdown="block">
 
-1. Navigate to a news website
-Try your local newspaper, your school paper, a national news site like The New York Times or CNN.
-Don’t worry — you’re not actually hacking the site for others — just yourself. You’re changing a local version of the site that only you can see. But if you take a screenshot of the page and send it to your friends, they'll never know!
+1. Navigate to a **news website**. Try your local newspaper, your school paper, a national news site like The New York Times or CNN.
+  > Don’t worry — you’re not actually hacking the site for others — just yourself. You’re changing a _local version_ of the site that only you can see.
+  > 
+  > 🚨 **Be careful not to reload the page** or you will lose your changes!
 
-2. Decide on one of these fun remix themes (or one of your own)
+3. Decide on one of these fun remix themes (or one of your own)
   > **The year 2525:** What’s on the front page of the paper in the year 2525? Are humans living on the moon yet? Have robots taken over? You decide!
   > 
   > **Your Birthday:** Write the headlines for the day were born. Do some research to find out what happened that day. What was the weather was like? What song was most popular?
   > 
   > **Zombie Apocalypse:** It’s the day after the zombies have risen from the dead – what is on the cover of the newspaper? Interviews with zombies? Survival tips? Ideas about what caused the spread of Zombie-ism?
 
-3. Activate the Goggles
-Click the Goggles in your bookmark toolbar to turn them on. Now when you mouse over elements of the news page, you’ll see the code underneath.
+3. **Activate the Goggles** by clicking on your Bookmark. Now when you mouse over elements of the news page, you’ll see the code underneath.
 
-4. Change the text and swap in new images
-Try changing the headlines or rewriting some of the stories. Edit some of the links and play with font size and color.
+4. Change all of the **text** and swap in new **images**.
+  > Try changing the headlines and rewriting some of the stories. The more content you change, the more believable your remix will be. 
 
 5. 📸 Take a **screenshot** (Mac shortcut: `⌘ COMMAND` + `⇧ SHIFT` + `3`) and email it to me!
 
