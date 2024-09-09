@@ -54,7 +54,7 @@ Open any website, **right click** (or hold `⌃ CONTROL` + **click** on Mac) any
 
 1. Follow instructions on the <a href="https://x-ray-goggles.mouse.org/"><button type="button" name="button" class="btn">X-Ray Goggles</button></a> page to install the X-Ray Goggles Extension in your **Bookmarks Toolbar**.
 
-2. Staying on this website, click the **Bookmark** you just installed to activate X-Ray Goggles.
+2. Staying on the X-Ray Goggles website, click the **Bookmark** you just installed to activate it.
 
 3. Use X-Ray Goggles to change **TEXT** on the page.
 
@@ -90,7 +90,7 @@ First, discuss the definition of "hacking": [What is Hacking?](https://wiki.mozi
   > 
   > 🚨 **Be careful not to reload the page** or you will lose your changes!
 
-3. Decide on one of these fun remix themes (or one of your own)
+2. Decide on one of these fun remix themes (or one of your own)
   > **The year 2525:** What’s on the front page of the paper in the year 2525? Are humans living on the moon yet? Have robots taken over? You decide!
   > 
   > **Your Birthday:** Write the headlines for the day were born. Do some research to find out what happened that day. What was the weather was like? What song was most popular?
@@ -105,6 +105,7 @@ First, discuss the definition of "hacking": [What is Hacking?](https://wiki.mozi
 5. 📸 Take a **screenshot** (Mac shortcut: `⌘ COMMAND` + `⇧ SHIFT` + `3`) and email it to me!
 
 </div>
+
 ---
 
 ## Coding Motivation
