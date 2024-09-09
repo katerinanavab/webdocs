@@ -57,7 +57,6 @@ Open any website, **right click** (or hold `⌃ CONTROL` + **click** on Mac) any
 2. Staying on the X-Ray Goggles website, click the **Bookmark** you just installed to activate it.
 
 3. Use X-Ray Goggles to change **TEXT** on the page.
-
   > 💡 **HINT:** Text is usually contained in HTML elements like `p`, `h1`, `h2`, `h3`, etc
 
 4. Use X-Ray Goggles to change **IMAGES** on the page. _See below for step-by-step instructions._
@@ -69,7 +68,6 @@ Open any website, **right click** (or hold `⌃ CONTROL` + **click** on Mac) any
 1. Go to [Google Image Search](https://images.google.com/) and find an image you would like to use, `⌃ CONTROL` + **click** on the image and select `Copy Image Address`. This gives you the **URL** (_Uniform Resource Locator - basically an address/location on the web_) of the image.
 
 2. Activate X-Ray Goggles, then click on the image on the page that you would like to change.
-
   > **NOTE:** Some pictures might actually be a contained in a different kind of HTML element like a link, iframe, etc. so make sure you pick something that is contained in an `<img>` tag specifically!
 
 3. Look for the `src=" ` then delete everything until the next quotation mark (_the old image's URL/address_).
@@ -86,7 +84,8 @@ First, discuss the definition of "hacking": [What is Hacking?](https://wiki.mozi
 <div class="task" markdown="block">
 
 1. Navigate to one of the following **news websites**: [BBC](https://www.bbc.com/), [Gothamist](https://gothamist.com/), [Vogue](https://www.vogue.com/fashion), [Bleacher Report](https://bleacherreport.com/).
-  > You can try another news site if you prefer, but I've confirmed that these options work well with X-Ray Goggles. 
+  > You can try another news site if you prefer, but I've confirmed that these options work well with X-Ray Goggles.
+  > 
   > Don’t worry — you’re not actually hacking the site for others — just yourself. You’re changing a _local version_ of the site that only you can see.
   > 
   > 🚨 **Be careful not to reload the page** or you will lose your changes!
