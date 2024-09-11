@@ -58,25 +58,19 @@ Open any website, **right click** (or hold `⌃ CONTROL` + **click** on Mac) any
 
 2. Staying on the X-Ray Goggles website, click the **Bookmark** you just installed to activate it.
 
-3. Use X-Ray Goggles to change **TEXT** on the page.
+3. Use X-Ray Goggles to change 🔤**TEXT**🔤 on the page.
   > 💡 **HINT:** Text is usually contained in HTML elements like `p`, `h1`, `h2`, `h3`, etc
 
-4. Use X-Ray Goggles to change **IMAGES** on the page. _See below for step-by-step instructions._
+4. Use X-Ray Goggles to change 🖼️**IMAGES**🖼️ on the page.
+  1. Go to [Google Image Search](https://images.google.com/) and find an image you would like to use, `⌃ CONTROL` + **click** on the image and select `Copy Image Address`. This gives you the **URL** (_Uniform Resource Locator - basically an address/location on the web_) of the image.
+  2. Activate X-Ray Goggles, then click on the image on the page that you would like to change.
+    > **NOTE:** Some pictures might actually be a contained in a different kind of HTML element like a link, iframe, etc. so make sure you pick something that is contained in an `<img>` tag specifically!
+  3. Look for the `src=" ` then delete everything until the next quotation mark (_the old image's URL/address_).
+  4. Paste the copied image address (_the new image's **source**_) between the quotations that follow the `src=`
+  5. Then click `Update` and your image should change on the website!
 
 </div>
 
-🖼️ **HOW TO MODIFY IMAGES:** 
-
-1. Go to [Google Image Search](https://images.google.com/) and find an image you would like to use, `⌃ CONTROL` + **click** on the image and select `Copy Image Address`. This gives you the **URL** (_Uniform Resource Locator - basically an address/location on the web_) of the image.
-
-2. Activate X-Ray Goggles, then click on the image on the page that you would like to change.
-  > **NOTE:** Some pictures might actually be a contained in a different kind of HTML element like a link, iframe, etc. so make sure you pick something that is contained in an `<img>` tag specifically!
-
-3. Look for the `src=" ` then delete everything until the next quotation mark (_the old image's URL/address_).
-
-4. Paste the copied image address (_the new image's **source**_) between the quotations that follow the `src=`
-
-5. Then click `Update` and your image should change on the website!
 
 #### PART C: Hack the News
 {:.no_toc}
