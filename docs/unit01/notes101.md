@@ -61,14 +61,13 @@ Open any website, **right click** (or hold `⌃ CONTROL` + **click** on Mac) any
 3. Use X-Ray Goggles to change 🔤**TEXT**🔤 on the page.
   > 💡 **HINT:** Text is usually contained in HTML elements like `p`, `h1`, `h2`, `h3`, etc
 
-4. Use X-Ray Goggles to change 🖼️**IMAGES**🖼️ on the page.
-   
-  a. Go to [Google Image Search](https://images.google.com/) and find an image you would like to use, `⌃ CONTROL` + **click** on the image and select `Copy Image Address`. This gives you the **URL** (_Uniform Resource Locator - basically an address/location on the web_) of the image.
-  b. Activate X-Ray Goggles, then click on the image on the page that you would like to change.
-    > **NOTE:** Some pictures might actually be a contained in a different kind of HTML element like a link, iframe, etc. so make sure you pick something that is contained in an `<img>` tag specifically!
-  c. Look for the `src=" ` then delete everything until the next quotation mark (_the old image's URL/address_).
-  d. Paste the copied image address (_the new image's **source**_) between the quotations that follow the `src=`
-  e. Then click `Update` and your image should change on the website!
+4. Use X-Ray Goggles to change 🖼️**IMAGES**🖼️ on the page:   
+   a. Go to [Google Image Search](https://images.google.com/) and find an image you would like to use, `⌃ CONTROL` + **click** on the image and select `Copy Image Address`. This gives you the **URL** (_Uniform Resource Locator - basically an address/location on the web_) of the image.
+   b. Activate X-Ray Goggles, then click on the image on the page that you would like to change.
+     > **NOTE:** Some pictures might actually be a contained in a different kind of HTML element like a link, iframe, etc. so make sure you pick something that is contained in an `<img>` tag specifically!
+   c. Look for the `src=" ` then delete everything until the next quotation mark (_the old image's URL/address_).
+   d. Paste the copied image address (_the new image's **source**_) between the quotations that follow the `src=`
+   e. Then click `Update` and your image should change on the website!
 
 </div>
 
