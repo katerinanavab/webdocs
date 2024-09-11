@@ -134,6 +134,39 @@ The web development industry has a long history of successful developers with va
 
 ---
 
+## GitHub Account Setup
+
+<div class="task" markdown="block">
+
+1. **Go to:** [GitHub Sign Up](https://github.com/signup)
+2. Enter your `@gbwl.org` **school email**
+3. Create a **password** that you'll remember 
+4. Enter a **username** that follows this pattern: `FirstName` `LastInitial` `GradYear`
+    > _For example:_ `KaterinaN2014`
+    > 
+    > DO NOT include your entire last name (_privacy reasons_)
+5. After verifying your account, **let me know** so I can add you to the GitHub Classroom group!
+   
+</div>
+
+#### Using a GitHub Template for class notes
+{:.no_toc}
+
+<div class="setup" markdown="block">
+
+1. Go to the public template **repository** for our class: [BWL-CS HTML/CSS/JS Template](https://github.com/BWL-CS/html-css-js-template)
+2. Click the <button type="button" name="button" class="btn btn-green">Use this template</button> button above the list of files then select `Create a new repository`
+3. Specify the **repository name**: `CS1-Unit1-Notes`
+4. Click <button type="button" name="button" class="btn btn-green">Create repository</button>
+    > Now you have **your own personal copy** of this starter code that you can always access under the `Your repositories` section of GitHub! 
+5. Now on your repository, click <button type="button" name="button" class="btn btn-green"> < > Code </button> and select the `Codespaces` tab
+6. Click `Create Codespace on main` and wait for the environment to load, _then you're ready to code_!
+7. 📝 Take notes in this Codespace during class, coding along with the instructor.
+
+</div>
+
+---
+
 #### Acknowledgement
 {: .no_toc }
 
