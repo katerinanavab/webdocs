@@ -71,9 +71,7 @@ To demonstrate an HTML boilerplate, we first need an HTML file to work with.
 
 <div class="setup" markdown="block">
 
-1. On [Replit](https://replit.com/~), click `+ Create Repl` on the sidebar to open a **NEW PROJECT**
-2. In the pop-up menu, select `HTML, CSS, JS` as the **TEMPLATE**
-3. Specify the **TITLE** following this pattern: `CS1_Unit1_Notes`
+1. 
 
 </div>
 
