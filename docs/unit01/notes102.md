@@ -207,6 +207,20 @@ In this module, we will learn about the text-based elements, including:
 - The relationships between nested elements.
 - How to create HTML comments.
 
+#### Open your notes repository
+{:.no_toc}
+
+<div class="setup" markdown="block">
+
+1. Go to GitHub and click on your picture in the _TOP RIGHT_ corner
+2. Select `Your repositories`
+3. Open `CS1-Unit1-Notes`
+5. Now on your repository, click <button type="button" name="button" class="btn btn-green"> < > Code </button> and select the `Codespaces` tab
+6. Click `Create Codespace on main` (unless you already have one listed there), wait for the environment to load, _then you're ready to code_!
+7. 📝 Take notes in this Codespace during class, coding along with the instructor.
+
+</div>
+
 ### Paragraph Element
 
 What would you expect the following text to output on an HTML page?
