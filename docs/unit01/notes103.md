@@ -797,6 +797,7 @@ The following questions are an opportunity to reflect on key topics in this less
 #### Acknowledgement
 {: .no_toc }
 
-Content on this page is adapted from [The Odin Project](https://www.theodinproject.com/).
+Content on this page is adapted from [The Odin Project](https://www.theodinproject.com/) and most images are from [Interneting is Hard](https://internetingishard.netlify.app/).
+
 {: .fs-2 }
 
