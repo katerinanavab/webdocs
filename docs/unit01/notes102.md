@@ -69,16 +69,23 @@ All HTML documents have the same **basic structure** or **boilerplate** that nee
 
 To demonstrate an HTML boilerplate, we first need an HTML file to work with.
 
+#### Using a GitHub Template for class notes
+{:.no_toc}
+
 <div class="setup" markdown="block">
 
-1. Go to GitHub and click on your picture in the _TOP RIGHT_ corner
-2. Select `Your repositories`
-3. Open `CS1-Unit1-Notes`
+1. Go to the public template **repository** for our class: [BWL-CS HTML/CSS/JS Template](https://github.com/BWL-CS/html-css-js-template)
+2. Click the <button type="button" name="button" class="btn btn-green">Use this template</button> button above the list of files then select `Create a new repository`
+3. Specify the **repository name**: `CS1-Unit1-Notes`
+4. Click <button type="button" name="button" class="btn btn-green">Create repository</button>
+    > Now you have **your own personal copy** of this starter code that you can always access under the `Your repositories` section of GitHub! 
 5. Now on your repository, click <button type="button" name="button" class="btn btn-green"> < > Code </button> and select the `Codespaces` tab
-6. Click `Create Codespace on main` (unless you already have one listed there), wait for the environment to load, _then you're ready to code_!
+6. Click `Create Codespace on main` and wait for the environment to load, _then you're ready to code_!
 7. 📝 Take notes in this Codespace during class, coding along with the instructor.
 
 </div>
+
+<br>
 
 <div class="warn" markdown="block">
 
