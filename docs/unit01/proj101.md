@@ -16,7 +16,11 @@ But it's important to keep in mind that this project is just to build your HTML 
 
 <div class="setup" markdown="block">
 
-1. GITHUB INSTRUCTIONS GO HERE
+1. Go to the `CS1 Project 1.1` assignment on **Blackbaud** and follow the provided **GitHub Classroom** link.
+  > 📁 Clicking the link generates a **private repository** for your project with the appropriate starter code. Note that **projects** are stored within the [BWL-CS Organization](https://github.com/BWL-CS), so you _cannot_ access it from the "Your Repositories" page!
+2. Open the repository in a **Codespace** whenever you spend time working on the program, in class or at home. 
+  > ⚠️ Always remember to `commit changes` after every coding session!
+3. When your project is complete, **submit the link to your repository** in the `CS1 Project 1.1` assignment on Blackbaud.
 
 </div>
 
