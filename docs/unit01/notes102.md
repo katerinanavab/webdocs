@@ -373,6 +373,131 @@ To get some practice working with text in HTML, create a plain blog article page
 - [The semantic difference between &lt;strong> and &lt;b> or &lt;em> and &lt;i> tags and when to use them.](https://medium.com/@zac_heisey/when-to-use-strong-b-em-and-i-tags-in-your-markup-fa4d0af8affb)
 - [An interactive HTML text formatting article](https://www.w3schools.com/html/html_formatting.asp)
 
+
+---
+## Links and Images
+
+Links are one of the key features of HTML. They allow us to link to other HTML pages on the web. In fact, this is why it was named the "web" 🕸️. 
+
+In this lesson, we will learn:
+
+- How to create links to pages on other websites on the internet.
+- How to create links to other pages on your own websites.
+- The difference between absolute and relative links.
+- How to display an image on a webpage using HTML.
+
+### Anchor (Link) Element
+
+⚓️ To create a link in HTML, we use the **anchor** element. An anchor element is defined by wrapping the text or another HTML element we want to be a link with an `<a>` tag.
+
+Add the following to the body of the `index.html` page:
+
+```html
+<a>About The Odin Project</a>
+```
+
+You may have noticed that clicking this link doesn't do anything. This is because an anchor tag on its own won't know where we want to link to. We have to tell it a destination to go to. We do this by using an HTML attribute.
+
+{:.important}
+An HTML **attribute** gives additional information to an HTML element and always goes in the element's opening tag. An attribute is usually made up of two parts: a **name**, and a **value**; however, not all attributes require a value. In our case, we need to add an `href` (hypertext reference) attribute to the opening anchor tag. The _value_ of the href attribute is the destination (URL) we want our link to go to.
+
+Add the following `href` attribute to the anchor element we created previously and try clicking it again, don't forget to refresh the browser so the new changes can be applied.
+
+```html
+<a href="https://www.theodinproject.com/about">About The Odin Project</a>
+```
+
+By default, any text wrapped with an anchor tag without an `href` attribute will look like plain text. If the `href` attribute is present, the browser will give the text a blue color and underline it to signify it is a link.
+
+It's worth noting you can use anchor tags to link to any kind of resource on the internet, not just other HTML documents. You can link to videos, pdf files, images, and so on, but for the most part, you will be linking to other HTML documents.
+
+### Absolute vs. Relative Links
+{:.no_toc}
+
+Generally, there are two kinds of links we will create:
+
+- **Absolute Links:** Links to pages on other websites on the internet.
+  - A typical absolute link will be made up of the following parts: `protocol://domain/path`. An absolute link will always contain the protocol and domain of the destination, for example: `https://www.theodinproject.com/about`
+- **Relative Links:** Links to pages located on our own websites.
+  - Relative links do not include the domain name, since it is another page on the same site, it assumes the domain name will be the same as the page we created the link on.
+
+### Image Elements
+
+Websites would be fairly boring if they could only display text. Luckily HTML provides a wide variety of elements for displaying all sorts of different media. The most widely used of these is the **image** element.
+
+To display an image in HTML we use the `<img>` element. Unlike the other elements we have encountered, the `<img>` element is a void element. _As we have seen earlier in the course, void elements do not need a closing tag because they are naturally empty and do not contain any content._
+
+{:.highlight}
+Instead of wrapping content with an opening and closing tag, it embeds an image into the page using a `src` **attribute** which tells the browser where the image file is located. The `src` attribute works much like the `href` attribute for anchor tags. It can embed an image using both absolute and relative paths.
+
+For example, using an **absolute path** we can display an image located on The Odin Project site:
+
+<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="gORbExZ" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+
+  <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/gORbExZ">
+  absolute-path-image</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+
+</p>
+
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+To display images on your website that are hosted on your own web server, you can use a **relative path**.
+
+
+<div class="task" markdown="1">
+  
+1. Download [this stock dog image](https://unsplash.com/photos/Mv9hjnEUHR4/download?force=true&w=640) or pick something els.
+
+1. Right click on the new download at the bottom of the Google Chrome window and select "Show in folder".
+
+1. Click `+` in the `File Explorer` pane of your project to upload the image, or try just dragging it in.
+
+1. Finally add the image address to the `index.html` file:
+
+```html
+<body>
+  <h1>Homepage</h1>
+  <img src="./images/dog.jpg">
+</body>
+```
+
+</div>
+
+### Alt Attribute
+{:.no_toc}
+
+<span id="two-attributes"></span>Besides the `src` attribute, every image element must also have an `alt` (alternative text) attribute.
+
+The alt attribute is used to describe an image. It will be used in place of the image if it cannot be loaded. It is also used with screen readers to describe what the image is to visually impaired users.
+
+<div class="task" markdown="1">
+  
+As a bit of practice, add an `alt` attribute to the dog image in the project.
+</div>
+
+### Image Size Attributes
+{:.no_toc}
+
+While not strictly required, specifying `height` and `width` **attributes** in image tags helps the browser layout the page without causing the page to jump and flash.
+
+It is a good habit to always specify these attributes on every image, even when the image is the correct size or you are using CSS to modify it.
+
+<div class="task" markdown="1">
+  
+Go ahead and update your project with `width` and `height` tags on the dog image.
+
+</div>
+
+#### Additional resources
+{:.no_toc}
+
+- [Interneting is hard's treatment on HTML links and images](https://internetingishard.netlify.app/html-and-css/links-and-images)
+- [What happened the day Google decided links including (`/`) were malware](https://www.itpro.co.uk/609724/google-apologises-after-blacklisting-entire-internet)
+- [Chris Coyier's When to use target="_blank" on CSS-Tricks](https://css-tricks.com/use-target_blank/)
+- [Read about the four main image formats that can be used on the web](https://internetingishard.netlify.app/html-and-css/links-and-images/#image-formats).
+- If you're looking to deepen your understanding of the various image formats used on the web, [the following article which is titled: Which is the Best Image Format for Your Website?](https://imagekit.io/blog/best-image-format-for-web/) from imagekit.io is a great resource. It offers a detailed comparison of JPEG, PNG, GIF, and WebP formats, helping you choose the right one for your needs. Note that the article doesn't cover SVG, but it's still an excellent guide for the other common formats.
+
 ---
 ## Lists
 
@@ -433,129 +558,6 @@ To get some practice using lists, create the following lists in your HTML docume
 - [MDN documentation on the unordered list element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul)
 - [MDN documentation on the ordered list element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol)
 - [Shay Howe's HTML lists tutorial](https://learn.shayhowe.com/html-css/creating-lists/)
-
----
-## Links and Images
-
-Links are one of the key features of HTML. They allow us to link to other HTML pages on the web. In fact, this is why it was named the "web" 🕸️. 
-
-In this lesson, we will learn:
-
-- How to create links to pages on other websites on the internet.
-- How to create links to other pages on your own websites.
-- The difference between absolute and relative links.
-- How to display an image on a webpage using HTML.
-
-### Anchor (Link) Element
-
-⚓️ To create a link in HTML, we use the **anchor** element. An anchor element is defined by wrapping the text or another HTML element we want to be a link with an `<a>` tag.
-
-Add the following to the body of the `index.html` page:
-
-```html
-<a>About The Odin Project</a>
-```
-
-You may have noticed that clicking this link doesn't do anything. This is because an anchor tag on its own won't know where we want to link to. We have to tell it a destination to go to. We do this by using an HTML attribute.
-
-<span id="attribute"></span>An HTML **attribute** gives additional information to an HTML element and always goes in the element's opening tag. An attribute is usually made up of two parts: a **name**, and a **value**; however, not all attributes require a value. <span id="where-to-go"></span>In our case, we need to add an href (hypertext reference) attribute to the opening anchor tag. The value of the href attribute is the destination we want our link to go to.
-
-Add the following `href` attribute to the anchor element we created previously and try clicking it again, don't forget to refresh the browser so the new changes can be applied.
-
-```html
-<a href="https://www.theodinproject.com/about">About The Odin Project</a>
-```
-
-By default, any text wrapped with an anchor tag without an `href` attribute will look like plain text. If the `href` attribute is present, the browser will give the text a blue color and underline it to signify it is a link.
-
-It's worth noting you can use anchor tags to link to any kind of resource on the internet, not just other HTML documents. You can link to videos, pdf files, images, and so on, but for the most part, you will be linking to other HTML documents.
-
-### Absolute vs. Relative Links
-{:.no_toc}
-
-Generally, there are two kinds of links we will create:
-
-- **Absolute Links:** Links to pages on other websites on the internet.
-  - A typical absolute link will be made up of the following parts: `protocol://domain/path`. An absolute link will always contain the protocol and domain of the destination, for example: `https://www.theodinproject.com/about`
-- **Relative Links:** Links to pages located on our own websites.
-  - Relative links do not include the domain name, since it is another page on the same site, it assumes the domain name will be the same as the page we created the link on.
-
-### Image Elements
-
-Websites would be fairly boring if they could only display text. Luckily HTML provides a wide variety of elements for displaying all sorts of different media. The most widely used of these is the **image** element.
-
-To display an image in HTML we use the `<img>` element. Unlike the other elements we have encountered, the `<img>` element is a void element. _As we have seen earlier in the course, void elements do not need a closing tag because they are naturally empty and do not contain any content._
-
-Instead of wrapping content with an opening and closing tag, it embeds an image into the page using a `src` **attribute** which tells the browser where the image file is located. The `src` attribute works much like the `href` attribute for anchor tags. It can embed an image using both absolute and relative paths.
-
-For example, using an **absolute path** we can display an image located on The Odin Project site:
-
-<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="gORbExZ" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-
-  <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/gORbExZ">
-  absolute-path-image</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-
-</p>
-
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
-
-To display images on your website that are hosted on your own web server, you can use a **relative path**.
-
-
-<div class="task" markdown="1">
-  
-1. Create a new directory (folder) named `images` within your project.
-
-1. Next, [download the stock dog image](https://unsplash.com/photos/Mv9hjnEUHR4/download?force=true&w=640).
-
-1. Right click on the new download at the bottom of the Google Chrome window and select "Show in folder".
-
-1. Click `+` in the `Files` pane of your Replit project to upload the image, or try just dragging it in.
-
-1. Finally add the image address to the `index.html` file:
-
-```html
-<body>
-  <h1>Homepage</h1>
-  <img src="./images/dog.jpg">
-</body>
-```
-
-</div>
-
-### Alt Attribute
-{:.no_toc}
-
-<span id="two-attributes"></span>Besides the `src` attribute, every image element must also have an `alt` (alternative text) attribute.
-
-The alt attribute is used to describe an image. It will be used in place of the image if it cannot be loaded. It is also used with screen readers to describe what the image is to visually impaired users.
-
-<div class="task" markdown="1">
-  
-As a bit of practice, add an `alt` attribute to the dog image in the project.
-</div>
-
-### Image Size Attributes
-{:.no_toc}
-
-While not strictly required, specifying `height` and `width` **attributes** in image tags helps the browser layout the page without causing the page to jump and flash.
-
-It is a good habit to always specify these attributes on every image, even when the image is the correct size or you are using CSS to modify it.
-
-<div class="task" markdown="1">
-  
-Go ahead and update your project with `width` and `height` tags on the dog image.
-</div>
-
-#### Additional resources
-{:.no_toc}
-
-- [Interneting is hard's treatment on HTML links and images](https://internetingishard.netlify.app/html-and-css/links-and-images)
-- [What happened the day Google decided links including (`/`) were malware](https://www.itpro.co.uk/609724/google-apologises-after-blacklisting-entire-internet)
-- [Chris Coyier's When to use target="_blank" on CSS-Tricks](https://css-tricks.com/use-target_blank/)
-- [Read about the four main image formats that can be used on the web](https://internetingishard.netlify.app/html-and-css/links-and-images/#image-formats).
-- If you're looking to deepen your understanding of the various image formats used on the web, [the following article which is titled: Which is the Best Image Format for Your Website?](https://imagekit.io/blog/best-image-format-for-web/) from imagekit.io is a great resource. It offers a detailed comparison of JPEG, PNG, GIF, and WebP formats, helping you choose the right one for your needs. Note that the article doesn't cover SVG, but it's still an excellent guide for the other common formats.
 
 ---
 
