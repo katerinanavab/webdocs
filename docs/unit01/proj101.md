@@ -12,8 +12,21 @@ It's time to practice all of the HTML knowledge you have acquired. In this proje
 
 The website will consist of a main index page which will have links to a few recipes. The website won't look very pretty by the time you've finished, unless you're into [brutalist web design](https://brutalistwebsites.com/), that is.
 
-But it's important to keep in mind that this project is just to build your HTML chops; we will revisit this project in the future to style it up with CSS.
+{:.highlight}
+It's important to keep in mind that this project is just to build your HTML chops; we will revisit this project in the future to style it up with CSS.
 
+<div class="setup" markdown="block">
+
+1. Go to the `CS1 Project 1.1` assignment on **Blackbaud** and follow the link to the **HTML/CSS/JS** template.
+2. 📁 Click `Use This Template` then select `Create New Repository`
+3. Name your repository: `CS1-Project-1-1-YourUsername`
+4. Open the repository in a **Codespace** whenever you spend time working on the program, in class or at home. 
+  > ⚠️ Always remember to `commit changes` after every coding session!
+5. When your project is complete, **submit the link to your repository page** in the `CS1 Project 1.1` assignment on Blackbaud.
+
+</div>
+
+<!-- WAS HAVING ISSUES WITH GH CLASSROOM
 <div class="setup" markdown="block">
 
 1. Go to the `CS1 Project 1.1` assignment on **Blackbaud** and follow the provided **GitHub Classroom** link.
@@ -23,6 +36,7 @@ But it's important to keep in mind that this project is just to build your HTML 
 3. When your project is complete, **submit the link to your repository** in the `CS1 Project 1.1` assignment on Blackbaud.
 
 </div>
+--> 
 
 ### Instructions & Requirements
 
