@@ -62,7 +62,7 @@ It's important to keep in mind that this project is just to build your HTML chop
 
 4. Back at the top of the `body` section, under the first `h1`, add a **link** to the recipe `div` section you just created.
 > _Example:_ `<a href="#recipe-name">Recipe Name</a>`. 
-> * The `href` attribute is pointing to the `div` that has `id="recipe-name"`. Replace this with your own identifier.
+> * The `href` attribute is directing the anchor to the `div` on the page that has `id="recipe-name"`. Replace `recipe-name` with your own identifier.
 > * The _text_ of the link should again be replaced with the actual recipe name.
 
 </div>
