@@ -49,7 +49,7 @@ It's important to keep in mind that this project is just to build your HTML chop
 
 </div> 
 
-#### Iteration 2: Start Recipe Page
+#### Iteration 2: Start Recipe Section
 
 <div class="task" markdown="block">
  
