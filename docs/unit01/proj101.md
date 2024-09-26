@@ -102,6 +102,11 @@ Your links won't be flashy, but for now, just focus on building them out.
 
 </div>
 
+### Extensions
+* Add even more recipes!
+* Incorporate emojis to embellish your text content, if you like the way they look. 
+* Create a **header image** or **logo** for your recipe blog on [Canva](https://www.canva.com/) and add it to the top of your page before the `h1` heading.
+
 
 ---
 
