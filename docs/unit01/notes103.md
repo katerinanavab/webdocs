@@ -384,7 +384,7 @@ If you need to add a *unique* style for a *single* element, this method can work
 
 <div class="task" markdown="1">
 
-1. Play the [CSS Diner](https://flukeout.github.io/) game to practice **selectors**.
+🎲 Play the [CSS Diner](https://flukeout.github.io/) game to practice **selectors**.
 
 </div>
 
@@ -591,9 +591,11 @@ For an element that has both the `alert` and `warning` classes, the cascade woul
 
 <div class="task" markdown="1">
 
-Remember the Recipe page you created as practice from the HTML Foundations section? Well, it's rather *plain* looking, isn't it? Let's fix that by adding some CSS to it!
-   - How you actually style it is completely open, but you should use the external CSS method (for this practice and moving forward). You should also try to use several of the properties mentioned in the previous lesson (color, background color, typography properties, etc). Take some time to play around with the various properties to get a feel for what they do. For now, don't worry at all about making it look *good*. This is just to practice and get used to writing CSS, not to make something to show off on your resume.
-   - We haven't covered how to use a custom font for the `font-family` property yet, so for now take a look at [CSS Fonts](https://www.w3schools.com/Css/css_font.asp) for a list of generic font families to use, and [CSS Web Safe Fonts](https://www.w3schools.com/cssref/css_websafe_fonts.asp) for a list of fonts that are web safe. Web safe means that these are fonts that are installed on basically every computer or device (but be sure to still include a generic font family as a fallback).
+🎨 Remember the Recipe page you created for `Project #1.1` to practice the HTML topics? Well, it's rather *plain* looking, isn't it? Let's fix that by adding some CSS styling to it!
+
+- How you actually style it is completely open, but you should use the **external CSS method** (for this practice and moving forward). You should also try to use several of the properties mentioned in the previous lesson (**color**, **background color**, **typography** properties, etc). Take some time to play around with the various properties to get a feel for what they do. For now, don't worry at all about making it look *good*. This is just to practice and get used to writing CSS, not to make something to show off on your resume.
+
+- We haven't covered how to use a custom font for the `font-family` property yet, so for now take a look at [CSS Fonts](https://www.w3schools.com/Css/css_font.asp) for a list of generic font families to use, and [CSS Web Safe Fonts](https://www.w3schools.com/cssref/css_websafe_fonts.asp) for a list of fonts that are web safe. Web safe means that these are fonts that are installed on basically every computer or device (but be sure to still include a generic font family as a fallback).
 
 </div>
 
@@ -604,51 +606,6 @@ Remember the Recipe page you created as practice from the HTML Foundations secti
 - [CSS Specificity Explained](https://www.youtube.com/watch?v=c0kfcP_nD9E) from Kevin Powell goes through various specificity examples and gives some advice on avoiding wrestling with specificity.
 - [CSS Specificity Calculator](https://specificity.keegan.st/) allows you to fill in your own selectors and have their specificity calculated and visualized.
 - [Mozilla CSS Properties Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Properties_Reference) can be used to learn if a particular CSS property is inherited or not; look for the **Inherited** field inside the **Formal Definition** section. Here's an example for [the CSS `color` property](https://developer.mozilla.org/en-US/docs/Web/CSS/color#formal_definition).
-
----
-
-## Inspecting HTML & CSS
-
-Being able to inspect and debug your HTML and CSS is critical for frontend development. This lesson will take us through the Chrome Dev Tools, which allow you to see detailed information about your elements and CSS rules, as well as assist you in finding and fixing problems in your code.
-
-### The inspector
-{: .no_toc }
-
-To open up the inspector, you can right-click on any element of a webpage and click "Inspect" or press F12. Go ahead and do that right now to see the HTML and CSS used on this page.
-
-Don't get overwhelmed with all the tools you're now seeing! For this lesson, we want to focus on the Elements and Styles panels.
-
-### Inspecting elements
-{: .no_toc }
-
-In the Elements panel, you can see the entire HTML structure of your page. You can click on any of the elements in this panel to select that specific element. Alternatively, you can click the blue-highlighted icon shown below on the left, and hover over any element on the page.
-
-![Inspector Icon](https://cdn.statically.io/gh/TheOdinProject/curriculum/594984d7c9f9e744577f19ea475b3864e8cc7c91/html_css/v2/foundations/inspecting-html-and-css/imgs/01.png)
-
-<span id="strikethrough">When an element is selected, the Styles tab will show all the currently applied styles, as well as any styles that are being overwritten (indicated by a strikethrough of the text).</span> For example, if you use the inspector to click on the "Your Career in Web Development Starts Here" header on the TOP homepage, on the right-hand side you'll see all the styles that are currently affecting the element, as seen below:
-
-![Overwritten style](https://cdn.statically.io/gh/TheOdinProject/curriculum/f8fd38fc62578d8e8368f5303126215a492847f0/foundations/html_css/inspecting-html-and-css/imgs/03.png)
-
-### Testing styles in the inspector
-{: .no_toc }
-
-The Styles panel also allows you to edit styles directly in the browser. You can click inside of any individual selector to add a new rule or click on an existing attribute or value to alter it. When doing so, the webpage responds with the changes in real-time. This won’t affect the source code in your text editor, but it is extremely useful for quickly testing out various attributes and values without needing to reload the page over and over again.
-
-<div class="task" markdown="1">
-
-Go through the following sections of the [official Chrome DevTools docs](https://developers.google.com/web/tools/chrome-devtools):
-
-   - [Devtools overview](https://developer.chrome.com/docs/devtools/overview/): don't navigate to any other pages linked here; just get familiar with *what* tools are available in the DevTools, rather than how to use all of them right now.
-   - [Open Chrome DevTools](https://developer.chrome.com/docs/devtools/open/): similar to what we went over above, but with some nice extras.
-   - [Get Started With Viewing And Changing The DOM](https://developer.chrome.com/docs/devtools/dom/): skip through any part that uses the JavaScript console.
-   - [View and change CSS](https://developer.chrome.com/docs/devtools/css): be sure to follow along with any interactive instructions!
-
-</div>
-
-#### Additional resources
-{: .no_toc }
-
-- This article about how we can [utilize CSS overview in the developer tools](https://www.freecodecamp.org/news/how-to-use-css-overview-in-chrome-developer-tools/) to check the colors, font styles, media-queries, etc. used on a particular webpage.
 
 ---
 
@@ -776,11 +733,9 @@ Having elements like this available to us is a lot more useful than it may first
 1. W3 schools' ["HTML Block and Inline Elements"](https://www.w3schools.com/html/html_blocks.asp) has a description and a list of all the default block and inline elements.
 1. The Digital Ocean tutorial ["Inline vs Inline-block Display in CSS"](https://www.digitalocean.com/community/tutorials/css-display-inline-vs-inline-block) has a couple of great examples that clarify the difference between `inline` and `inline-block`.
 
-### 💻 Activity: Styling your Recipe Blog
-
 <div class="task" markdown="1">
 
-🎨 Apply what you learned about CSS & the box model to improve the appearance of your Recipe blog from `Project #1.1`. Get creative with **layouts**, **colors**, and **styles** to make your page uniquely captivating!
+🎨 Apply what you learned about the box model to improve the appearance of your Recipe blog from `Project #1.1`. Get creative with **layouts**, **colors**, and **styles** to make your page uniquely captivating!
 
 </div>
 
