@@ -92,7 +92,7 @@ _Example:_
 
 ```html
  <ul>
-    <li><a href="#lasagna">Lasgana Recipe</a></li>
+    <li><a href="#lasagna">Lasagna Recipe</a></li>
     <li><a href="#pizza">Pizza Recipe</a></li>
     <li><a href="#chicken-milanese">Chicken Milanese Recipe</a></li>
   </ul>
