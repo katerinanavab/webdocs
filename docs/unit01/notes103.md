@@ -28,7 +28,7 @@ General overview of topics that you will learn in this module:
 {:.important}
 At the most basic level, CSS is made up of various **rules**. These rules are made up of a **selector** (more on this in a bit) and a semicolon-separated list of **declarations**, with each of those declarations being made up of a **property–value** pair.
 
-![Basic CSS syntax](https://cdn.statically.io/gh/TheOdinProject/curriculum/05ce472eabf8e04eeb2cc9139e66db884074fd7d/foundations/html_css/css-foundations/imgs/00.jpg)
+![image](https://cdn.statically.io/gh/TheOdinProject/curriculum/05ce472eabf8e04eeb2cc9139e66db884074fd7d/foundations/html_css/css-foundations/imgs/00.jpg)
 
 > A `<div>` is one of the basic HTML elements. It is an **empty container**. In general, it is best to use _content-specific tags_ such as `<h1>` or `<p>` for content in your projects, but as we learn more about CSS you'll find that there are many cases where the thing you need is just a blank container to group other elements. Many of our exercises use plain`<div>`s for simplicity. Later lessons will go into much more depth about when it is appropriate to use the various HTML elements.
 
