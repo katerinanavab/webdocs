@@ -124,8 +124,8 @@ A common pitfall is people _overusing_ the ID attribute when they don't necessar
 ### Advanced Selection
 
 <html>
-<details>
-<summary class="text-delta">Grouping Selector</summary>
+<details style="margin-top: 4px;">
+<summary class="text-delta" style="font-weight: bold;">Grouping Selector</summary>
 <div markdown="block">
 
 What if we have two groups of elements that share some of their style declarations?
