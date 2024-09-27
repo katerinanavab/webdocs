@@ -19,6 +19,8 @@ nav_order: 2
 
 HTML and CSS are two languages that work together to create everything that you see when you look at something on the internet. HTML is the raw data and content that a webpage is built out of. All the text, links, cards, lists, and buttons are created in HTML. CSS is what adds *style* to those plain elements. HTML puts information on a webpage, and CSS positions that information, gives it color, changes the font, and makes it look great!
 
+![image](figures/structure-vs-presentation)
+
 Many great resources out there keep referring to HTML and CSS as *programming languages*, but if you want to get technical, labeling them as such is not quite accurate, because they are only concerned with presenting information. They are not used to program any logic. JavaScript, which you will be learning in the next section, is a programming language because it's used to make webpages do things. 
 
 <div class="task" markdown="1">
@@ -61,7 +63,7 @@ HTML has a [vast list of predefined tags](https://developer.mozilla.org/en-US/do
 ### Void Elements
 {:.no_toc}
 
-Some HTML elements do not have a closing tag. These elements just have a single tag, like: `<br>`, `<hr>`, or `<img>`. They are known as **void elements** because they are void of any text content, there is nothing inside of them. No closing tag means they can't _wrap text content_+ like other tags do. You might also see these referred to as **self-closing** tags. 
+Some HTML elements do not have a closing tag. These elements just have a single tag, like: `<br>`, `<hr>`, or `<img>`. They are known as **void elements** because they are void of any text content, there is nothing inside of them. No closing tag means they can't _wrap text content_ like other tags do. You might also see these referred to as **self-closing** tags. 
 
 ---
 ## HTML Boilerplate
@@ -127,7 +129,9 @@ Back in the `index.html` file, let's add the `<html>` element by typing out its 
 </html>
 ```
 
-Noticed the word `lang` here? It represents an HTML attribute which is associated with the given HTML tag i.e. `<html>` in this case. These attributes provide additional information about HTML elements. (More about `HTML Attributes` in the following lesson.)
+Noticed the word `lang` here? It represents an HTML attribute which is associated with the given HTML tag i.e. `<html>` in this case. These attributes provide additional information about HTML elements. (More about `HTML Attributes` in the following section.)
+
+![image](figures/html-head-body.png)
 
 ### Head Element
 {:.no_toc}
@@ -387,6 +391,8 @@ In this lesson, we will learn:
 - The difference between absolute and relative links.
 - How to display an image on a webpage using HTML.
 
+![image](figures/links-and-images.png)
+
 ### Anchor (Link) Element
 
 ⚓️ To create a link in HTML, we use the **anchor** element. An anchor element is defined by wrapping the text or another HTML element we want to be a link with an `<a>` tag.
@@ -401,6 +407,7 @@ You may have noticed that clicking this link doesn't do anything. This is becaus
 
 {:.important}
 An HTML **attribute** gives additional information to an HTML element and always goes in the element's opening tag. An attribute is usually made up of two parts: a **name**, and a **value**; however, not all attributes require a value. In our case, we need to add an `href` (hypertext reference) attribute to the opening anchor tag. The _value_ of the href attribute is the destination (URL) we want our link to go to.
+![image](figures/html-attributes.png)
 
 Add the following `href` attribute to the anchor element we created previously and try clicking it again, don't forget to refresh the browser so the new changes can be applied.
 
@@ -421,6 +428,8 @@ Generally, there are two kinds of links we will create:
   - A typical absolute link will be made up of the following parts: `protocol://domain/path`. An absolute link will always contain the protocol and domain of the destination, for example: `https://www.theodinproject.com/about`
 - **Relative Links:** Links to pages located on our own websites.
   - Relative links do not include the domain name, since it is another page on the same site, it assumes the domain name will be the same as the page we created the link on.
+
+![image](figures/fragment-url-syntax.png)
 
 ### Image Elements
 
@@ -444,6 +453,10 @@ For example, using an **absolute path** we can display an image located on The O
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 To display images on your website that are hosted on your own web server, you can use a **relative path**.
+
+You will encounter many image formats, but here are the more common ones:
+
+![image](figures/image-formats.png)
 
 
 <div class="task" markdown="1">
