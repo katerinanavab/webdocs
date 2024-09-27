@@ -123,8 +123,10 @@ A common pitfall is people _overusing_ the ID attribute when they don't necessar
 
 ### Advanced Selection
 
+<br>
+
 <html>
-<details style="margin-top: 4px;">
+<details>
 <summary class="text-delta" style="font-weight: bold;">Grouping Selector</summary>
 <div markdown="block">
 
@@ -168,9 +170,11 @@ Both of the examples above (with and without grouping) will have the same result
 </details>
 </html>
 
+<br>
+
 <html>
 <details>
-<summary class="text-delta">Chaining Selectors</summary>
+<summary class="text-delta" style="font-weight: bold;">Chaining Selectors</summary>
 <div markdown="block">
 
 Another way to use selectors is to chain them as a list without any separation. Let's say we had the following HTML:
@@ -221,9 +225,11 @@ You can take the two elements above and combine them with the following:
 </details>
 </html>
 
+<br>
+
 <html>
 <details>
-<summary class="text-delta">Descendant Combinator</summary>
+<summary class="text-delta" style="font-weight: bold;">Descendant Combinator</summary>
 <div markdown="block">
 
 **Combinators** allow us to combine multiple selectors differently than either grouping or chaining them, as they show a relationship between the selectors. There are four types of combinators in total, but for right now we're going to only show you the **descendant combinator**, which is represented in CSS by a single space between selectors. <span id="descendant-combinator-description">A descendant combinator will only cause elements that match the last selector to be selected if they also have an ancestor (parent, grandparent, etc.) that matches the previous selector.</span>
