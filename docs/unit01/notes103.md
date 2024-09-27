@@ -28,7 +28,7 @@ General overview of topics that you will learn in this module:
 {:.important}
 At the most basic level, CSS is made up of various **rules**. These rules are made up of a **selector** (more on this in a bit) and a semicolon-separated list of **declarations**, with each of those declarations being made up of a **property–value** pair.
 
-![image](https://cdn.statically.io/gh/TheOdinProject/curriculum/05ce472eabf8e04eeb2cc9139e66db884074fd7d/foundations/html_css/css-foundations/imgs/00.jpg)
+![image](figures/css-rule-terminology.png)
 
 > A `<div>` is one of the basic HTML elements. It is an **empty container**. In general, it is best to use _content-specific tags_ such as `<h1>` or `<p>` for content in your projects, but as we learn more about CSS you'll find that there are many cases where the thing you need is just a blank container to group other elements. Many of our exercises use plain`<div>`s for simplicity. Later lessons will go into much more depth about when it is appropriate to use the various HTML elements.
 
@@ -36,6 +36,8 @@ At the most basic level, CSS is made up of various **rules**. These rules are ma
 
 {:.important}
 👉 **Selectors** refer to the HTML _elements on which a set of CSS rules apply_; they determine which part of the webpage is actually being "selected" for each rule. 
+
+![image](figures/css-selector.png)
 
 The following subsections don't cover every selector available, but they're by far the most common and the ones you should get comfortable using first.
 
@@ -77,7 +79,11 @@ Here, all three `<div>` elements would be selected, while the `<p>` element woul
 #### Class Selectors
 {: .no_toc }
 
-Class selectors will select all elements with the given class, which is just an attribute you place on an HTML element. Here's how you add a class to an HTML tag and select it in CSS:
+Class selectors will select all elements with the given class, which is just an **attribute** you place on an HTML element. 
+
+![image](figures/class-selector.png)
+
+Here's how you add a class to an HTML tag and select it in CSS:
 
 ```html
 <!-- index.html -->
@@ -296,8 +302,10 @@ p {
 
 Take a quick look at [CSS Legal Color Values](https://www.w3schools.com/cssref/css_colors_legal.asp) to see how you can adjust the opacity of these colors by adding an alpha value.
 
-#### Typography basics and text-align
+#### Typography
 {: .no_toc }
+
+![image](figures/font-weights-and-styles.png)
 
 `font-family` can be a single value or a comma-separated list of values that determine what font an element uses. Each font will fall into one of two categories, either a "font family name" like `"Times New Roman"` (we use quotes due to the whitespace between words) or a "generic family name" like `serif` (generic family names never use quotes).
 
@@ -429,6 +437,8 @@ If you need to add a *unique* style for a *single* element, this method can work
 ## The Cascade
 
 In the previous lesson, we covered basic CSS syntax and selectors. Now, it's time to combine our knowledge of selectors with the *C* of CSS -- the cascade.
+
+![image](figures/css-cascade.png)
 
 ### The cascade of CSS
 {: .no_toc }
@@ -677,9 +687,7 @@ The only real complication here is that there are many ways to manipulate the si
 - `border` adds space (even if it's only a pixel or two) between the margin and the padding.
 - `margin` increases the space between the borders of a box and the borders of adjacent boxes.
 
-Be sure to study the diagrams carefully.
-
-![the box model](https://cdn.statically.io/gh/TheOdinProject/curriculum/main/foundations/html_css/css-foundations/the-box-model/imgs/box-model.png)
+![image](figures/css-box-model.png)
 
 <div class="task" markdown="1">
 
@@ -720,6 +728,8 @@ In the previous lesson, we discovered that different display types have unique b
 Most of the elements that you have learned about so far are block elements.  In other words, their default style is `display: block`. <span id="block-inline-difference"></span>By default, block elements will appear on the page stacked atop each other, each new element starting on a new line.
 
 Inline elements, however, do not start on a new line. They appear in line with whatever elements they are placed beside. A clear example of an inline element is a link, or `<a>` tag. If you stick one of these in the middle of a paragraph of text, [the link will behave like a part of the paragraph](https://www.youtube.com/watch?v=dQw4w9WgXcQ). Additionally, padding and margin behave differently on inline elements. In general, you do not want to try to put extra padding or margin on inline elements.
+
+![image](figures/inline-vs-block-elements.png)
 
 #### The middle ground inline-block
 {: .no_toc }
