@@ -129,8 +129,6 @@ A common pitfall is people _overusing_ the ID attribute when they don't necessar
 
 ### Advanced Selection
 
-<br>
-
 <html>
 <details>
 <summary class="text-delta" style="font-weight: bold;">Grouping Selector</summary>
@@ -175,8 +173,6 @@ Both of the examples above (with and without grouping) will have the same result
 </div>
 </details>
 </html>
-
-<br>
 
 <html>
 <details>
@@ -230,8 +226,6 @@ You can take the two elements above and combine them with the following:
 </div>
 </details>
 </html>
-
-<br>
 
 <html>
 <details>
