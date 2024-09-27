@@ -660,12 +660,12 @@ Learning to position elements on a webpage is not that difficult once you unders
 - You'll learn all about *the box model*.
 - You'll learn how to make sure elements are just the right size with `margin`, `padding`, and `borders`.
 
-### The box model
+### The Box Model
 {: .no_toc }
 
 The first important concept that you need to understand to be successful in CSS is the box model. It isn't complicated, but skipping over it now would cause you much frustration down the line.
 
-Every single thing on a webpage is a rectangular box. These boxes can have other boxes in them and can sit alongside one another. You can get a rough idea of how this works by applying an outline to every element on the page like this:
+🔲 Every single thing on a webpage is a rectangular box. These boxes can have other boxes in them and can sit alongside one another. You can get a rough idea of how this works by applying an outline to every element on the page like this:
 
 ```css
 * {
@@ -730,11 +730,6 @@ Most of the elements that you have learned about so far are block elements.  In 
 Inline elements, however, do not start on a new line. They appear in line with whatever elements they are placed beside. A clear example of an inline element is a link, or `<a>` tag. If you stick one of these in the middle of a paragraph of text, [the link will behave like a part of the paragraph](https://www.youtube.com/watch?v=dQw4w9WgXcQ). Additionally, padding and margin behave differently on inline elements. In general, you do not want to try to put extra padding or margin on inline elements.
 
 ![image](figures/inline-vs-block-elements.png)
-
-#### The middle ground inline-block
-{: .no_toc }
-
-Inline-block elements behave like inline elements, but with block-style padding and margin. `display: inline-block` is a useful tool to know about, but in practice, you'll probably end up reaching for flexbox more often if you're trying to line up a bunch of boxes. Flexbox will be covered in-depth in the next lesson.
 
 ### Div and Span Elements
 
