@@ -16,6 +16,8 @@ nav_order: 1
 ## Introduction to Web Development
 What do web developers do? In short, they **build and maintain websites**.
 
+![image](figures/web-publishing.png)
+
 Web developers often work for clients who are trying to get their product or service onto the web. The work is typically project-focused and involves collaborating with a team to coordinate the client’s needs into the end product. The client could be a tech company, an organization, or a government. The work could involve `front-end`, `back-end`, or `full-stack` web development.
 
 Web development could be a good profession for you if you like **solving logical problems**, **building useful things**, and **experimenting with new technologies**. Web developers are in high demand, generally have a good work-life balance, and command comfortable salaries. Google your specific location to get a better sense of your local web development job opportunities.
