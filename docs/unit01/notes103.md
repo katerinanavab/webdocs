@@ -270,6 +270,23 @@ There's really no limit to how many combinators you can add to a rule, so `.one 
 </details>
 </html>
 
+#### Specificity
+{: .no_toc }
+
+A CSS declaration that is **more specific will take precedence** over less specific ones. Inline styles, which we went over in the previous lesson, have the highest specificity compared to selectors, while each type of selector has its own specificity level that contributes to how specific a declaration is. Other selectors contribute to specificity, but we're focusing only on the ones we've gone over so far:
+
+1. ID selectors (**most specific**)
+1. Class selectors
+1. Type selectors
+
+Specificity will only be taken into account when an element has multiple, conflicting declarations targeting it, sort of like a tie-breaker. 
+
+<div class="task" markdown="1">
+
+🎲 Play the [CSS Diner](https://flukeout.github.io/) game to practice **selectors**.
+
+</div>
+
 ### CSS Properties
 
 There are some CSS properties that you're going to be using all the time, or at the very least more often than not. We're going to introduce you to several of these properties, though this is by no means a complete list. Learning the following properties will be enough to help get you started.
@@ -342,7 +359,7 @@ Now that we've learned some basic syntax, you might be wondering *how* to add al
 #### External CSS
 {: .no_toc }
 
-External CSS is the most common method you will come across, and it involves creating a separate file for the CSS and linking it inside of an HTML's opening and closing `<head>` tags with a void `<link>` element:
+External CSS is the most common method you will come across, and it involves creating a **separate file for the CSS** and linking it inside of an HTML's opening and closing `<head>` tags with a void `<link>` element:
 
 ```html
 <!-- index.html -->
@@ -359,29 +376,27 @@ div {
   color: white;
   background-color: black;
 }
-
-p {
-  color: red;
-}
 ```
 
-First, we add a void `<link>` element inside of the opening and closing `<head>` tags of the HTML file. The `href` attribute is the location of the CSS file, either an absolute URL or, what you'll be utilizing, a URL relative to the location of the HTML file. In our example above, we are assuming both files are located in the same directory. The `rel` attribute is required, and it specifies the relationship between the HTML file and the linked file.
+First, we add a void `<link>` element inside of the opening and closing `<head>` tags of the HTML file. 
+> The `href` attribute is the location of the CSS file, either an absolute URL or, what you'll be utilizing, a URL relative to the location of the HTML file. In our example above, we are assuming both files are located in the same directory. The `rel` attribute is required, and it specifies the relationship between the HTML file and the linked file.
 
-Then inside of the newly created `styles.css` file, we have the selector (the `div` and `p`), followed by a pair of opening and closing curly braces, which create a "declaration block". Finally, we place any declarations inside of the declaration block. `color: white;` is one declaration, with `color` being the property and `white` being the value, and `background-color: black;` is another declaration.
+Then inside of the newly created `styles.css` file, we have the **selector** (the `div`), followed by a pair of opening and closing curly braces, which create a "declaration block". Finally, we place any **declarations** inside of the declaration block. `color: white;` is one declaration, with `color` being the **property** and `white` being the **value**, and `background-color: black;` is another declaration.
 
+{:.highlight}
 A note on file names: `styles.css` is just what we went with as the file name here. You can name the file whatever you want as long as the file type is `.css`, though "style" or "styles" is most commonly used.
 
 A couple of the pros to this method are:
 
-1. It keeps our HTML and CSS separated, which results in the HTML file being smaller and making things look cleaner.
+1. It keeps our HTML and CSS **separated**, which results in the HTML file being smaller and making things look cleaner.
 1. We only need to edit the CSS in *one* place, which is especially handy for websites with many pages that all share similar styles.
 
 #### Internal CSS
 {: .no_toc }
 
-Internal CSS (or embedded CSS) involves adding the CSS within the HTML file itself instead of creating a completely separate file. With the internal method, you place all the rules inside of a pair of opening and closing `<style>` tags, which are then placed inside of the opening and closing `<head>` tags of your HTML file. Since the styles are being placed directly inside of the `<head>` tags, we no longer need a `<link>` element that the external method requires.
+**Internal CSS** (or **embedded** CSS) involves adding the CSS within the HTML file itself, instead of creating a completely separate file. With the internal method, you place all the rules inside of a pair of opening and closing `<style>` tags, which are then placed inside of the opening and closing `<head>` tags of your HTML file. Since the styles are being placed directly inside of the `<head>` tags, we no longer need a `<link>` element that the external method requires.
 
-Besides these differences, the syntax is exactly the same as the external method (selector, curly braces, declarations):
+Besides these differences, the **syntax** is exactly the same as the external method (_selector, curly braces, declarations_):
 
 ```html
 <head>
@@ -389,10 +404,6 @@ Besides these differences, the syntax is exactly the same as the external method
     div {
       color: white;
       background-color: black;
-    }
-
-    p {
-      color: red;
     }
   </style>
 </head>
@@ -406,7 +417,7 @@ This method can be useful for adding unique styles to a *single page* of a websi
 #### Inline CSS
 {: .no_toc }
 
-Inline CSS makes it possible to add styles directly to HTML elements, though this method isn't as recommended:
+Inline CSS makes it possible to **add styles directly to HTML elements**, though this method isn't as recommended:
 
 ```html
 <body>
@@ -424,219 +435,11 @@ If you need to add a *unique* style for a *single* element, this method can work
 
 <div class="task" markdown="1">
 
-🎲 Play the [CSS Diner](https://flukeout.github.io/) game to practice **selectors**.
-
-</div>
-
-#### Additional Resources
-{: .no_toc }
-
-- [Mozilla CSS values and units](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units) can be used to learn the various types of values possible in absolute or relative terms.
-
----
-## The Cascade
-
-In the previous lesson, we covered basic CSS syntax and selectors. Now, it's time to combine our knowledge of selectors with the *C* of CSS -- the cascade.
-
-![image](figures/css-cascade.png)
-
-### The cascade of CSS
-{: .no_toc }
-
-Sometimes we may have rules that conflict with one another, and we end up with some unexpected results. "But I wanted *these* paragraphs to be blue, why are they red like these other paragraphs?!" As frustrating as this can be, it's important to understand that CSS doesn't just *do* things against our wishes. CSS only does what we tell it to do. One exception to this is the default styles that are provided by a browser. These default styles vary from browser to browser, and they are why some elements create a large "gap" between themselves and other elements, or why buttons look the way they do, despite us not writing any CSS rules to style them that way.
-
-So if you end up with some unexpected behavior like this it's either because of these default styles, not understanding how a property works, or not understanding this little thing called the cascade.
-
-The cascade is what determines which rules actually get applied to our HTML. There are different factors that the cascade uses to determine this. We will examine three of these factors, which will hopefully help you avoid those frustrating "I hate CSS" moments.
-
-#### Specificity
-{: .no_toc }
-
-A CSS declaration that is more specific will take precedence over less specific ones. Inline styles, which we went over in the previous lesson, have the highest specificity compared to selectors, while each type of selector has its own specificity level that contributes to how specific a declaration is. Other selectors contribute to specificity, but we're focusing only on the ones we've gone over so far:
-
-1. ID selectors (most specific selector)
-1. Class selectors
-1. Type selectors
-
-Specificity will only be taken into account when an element has multiple, conflicting declarations targeting it, sort of like a tie-breaker. An ID selector will always beat any number of class selectors, <span id="high-specificity-class-type">a class selector will always beat any number of type selectors</span>, and a type selector will always beat any number of less specific selectors. When there is no declaration with a selector of higher specificity, a rule with a greater number of selectors of the same type will take precedence over another rule with fewer selectors of the same type.
-
-Let's take a look at a few quick examples to visualize how specificity works.
-Consider the following HTML and CSS code:
-
-```html
-<!-- index.html -->
-
-<div class="main">
-  <div class="list subsection">Red text</div>
-</div>
-```
-
-```css
-/* rule 1 */
-.subsection {
-  color: blue;
-}
-
-/* rule 2 */
-.main .list {
-  color: red;
-}
-```
-
-In the example above, both rules are using only class selectors, but rule 2 is more specific because it is using more class selectors, so the `color: red` declaration would take precedence.
-
-Now, let's change things a little bit:
-
-```html
-<!-- index.html -->
-
-<div class="main">
-  <div class="list" id="subsection">Blue text</div>
-</div>
-```
-
-```css
-/* rule 1 */
-#subsection {
-  color: blue;
-}
-
-/* rule 2 */
-.main .list {
-  color: red;
-}
-```
-
-In the example above, despite rule 2 having more class selectors than ID selectors, rule 1 is more specific because ID beats class. In this case, the `color: blue` declaration would take precedence.
-
-And a bit more complex:
-
-```html
-<!-- index.html -->
-
-<div class="main">
-  <div class="list" id="subsection">Red text on yellow background</div>
-</div>
-```
-
-```css
-/* rule 1 */
-#subsection {
-  background-color: yellow;
-  color: blue;
-}
-
-/* rule 2 */
-.main #subsection {
- color: red;
-}
-```
-
-In this final example, the first rule uses an ID selector, while the second rule combines an ID selector with a class selector. Therefore, neither rule is using a more specific selector than the other. The cascade then checks the number of each selector type. Both rules have only one ID selector, but rule 2 has a class selector in addition to the ID selector, so rule 2 has a higher specificity!
-
-While the `color: red` declaration would take precedence, the `background-color: yellow` declaration would still be applied since there's no conflicting declaration for it.
-
-{: .highlight }
-**Not everything adds to specificity!** When comparing selectors, you may come across special symbols for the universal selector (`*`) as well as combinators (`+`, `~`, `>`, and an empty space). These symbols do not add any specificity in and of themselves.
-
-```css
-/* rule 1 */
-.class.second-class {
-  font-size: 12px;
-}
-
-/* rule 2 */
-.class .second-class {
-  font-size: 24px;
-}
-```
-
-Here both rule 1 and rule 2 have the same specificity. Rule 1 uses a chaining selector (no space) and rule 2 uses a descendant combinator (the empty space). But both rules have two classes and the combinator symbol itself does not add to the specificity.
-
-```css
-/* rule 1 */
-.class.second-class {
-  font-size: 12px;
-}
-
-/* rule 2 */
-.class > .second-class {
-  font-size: 24px;
-}
-```
-
-This example shows the same thing. Even though rule 2 is using a child combinator (`>`), this does not change the specificity value. Both rules still have two classes so they have the same specificity values.
-
-```css
-/* rule 1 */
-* {
-  color: black;
-}
-
-/* rule 2 */
-h1 {
-  color: orange;
-}
-```
-
-In this example, rule 2 would have higher specificity and the `orange` value would take precedence for this element. Rule 2 uses a type selector, which has the lowest specificity value. But rule 1 uses the universal selector (`*`) which has no specificity value.
-
-#### Inheritance
-{: .no_toc }
-
-Inheritance refers to certain CSS properties that, when applied to an element, are inherited by that element's descendants, even if we don't explicitly write a rule for those descendants. Typography-based properties (`color`, `font-size`, `font-family`, etc.) are usually inherited, while most other properties aren't.
-
-The exception to this is when directly targeting an element, as this always beats inheritance:
-
-```html
-<!-- index.html -->
-
-<div id="parent">
-  <div class="child"></div>
-</div>
-```
-
-```css
-/* styles.css */
-
-#parent {
-  color: red;
-}
-
-.child {
-  color: blue;
-}
-```
-
-Despite the `parent` element having a higher specificity with an ID, the `child` element would have the `color: blue` style applied since that declaration directly targets it, while `color: red` from the parent is only inherited.
-
-#### Rule order
-{: .no_toc }
-
-The final factor, the end of the line, the tie-breaker of the tie-breakers. Let's say that after every other factor has been taken into account, there are still multiple conflicting rules targeting an element. How does the cascade determine which rule to apply?
-
-Whichever rule was the *last* defined is the winner.
-
-```css
-/* styles.css */
-
-.alert {
-  color: red;
-}
-
-.warning {
-  color: yellow;
-}
-```
-
-For an element that has both the `alert` and `warning` classes, the cascade would run through every other factor, including inheritance (none here) and specificity (neither rule is more specific than the other). Since the `.warning` rule was the last one defined, and no other factor was able to determine which rule to apply, it's the one that gets applied to the element.
-
-<div class="task" markdown="1">
-
 🎨 Remember the Recipe page you created for `Project #1.1` to practice the HTML topics? Well, it's rather *plain* looking, isn't it? Let's fix that by adding some CSS styling to it!
 
-- How you actually style it is completely open, but you should use the **external CSS method** (for this practice and moving forward). You should also try to use several of the properties mentioned in the previous lesson (**color**, **background color**, **typography** properties, etc). Take some time to play around with the various properties to get a feel for what they do. For now, don't worry at all about making it look *good*. This is just to practice and get used to writing CSS, not to make something to show off on your resume.
-
+- How you actually style it is completely open, but you should use the **external CSS method** (for this practice and moving forward).
+- You should also try to use several of the properties mentioned in the previous section (**color**, **background color**, **typography** properties, etc).
+  - Take some time to play around with the various properties to get a feel for what they do. For now, don't worry at all about making it look *good*. This is just to practice and get used to writing CSS, not to make something to show off on your resume.
 - We haven't covered how to use a custom font for the `font-family` property yet, so for now take a look at [CSS Fonts](https://www.w3schools.com/Css/css_font.asp) for a list of generic font families to use, and [CSS Web Safe Fonts](https://www.w3schools.com/cssref/css_websafe_fonts.asp) for a list of fonts that are web safe. Web safe means that these are fonts that are installed on basically every computer or device (but be sure to still include a generic font family as a fallback).
 
 </div>
@@ -645,8 +448,6 @@ For an element that has both the `alert` and `warning` classes, the cascade woul
 {: .no_toc }
 
 - [The CSS Cascade](https://2019.wattenberger.com/blog/css-cascade) is a great, interactive read that goes a little more in detail about other factors that affect what CSS rules actually end up being applied.
-- [CSS Specificity Explained](https://www.youtube.com/watch?v=c0kfcP_nD9E) from Kevin Powell goes through various specificity examples and gives some advice on avoiding wrestling with specificity.
-- [CSS Specificity Calculator](https://specificity.keegan.st/) allows you to fill in your own selectors and have their specificity calculated and visualized.
 - [Mozilla CSS Properties Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Properties_Reference) can be used to learn if a particular CSS property is inherited or not; look for the **Inherited** field inside the **Formal Definition** section. Here's an example for [the CSS `color` property](https://developer.mozilla.org/en-US/docs/Web/CSS/color#formal_definition).
 
 ---
