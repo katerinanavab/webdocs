@@ -15,13 +15,13 @@ nav_order: 3
 ---
 ## Introduction to CSS
 
-In the previous lesson, you learned how to write the HTML that determines how a web page is **structured**. The next step is to make that structure look good with some *style*, which is exactly what CSS is for. In the next few lessons, we're going to focus on what we believe are some foundational CSS concepts, things that everyone should know from the beginning — whether they are just starting out or need a refresher.
+In the previous topic, you learned how to write the HTML that determines how a web page is **structured**. The next step is to make that structure look good with some *style*, which is exactly what CSS is for. In the next few lessons, we're going to focus on what we believe are some foundational CSS concepts, things that everyone should know from the beginning — whether they are just starting out or need a refresher.
 
 General overview of topics that you will learn in this module:
 
-- Add styles to HTML with CSS.
-- Understand how to use the class and ID attributes.
-- Add styles to specific elements using the correct selectors.
+- Add **styles** to HTML with CSS.
+- Understand how to use the **class** and **ID** attributes.
+- Add styles to specific elements using the correct **selectors**.
 
 ### Basic Syntax
 
@@ -32,14 +32,17 @@ At the most basic level, CSS is made up of various **rules**. These rules are ma
 
 > A `<div>` is one of the basic HTML elements. It is an **empty container**. In general, it is best to use _content-specific tags_ such as `<h1>` or `<p>` for content in your projects, but as we learn more about CSS you'll find that there are many cases where the thing you need is just a blank container to group other elements. Many of our exercises use plain`<div>`s for simplicity. Later lessons will go into much more depth about when it is appropriate to use the various HTML elements.
 
-### Selectors
+### CSS Selectors
 
-**Selectors** refer to the HTML elements to which CSS rules apply; they're what is actually being "selected" for each rule. The following subsections don't cover every selector available, but they're by far the most common and the ones you should get comfortable using first.
+{:.important}
+👉 **Selectors** refer to the HTML _elements on which a set of CSS rules apply_; they determine which part of the webpage is actually being "selected" for each rule. 
 
-#### Universal selector
+The following subsections don't cover every selector available, but they're by far the most common and the ones you should get comfortable using first.
+
+#### Universal Selector
 {: .no_toc }
 
-The universal selector will select elements of any type, hence the name "universal", and the syntax for it is a simple asterisk. In the example below, every element would have the `color: purple;` style applied to it.
+The universal selector will select ALL elements of any type, hence the name "universal", and the syntax for it is a simple asterisk. In the example below, every element would have the `color: purple;` style _applied_ to it.
 
 ```css
 * {
@@ -47,7 +50,7 @@ The universal selector will select elements of any type, hence the name "univers
 }
 ```
 
-#### Type selectors
+#### Type Selectors
 {: .no_toc }
 
 A type selector (or element selector) will select all elements of the given element type, and the syntax is just the name of the element:
@@ -65,13 +68,13 @@ A type selector (or element selector) will select all elements of the given elem
 /* styles.css */
 
 div {
-  color: white;
+  color: hotpink;
 }
 ```
 
 Here, all three `<div>` elements would be selected, while the `<p>` element wouldn't be.
 
-#### Class selectors
+#### Class Selectors
 {: .no_toc }
 
 Class selectors will select all elements with the given class, which is just an attribute you place on an HTML element. Here's how you add a class to an HTML tag and select it in CSS:
@@ -94,7 +97,7 @@ Note the syntax for class selectors: a period immediately followed by the case-s
 
 Another thing you can do with the class attribute is to add multiple classes to a single element as a space-separated list, such as `class="alert-text severe-alert"`. Since whitespace is used to separate class names like this, you should never use spaces for multi-worded names and should use a hyphen instead.
 
-#### ID selectors
+#### ID Selectors
 {: .no_toc }
 
 ID selectors are similar to class selectors. They select an element with the given ID, which is another attribute you place on an HTML element. The major difference between classes and IDs is that an element can only have **one** ID. It cannot be repeated on a single page and should not contain any whitespace:
@@ -113,10 +116,17 @@ ID selectors are similar to class selectors. They select an element with the giv
 }
 ```
 
-For IDs, instead of a period, we use a hashtag immediately followed by the case-sensitive value of the ID attribute. A common pitfall is people overusing the ID attribute when they don't necessarily need to, and when classes will suffice. While there are cases where using an ID makes sense or is needed, such as taking advantage of specificity or having links redirect to a section on the current page, you should use IDs **sparingly** (if at all).
+For IDs, instead of a period, we use a hashtag (`#`) immediately followed by the case-sensitive _value of the ID attribute_. 
 
-#### The grouping selector
-{: .no_toc }
+{:.warning}
+A common pitfall is people _overusing_ the ID attribute when they don't necessarily need to, and when classes will suffice. While there are cases where using an ID makes sense or is needed, such as taking advantage of specificity or having links redirect to a section on the current page, you should use IDs **sparingly**.
+
+### Advanced Selection
+
+<html>
+<details>
+<summary class="text-delta">Grouping Selector</summary>
+<div markdown="block">
 
 What if we have two groups of elements that share some of their style declarations?
 
@@ -154,8 +164,14 @@ Both our `.read` and `.unread` selectors share the `color: white;` and `backgrou
 
 Both of the examples above (with and without grouping) will have the same result, but the second example reduces the repetition of declarations and makes it easier to edit either the `color` or `background-color` for both classes at once.
 
-#### Chaining selectors
-{: .no_toc }
+</div>
+</details>
+</html>
+
+<html>
+<details>
+<summary class="text-delta">Chaining Selectors</summary>
+<div markdown="block">
 
 Another way to use selectors is to chain them as a list without any separation. Let's say we had the following HTML:
 
@@ -201,10 +217,16 @@ You can take the two elements above and combine them with the following:
 
 > In general, you can't chain more than one type selector since an element can’t be two different types at once. For example, chaining two type selectors like `div` and `p` would give us the selector `divp`, which wouldn't work since the selector would try to find a literal `<divp>` element, which doesn’t exist.
 
-#### Descendant combinator
-{: .no_toc }
+</div>
+</details>
+</html>
 
-Combinators allow us to combine multiple selectors differently than either grouping or chaining them, as they show a relationship between the selectors. There are four types of combinators in total, but for right now we're going to only show you the **descendant combinator**, which is represented in CSS by a single space between selectors. <span id="descendant-combinator-description">A descendant combinator will only cause elements that match the last selector to be selected if they also have an ancestor (parent, grandparent, etc.) that matches the previous selector.</span>
+<html>
+<details>
+<summary class="text-delta">Descendant Combinator</summary>
+<div markdown="block">
+
+**Combinators** allow us to combine multiple selectors differently than either grouping or chaining them, as they show a relationship between the selectors. There are four types of combinators in total, but for right now we're going to only show you the **descendant combinator**, which is represented in CSS by a single space between selectors. <span id="descendant-combinator-description">A descendant combinator will only cause elements that match the last selector to be selected if they also have an ancestor (parent, grandparent, etc.) that matches the previous selector.</span>
 
 So something like `.ancestor .child` would select an element with the class `child` if it has an ancestor with the class `ancestor`. Another way to think of it is that `child` will only be selected if it is nested inside `ancestor`, regardless of how deep that nesting is. Take a quick look at the example below and see if you can tell which elements would be selected based on the CSS rule provided:
 
@@ -233,6 +255,10 @@ So something like `.ancestor .child` would select an element with the class `chi
 In the above example, the first two elements with the `contents` class (B and C) would be selected, but that last element (D) wouldn't be. Was your guess correct?
 
 There's really no limit to how many combinators you can add to a rule, so `.one .two .three .four` would be totally valid. This would just select an element that has a class of `four` if it has an ancestor with a class of `three`, and if that ancestor has its own ancestor with a class of `two`, and so on. You generally want to avoid trying to select elements that need this level of nesting, though, as it can get pretty confusing and long, and it can cause issues when it comes to specificity.
+
+</div>
+</details>
+</html>
 
 ### CSS Properties
 
