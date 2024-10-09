@@ -472,11 +472,11 @@ Now that you understand the basic syntax of HTML and CSS, we're going to get ser
 
 The first important concept that you need to understand to be successful in CSS is the box model. It isn't complicated, but skipping over it now would cause you much frustration down the line.
 
-🔲 Every single thing on a webpage is a rectangular box. These boxes can have other boxes in them and can sit alongside one another. You can get a rough idea of how this works by applying an outline to every element on the page like this:
+🔲 Every single thing on a webpage is a rectangular box. These boxes can have other boxes in them and can sit alongside one another. You can get a rough idea of how this works by applying an outline to every element, using the **universal selector** `*` on the page like this:
 
 ```css
 * {
-  outline: 2px solid red;
+  border: 2px solid red;
 }
 ```
 
