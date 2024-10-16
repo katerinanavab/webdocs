@@ -433,16 +433,6 @@ If you need to add a *unique* style for a *single* element, this method can work
 - If you want many elements to have the same style, you would have to copy and paste the same style to each individual element, causing lots of unnecessary repetition and more bloat.
 - Any inline CSS will override the other two methods, which can cause unexpected results. (While we won't dive into it here, this can actually be taken advantage of.)
 
-<div class="task" markdown="1">
-
-🎨 Remember the Recipe page you created for `Project #1.1` to practice the HTML topics? Well, it's rather *plain* looking, isn't it? Let's fix that by adding some CSS styling to it!
-
-- How you actually style it is completely open, but you should use the **external CSS method** (for this practice and moving forward).
-- You should also try to use several of the properties mentioned in the previous section (**color**, **background color**, **typography** properties, etc).
-  - Take some time to play around with the various properties to get a feel for what they do. For now, don't worry at all about making it look *good*. This is just to practice and get used to writing CSS, not to make something to show off on your resume.
-- We haven't covered how to use a custom font for the `font-family` property yet, so for now take a look at [CSS Fonts](https://www.w3schools.com/Css/css_font.asp) for a list of generic font families to use, and [CSS Web Safe Fonts](https://www.w3schools.com/cssref/css_websafe_fonts.asp) for a list of fonts that are web safe. Web safe means that these are fonts that are installed on basically every computer or device (but be sure to still include a generic font family as a fallback).
-
-</div>
 
 #### Additional resources
 {: .no_toc }
@@ -569,11 +559,6 @@ Having elements like this available to us is a lot more useful than it may first
 1. W3 schools' ["HTML Block and Inline Elements"](https://www.w3schools.com/html/html_blocks.asp) has a description and a list of all the default block and inline elements.
 1. The Digital Ocean tutorial ["Inline vs Inline-block Display in CSS"](https://www.digitalocean.com/community/tutorials/css-display-inline-vs-inline-block) has a couple of great examples that clarify the difference between `inline` and `inline-block`.
 
-<div class="task" markdown="1">
-
-🎨 Apply what you learned about the box model to improve the appearance of your Recipe blog from `Project #1.1`. Get creative with **layouts**, **colors**, and **styles** to make your page uniquely captivating!
-
-</div>
 
 ---
 
