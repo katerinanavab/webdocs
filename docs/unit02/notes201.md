@@ -292,6 +292,8 @@ One very useful feature of flex is the `gap` property. Setting `gap` on a flex c
 
 There's more for you to learn in the reading below, but at this point you can surely see how immensely useful flexbox is. With just the properties we've already covered, you could already put together some impressive layouts!
 
+---
+
 #### Knowledge check
 {: .no_toc }
 
@@ -308,8 +310,8 @@ There's more for you to learn in the reading below, but at this point you can su
 #### Additional resources
 {: .no_toc }
 
-- 🔖 Bookmark this [FLEXBOX VISUAL CHEATSHEET](https://flexbox.malven.co/) !!! 
-- 🐸 [Flexbox Froggy](https://flexboxfroggy.com/) is a funny little game for practicing moving things around with flexbox.
+- 🔖 **Bookmark** this [FLEXBOX VISUAL CHEATSHEET](https://flexbox.malven.co/) !!! 
+- 🐸 [Flexbox Froggy](https://flexboxfroggy.com/) is a funny little **game** for practicing moving things around with flexbox.
 - 📚 **Articles:**
   - This beautiful [Interactive Guide to Flexbox](https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/) covers everything you need to know. It will help reinforce concepts we've already touched on with some really fun and creative examples. Spend some time here, some of it should be review at this point, but the foundations here are important!
   - [Typical use cases of Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Typical_Use_Cases_of_Flexbox) is an MDN article that covers some more practical tips. Don't skip the interactive sections! Playing around with this stuff is how you learn it!
