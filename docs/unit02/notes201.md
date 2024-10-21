@@ -26,13 +26,11 @@ Many resources put it near the end of their curriculum because it is somewhat ne
 ### Let's flex!
 {: .no_toc }
 
-Flexbox is a way to arrange items into **rows** or **columns**. These items will flex (i.e. _grow_ or _shrink_) based on some rules that you can define. To get started, let's look at a demonstration.
+Flexbox is a way to arrange items into **rows** or **columns**. These items will flex (i.e. _grow_ or _shrink_) based on some rules that you can define. Here are some examples of what you can achieve with flexbox:
 
-<div class="lesson-note" markdown="1">
+![image](figures/flexbox-layouts.png)
 
-We've embedded a lot of interactive examples in these lessons. Take your time to experiment with them as you go to cement the concepts in your mind!
-
-</div>
+We've embedded a lot of interactive examples in this lesson. Take your time to experiment with them as you go to cement the concepts in your mind!
 
 <p class="codepen" data-height="400" data-default-tab="html,result" data-slug-hash="QWgNxrp" data-editable="true" data-user="TheOdinProjectExamples" style="height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
 
@@ -71,8 +69,6 @@ Somewhat confusingly, any element can be both a flex container *and* a flex item
 Creating and nesting multiple flex containers and items is the primary way we will be building up complex layouts. The following image was achieved using *only* flexbox to arrange, size, and place the various elements. Flexbox is a *very* powerful tool.
 
 ![complex example](https://cdn.statically.io/gh/TheOdinProject/curriculum/495704c6eb6bf33bc927534f231533a82b27b2ac/html_css/v2/foundations/flexbox/imgs/05.png)
-
-![image](figures/flexbox-layouts.png)
 
 ---
 ## Growing & Shrinking
@@ -139,7 +135,7 @@ An important implication to notice here is that when you specify `flex-grow` or 
 
 `flex-basis` sets the initial size of a flex item, so any sort of `flex-grow`ing or `flex-shrink`ing starts from that baseline size. The shorthand value defaults to `flex-basis: 0%`. The reason we had to change it to `auto` in the `flex-shrink` example is that with the basis set to `0`, those items would ignore the item's width, and everything would shrink evenly. Using `auto` as a flex-basis tells the item to check for a width declaration (`width: 250px`).
 
-<div class="lesson-note" markdown="1">
+<div class="imp" markdown="1">
 
 #### Important note about flex-basis
 {: .no_toc }
