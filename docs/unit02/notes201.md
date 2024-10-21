@@ -23,14 +23,7 @@ Many resources put it near the end of their curriculum because it is somewhat ne
 - You will learn about flex containers and flex items.
 - You will learn how to create useful components and layouts that go beyond just stacking and centering items.
 
-### Before we get started
-{: .no_toc }
-
-Flexbox layouts can get a little complicated. In a previous lesson, you learned how to inspect and debug things using your browser's developer tools. Those tools will be *crucial* for you in the following lessons. If something isn't behaving the way you expect, inspecting it in the developer tools should be your first step *every time*.
-
-Flexbox isn't necessarily any more difficult than the other concepts that we've covered so far, but it *does* have a few more moving parts. It is going to be somewhat difficult to make use of any of the things you're learning in these first lessons until you get to the end and can put it all together. As we go, do yourself a favor and **play with all of the code examples.**
-
-You will almost definitely need to come back and reference these lessons (or a couple of the resources we share with you) when you get to the assignments at the end of the section, but if you take your time and experiment with all the code examples we provide, you'll know better where to look when that time comes.
+![image](Figures/enabling-flexbox.png)
 
 ### Let's flex!
 {: .no_toc }
