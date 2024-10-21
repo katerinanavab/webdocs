@@ -75,6 +75,8 @@ Creating and nesting multiple flex containers and items is the primary way we wi
 ---
 ## Growing & Shrinking
 
+![image](figures/flexible-items.png)
+
 ### The flex shorthand
 {: .no_toc }
 
@@ -149,26 +151,8 @@ There is a difference between the default value of `flex-basis` and the way the 
 
 If you noticed, we mentioned a new flex shorthand `flex: auto` in the previous note. However we didn't fully introduce it. `flex: auto` is one of the shorthands of flex. When `auto` is defined as a flex keyword it is equivalent to the values of `flex-grow: 1`, `flex-shrink: 1` and `flex-basis: auto` or to `flex: 1 1 auto` using the flex shorthand. Note that `flex: auto` is not the default value when using the flex shorthand despite the name being "auto" which may be slightly confusing at first. You will encounter and learn more about `flex: auto` and its potential use-cases when reading through the assignment section.
 
-#### In practice
-{: .no_toc }
-
+{:.highlight}
 In practice you will likely not be using complex values for `flex-grow`, `flex-shrink` or `flex-basis`. Generally, you're most likely to use declarations like `flex: 1;` to make divs grow evenly and `flex-shrink: 0` to keep certain divs from shrinking.
-
-It *is* possible to get fancy, and set up layouts where some columns relate to each other in a specific ratio, so it's useful to know that you can use other values, but those are relatively rare.
-
-<div class="task" markdown="1">
-
-1. Read [W3C's flex section](https://www.w3.org/TR/css-flexbox-1/#flex-common) to understand the basic values of common flex shorthand values.
-1. [MDN's documentation on flex](https://developer.mozilla.org/en-US/docs/Web/CSS/flex) summarizes the entire flex shorthand values, as well as introduces some new syntax that hasn't been covered in the previous article.
-
-</div>
-
-#### Additional resources
-{: .no_toc }
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- A [video exploring how flexbox works and why](https://www.youtube.com/watch?v=u044iM9xsWU&t=1s).
 
 ---
 ## Flexbox Axes
@@ -182,6 +166,12 @@ Let's see how the orientation of items within a flex container can be controlled
 {: .no_toc }
 
 The most confusing thing about flexbox is that it can work either horizontally or vertically, and some rules change a bit depending on which direction you are working with.
+
+![image](figures/flex-direction.png)
+
+![image](figures/flex-direction-reverse.png)
+
+
 The default direction for a flex container is horizontal, or `row`, but you can change the direction to vertical, or `column`. The direction can be specified in CSS like so:
 
 ```css
@@ -222,6 +212,9 @@ So far everything we've touched with flexbox has used the rule `flex: 1` on all 
 
 - You'll learn how to align items inside a flex container both vertically and horizontally.
 
+![image](figures/flex-direction-axes.png)
+
+
 ### Alignment
 {: .no_toc }
 
@@ -245,9 +238,16 @@ Remove `flex: 1` from `.item` and add `justify-content: space-between` to `.cont
 
 ![space between](https://cdn.statically.io/gh/TheOdinProject/curriculum/495704c6eb6bf33bc927534f231533a82b27b2ac/html_css/v2/foundations/flexbox/imgs/07.png)
 
-`justify-content` aligns items across the **main axis**. There are a few values that you can use here. You'll learn the rest of them in the reading assignments, but for now try changing it to `center`, which should center the boxes along the main axis.
+`justify-content` aligns items across the **main axis**. There are a few values that you can use here. For now try changing it to `center`, which should center the boxes along the main axis.
 
-To change the placement of items along the **cross axis** use `align-items`. Try getting the boxes to the center of the container by adding `align-items: center` to `.container`. The desired result looks like this:
+![image](figures/flex-justify-content-alignment.png)
+![image](figures/flex-justify-content-distribution.png)
+
+To change the placement of items along the **cross axis** use `align-items`. 
+
+![image](figures/flex-align-items.png)
+
+Try getting the boxes to the center of the container by adding `align-items: center` to `.container`. The desired result looks like this:
 
 ![centered](https://cdn.statically.io/gh/TheOdinProject/curriculum/495704c6eb6bf33bc927534f231533a82b27b2ac/html_css/v2/foundations/flexbox/imgs/08.png)
 
@@ -270,23 +270,13 @@ One very useful feature of flex is the `gap` property. Setting `gap` on a flex c
 
 There's more for you to learn in the reading below, but at this point you can surely see how immensely useful flexbox is. With just the properties we've already covered, you could already put together some impressive layouts!
 
-Take your time going through the reading. There will be some review of the items we've already covered here, but it goes into more depth and touches on a few things that haven't been mentioned yet. Don't stress too much about trying to memorize every little detail yet; just code along with the examples and do your best to internalize everything that is *possible* with flexbox. You'll have to reach for these resources again once you get to the practice exercises, but that's perfectly acceptable. The more you use this stuff the better it will stick in your mind... and you will be using it *constantly*. Have fun!
+![image](figures/flexbox-layouts.png)
 
 <div class="task" markdown="1">
 
 1. This beautiful [Interactive Guide to Flexbox](https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/) covers everything you need to know. It will help reinforce concepts we've already touched on with some really fun and creative examples. Spend some time here, some of it should be review at this point, but the foundations here are important!
 1. [Typical use cases of Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Typical_Use_Cases_of_Flexbox) is an MDN article that covers some more practical tips. Don't skip the interactive sections! Playing around with this stuff is how you learn it!
 1. The [CSS Tricks "Guide to Flexbox"](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) is a classic. The images and examples are super helpful. It would be a good idea to review parts 1-3 and part 5 (don't worry about the media query parts, we will cover them later in the course) and then bookmark it as a great cheat sheet for future reference (keep it handy for the practice exercises).
-1. Go back to our [CSS exercises repository](https://github.com/TheOdinProject/css-exercises) and navigate to the `flex` directory. Review each README file prior to completing the following exercises in order:
-    - `01-flex-center`
-    - `02-flex-header`
-    - `03-flex-header-2`
-    - `04-flex-information`
-    - `05-flex-modal`
-    - `06-flex-layout`
-    - `07-flex-layout-2`
-
-    Note: Solutions for these exercises can be found in the `solution` folder of each exercise.
 
 </div>
 
