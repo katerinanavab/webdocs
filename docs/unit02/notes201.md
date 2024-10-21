@@ -23,7 +23,7 @@ Many resources put it near the end of their curriculum because it is somewhat ne
 - You will learn about flex containers and flex items.
 - You will learn how to create useful components and layouts that go beyond just stacking and centering items.
 
-![image](Figures/enabling-flexbox.png)
+![image](figures/enabling-flexbox.png)
 
 ### Let's flex!
 {: .no_toc }
