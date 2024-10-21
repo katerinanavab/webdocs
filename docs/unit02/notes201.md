@@ -201,9 +201,11 @@ The **default direction** for a flex container is **horizontal**, or `row`, but 
 
 </div>
 
-<span id='flex-axes'>No matter which direction you're using, you need to think of your flex-containers as having 2 axes: the main axis and the cross axis. It is the direction of these axes that changes when the `flex-direction` is changed. In *most* circumstances, `flex-direction: row` puts the main axis horizontal (left-to-right), and `column` puts the main axis vertical (top-to-bottom).</span>
+<span id='flex-axes'>No matter which direction you're using, you need to think of your flex-containers as having 2 axes: the **main axis** and the **cross axis**. It is the _direction_ of these axes that changes when the `flex-direction` is changed. In *most* circumstances, `flex-direction: row` puts the main axis horizontal (left-to-right), and `column` puts the main axis vertical (top-to-bottom).</span>
 
-In other words, in our very first example, we put `display: flex` on a div and it arranged its children horizontally. This is a demonstration of `flex-direction: row`, the default setting. The following example is very similar. If you uncomment the line that says `flex-direction: column`, those divs will stack vertically.
+> In other words, in our very first example, we put `display: flex` on a div and it arranged its children horizontally. This is a demonstration of `flex-direction: row`, the default setting. 
+
+The following example is very similar. If you uncomment the line that says `flex-direction: column`, those divs will stack vertically:
 
 <p class="codepen" data-height="400" data-default-tab="html,result" data-slug-hash="BaZKPdw" data-editable="true" data-user="TheOdinProjectExamples" style="height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
 
@@ -231,13 +233,12 @@ We've strayed from the point slightly... We were talking about flex-direction an
 
 So far everything we've touched with flexbox has used the rule `flex: 1` on all flex items, which makes the items grow or shrink equally to fill all of the available space. Very often, however, this is not the desired effect. Flex is also very useful for arranging items that have a specific size.
 
-- You'll learn how to align items inside a flex container both vertically and horizontally.
+- You'll learn how to **align items** inside a flex container both **vertically** and **horizontally**.
+
+
+### `justify-content` and `align-items`
 
 ![image](figures/flex-direction-axes.png)
-
-
-### Alignment
-{: .no_toc }
 
 Let's look at an example.
 
