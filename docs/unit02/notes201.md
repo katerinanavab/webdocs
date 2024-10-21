@@ -93,23 +93,23 @@ The `flex` property is actually a shorthand for:
 
 </div>
 
+Very often you see the flex shorthand defined with only *one* value. In that case, that value is applied to `flex-grow`. So when we put `flex: 1` on our divs, we were actually specifying a shorthand of `flex: 1 1 0`.
+
 ```css
 div {
   flex: 1;
 }
 ```
+> In the above code, `flex: 1` equates to: `flex-grow: 1`, `flex-shrink: 1`, `flex-basis: 0`.
 
-In the above code, `flex: 1` equates to: `flex-grow: 1`, `flex-shrink: 1`, `flex-basis: 0`.
-
-{:.highlight}
-Very often you see the flex shorthand defined with only *one* value. In that case, that value is applied to `flex-grow`. So when we put `flex: 1` on our divs, we were actually specifying a shorthand of `flex: 1 1 0`.
 
 #### Flex-grow
 {: .no_toc }
 
 `flex-grow` expects a single number as its value, and that number is used as the flex-item's **"growth factor"**. When we applied `flex: 1` to every div inside our container, we were telling every div to grow the same amount. The result of this is that every div ends up the **exact same size**. 
+> If we instead add `flex: 2` to just one of the divs, then that div would **grow** to 2x the size of the others. 
 
-If we instead add `flex: 2` to just one of the divs, then that div would **grow** to 2x the size of the others. In the following example the `flex` shorthand has values for `flex-shrink` and `flex-basis` specified with their default values.
+In the following example the `flex` shorthand has values for `flex-shrink` and `flex-basis` specified with their default values.
 
 <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="YzQqvgK" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;"> 
   
@@ -125,8 +125,7 @@ If we instead add `flex: 2` to just one of the divs, then that div would **grow*
 {: .no_toc }
 
 `flex-shrink` is similar to `flex-grow`, but sets the **"shrink factor"** of a flex item. `flex-shrink` only ends up being applied if the size of all flex items is _larger than their parent_ container. 
-
-For example, if our 3 divs from above had a width declaration like: `width: 100px`, and `.flex-container` was smaller than `300px`, our divs would have to shrink to fit.
+> For example, if our 3 divs from above had a width declaration like: `width: 100px`, and `.flex-container` was smaller than `300px`, our divs would have to shrink to fit.
 
 {:.highlight}
 The **default shrink factor** is `flex-shrink: 1`, which means all items will **shrink evenly**. If you do *not* want an item to shrink then you can specify `flex-shrink: 0;`. You can also specify higher numbers to make certain items shrink at a higher rate than normal.
