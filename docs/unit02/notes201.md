@@ -255,7 +255,7 @@ Let's look at an example:
 Adding `flex: 1` to `.item` makes each of the items grow to fill the available space, but what if we wanted them to stay the same width, but distribute themselves differently inside the container? 
 > Remove `flex: 1` from `.item` and add `justify-content: space-between` to `.container`. 
 
-#### Main Axis: Justify Content
+#### HOW TO USE Justify Content
 {:.no_toc}
 
 {:.important}
@@ -266,7 +266,7 @@ There are a few values that you can use here. For now try changing it in your co
 ![image](figures/flex-justify-content-alignment.png)
 ![image](figures/flex-justify-content-distribution.png)
 
-#### Cross Axis: Align Items
+#### HOW TO USE Align Items
 {:.no_toc}
 
 {:.important}
@@ -281,7 +281,7 @@ Because `justify-content` and `align-items` are based on the **main axis** and *
 
 The most common behavior, however, is the default, i.e. `justify-content` aligns items **horizontally** (because the main axis defaults to horizontal), and `align-items` aligns them **vertically**. 
 
-#### Gap
+#### Setting a Gap between flex items
 {: .no_toc }
 
 One very useful feature of flex is the `gap` property. 
