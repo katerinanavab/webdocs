@@ -56,7 +56,7 @@ As you've seen, flexbox is not just a single CSS **property** but a whole toolbo
 
 <div class="imp" markdown="block">
   
-<span id="flex-container-item-knowledge-check">A flex container is any element that has `display: flex` on it. A flex item is any element that lives directly inside of a flex container.</span>
+<span id="flex-container-item-knowledge-check">A **flex container** is any element that has `display: flex` on it. A **flex item** is any element that lives directly _inside_ of a flex container.</span>
 
 </div>
 
@@ -71,33 +71,41 @@ Creating and nesting multiple flex containers and items is the primary way we wi
 ![complex example](https://cdn.statically.io/gh/TheOdinProject/curriculum/495704c6eb6bf33bc927534f231533a82b27b2ac/html_css/v2/foundations/flexbox/imgs/05.png)
 
 ---
-## Growing & Shrinking
+## Growing & Shrinking Items
 
 ![image](figures/flexible-items.png)
 
 ### The flex shorthand
 {: .no_toc }
 
-The `flex` declaration is actually a shorthand for 3 properties that you can set on a flex item. These properties affect how flex items size themselves within their container. You've seen some shorthand properties before, but we haven't officially defined them yet.
+The `flex` declaration is actually a **shorthand** for 3 properties that you can set on a flex item. These properties affect _how flex items size themselves_ within their container. You've seen some shorthand properties before, like `border`, but we haven't officially defined them yet.
 
 > **Shorthand properties** are CSS properties that let you _set the values of multiple CSS properties_ simultaneously. Using a shorthand property, you can write more concise (and often more readable) stylesheets, saving time and energy.
 >
-> Source: [Shorthand properties on MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Shorthand_properties)
+> MORE INFO: [Shorthand properties on MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Shorthand_properties)
 
-In this case, `flex` is actually a shorthand for `flex-grow`, `flex-shrink` and `flex-basis`.
+In this case, `flex` is actually a shorthand for:
+1. `flex-grow`
+2. `flex-shrink`
+3. `flex-basis`
 
-![flex shorthand](https://cdn.statically.io/gh/TheOdinProject/curriculum/0cc6b26bb0c4b94524369d327c97a8fb11e83b6b/foundations/html_css/flexbox/imgs/10.png)
+```css
+div {
+  flex: 1;
+}
+```
 
-In the above screenshot, `flex: 1` equates to: `flex-grow: 1`, `flex-shrink: 1`, `flex-basis: 0`.
+In the above code, `flex: 1` equates to: `flex-grow: 1`, `flex-shrink: 1`, `flex-basis: 0`.
 
+{:.highlight}
 Very often you see the flex shorthand defined with only *one* value. In that case, that value is applied to `flex-grow`. So when we put `flex: 1` on our divs, we were actually specifying a shorthand of `flex: 1 1 0`.
 
 #### Flex-grow
 {: .no_toc }
 
-`flex-grow` expects a single number as its value, and that number is used as the flex-item's "growth factor". When we applied `flex: 1` to every div inside our container, we were telling every div to grow the same amount. The result of this is that every div ends up the exact same size. If we instead add `flex: 2` to just one of the divs, then that div would grow to 2x the size of the others.
+`flex-grow` expects a single number as its value, and that number is used as the flex-item's "growth factor". When we applied `flex: 1` to every div inside our container, we were telling every div to grow the same amount. The result of this is that every div ends up the **exact same size**. 
 
-In the following example the `flex` shorthand has values for `flex-shrink` and `flex-basis` specified with their default values.
+If we instead add `flex: 2` to just one of the divs, then that div would **grow** to 2x the size of the others. In the following example the `flex` shorthand has values for `flex-shrink` and `flex-basis` specified with their default values.
 
 <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="YzQqvgK" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;"> 
   
