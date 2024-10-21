@@ -157,8 +157,7 @@ In the above example, all 3 divs are given a width of 250px, but when their pare
 {: .no_toc }
 
 `flex-basis` sets the **initial size** of a flex item, so any sort of `flex-grow`ing or `flex-shrink`ing starts from that baseline size. The shorthand value defaults to `flex-basis: 0%`. 
-
-The reason we had to change it to `auto` in the `flex-shrink` example is that with the basis set to `0`, those items would ignore the item's width, and everything would shrink evenly. Using `auto` as a flex-basis tells the item to **check for a width declaration** (`width: 250px`).
+> The reason we had to change it to `auto` in the `flex-shrink` example is that with the basis set to `0`, those items would ignore the item's width, and everything would shrink evenly. Using `auto` as a flex-basis tells the item to **check for a width declaration** (`width: 250px`).
 
 <div class="warn" markdown="1">
 
@@ -174,28 +173,32 @@ In practice you will likely not be using complex values for `flex-grow`, `flex-s
 ---
 ## Flexbox Axes
 
-Let's see how the orientation of items within a flex container can be controlled using the `flex-direction` property.
+Let's see how the **orientation** of items within a flex container can be controlled using the `flex-direction` property.
 
 - You'll learn about the 2 "axes" of a flex container.
-- You'll learn how to change those axes to arrange your content in columns instead of rows.
+- You'll learn how to change those axes to arrange your content in **columns** instead of **rows**.
 
 ### Axes
 {: .no_toc }
 
-The most confusing thing about flexbox is that it can work either horizontally or vertically, and some rules change a bit depending on which direction you are working with.
+The most confusing thing about flexbox is that it can work either **horizontally** or **vertically**, and some rules change a bit depending on which direction you are working with.
 
 ![image](figures/flex-direction.png)
 
 ![image](figures/flex-direction-reverse.png)
 
 
-The default direction for a flex container is horizontal, or `row`, but you can change the direction to vertical, or `column`. The direction can be specified in CSS like so:
+<div class="imp" markdown="block">
+
+The **default direction** for a flex container is **horizontal**, or `row`, but you can change the direction to **vertical**, or `column`. The direction can be specified in CSS like so:
 
 ```css
 .flex-container {
   flex-direction: column;
 }
 ```
+
+</div>
 
 <span id='flex-axes'>No matter which direction you're using, you need to think of your flex-containers as having 2 axes: the main axis and the cross axis. It is the direction of these axes that changes when the `flex-direction` is changed. In *most* circumstances, `flex-direction: row` puts the main axis horizontal (left-to-right), and `column` puts the main axis vertical (top-to-bottom).</span>
 
