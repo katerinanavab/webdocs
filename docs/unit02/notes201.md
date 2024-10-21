@@ -255,7 +255,7 @@ Let's look at an example:
 Adding `flex: 1` to `.item` makes each of the items grow to fill the available space, but what if we wanted them to stay the same width, but distribute themselves differently inside the container? 
 > Remove `flex: 1` from `.item` and add `justify-content: space-between` to `.container`. 
 
-#### HOW TO USE Justify Content
+#### When to use Justify-Content
 {:.no_toc}
 
 {:.important}
@@ -266,7 +266,7 @@ There are a few values that you can use here. For now try changing it in your co
 ![image](figures/flex-justify-content-alignment.png)
 ![image](figures/flex-justify-content-distribution.png)
 
-#### HOW TO USE Align Items
+#### When to use Align-Items
 {:.no_toc}
 
 {:.important}
