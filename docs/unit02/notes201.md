@@ -168,7 +168,7 @@ If you want to *only* adjust an item's `flex-grow` you can do so directly, witho
 </div>
 
 {:.highlight}
-In practice you will likely not be using complex values for `flex-grow`, `flex-shrink` or `flex-basis`. Generally, you're most likely to use declarations like `flex: 1;` to make divs grow evenly and `flex-shrink: 0` to keep certain divs from shrinking.
+In practice you will likely not be using complex values for `flex-grow`, `flex-shrink` or `flex-basis`. Generally, you're most likely to use declarations like `flex: 1;` to make items **grow evenly** and `flex-shrink: 0` to **prevent shrinking** of certain items.
 
 ---
 ## Flexbox Axes
@@ -194,6 +194,7 @@ The **default direction** for a flex container is **horizontal**, or `row`, but 
 
 ```css
 .flex-container {
+  display: flex;
   flex-direction: column;
 }
 ```
