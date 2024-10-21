@@ -178,8 +178,7 @@ Let's see how the **orientation** of items within a flex container can be contro
 - You'll learn about the 2 "axes" of a flex container.
 - You'll learn how to change those axes to arrange your content in **columns** instead of **rows**.
 
-### Axes
-{: .no_toc }
+### The `flex-direction` property
 
 The most confusing thing about flexbox is that it can work either **horizontally** or **vertically**, and some rules change a bit depending on which direction you are working with.
 
