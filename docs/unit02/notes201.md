@@ -72,6 +72,8 @@ Creating and nesting multiple flex containers and items is the primary way we wi
 
 ![complex example](https://cdn.statically.io/gh/TheOdinProject/curriculum/495704c6eb6bf33bc927534f231533a82b27b2ac/html_css/v2/foundations/flexbox/imgs/05.png)
 
+![image](figures/flexbox-layouts.png)
+
 ---
 ## Growing & Shrinking
 
@@ -269,8 +271,6 @@ One very useful feature of flex is the `gap` property. Setting `gap` on a flex c
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 There's more for you to learn in the reading below, but at this point you can surely see how immensely useful flexbox is. With just the properties we've already covered, you could already put together some impressive layouts!
-
-![image](figures/flexbox-layouts.png)
 
 <div class="task" markdown="1">
 
