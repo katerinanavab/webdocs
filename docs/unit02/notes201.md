@@ -47,7 +47,7 @@ We've embedded a lot of interactive examples in these lessons. Take your time to
 {:.highlight}
 All 3 divs should be arranged **horizontally**. If you resize the results frame with the "1x", ".5x" and ".25x" buttons you'll also see that the divs will "flex". They will fill the available area and will each have equal width.
 
-If you add another `div` to the HTML, inside of `<div class='flex-container'>`, it will show up alongside the others, and everything will flex to fit within the available area.
+If you add another `div` to the HTML, inside of `<div class="flex-container">`, it will show up alongside the others, and everything will flex to fit within the available area.
 
 ### Flex Containers and Flex Items
 
