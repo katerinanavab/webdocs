@@ -234,12 +234,11 @@ So far everything we've touched with flexbox has used the rule `flex: 1` on all 
 
 - You'll learn how to **align items** inside a flex container both **vertically** and **horizontally**.
 
-
-### `justify-content` and `align-items`
+### The `justify-content` and `align-items` properties
 
 ![image](figures/flex-direction-axes.png)
 
-Let's look at an example.
+Let's look at an example:
 
 <p class="codepen" data-height="400" data-default-tab="html,result" data-slug-hash="MWoyBzR" data-editable="true" data-user="TheOdinProjectExamples" style="height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
 
@@ -251,33 +250,49 @@ Let's look at an example.
 
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-You should be able to predict what happens if you put `flex: 1` on the `.item` by now. Give it a shot before we move on!
+> You should be able to predict what happens if you put `flex: 1` on the `.item` by now. Give it a shot before we move on!
 
-Adding `flex: 1` to `.item` makes each of the items grow to fill the available space, but what if we wanted them to stay the same width, but distribute themselves differently inside the container? We can do this!
+Adding `flex: 1` to `.item` makes each of the items grow to fill the available space, but what if we wanted them to stay the same width, but distribute themselves differently inside the container? 
+> Remove `flex: 1` from `.item` and add `justify-content: space-between` to `.container`. 
 
-Remove `flex: 1` from `.item` and add `justify-content: space-between` to `.container`. Doing so should give you something like this:
+#### Main Axis: Justify Content
+{:.no_toc}
 
-![space between](https://cdn.statically.io/gh/TheOdinProject/curriculum/495704c6eb6bf33bc927534f231533a82b27b2ac/html_css/v2/foundations/flexbox/imgs/07.png)
+{:.important}
+`justify-content` aligns items across the **main axis**. 
 
-`justify-content` aligns items across the **main axis**. There are a few values that you can use here. For now try changing it to `center`, which should center the boxes along the main axis.
+There are a few values that you can use here. For now try changing it in your code to `center`, which should _center the boxes along the main axis_.
 
 ![image](figures/flex-justify-content-alignment.png)
 ![image](figures/flex-justify-content-distribution.png)
 
+#### Cross Axis: Align Items
+{:.no_toc}
+
+{:.important}
 To change the placement of items along the **cross axis** use `align-items`. 
+
+In your code, try getting the boxes to the center of the container by adding `align-items: center` to `.container`. There are more options for this property: 
 
 ![image](figures/flex-align-items.png)
 
-Try getting the boxes to the center of the container by adding `align-items: center` to `.container`. The desired result looks like this:
+{:.warning}
+Because `justify-content` and `align-items` are based on the **main axis** and **cross axis** of your container, their _behavior changes_ when you change the `flex-direction` of a flex container!  > For example, when you change `flex-direction` to `column`, `justify-content` aligns **vertically** and `align-items` aligns **horizontally**. 
 
-![centered](https://cdn.statically.io/gh/TheOdinProject/curriculum/495704c6eb6bf33bc927534f231533a82b27b2ac/html_css/v2/foundations/flexbox/imgs/08.png)
-
-Because `justify-content` and `align-items` are based on the main and cross axis of your container, their behavior changes when you change the flex-direction of a flex-container. For example, when you change `flex-direction` to `column`, `justify-content` aligns vertically and `align-items` aligns horizontally. The most common behavior, however, is the default, i.e. `justify-content` aligns items horizontally (because the main axis defaults to horizontal), and `align-items` aligns them vertically. One of the biggest sticking points that beginners have with flexbox is confusion when this behavior changes.
+The most common behavior, however, is the default, i.e. `justify-content` aligns items **horizontally** (because the main axis defaults to horizontal), and `align-items` aligns them **vertically**. 
 
 #### Gap
 {: .no_toc }
 
-One very useful feature of flex is the `gap` property. Setting `gap` on a flex container adds a specified space between flex items, similar to adding a margin to the items themselves. `gap` is a *new* property so it doesn't show up in many resources yet, but it works reliably in all modern browsers, so it is safe to use and very handy! Adding `gap: 8px` to the centered example above produces the result below.
+One very useful feature of flex is the `gap` property. 
+
+<div class="imp" markdown="block">
+
+Setting the `gap` property on a flex container adds a **specified space** between flex items, similar to adding a margin to the items themselves. 
+
+</div>
+
+Adding `gap: 8px` to the centered example above produces the result below:
 
 <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="qBjZyea" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
 
@@ -289,7 +304,7 @@ One very useful feature of flex is the `gap` property. Setting `gap` on a flex c
 
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-There's more for you to learn in the reading below, but at this point you can surely see how immensely useful flexbox is. With just the properties we've already covered, you could already put together some impressive layouts!
+There's more for you to learn in the articles below, but at this point you can surely see how immensely useful flexbox is. With just the properties we've already covered, you could already put together some impressive layouts!
 
 ---
 
