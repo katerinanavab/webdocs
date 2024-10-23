@@ -44,7 +44,7 @@ Many resources put it near the end of their curriculum because it is somewhat ne
 ### Let's flex!
 {: .no_toc }
 
-Flexbox is a way to arrange items into **rows** or **columns**. These items will flex (i.e. _grow_ or _shrink_) based on some rules that you can define. Here are some examples of what you can control in flexible containers:
+Flexbox is a way to _arrange items_ into **rows** or **columns**. These items will **flex** (i.e. _grow_ or _shrink_) based on some rules that you can define. Here are some examples of what you can control in flexible containers:
 
 ![image](figures/flexbox-layouts.png)
 
