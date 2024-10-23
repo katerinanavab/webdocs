@@ -11,8 +11,6 @@ nav_order: 5
 
 For this project you'll be **creating an entire web page from a provided design**. The design we're providing you comes in the form of 2 images: one is an image of the complete website, and one has some details about some of the fonts and colors we've used.
 
-Do *not* be afraid to use Google or go back to the unit notes to look something up. **In real life, professional developers use Google *constantly* for things that they have been doing for years.** At this point it is not expected that you will have everything memorized, so don't worry about it. Additionally, there are a few small details that you may not have encountered in our lessons yet. *This is on purpose.* These details are minor, and easily searched (e.g. Google `css rounded corners`).
-
 Get your **project as close as you can to the design**, but do not worry about getting it pixel-perfect. Don't get out your ruler or count pixels to find the exact margins between the various sections. The point of this assignment is to create something from scratch and get the various elements in more or less the right position relative to the rest. It doesn't matter if you use `margin: 24px` when the design actually has `margin: 48px`.
 
 <div class="setup" markdown="block">
@@ -27,18 +25,18 @@ Get your **project as close as you can to the design**, but do not worry about g
 
 ### Instructions & Requirements
 
-#### Iteration 1: Copy the Structure
+{:.highlight}
+Do *not* be afraid to use Google or go back to the unit notes to look something up. **In real life, professional developers use Google *constantly* for things that they have been doing for years.** At this point it is not expected that you will have everything memorized, so don't worry about it. Additionally, there are a few small details that you may not have encountered in our lessons yet. *This is on purpose.* These details are minor, and easily 🔍 **searched** (e.g. Google `css rounded corners`).
+
+#### Iteration 1: Mimic the Structure
 <div class="task" markdown="block">
 
 1. Download the **design images** and take a look at what you're going to be creating here: [Image One (Full Design)](https://cdn.statically.io/gh/TheOdinProject/curriculum/81a5d553f4073e593d23a6ab00d50eef8620796d/foundations/html_css/project/imgs/01.png), [Image Two (Color and Fonts)](https://cdn.statically.io/gh/TheOdinProject/curriculum/69e40b6fcacf567f77243547b7f89df75dd8c3d0/foundations/html_css/project/imgs/02.png)
-
-> Hint: The font that's being used in the images is `Roboto`, which can be found on [Google Fonts](https://fonts.google.com/).
-
-1. There are many ways to tackle a project like this, and it can be overwhelming to look at a blank HTML document and not know where to start. Our suggestion: take it **one section at a time**. The website you're creating has 4 main sections (and a footer), so pick one and get it into pretty good shape before moving on. Starting at the top is always a solid plan.
-1. For the section you're working on, begin by **getting all the content onto the page** before beginning to style it. In other words, do the HTML and *then* do the CSS. You'll probably have to go back to the HTML once you start styling, but bouncing back and forth from the beginning will take more time and may cause more frustration.
-> Note: You don't need to use more than one stylesheet. Using only one CSS file is adequate for this project.
-1. Many of the elements on this page are very similar to things you saw in our flexbox exercises... feel free to go back to those if you need a refresher.
-1. Do not worry about making your project look nice on a mobile device. We'll learn that later.
+> **Hint:** The font that's being used in the images is `Roboto`, which can be found on [Google Fonts](https://fonts.google.com/).
+2. There are many ways to tackle a project like this, and it can be overwhelming to look at a blank HTML document and not know where to start. Our suggestion: take it **one section at a time**.
+>The website you're creating has 4 main sections (and a footer), so pick one and get it into pretty good shape before moving on. Starting at the TOP is always a solid plan.
+3. For the section you're working on, begin by **getting all the content onto the page** before beginning to style it. In other words, code the `HTML` and *then* code the `CSS`. You'll probably have to go back to the HTML once you start styling, but bouncing back and forth from the beginning will take more time and may cause more frustration.
+> Many of the elements on this page are very similar to things you saw in our [📓2.1: Flexbox](https://coderina.dev/webdocs/docs/unit02/notes201.html) notes... feel free to go back to those if you need a refresher.
 
 </div>
 
@@ -47,9 +45,13 @@ Get your **project as close as you can to the design**, but do not worry about g
 <div class="task" markdown="block">
 
 *Finally*, you are free to **substitute your own content** into this design. The images just have some meaningless dummy content at the moment.
-1. Make up a fake business and personalize this page around that theme.
-2. Insert actual **images** in the placeholders.
-3. Play around with the **colors** and **fonts** a bit too.
+
+Make up a **fake business** and personalize this page around that theme:
+
+1. Change all of the **text** (in `p` tags, `h1` tags, _etc_) to reflect that business.
+> Feel free to look up landing pages for real businesses for inspiration!
+2. Find, upload, & insert actual **images** in the `img` placeholders. 
+3. In terms of CSS styling, keep the layout the same, but play around with the **colors** and **fonts** a bit.
 
 </div>
 
