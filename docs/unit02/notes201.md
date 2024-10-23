@@ -13,17 +13,7 @@ nav_order: 1
 {:toc}
 
 ---
-## Flexbox Layouts
-
-As you'll learn, there are *many* ways to move elements around on a web page. New methods have been developed over the years and older things have fallen out of style. Flexbox was not always available in CSS - its debut was *revolutionary*. Learn more about the [history of flexbox](https://medium.com/@BennyOgidan/history-of-css-grid-and-css-flexbox-658ae6cfe6d2).
-
-Many resources put it near the end of their curriculum because it is somewhat new as a technology. But at this point, it has become the **default way of positioning elements** for many developers. Flexbox will be one of the most used tools in your toolbox, so why not learn it first?
-
-- You will learn how to position elements using **flexbox**.
-- You will learn about `flex containers` and `flex items`.
-- You will learn how to create useful components and layouts that go beyond just stacking and centering items.
-
-#### Using a GitHub Template for class notes
+#### New Unit! Use a GitHub Template for class notes:
 {:.no_toc}
 
 <div class="setup" markdown="block">
@@ -38,6 +28,18 @@ Many resources put it near the end of their curriculum because it is somewhat ne
 7. 📝 Take notes in this Codespace during class, coding along with the instructor.
 
 </div>
+
+---
+
+## Flexbox Layouts
+
+As you'll learn, there are *many* ways to move elements around on a web page. New methods have been developed over the years and older things have fallen out of style. Flexbox was not always available in CSS - its debut was *revolutionary*. Learn more about the [history of flexbox](https://medium.com/@BennyOgidan/history-of-css-grid-and-css-flexbox-658ae6cfe6d2).
+
+Many resources put it near the end of their curriculum because it is somewhat new as a technology. But at this point, it has become the **default way of positioning elements** for many developers. Flexbox will be one of the most used tools in your toolbox, so why not learn it first?
+
+- You will learn how to position elements using **flexbox**.
+- You will learn about `flex containers` and `flex items`.
+- You will learn how to create useful components and layouts that go beyond just stacking and centering items.
 
 ### Let's flex!
 {: .no_toc }
