@@ -37,13 +37,13 @@ In this creative project, you will use **CSS positioning** to place elements cre
 	* In your CSS file, set a `background-image` to represent the ground.
 	```css
 	body {
-	  background: url("https://i.pinimg.com/474x/c6/ed/b2/c6edb243a6e688238d54c1a6fd8f59c9.jpg");
-	  background-size: 20%;
-	  margin: 0;
-	  padding: 0;
-	  box-sizing: border-box;
-	  height: 100%;
-	  width: 100%;
+		background: url(" ");
+		background-size: 20%;
+	  	margin: 0;
+	  	padding: 0;
+	  	box-sizing: border-box;
+	  	height: 100%;
+		width: 100%;
 	}
 	```
 2. **Create a Gradient Background:**
