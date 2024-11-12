@@ -120,7 +120,7 @@ So, if we change `.item-absolute`’s **parent element** (let's call it `.contai
 
 ### Fixed Positioning
 
-Fixed elements are also removed from the normal flow of the document and are positioned relative to the `viewport`. You basically use `top`, `right`, `bottom`, and `left` properties to position it, and it will _stay there as the user scrolls_. 
+Elements with `position: fixed` have a lot in common with absolute positioning: the fixed positioning scheme is very manual, the element is removed from the normal flow of the page, and the coordinate system is relative to the `viewport` (the entire browser window). The key difference is that **fixed elements don’t scroll** with the rest of the page. You can still use `top`, `right`, `bottom`, and `left` properties to position it, and it will _stay in place as the user scrolls_. 
 
 {:.highlight}
 Fixed positioning is especially useful for things like **navigation bars** and **floating chat buttons** that you ALWAYS want displayed, regardless of where the user is on your page. 
@@ -129,7 +129,7 @@ Fixed positioning is especially useful for things like **navigation bars** and *
 
 #### Sticky Positioning
 
-Sticky elements will act like normal **static** elements until you _scroll past them_, then they start behaving like **fixed** elements. They are also _not taken out of the normal flow_ of the document. It might sound confusing, so check out this [sticky positioning example](https://codepen.io/theanam/pen/MPLBYy) that might clear things up for you. 
+Elements with `position: sticky` will act like normal **static** elements until you _scroll past them_, then they start behaving like **fixed** elements. They are also _not taken out of the normal flow_ of the document. It might sound confusing, so check out this [sticky positioning example](https://codepen.io/theanam/pen/MPLBYy) that might clear things up for you. 
 
 {:.highlight}
 Sticky positioning is useful for things like **section-headings**. Remember being able to still see what category you're looking at while scrolling through a shop? This is how it's done!
