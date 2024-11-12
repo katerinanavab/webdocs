@@ -32,6 +32,27 @@ In this creative project, you will use **CSS positioning** to place elements cre
 
 <div class="task" markdown="block">
 
+1. **Add a Background Image:**
+	* Find an **image** to use for the ground, such as grass, bricks, or a texture (check out this [Seamless Textures](https://architextures.org/textures) website). Feel free to experiment with different images to find one that fit your vision for the town.
+	* In your CSS file, set a `background-image` to represent the ground.
+	```css
+	body {
+	  background: url("https://i.pinimg.com/474x/c6/ed/b2/c6edb243a6e688238d54c1a6fd8f59c9.jpg");
+	  background-size: 20%;
+	  margin: 0;
+	  padding: 0;
+	  box-sizing: border-box;
+	  height: 100%;
+	  width: 100%;
+	}
+	```
+2. **Create a Gradient Background:**
+3. **Add a Symbol/Emoji:**
+4. **Build a House with Styled Divs:**
+5. 🎨 **Customize your Town:**
+	* Get creative! Add more buildings, symbols, or decorative elements to make the town your own.
+	* Experiment with shapes, colors, and different icons to add personality to your town.
+ 	* See below for a **checklist of minimum requirements** for this project. 
 </div>
 
 ### Minimum Requirements
@@ -40,13 +61,13 @@ In this creative project, you will use **CSS positioning** to place elements cre
 - [ ] Include at **least 3 buildings or structures** (e.g., houses, stores, towers) created using `<div>` elements.
 	* Each building should have a distinct style, size, or color to add variety to your townscape.
 
-#### Icons or Emojis:
-- [ ] Use at least 5 icons or emojis to represent elements of your town.
+#### Symbols or Emojis:
+- [ ] Use at least 5 [symbols](https://copychar.cc/symbols/) or [emojis](https://copychar.cc/emoji/) to represent elements of your town.
 	* Icons or emojis can be added in the sky (e.g., ☁️ or 🌙), as landmarks (e.g., 🏛️ or 🏫), or as decorations (e.g., 🏠 or 🚗).
 	* Ensure that these icons are positioned and sized appropriately to fit into the overall design.
 
 #### Sky Design:
-- [ ] The sky must include a **gradient background**.
+- [ ] The sky must include a [gradient background](https://gradients.shecodes.io/).
 	* You can customize the colors to create a sunrise, sunset, daytime, or nighttime feel.
 - [ ] Include at least one emoji or icon in the sky (e.g., ☀️, 🌙, or ☁️).
 
