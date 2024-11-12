@@ -34,9 +34,9 @@ In this creative project, you will use **CSS positioning** to place elements cre
 	* In your CSS file, set the `background` to the image's `url`.
 	```css
 	body {
-		background: url(" ");
+ 		background: url(" ");
 		background-size: 20%;
- 		height: 100%;
+		height: 100%;
  		width: 100%;
 		margin: 0;
 		padding: 0;
@@ -56,13 +56,13 @@ In this creative project, you will use **CSS positioning** to place elements cre
 		left: 0;
 		z-index: 0;
 	}
- 	```
+	```
 3. ⭐️ **Add a Symbol/Emoji:**
 	* Add a symbol or emoji to represent something in the sky. It could be a ☀️ (sun), 🌙 (moon), ☁️ (cloud), or any other symbol of your choice!
 	* In your `HTML` file, add a `<span>` element (inline container) with an `id` to hold your symbol.
 	```html
  	<span id="sky-symbol">☀️</span>
- 	```
+	```
 	* In your `CSS` file, select your symbol to adjust the `size` and `position` it in the sky.
 	```css
 	#sky-symbol {
@@ -105,7 +105,8 @@ In this creative project, you will use **CSS positioning** to place elements cre
 6. 🎨 **Customize your Town:**
 	* Get creative! Add more buildings, symbols, or decorative elements to make the town your own.
 	* Experiment with shapes, colors, and different icons to add personality to your town.
- 	* See below for a **checklist of minimum requirements** for this project. 
+	* See below for a **checklist of minimum requirements** for this project. 
+
 </div>
 
 {:.highlight}
