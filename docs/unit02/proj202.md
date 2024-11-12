@@ -33,8 +33,8 @@ In this creative project, you will use **CSS positioning** to place elements cre
 	* Find an image to use for the **ground**, such as grass, bricks, or a texture (check out this [Seamless Textures](https://architextures.org/textures) website). Feel free to experiment with different images to find one that fit your vision for the town.
 	* In your CSS file, set the `background` to the image's `url`.
 	```css
-	body {
-	    background: url(" ");
+ 	body {
+ 	    background: url(" ");
  	    background-size: 20%;
  	    height: 100%;
  	    width: 100%;
