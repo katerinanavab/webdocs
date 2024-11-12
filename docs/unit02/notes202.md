@@ -18,7 +18,7 @@ nav_order: 2
 
 By now you have had quite a bit of practice moving elements around the screen using things like `margin`, `padding`, and `flex`box. These techniques have all relied on CSS's default **positioning-mode**: `static`. Static means the elements are placed one after the other, thus following "normal flow" of the HTML document.
 
-![image](https://media.istockphoto.com/id/1700005801/vector/cute-female-scientist-cartoon-character-conducting-static-electricity-experiment.jpg?s=612x612&w=0&k=20&c=0hlDFxaX-PhVgKgKZiDvbYon_6wkyDcRIR6Qmp63PyE=)
+![image](https://coolscienceexperimentshq.com/wp-content/uploads/2015/12/Make-Your-Hair-Stand-on-End-Science-Experiment-Step-2.jpg)
 
 This default positioning-mode is intuitive, and you'll continue using it for almost all of your layout needs. However, there are other methods at your disposal that can be very useful in some situations.
 
