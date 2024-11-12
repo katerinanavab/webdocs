@@ -134,6 +134,30 @@ Elements with `position: sticky` will act like normal **static** elements until 
 {:.highlight}
 Sticky positioning is useful for things like **section-headings**. Remember being able to still see what category you're looking at while scrolling through a shop? This is how it's done!
 
+
+### Z-Index
+
+We’ve never had to deal with “depth” issues before. Until now, all our HTML elements rendered above or below one another in an intuitive way. But, since we’re doing advanced stuff, relying on the browser to determine which elements appear on top of other ones isn’t going to cut it.
+
+<div class=imp" markdown="block">
+  
+The `z-index` property lets you control the **depth** of elements on the page. If you think of your screen as 3D space, **negative** z-index values go farther **INTO** the page, and **positive** ones come **OUT** of the page. The default `z-index` value is `0`.
+
+```css
+.front-item {
+  position: relative;
+  z-index: 2;
+}
+.back-item {
+  position: relative;
+  z-index: 1;
+}
+```
+>Take note of that `position: relative;` line. It’s required because only positioned elements pay attention to their z-index property. This is easy to forget, so make a mental note for the next time you’re having depth issues and your CSS rules don’t seem to have any effect.
+</div>
+
+![image](figures/css-z-index.png)
+
 ---
 
 #### Knowledge check
