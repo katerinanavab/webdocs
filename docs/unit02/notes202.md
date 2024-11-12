@@ -35,22 +35,27 @@ This section contains a general overview of topics that you will learn in this l
 - You'll learn how to use `relative` positioning.
 - You'll learn how to use `absolute` positioning.
 - You'll learn how to use `fixed` positioning.
-- You'll learn how to use `sticky` positioning.
 - You'll know the difference between each property and how to combine them.
 
 ![image](figures/css-positioning-schemes.png)
 
+![image](figures/positioned-elements-terminology.png)
+
 ### Static and Relative Positioning
 
-The default positioning mode that you've gotten used to is Static. The difference between static and relative is fairly simple:
+The default positioning mode that you've gotten used to is **static**. The difference between static and relative is fairly simple:
 * `position: static` is the default position of every element, and properties `top`, `right`, `bottom`, and `left` do not affect the position of the element.
 * `position: relative` on the other hand is pretty much the same as static, but properties `top`, `right...(etc.)` displace the element relative to its normal position in the flow of the document.
+
+![image](figures/css-relative-positioning.png)
+
+![image](figures/relative-positioning-offsets.png)
 
 ### Absolute Positioning
 
 <div class="imp" markdown="block">
   
-`position: absolute` allows you to **position something at an exact point** on the screen without disturbing the other elements around it. Using an absolute positioning scheme allows you specify the location anywhere on the screen with the  `top`, `right`, `bottom`, and `left` properties: 
+`position: absolute` allows you to **position something at an exact point** on the screen without disturbing the other elements around it. Using an absolute positioning scheme enables specifying the location anywhere on the screen with the  `top`, `right`, `bottom`, and `left` properties: 
 
 ```css
 .absolute {
@@ -64,14 +69,18 @@ The default positioning mode that you've gotten used to is Static. The differenc
 
 > More specifically, using absolute positioning on an element will **remove that element** from the **normal document flow** while being positioned _relative to an ancestor element_. To put it in other words: elements that are removed from the normal flow of the document _do not affect other elements_ and are also not affected by other elements.
 
-This property is really useful when you want to position something at an **exact point** on the screen, without disturbing any of the other elements on the page. A couple of good use cases for absolute positioning are:
+![image](figures/css-absolute-positioning.png)
 
+This property is really useful when you want to position something at an **exact point** on the screen, without disturbing any of the other elements on the page. 
+
+{:.highlight}
+A couple of good use cases for **absolute positioning** are:
 - Modals (pop up windows)
 - Image with a caption on it
 - Icons on top of other elements
-- 🎨 If you're making CSS art! (_our next project_)
+- 🎨 If you're making CSS art (_our next project!_)
 
-In the following example, we are using absolute positioning to display text over an image.
+In the following example, we are using absolute positioning to display text _over_ an image.
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="poWyWeJ" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
 
@@ -84,15 +93,27 @@ on <a href="https://codepen.io">CodePen</a>.</span>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 {:.warning}
-**Disclaimer:** absolute positioning has very specific use cases and if possible, using flexbox or grid should be prioritized. Absolute positioning shouldn't be used to do entire page layouts.
+**Disclaimer:** Absolute positioning has very specific use cases and if possible, using `flex` or `grid` layout schemes should be prioritized. Absolute positioning should NOT be used to do entire page layouts.
+
+#### "Relatively-Absolute" Positioning
+
+![image](figures/css-relatively-absolute-positioning.png)
 
 ### Fixed Positioning
 
-Fixed elements are also removed from the normal flow of the document and are positioned relative to the `viewport`. You basically use `top`, `right`, `bottom`, and `left` properties to position it, and it will stay there as the user scrolls. This is especially useful for things like navigation bars and floating chat buttons.
+Fixed elements are also removed from the normal flow of the document and are positioned relative to the `viewport`. You basically use `top`, `right`, `bottom`, and `left` properties to position it, and it will _stay there as the user scrolls_. 
 
-### Sticky Positioning
+{:.highlight}
+Fixed positioning is especially useful for things like **navigation bars** and **floating chat buttons** that you ALWAYS want displayed, regardless of where the user is on your page. 
 
-Sticky elements will act like normal elements until you scroll past them, then they start behaving like fixed elements. They are also not taken out of the normal flow of the document. It might sound confusing, so check out this [sticky positioning example](https://codepen.io/theanam/pen/MPLBYy) that might clear things up for you. It's useful for things like section-headings. Remember being able to still see what category you're looking at while scrolling through a shop? This is how it's done!
+![image](figures/css-fixed-positioning.png)
+
+#### Sticky Positioning
+
+Sticky elements will act like normal **static** elements until you _scroll past them_, then they start behaving like **fixed** elements. They are also _not taken out of the normal flow_ of the document. It might sound confusing, so check out this [sticky positioning example](https://codepen.io/theanam/pen/MPLBYy) that might clear things up for you. 
+
+{:.highlight}
+Sticky positioning is useful for things like **section-headings**. Remember being able to still see what category you're looking at while scrolling through a shop? This is how it's done!
 
 ---
 
