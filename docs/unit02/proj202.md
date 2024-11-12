@@ -34,13 +34,13 @@ In this creative project, you will use **CSS positioning** to place elements cre
 	* In your CSS file, set the `background` to the image's `url`.
 	```css
 	body {
- 		background: url(" ");
-		background-size: 20%;
-		height: 100%;
- 		width: 100%;
-		margin: 0;
-		padding: 0;
-		box-sizing: border-box;
+	    background: url(" ");
+ 	    background-size: 20%;
+ 	    height: 100%;
+ 	    width: 100%;
+ 	    margin: 0;
+ 	    padding: 0;
+ 	    box-sizing: border-box;
 	}
 	```
 2. 🌈 **Create a Gradient Background:**
