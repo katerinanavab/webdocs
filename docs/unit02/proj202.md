@@ -23,30 +23,12 @@ In this creative project, you will use **CSS positioning** to place elements cre
 
 </div>
 
+--- 
+
 ### Instructions
 
 {:.highlight}
 📖 **RESOURCES:** While working on this project, you are encouraged to look up CSS `properties` on Google or [W3Schools](https://www.w3schools.com/css/), review our [Unit 1 Notes](https://coderina.dev/webdocs/unit01) or [Unit 2 Notes](https://coderina.dev/webdocs/unit02), and make use of the helpful [SheCodes CSS Tools](https://generators.shecodes.io/). 
-
-
-#### STARTER CODE
-```html
-
-```
-
-```css
-* {
-	margin:0;
-	padding:0;
-	box-sizing: border-box;
-}
-
-html, body {
-  height: 100%;
-  width: 100%;
-}
-
-```
 
 <div class="task" markdown="block">
 
@@ -69,7 +51,8 @@ html, body {
 - [ ] Include at least one emoji or icon in the sky (e.g., ☀️, 🌙, or ☁️).
 
 **Creative Positioning:**
-- [ ] Use **CSS positioning** (like `absolute` or `relative`) to place elements creatively around the town. Experiment with different `top`, `left`, `right`, or `bottom` values to arrange your buildings and icons in a way that resembles a town layout.
+- [ ] Use **CSS positioning** (like `absolute` or `relative`) to place elements creatively around the town.
+	* Experiment with different `top`, `left`, `right`, or `bottom` values to arrange your buildings and icons in a way that resembles a town layout.
 
 **Extra Decorative Element(s):**	
 - [ ] Add at least one extra decorative element to each building or structure, such as a roof, door, window, or tree.
