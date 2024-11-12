@@ -16,7 +16,7 @@ nav_order: 2
 
 ## CSS Positioning Modes
 
-By now you have had quite a bit of practice moving elements around the screen using things like `margin`, `padding`, and `flex`box. These techniques have all relied on CSS's default **positioning-mode**: `static`. Static means the elements are placed one after the other, thus following "normal flow" of the HTML document.
+By now you have had quite a bit of practice moving elements around the screen using things like `margin`, `padding`, and `flex`box. These techniques have all relied on CSS's default **positioning-mode**: `static`. Static means the elements go along with the "normal flow" of the HTML document, much like a balloon with stored static electricity will stick to your sweater as you move:
 
 ![image](https://coolscienceexperimentshq.com/wp-content/uploads/2015/12/Make-Your-Hair-Stand-on-End-Science-Experiment-Step-2.jpg)
 
