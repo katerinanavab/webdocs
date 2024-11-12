@@ -73,17 +73,17 @@ In this creative project, you will use **CSS positioning** to place elements cre
 4. 🟪 **Make Rectangles with Divs:**
 	* In your `HTML` file, add a `<div>` with an `id="building-1"` to represent a **structure** in your town (like a house, store, or office building).
 	* In your `CSS` file, style it to give it a unique color and position it on the page.
-	```css
- 	#building-1 {
-		background-color: lightgray;
-		width: 100px;
-		height: 80px;
-		position: absolute;
-		top: 50%;
-		left: 15%;
-		z-index: 10;
-	}
- 	```
+```css
+#building-1 {
+	background-color: lightgray;
+	width: 100px;
+	height: 80px;
+	position: absolute;
+	top: 50%;
+	left: 15%;
+	z-index: 10;
+}
+```
 	* Feel free to choose a different color, size, or position for your building.
 5. 🔺 **Make Triangles with Divs:**
 	* INSIDE the **building** `<div>`, add another `<div>` with an `id` of `"roof"` or a name of your choice.
