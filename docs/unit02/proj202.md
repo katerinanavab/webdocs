@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "💻PROJECT #2.2"
-projectname: "Build a Town"
+projectname: "Design a Town"
 parent: "2️⃣ Advanced CSS"
 nav_order: 6
 ---
@@ -9,6 +9,9 @@ nav_order: 6
 
 ### Overview & Setup
 
+In this creative project, you will use **CSS positioning** to place elements creatively on a webpage. Your goal is to design a unique **townscape** with icons, backgrounds, and `div` boxes styled into different shapes.
+
+> 🧠 **BRAINSTORM:** Pick a fun theme! (city, rural, suburbs, island, fantasy, etc). 
 
 <div class="setup" markdown="block">
 
@@ -24,6 +27,26 @@ nav_order: 6
 
 {:.highlight}
 📖 **RESOURCES:** While working on this project, you are encouraged to look up CSS `properties` on Google or [W3Schools](https://www.w3schools.com/css/), review our [Unit 1 Notes](https://coderina.dev/webdocs/unit01) or [Unit 2 Notes](https://coderina.dev/webdocs/unit02), and make use of the helpful [SheCodes CSS Tools](https://generators.shecodes.io/). 
+
+
+#### STARTER CODE
+```html
+
+```
+
+```css
+* {
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+```
 
 <div class="task" markdown="block">
 
