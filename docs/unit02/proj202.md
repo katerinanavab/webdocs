@@ -27,9 +27,6 @@ In this creative project, you will use **CSS positioning** to place elements cre
 
 ### Instructions
 
-{:.highlight}
-📖 **RESOURCES:** While working on this project, you are encouraged to look up CSS `properties` on Google or [W3Schools](https://www.w3schools.com/css/), review our [Unit 1 Notes](https://coderina.dev/webdocs/unit01) or [Unit 2 Notes](https://coderina.dev/webdocs/unit02), and make use of the helpful [SheCodes CSS Tools](https://generators.shecodes.io/). 
-
 <div class="task" markdown="block">
 
 1. **Add a Background Image:**
@@ -39,11 +36,11 @@ In this creative project, you will use **CSS positioning** to place elements cre
 	body {
 		background: url(" ");
 		background-size: 20%;
-	  	margin: 0;
-	  	padding: 0;
-	  	box-sizing: border-box;
-	  	height: 100%;
-		width: 100%;
+ 		height: 100%;
+ 		width: 100%;
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
 	}
 	```
 2. **Create a Gradient Background:**
@@ -54,6 +51,9 @@ In this creative project, you will use **CSS positioning** to place elements cre
 	* Experiment with shapes, colors, and different icons to add personality to your town.
  	* See below for a **checklist of minimum requirements** for this project. 
 </div>
+
+{:.highlight}
+📖 **RESOURCES:** While working on this project, you are encouraged to look up CSS `properties` on Google or [W3Schools](https://www.w3schools.com/css/), review our [Unit 1 Notes](https://coderina.dev/webdocs/unit01) or [Unit 2 Notes](https://coderina.dev/webdocs/unit02), and make use of the helpful [SheCodes CSS Tools](https://generators.shecodes.io/). 
 
 ### Minimum Requirements
 
