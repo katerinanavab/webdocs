@@ -96,7 +96,10 @@ In this creative project, you will use **CSS positioning** to place elements cre
  	    background-color: #4a81d9;
 	    width: 100px;
  	    height: 50px;
- 	    border-radius: 10rem 10rem 0 0;
+	    border-top-left-radius: 10rem;
+	    border-top-right-radius: 10rem;
+	    border-bottom-right-radius: 0;
+	    border-bottom-left-radius: 0;
  	    position: absolute;
  	    top: -50px;
 	}
