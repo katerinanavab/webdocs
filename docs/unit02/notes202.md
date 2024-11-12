@@ -13,19 +13,14 @@ nav_order: 2
 {:toc}
 
 ---
-#### OPEN YOUR GITHUB NOTES REPOSITORY
-{:.no_toc}
 
-<div class="setup" markdown="block">
+## CSS Positioning Modes
 
+By now you have had quite a bit of practice moving elements around the screen using things like `margin`, `padding`, and `flex`box. These techniques have all relied on CSS's default **positioning-mode**: `static`. Static means the elements are placed one after the other, thus following "normal flow" of the HTML document.
 
-</div>
+![image](https://static.techno-science.net/illustration/Libre/2024/09/30/rrpzIHZGQd6Y0KK64MEc0Q.jpg)
 
----
-
-## CSS Positioning
-
-By now you have had quite a bit of practice moving elements around the screen using things like margin, padding, and flexbox. These techniques have all relied on CSS's default "positioning-mode". This default positioning-mode is intuitive, and you'll continue using it for almost all of your layout needs. However, there are other methods at your disposal that can be very useful in some situations.
+This default positioning-mode is intuitive, and you'll continue using it for almost all of your layout needs. However, there are other methods at your disposal that can be very useful in some situations.
 
 #### Lesson overview
 {:.no_toc}
@@ -37,15 +32,13 @@ This section contains a general overview of topics that you will learn in this l
 - You'll learn how to use `fixed` positioning.
 - You'll know the difference between each property and how to combine them.
 
-![image](figures/css-positioning-schemes.png)
-
 ![image](figures/positioned-elements-terminology.png)
 
-### Static and Relative Positioning
+### Relative Positioning
 
 The default positioning mode that you've gotten used to is **static**. The difference between static and relative is fairly simple:
-* `position: static` is the default position of every element, and properties `top`, `right`, `bottom`, and `left` do not affect the position of the element.
-* `position: relative` on the other hand is pretty much the same as static, but properties `top`, `right...(etc.)` displace the element relative to its normal position in the flow of the document.
+* `position: static` is the default position of every element, and unless this `position` property is changed from `static`, the properties `top`, `right`, `bottom`, and `left` do not affect the position of the element. 
+* `position: relative` on the other hand is pretty much the same as static, but properties `top`, `right...(etc.)` **displace** the element _relative to its normal position_ in the flow of the document.
 
 ![image](figures/css-relative-positioning.png)
 
