@@ -29,9 +29,9 @@ In this creative project, you will use **CSS positioning** to place elements cre
 
 <div class="task" markdown="block">
 
-1. **Add a Background Image:**
-	* Find an **image** to use for the ground, such as grass, bricks, or a texture (check out this [Seamless Textures](https://architextures.org/textures) website). Feel free to experiment with different images to find one that fit your vision for the town.
-	* In your CSS file, set the `background` to the image's `url`:
+1. 🖼️ **Add a Background Image:**
+	* Find an image to use for the **ground**, such as grass, bricks, or a texture (check out this [Seamless Textures](https://architextures.org/textures) website). Feel free to experiment with different images to find one that fit your vision for the town.
+	* In your CSS file, set the `background` to the image's `url`.
 	```css
 	body {
 		background: url(" ");
@@ -43,10 +43,66 @@ In this creative project, you will use **CSS positioning** to place elements cre
 		box-sizing: border-box;
 	}
 	```
-2. **Create a Gradient Background:**
-3. **Add a Symbol/Emoji:**
-4. **Build a House with Styled Divs:**
-5. 🎨 **Customize your Town:**
+2. 🌈 **Create a Gradient Background:**
+	* In your `HTML` file, add a `<div>` with an `id="sky"` to represent the **sky**.
+	* In your `CSS` file, style the sky with a `linear-gradient` of your choice. Experiment with different colors to create your ideal sky!
+	```css
+ 	#sky {
+		background: linear-gradient(DeepSkyBlue, LightSkyBlue);
+		width: 100%;
+		height: 60%;
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: 0;
+	}
+ 	```
+3. ⭐️ **Add a Symbol/Emoji:**
+	* Add a symbol or emoji to represent something in the sky. It could be a ☀️ (sun), 🌙 (moon), ☁️ (cloud), or any other symbol of your choice!
+	* In your `HTML` file, add a `<span>` element (inline container) with an `id` to hold your symbol.
+	```html
+ 	<span id="sky-symbol">☀️</span>
+ 	```
+	* In your `CSS` file, select your symbol to adjust the `size` and `position` it in the sky.
+	```css
+	#sky-symbol {
+		font-size: 70px;
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+ 	```
+	* Adjust `top` and `left` properties to place the symbol exactly where you’d like.
+4. 🟪 **Make Rectangles with Divs:**
+	* In your `HTML` file, add a `<div>` with an `id="building-1"` to represent a **structure** in your town (like a house, store, or office building).
+	* In your `CSS` file, style it to give it a unique color and position it on the page.
+	```css
+ 	#building-1 {
+		background-color: lightgray;
+		width: 100px;
+		height: 80px;
+		position: absolute;
+		top: 50%;
+		left: 15%;
+		z-index: 10;
+	}
+ 	```
+	* Feel free to choose a different color, size, or position for your building.
+5. 🔺 **Make Triangles with Divs:**
+	* INSIDE the **building** `<div>`, add another `<div>` with an `id` of `"roof"` or a name of your choice.
+	* Style it to look like a roof or decorative feature:
+	```css
+	#roof {
+ 		background-color: #4a81d9;
+		width: 100px;
+ 		height: 50px;
+ 		border-radius: 10rem 10rem 0 0;
+ 		position: absolute;
+ 		top: -50px;
+	}
+ 	```
+	* Adjust the colors, shapes, and sizes to fit your design. You could even use another symbol, like 🏠 or 🏛️, to create a roof effect.
+6. 🎨 **Customize your Town:**
 	* Get creative! Add more buildings, symbols, or decorative elements to make the town your own.
 	* Experiment with shapes, colors, and different icons to add personality to your town.
  	* See below for a **checklist of minimum requirements** for this project. 
