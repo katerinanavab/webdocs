@@ -93,12 +93,12 @@ In this creative project, you will use **CSS positioning** to place elements cre
 	* Style it to look like a roof or decorative feature:
 	```css
 	#roof {
- 		background-color: #4a81d9;
-		width: 100px;
- 		height: 50px;
- 		border-radius: 10rem 10rem 0 0;
- 		position: absolute;
- 		top: -50px;
+ 	    background-color: #4a81d9;
+	    width: 100px;
+ 	    height: 50px;
+ 	    border-radius: 10rem 10rem 0 0;
+ 	    position: absolute;
+ 	    top: -50px;
 	}
  	```
 	* Adjust the colors, shapes, and sizes to fit your design. You could even use another symbol, like 🏠 or 🏛️, to create a roof effect.
