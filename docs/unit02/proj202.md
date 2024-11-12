@@ -48,30 +48,27 @@ In this creative project, you will use **CSS positioning** to place elements cre
 	* In your `CSS` file, style the sky with a `linear-gradient` of your choice. Experiment with different colors to create your ideal sky!
 	```css
  	#sky {
-		background: linear-gradient(DeepSkyBlue, LightSkyBlue);
-		width: 100%;
-		height: 60%;
-		position: absolute;
-		top: 0;
-		left: 0;
-		z-index: 0;
+ 	    background: linear-gradient(DeepSkyBlue, LightSkyBlue);
+ 	    width: 100%;
+ 	    height: 60%;
+ 	    position: absolute;
+ 	    top: 0;
+ 	    left: 0;
+ 	    z-index: 0;
 	}
 	```
 3. ⭐️ **Add a Symbol/Emoji:**
 	* Add a symbol or emoji to represent something in the sky. It could be a ☀️ (sun), 🌙 (moon), ☁️ (cloud), or any other symbol of your choice!
-	* In your `HTML` file, add a `<span>` element (inline container) with an `id` to hold your symbol.
-	```html
- 	<span id="sky-symbol">☀️</span>
-	```
+	* In your `HTML` file, add a `<span>` element (inline container) to hold your symbol:  `<span id="sky-symbol">☀️</span>`
 	* In your `CSS` file, select your symbol to adjust the `size` and `position` it in the sky.
 	```css
-	#sky-symbol {
-		font-size: 70px;
-		position: absolute;
-		top: 0;
-		left: 0;
+ 	#sky-symbol {
+ 	    font-size: 70px;
+ 	    position: absolute;
+ 	    top: 0;
+ 	    left: 0;
 	}
- 	```
+	```
 	* Adjust `top` and `left` properties to place the symbol exactly where you’d like.
 4. 🟪 **Make Rectangles with Divs:**
 	* In your `HTML` file, add a `<div>` with an `id="building-1"` to represent a **structure** in your town (like a house, store, or office building).
