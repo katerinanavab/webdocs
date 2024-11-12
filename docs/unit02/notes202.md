@@ -83,10 +83,8 @@ Note that these properties accept **negative values**, which means there’s two
 
 ![image](figures/css-absolute-positioning.png)
 
-This property is really useful when you want to position something at an **exact point** on the screen, without disturbing any of the other elements on the page. 
-
 {:.highlight}
-A couple of good use cases for **absolute positioning** are:
+This property is really useful when you want to position something at an **exact point** on the screen, without disturbing any of the other elements on the page. A couple of good use cases for **absolute positioning** are:
 - Modals (pop up windows)
 - Image with a caption on it
 - Icons on top of other elements
