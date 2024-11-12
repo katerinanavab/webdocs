@@ -42,15 +42,34 @@ This section contains a general overview of topics that you will learn in this l
 
 ### Static and Relative Positioning
 
-The default positioning mode that you've gotten used to is `position: static`. The difference between static and relative is fairly simple. Static is the default position of every element, and properties `top`, `right`, `bottom`, and `left` do not affect the position of the element. Relative on the other hand is pretty much the same as static, but properties `top`, `right...(etc.)` displace the element relative to its normal position in the flow of the document.
+The default positioning mode that you've gotten used to is Static. The difference between static and relative is fairly simple:
+* `position: static` is the default position of every element, and properties `top`, `right`, `bottom`, and `left` do not affect the position of the element.
+* `position: relative` on the other hand is pretty much the same as static, but properties `top`, `right...(etc.)` displace the element relative to its normal position in the flow of the document.
 
 ### Absolute Positioning
 
-`position: absolute` allows you to position something at an exact point on the screen without disturbing the other elements around it. More specifically, using absolute positioning on an element will remove that element from the normal document flow while being positioned relative to an ancestor element. To put it in other words: elements that are removed from the normal flow of the document don't affect other elements and are also not affected by other elements. Using absolute positioning allows you to position elements anywhere on the screen using `top`, `right`, `bottom`, and `left` properties. This property is really useful when you want to position something at an exact point on the screen, without disturbing any of the other elements. A couple of good use cases for absolute positioning are:
+<div class="imp" markdown="block">
+  
+`position: absolute` allows you to **position something at an exact point** on the screen without disturbing the other elements around it. Using an absolute positioning scheme allows you specify the location anywhere on the screen with the  `top`, `right`, `bottom`, and `left` properties: 
 
-- modals (pop up windows)
-- image with a caption on it
-- icons on top of other elements
+```css
+.absolute {
+  position: absolute;
+  top: 100px; /* 100px AWAY from TOP edge of page */
+  left: 50%; /* 50% AWAY from LEFT edge of page */
+}
+```
+
+</div>
+
+> More specifically, using absolute positioning on an element will **remove that element** from the **normal document flow** while being positioned _relative to an ancestor element_. To put it in other words: elements that are removed from the normal flow of the document _do not affect other elements_ and are also not affected by other elements.
+
+This property is really useful when you want to position something at an **exact point** on the screen, without disturbing any of the other elements on the page. A couple of good use cases for absolute positioning are:
+
+- Modals (pop up windows)
+- Image with a caption on it
+- Icons on top of other elements
+- 🎨 If you're making CSS art! (_our next project_)
 
 In the following example, we are using absolute positioning to display text over an image.
 
@@ -64,7 +83,8 @@ on <a href="https://codepen.io">CodePen</a>.</span>
 
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-Disclaimer: absolute positioning has very specific use cases and if possible, using flexbox or grid should be prioritized. Absolute positioning shouldn't be used to do entire page layouts.
+{:.warning}
+**Disclaimer:** absolute positioning has very specific use cases and if possible, using flexbox or grid should be prioritized. Absolute positioning shouldn't be used to do entire page layouts.
 
 ### Fixed Positioning
 
