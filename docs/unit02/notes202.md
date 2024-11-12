@@ -111,7 +111,7 @@ Absolute positioning becomes much more practical when it’s **relative to some 
 
 So, if we change `.item-absolute`’s **parent element** (let's call it `.container`) to be relatively positioned, it should appear in the top-left corner of that element instead of the browser window:
 
-```
+```css
 .container {
   position: relative;
 }
