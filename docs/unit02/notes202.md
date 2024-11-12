@@ -42,7 +42,25 @@ The default positioning mode that you've gotten used to is **static**. The diffe
 
 ![image](figures/css-relative-positioning.png)
 
+<div class="imp" markdown="block">
+  
+`position: relative` moves elements around **relative** to where they would _normally appear in the static flow_ of the page. This is useful for **nudging boxes around** when the default flow is just a little bit off. Using any positioning scheme (other than `static`) enables specifying the location anywhere on the screen with the  `top`, `right`, `bottom`, and `left` properties: 
+
+```css
+.item-relative {
+  position: relative;
+  top: 30px; 
+  left: 30px; 
+}
+```
+> The `position: relative`; line makes it a **positioned element**, and the `top` and `left` properties let you define how far the element is offset from its static position. 
+
+</div>
+
 ![image](figures/relative-positioning-offsets.png)
+
+{:.highlight}
+Note that these properties accept **negative values**, which means there’s two ways to specify the same offset. We could just as easily used `top: -30px;` in place of the `bottom: 30px;` declaration above.
 
 ### Absolute Positioning
 
@@ -51,12 +69,13 @@ The default positioning mode that you've gotten used to is **static**. The diffe
 `position: absolute` allows you to **position something at an exact point** on the screen without disturbing the other elements around it. Using an absolute positioning scheme enables specifying the location anywhere on the screen with the  `top`, `right`, `bottom`, and `left` properties: 
 
 ```css
-.absolute {
+.item-absolute {
   position: absolute;
   top: 100px; /* 100px AWAY from TOP edge of page */
   left: 50%; /* 50% AWAY from LEFT edge of page */
 }
 ```
+> The `position: absolute`; line makes it a **positioned element**, and the `top` and `left` properties let you define how far the element is offset from its static position. This is sort of like setting an **(x, y) coordinate** for the element.
 
 </div>
 
