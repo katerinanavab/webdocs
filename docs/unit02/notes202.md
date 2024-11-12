@@ -64,6 +64,8 @@ Note that these properties accept **negative values**, which means there’s two
 
 ### Absolute Positioning
 
+**Absolute positioning** is just like relative positioning, but the **offset** is _relative to the entire browser window_ instead of the original position of the element. Since there’s no longer any relationship with the static flow of the page, consider this the most **manual** way to lay out an element.
+
 <div class="imp" markdown="block">
   
 `position: absolute` allows you to **position something at an exact point** on the screen without disturbing the other elements around it. Using an absolute positioning scheme enables specifying the location anywhere on the screen with the  `top`, `right`, `bottom`, and `left` properties: 
@@ -103,7 +105,18 @@ on <a href="https://codepen.io">CodePen</a>.</span>
 
 #### "Relatively-Absolute" Positioning
 
+Absolute positioning becomes much more practical when it’s **relative to some other element that IS in the static flow** of the page. Fortunately, there’s a way to _change the coordinate system_ of an absolutely positioned element. Coordinates for absolute elements are always **relative to the closest container** that is a positioned element. It only falls back to being relative to the browser when none of its ancestors are positioned. 
+
 ![image](figures/css-relatively-absolute-positioning.png)
+
+So, if we change `.item-absolute`’s **parent element** (let's call it `.container`) to be relatively positioned, it should appear in the top-left corner of that element instead of the browser window:
+
+```
+.container {
+  position: relative;
+}
+```
+> The `.container` div is still laid out with the normal flow of the page, and we can manually move around our `.item-absolute` element inside that div wherever we need to. This is great, because if we want to alter the normal flow of the container, say, for a mobile layout, any absolutely positioned elements will _automatically move_ with it.
 
 ### Fixed Positioning
 
