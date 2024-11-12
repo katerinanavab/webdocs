@@ -36,25 +36,25 @@ In this creative project, you will use **CSS positioning** to place elements cre
 
 ### Minimum Requirements
 
-**Buildings or Structures:**
+#### Buildings or Structures:
 - [ ] Include at **least 3 buildings or structures** (e.g., houses, stores, towers) created using `<div>` elements.
 	* Each building should have a distinct style, size, or color to add variety to your townscape.
 
-**Icons or Emojis:**
+#### Icons or Emojis:
 - [ ] Use at least 5 icons or emojis to represent elements of your town.
 	* Icons or emojis can be added in the sky (e.g., ☁️ or 🌙), as landmarks (e.g., 🏛️ or 🏫), or as decorations (e.g., 🏠 or 🚗).
 	* Ensure that these icons are positioned and sized appropriately to fit into the overall design.
 
-**Sky Design:**
+#### Sky Design:
 - [ ] The sky must include a **gradient background**.
 	* You can customize the colors to create a sunrise, sunset, daytime, or nighttime feel.
 - [ ] Include at least one emoji or icon in the sky (e.g., ☀️, 🌙, or ☁️).
 
-**Creative Positioning:**
+#### Creative Positioning:
 - [ ] Use **CSS positioning** (like `absolute` or `relative`) to place elements creatively around the town.
 	* Experiment with different `top`, `left`, `right`, or `bottom` values to arrange your buildings and icons in a way that resembles a town layout.
 
-**Extra Decorative Element(s):**	
+#### Extra Decorative Element(s):	
 - [ ] Add at least one extra decorative element to each building or structure, such as a roof, door, window, or tree.
 	* Each extra element should be styled differently from the main building, using unique colors, shapes, or positioning.
 
