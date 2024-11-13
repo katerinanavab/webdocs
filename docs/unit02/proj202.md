@@ -45,10 +45,10 @@ body {
 ```
 2. 🌈 **Create a Gradient Background:**
 	* In your `HTML` file, add a `<div>` with an `id="sky"` to represent the **sky**.
-	* In your `CSS` file, style the sky with a `linear-gradient` of your choice. Experiment with different colors to create your ideal sky!
+	* In your `CSS` file, style the sky with a `linear-gradient` of your choice. Experiment with different combinations of colors to create your ideal sky!
 ```css
 #sky {
-    background: linear-gradient(DeepSkyBlue, LightSkyBlue);
+    background: linear-gradient(DeepSkyBlue, LightSkyBlue, AliceBlue);
     width: 100%;
     height: 60%;
     position: absolute;
@@ -63,10 +63,10 @@ body {
 	* In your `CSS` file, select your symbol to adjust the `size` and `position` it in the sky. Adjust the `top` and `left` properties to place the symbol exactly where you’d like.
 ```css
 #sky-symbol {
-    font-size: 70px;
+    font-size: 150px;
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 5%;
+    left: 10%;
 }
 ```
 4. 🟪 **Make Rectangles with Divs:**
@@ -81,24 +81,21 @@ body {
     position: absolute;
     top: 50%;
     left: 15%;
-    z-index: 10;
 }
 ```
 5. 🔺 **Make Triangles with Divs:**
-	* INSIDE the **building** `<div>`, add another `<div>` with an `id` of `"roof"` or a name of your choice.
+	* INSIDE the **building** `<div>`, add another `<div>` with an `id` of `"roof-1"` or a name of your choice.
 	* Style it to look like a triangular roof, as in the code snippet below. 
 	* Adjust the colors, shapes, and sizes to fit your design. You could even use another symbol, like 🏠 or 🏛️, to create a roof effect.
 ```css
-#roof {
-    background-color: #4a81d9;
-    width: 100px;
-    height: 50px;
-    border-top-left-radius: 10rem;
-    border-top-right-radius: 10rem;
-    border-bottom-right-radius: 0;
-    border-bottom-left-radius: 0;
-    position: absolute;
-    top: -50px;
+#roof-1 {
+    position: relative;
+    bottom: 60px;
+    width: 0; 
+    height: 0; 
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    border-bottom: 60px solid brown;
 }
 ```
 6. 🎨 **Customize your Town:**
