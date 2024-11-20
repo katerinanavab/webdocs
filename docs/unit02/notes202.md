@@ -139,7 +139,7 @@ Sticky positioning is useful for things like **section-headings**. Remember bein
 
 We’ve never had to deal with “depth” issues before. Until now, all our HTML elements rendered above or below one another in an intuitive way. But, since we’re doing advanced stuff, relying on the browser to determine which elements appear on top of other ones isn’t going to cut it.
 
-<div class=imp" markdown="block">
+<div class="imp" markdown="block">
   
 The `z-index` property lets you control the **depth** of elements on the page. If you think of your screen as 3D space, **negative** z-index values go farther **INTO** the page, and **positive** ones come **OUT** of the page. The default `z-index` value is `0`.
 
