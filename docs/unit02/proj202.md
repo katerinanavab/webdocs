@@ -115,22 +115,22 @@ body {
 	* Each building should have a distinct style, size, or color to add variety to your townscape.
 
 #### Symbols or Emojis:
-- [ ] Use at least 5 [symbols](https://copychar.cc/symbols/) or [emojis](https://copychar.cc/emoji/) to represent elements of your town.
+- [ ] Use at least 10 [symbols](https://copychar.cc/symbols/) or [emojis](https://copychar.cc/emoji/) to represent elements of your **town**.
 	* Icons or emojis can be added in the sky (e.g., ☁️ or 🌙), as landmarks (e.g., 🏛️ or 🏫), or as decorations (e.g., 🏠 or 🚗).
 	* Ensure that these icons are positioned and sized appropriately to fit into the overall design.
 
 #### Sky Design:
-- [ ] The sky must include a [gradient background](https://gradients.shecodes.io/).
+- [ ] The **sky** must include a [gradient background](https://gradients.shecodes.io/).
 	* You can customize the colors to create a sunrise, sunset, daytime, or nighttime feel.
 - [ ] Include at least one emoji or icon in the sky (e.g., ☀️, 🌙, or ☁️).
+
+#### Extra Decorative Element(s):	
+- [ ] Add at least one extra **decoration** to each building or structure, such as a roof, door, window, or tree.
+	* Each extra element should be styled differently from the main building, using unique colors, shapes, or positioning.
 
 #### Creative Positioning:
 - [ ] Use **CSS positioning** (like `absolute` or `relative`) to place elements creatively around the town.
 	* Experiment with different `top`, `left`, `right`, or `bottom` values to arrange your buildings and icons in a way that resembles a town layout.
-
-#### Extra Decorative Element(s):	
-- [ ] Add at least one extra decorative element to each building or structure, such as a roof, door, window, or tree.
-	* Each extra element should be styled differently from the main building, using unique colors, shapes, or positioning.
 
 ---
 
