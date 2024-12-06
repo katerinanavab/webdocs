@@ -37,7 +37,7 @@ The `transform` property is a powerful tool to change the appearance of elements
 
 You have likely seen it in action on many of your favorite websites! Transforms are very commonly used for animated effects. While we are sure you'll like to create sleek animations of your own, we first need to understand how transforms work.
 
-##### Learning topics:
+#### 📖 Learning goals:
 {:.no_toc}
 
 - How to use 2D transforms.
@@ -308,13 +308,13 @@ The following questions are an opportunity to reflect on key topics in this less
 
 Now let's explore CSS animations using `keyframes`. Animations let you animate elements from one style configuration to another. Once you have your elements in place and CSS defined, an animation will start running immediately if that's what you told it to do.
 
-##### Learning topics:
+#### 📖 Learning goals:
 {:.no_toc}
 
 - How to **configure** animation sub-properties.
 - How to **sequence** an animation using `@keyframes`.
 
-### Animation properties
+### Animation sub-properties
 
 Let's see an animation in action to see what we've been talking about.
 
@@ -350,7 +350,7 @@ This is known as the configuration stage where we define our animation propertie
 
 - Set the `animation-direction`  to `alternate`. This property decides if our animation should alternate direction on the completion of one cycle, or reset to the start point and repeat itself. Here it means that the `#ball` will smoothly change back to its original color instead of "jumping" straight back to red.
 
-### Keyframes
+### The `@keyframes` at-rule
 
 Now it's time to tackle the second half of our animation definition by exploring the `@keyframes` at-rule.
 
@@ -412,6 +412,7 @@ Here we added another keyframe for when the `animation-duration` is at 50%, or 1
 Hopefully, this gives you a glimpse into the power the `@keyframes` syntax provides to you when it comes to controlling the animation of an element's properties. You can add keyframes whenever you want, control whatever CSS-animatable properties you want, and have the control to add some real creative flair to your website elements.
 
 #### 🧠 Knowledge check
+{:.no_toc}
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material.
 
