@@ -65,12 +65,12 @@ Almost all HTML elements can have the `transform` property applied to it, with t
 
 ### 2-dimensional transforms
 
-In this section, we'll go through 2D transforms with the following transform functions: `rotate`, `scale`, `skew`, and `translate`.
+In this section, we'll go through **2D transforms** with the following transform **functions**: `rotate`, `scale`, `skew`, and `translate`.
 
 #### Rotate
 {:.no_toc}
 
-This is the transform function value to rotate an element on a 2D plane:
+This is the transform function value to **rotate** an element on a 2D plane:
 
 ```css
 .element {
@@ -93,7 +93,7 @@ on <a href="https://codepen.io">CodePen</a>.</span>
 #### Scale
 {:.no_toc}
 
-These are the transform function values to scale an element on a 2D plane:
+These are the transform function values to **scale** (adjust the size of) an element on a 2D plane:
 
 ```css
 .element {
@@ -118,7 +118,7 @@ on <a href="https://codepen.io">CodePen</a>.</span>
 #### Skew
 {:.no_toc}
 
-These are the transform function values to skew an element on a 2D plane:
+These are the transform function values to **skew** an element on a 2D plane:
 
 ```css
 .element {
@@ -143,7 +143,7 @@ on <a href="https://codepen.io">CodePen</a>.</span>
 #### Translate
 {:.no_toc}
 
-These are the transform function values to translate an element on a 2D plane:
+These are the transform function values to **translate** (move) an element on a 2D plane:
 
 ```css
 .element {
@@ -167,7 +167,7 @@ on <a href="https://codepen.io">CodePen</a>.</span>
 
 ### Chaining multiple transforms
 
-Now that you have a grasp of 2D transforms, we will learn how to chain them. Chaining multiple transforms is done by adding more transform functions with a space between each one. Take a look at the code below:
+Now that you have a grasp of 2D transforms, we will learn how to **chain** them. Chaining multiple transforms is done by adding more transform functions with a _space between each one_. Take a look at the code below:
 
 ```html
 <div class="red-box"></div>
@@ -193,21 +193,11 @@ Now that you have a grasp of 2D transforms, we will learn how to chain them. Cha
 }
 ```
 
-There are two boxes located at the same position. We chained `rotate` and `translate` function values to both boxes, but in different orders. Make a guess on what happens to each box, then click the "Result" link in the Codepen below to see if you were right.
-
-<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css" data-slug-hash="XWeJWWr" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-
-<span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/XWeJWWr">
-Chaining | CSS Transform</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
-on <a href="https://codepen.io">CodePen</a>.</span>
-
-</p>
-
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+There are two boxes located at the same position. We chained `rotate` and `translate` function values to both boxes, but in **different orders**. Make a guess on what will happen to each box, then run it in a code window.
 
 If you guessed correctly, congratulations! But this is a tricky concept. MDN's transform docs state that "[composite transforms are effectively applied in order from right to left](https://developer.mozilla.org/en-US/docs/Web/CSS/transform#values)".
 
-The blue box rotates 45 degrees on the spot, then translates on the X axis by 200%, moving it directly to the right. The red box translates by 200% first, so moves to the right, but the transform origin is still where it used to be. Therefore, it rotates 45 degrees around that original point, making the red box "swing down" to end up diagonally from where it started.
+> The blue box rotates 45 degrees on the spot, then translates on the X axis by 200%, moving it directly to the right. The red box translates by 200% first, so moves to the right, but the transform origin is still where it used to be. Therefore, it rotates 45 degrees around that original point, making the red box "swing down" to end up diagonally from where it started.
 
 While you can generally chain multiple transforms in any order for various results, there is one exception: `perspective`. This brings us nicely to the next section where `perspective` is involved.
 
@@ -215,12 +205,10 @@ While you can generally chain multiple transforms in any order for various resul
 
 The `rotate`, `scale`, and `translate` transform functions aren't limited to just 2D planes. They also work for 3D planes as well! However, to perceive a 3D effect on some of these function values, `perspective` is required.
 
-From here on, the examples get more complicated. Feel free to play around with these properties, but be careful not to get too sidetracked with them.
-
 #### Perspective
 {:.no_toc}
 
-This is the transform function value to set the distance from the user to the z = 0 plane:
+This is the transform function value to set the **distance** from the user to the `z = 0` plane:
 
 ```css
 .element {
@@ -228,14 +216,15 @@ This is the transform function value to set the distance from the user to the z 
 }
 ```
 
-Essentially, by setting a `perspective` value, we are telling the object to render as if we were viewing it from a specific distance on the z-axis.
+Essentially, by setting a `perspective` value, we are telling the object to render as if we were _viewing it from a specific distance_ on the z-axis.
 
+{:.highlight}
 Unlike other transform function values, `perspective` must be declared first (leftmost) when there are multiple transform function values. In the upcoming examples for `rotate`, `scale`, and `translate`, we will be able to see how it affects the target element.
 
 #### Rotate specific axis
 {:.no_toc}
 
-These are the additional transform function values to rotate an element in a 3D space:
+These are the additional transform function values to **rotate** an element in a 3D space:
 
 ```css
 .element {
@@ -261,7 +250,7 @@ on <a href="https://codepen.io">CodePen</a>.</span>
 #### Scale specific axis
 {:.no_toc}
 
-These are the additional transform function values to scale an element in a 3D space:
+These are the additional transform function values to **scale** an element in a 3D space:
 
 ```css
 .element {
@@ -270,12 +259,13 @@ These are the additional transform function values to scale an element in a 3D s
 }
 ```
 
+{:.highlight}
 See MDN's 3D cube in action with [`scaleZ`](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/scaleZ()) and [`scale3d`](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/scale3d()).
 
 #### Translate specific axis
 {:.no_toc}
 
-These are the additional transform function values to translate an element in a 3D space:
+These are the additional transform function values to **translate** an element in a 3D space:
 
 ```css
 .element {
@@ -284,7 +274,7 @@ These are the additional transform function values to translate an element in a 
 }
 ```
 
-`translateZ` doesn't do much without `perspective`. Instead, `perspective` and `translateZ` work together to create the illusion of 3-dimensional distance from the rendered object, as shown in the example below.
+`translateZ` doesn't do much without `perspective`. Instead, `perspective` and `translateZ` work together to create the _illusion of 3-dimensional distance_ from the rendered object, as shown in the example below.
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="MWEYWpN" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
 
@@ -373,7 +363,7 @@ In our example, we have:
 
 ### Animation keyframes
 
-Now it's time to tackle the second half of our animation definition by exploring the `@keyframes` at-rule.
+Now it's time to tackle the second half of our animation definition by exploring the `@keyframes` **at-rule**.
 
 ```css
 @keyframes change-color {
@@ -389,11 +379,12 @@ Now it's time to tackle the second half of our animation definition by exploring
 
 The `@keyframes` at-rule references the 'change-color' name we defined earlier. Then, we use the `from` and `to` properties to change the `background-color` of `#ball` from red to green.
 
-It's important to know that keyframes use a percentage to indicate the times for an animation to take place and that the `from` and `to` statements are actually aliases for `0%` and `100%`, respectively. You can read `from/0%` as meaning 'at zero seconds' and `to/100%` as 'at 2 seconds' according to our `animation-duration` in our example from above. There is no hard and fast rule on whether or not you should use `from/to` or `0%/100%`. Just pick a style and be consistent with it.
+{:.highlight}
+It's important to know that keyframes use a percentage to _indicate the times for an animation to take place_ and that the `from` and `to` statements are actually aliases for `0%` and `100%`, respectively. You can read `from/0%` as meaning '_at zero seconds_' and `to/100%` as '_at 2 seconds_' according to our `animation-duration` in our example from above. There is no hard and fast rule on whether or not you should use `from/to` or `0%/100%`. Just pick a style and be consistent with it!
 
-The `@keyframes` at-rule also defines one animation cycle. So if we were to change our `animation-iteration-count` from earlier to 2 then the ball would change its `background-color` from red to green, then from green to red, and then the animation would stop. Be careful not to think of one iteration as a complete loop, but rather a single cycle from beginning to end (or end to beginning when alternating the direction).
+The `@keyframes` at-rule also **defines one animation cycle**. So if we were to change our `animation-iteration-count` from earlier to 2 then the ball would change its `background-color` from red to green, then from green to red, and then the animation would stop. Be careful not to think of one iteration as a complete loop, but rather a **single cycle** from beginning to end (or end to beginning when alternating the direction).
 
-Now it's time to introduce the shorthand notation for our animation properties and glimpse a little into the added flexibility of the keyframe notation. Check out the live example below then have a look at the notation.
+Now it's time to introduce the **shorthand notation** for our animation properties and glimpse a little into the added flexibility of the keyframe notation. Check out the live example below then have a look at the notation:
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="zYExOLQ" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
 
