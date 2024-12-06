@@ -33,32 +33,28 @@ nav_order: 3
 
 ## CSS Transforms
 
-### Introduction
-
 The `transform` property is a powerful tool to change the appearance of elements without affecting the natural document flow.
 
 You have likely seen it in action on many of your favorite websites! Transforms are very commonly used for animated effects. While we are sure you'll like to create sleek animations of your own, we first need to understand how transforms work.
 
-### Lesson overview
-
-This section contains a general overview of topics that you will learn in this lesson.
+##### Learning topics:
+{:.no_toc}
 
 - How to use 2D transforms.
 - How to use 3D transforms.
 - How to chain multiple transforms.
 - The benefits of using the `transform` property.
 
-### Basics of transforms
-
 The `transform` property takes in one or more CSS transform functions as its values, with those functions taking in their own value, usually an angle or a number.
 
 Almost all elements can have the `transform` property applied to it, with the exceptions being `<col>`, `<colgroup>`, and non-replaced inline elements. "Non-replaced" refers to elements whose content is contained within the HTML document (`<span>`, `<b>`, and `<em>`, for example), as opposed to a "replaced" element's content being contained outside of the document (`<a>`, `<iframe>`, and `<img>`, for example). You do not need to memorize every element that is non-replaced, but rather keep this knowledge in mind should you try to apply the `transform` property to an element and aren't sure why it isn't working.
 
-### Two-dimensional transforms
+### 2-dimensional transforms
 
 In this section, we'll go through 2D transforms with the following transform functions: `rotate`, `scale`, `skew`, and `translate`.
 
 #### Rotate
+{:.no_toc}
 
 This is the transform function value to rotate an element on a 2D plane:
 
@@ -81,6 +77,7 @@ on <a href="https://codepen.io">CodePen</a>.</span>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 #### Scale
+{:.no_toc}
 
 These are the transform function values to scale an element on a 2D plane:
 
@@ -105,6 +102,7 @@ on <a href="https://codepen.io">CodePen</a>.</span>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 #### Skew
+{:.no_toc}
 
 These are the transform function values to skew an element on a 2D plane:
 
@@ -129,6 +127,7 @@ on <a href="https://codepen.io">CodePen</a>.</span>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 #### Translate
+{:.no_toc}
 
 These are the transform function values to translate an element on a 2D plane:
 
@@ -198,13 +197,14 @@ The blue box rotates 45 degrees on the spot, then translates on the X axis by 20
 
 While you can generally chain multiple transforms in any order for various results, there is one exception: `perspective`. This brings us nicely to the next section where `perspective` is involved.
 
-### Three-dimensional transforms
+### 3-dimensional transforms
 
 The `rotate`, `scale`, and `translate` transform functions aren't limited to just 2D planes. They also work for 3D planes as well! However, to perceive a 3D effect on some of these function values, `perspective` is required.
 
 From here on, the examples get more complicated. Feel free to play around with these properties, but be careful not to get too sidetracked with them.
 
 #### Perspective
+{:.no_toc}
 
 This is the transform function value to set the distance from the user to the z = 0 plane:
 
@@ -219,6 +219,7 @@ Essentially, by setting a `perspective` value, we are telling the object to rend
 Unlike other transform function values, `perspective` must be declared first (leftmost) when there are multiple transform function values. In the upcoming examples for `rotate`, `scale`, and `translate`, we will be able to see how it affects the target element.
 
 #### Rotate specific axis
+{:.no_toc}
 
 These are the additional transform function values to rotate an element in a 3D space:
 
@@ -244,6 +245,7 @@ on <a href="https://codepen.io">CodePen</a>.</span>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 #### Scale specific axis
+{:.no_toc}
 
 These are the additional transform function values to scale an element in a 3D space:
 
@@ -257,6 +259,7 @@ These are the additional transform function values to scale an element in a 3D s
 See MDN's 3D cube in action with [`scaleZ`](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/scaleZ()) and [`scale3d`](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/scale3d()).
 
 #### Translate specific axis
+{:.no_toc}
 
 These are the additional transform function values to translate an element in a 3D space:
 
@@ -279,41 +282,8 @@ on <a href="https://codepen.io">CodePen</a>.</span>
 
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-#### Matrix
-
-While not strictly a 3D transform function, matrix is mentioned last in this lesson due to how uncommonly used it is. These are the transform function values for it.
-
-```css
-.element {
-  transform: matrix();
-  transform: matrix3d();
-}
-```
-
-Matrix is a way of combining all transform functions into one. It is seldom used due to its poor readability, and almost never written by hand. Unless you have a very complex transformation to apply, you should use other transform function values instead.
-
-It is enough for you to know *that* these functions exist and generally how they work. However, it is not important for you to feel comfortable building with them.
-
-### Benefits of transforms
-
-In order to understand why the `transform` property is great, you have to be aware of CSS triggers. You can learn about it in [The Pixel Pipeline](https://developers.google.com/web/fundamentals/performance/rendering/#the_pixel_pipeline) section from Google's Web Fundamentals.
-
-The key benefit of using `transform` is that it occurs during **composition**. This makes it cheaper to use compared to many other CSS properties. You can see what triggers are executed with each CSS property in this [table of CSS triggers](https://web.archive.org/web/20220727225220/https://csstriggers.com/).
-
-Another benefit of `transform` is that it can be hardware-accelerated via a device's [GPU](https://en.wikipedia.org/wiki/Graphics_processing_unit) (you don't have to understand how a GPU works but it is good to be aware of the term and what it means). This benefit is more prominent when it comes to transitions and animations which you will learn about in the following lessons.
-
-### Assignment
-
-<div class="lesson-content__panel" markdown="1">
-
-1. Take a look at this [MDN demonstration of `rotate3d`](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/rotate3d()) then read more about the property in this [Quackit article on `rotate3d`](https://www.qhmit.com/css/functions/css_rotate3d_function.cfm).
-1. Learn more about [the `perspective` property on CSS Tricks](https://css-tricks.com/how-css-perspective-works/).
-1. MDN has another great [demonstration using `translate3d`](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/translate3d()).
-1. Go through [The World of CSS Transforms](https://www.joshwcomeau.com/css/transforms/) by Josh Comeau.
-
-</div>
-
-### Knowledge check
+#### 🧠 Knowledge check
+{:.no_toc}
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
@@ -322,40 +292,27 @@ The following questions are an opportunity to reflect on key topics in this less
 - [Which function can be used to make an object larger or smaller on the X, Y, or Z axis?](#scale)
 - [What additional function is required for 3D transforms?](#three-dimensional-transforms)
 
-### Additional resources
+#### 📚 Additional resources
+{:.no_toc}
 
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- Learn more about `matrix` by checking Quackit's article on the [matrix function](https://www.quackit.com/css/functions/css_matrix_function.cfm).
+- Take a look at this [MDN demonstration of `rotate3d`](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/rotate3d()) then read more about the property in this [Quackit article on `rotate3d`](https://www.qhmit.com/css/functions/css_rotate3d_function.cfm).
+- Learn more about [the `perspective` property on CSS Tricks](https://css-tricks.com/how-css-perspective-works/).
+- MDN has another great [demonstration using `translate3d`](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/translate3d()).
+- Go through [The World of CSS Transforms](https://www.joshwcomeau.com/css/transforms/) by Josh Comeau.
 - For a full reference, there’s always [MDN's documentation on CSS transform functions](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function).
 - For more on the 3D transform functions, [W3Schools' page on CSS transforms](https://www.w3schools.com/css/css3_3dtransforms.asp) is a good article demonstrating how they work.
 
 ---
 
 ## CSS Animations
-### Introduction
 
-Now let's explore CSS animations using keyframes. This will expand upon your encounter with CSS transitions and delve into the differences between them.
+Now let's explore CSS animations using `keyframes`. Animations let you animate elements from one style configuration to another. Once you have your elements in place and CSS defined, an animation will start running immediately if that's what you told it to do.
 
-### Lesson overview
+##### Learning topics:
+{:.no_toc}
 
-This section contains a general overview of topics that you will learn in this lesson.
-
-- The differences between CSS transitions and CSS animations.
-- How to configure animation sub-properties.
-- How to sequence an animation using keyframes.
-
-### Animations vs transitions
-
-Animations let you animate elements from one style configuration to another. Does this sound familiar? You wouldn't be wrong for thinking, "Well, what's the point in learning animations if they are basically the same as transitions?", but animations greatly expand on some capabilities that transitions do not have. A few of the differences include:
-
-- Transitions were designed to animate an element from one state to another. They *can* loop, but they weren't designed for that. Animations, on the other hand, *were* designed with the purpose of explicitly enabling loops.
-
-- Transitions need a trigger, such as the use of pseudo-classes like `:hover` or `:focus`, or by adding/removing a class via JavaScript. Animations, on the other hand, do not need such a trigger. Once you have your elements in place and CSS defined, an animation will start running immediately if that's what you told it to do.
-
-- Transitions are not as flexible as using animations. When you define a transition, imagine you are sending that element on a journey in a straight line from point A to point B. Yes, the `transition-timing-function` can add some variation to the timing of this change, but it doesn't compare to the amount of flexibility added by using animations.
-
-All in all, both animations and transitions have their use, so in addition to considering the above differences you should also use your best judgment. For example, if you need to change the opacity of an element when it is active then an animation would be overkill, but if you need to carry out something more complicated, animations will provide you with the tools you need.
+- How to **configure** animation sub-properties.
+- How to **sequence** an animation using `@keyframes`.
 
 ### Animation properties
 
@@ -454,33 +411,21 @@ Here we added another keyframe for when the `animation-duration` is at 50%, or 1
 
 Hopefully, this gives you a glimpse into the power the `@keyframes` syntax provides to you when it comes to controlling the animation of an element's properties. You can add keyframes whenever you want, control whatever CSS-animatable properties you want, and have the control to add some real creative flair to your website elements.
 
-### Assignment
+#### 🧠 Knowledge check
 
-<div class="lesson-content__panel" markdown="1">
-
-1. Code along with this [MDN article for using CSS animations](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations).
-1. Read the [@keyframes reference](https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes) to gain a deeper understanding of how keyframes are implemented.
-1. Read this [interactive guide to keyframes](https://www.joshwcomeau.com/animation/keyframe-animations/).
-1. Now let's make some cool animations! Go to the `animation` folder in the [CSS exercises repository](https://github.com/TheOdinProject/css-exercises) and review each README file prior to completing the following exercises in order:
-   - `01-button-hover`
-   - `02-pop-up`
-   - `03-dropdown-menu`
-
-</div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material.
 
 - [What are the long and short-hand notations for CSS animations?](https://developer.mozilla.org/en-US/docs/Web/CSS/animation)
 - [How do you add keyframes to an animation?](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations#defining_the_animation_sequence_using_keyframes)
 - [When would you use an animation over a transition (and vice versa)?](#animations-vs-transitions)
 
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
+#### 📚 Additional resources
+{:.no_toc}
 
 - [Video from DevTips on CSS Animations and Keyframes](https://www.youtube.com/watch?v=f1WMjDx4snI&list=PLqGj3iMvMa4LvJ8VctoXnPI0dtE40wfid&index=2&ab_channel=DevTips).
+- Code along with this [MDN article for using CSS animations](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations).
+- Read the [@keyframes reference](https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes) to gain a deeper understanding of how keyframes are implemented.
+- Read this [interactive guide to keyframes](https://www.joshwcomeau.com/animation/keyframe-animations/).
 
 ---
 
