@@ -344,7 +344,9 @@ Let's see an animation in action to see what we've been talking about.
 
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-Note how the animation is already running and how it keeps repeating itself. We'll cover that `@keyframes` rule at the bottom of our example in a bit, so for now focus on the actual animation properties used in the example above:
+Note how the animation is already running and how it keeps repeating itself. We'll cover that `@keyframes` rule at the bottom of our example in a bit, so for now focus on the actual `animation` **properties** used in the example above:
+
+<div class="imp" markdown="block">
 
 ```css
 #ball {
@@ -358,13 +360,14 @@ Note how the animation is already running and how it keeps repeating itself. We'
 
 This is known as the **configuration stage** where we define our animation properties on the `#ball` element, and it is only the first half of defining an animation. In our example, we have:
 
-- An `animation-duration` of two seconds. This means that it will take two seconds for the `#ball` element to complete one animation cycle.
+- An `animation-duration` of two seconds. This means that it will take two seconds for the `#ball` element to _complete one animation cycle_.
+- Defined the `animation-name` to be "change-color" which is essential for the `@keyframes` section coming up next.
+> This is just a custom name that is not a particular CSS value. We could have called it "pineapples" if we so wished, but for our purposes "change-color" suits us well.
+- Set the `animation-iteration-count` to `infinite`, which means this animation will run forever. You could set this to `1`, `2`, or as many _iterations_ as you wish.
+- Set the `animation-direction`  to `alternate`. This property decides if our animation should _alternate direction on the completio_n of one cycle, or reset to the start point and repeat itself.
+> Here it means that the `#ball` will smoothly change back to its original color instead of "jumping" straight back to red.
 
-- Defined the `animation-name` to be "change-color" which is essential for the `@keyframes` section coming up next. This is just a custom name that is not a particular CSS value. We could have called it "pineapples" if we so wished, but for our purposes "change-color" suits us well.
-
-- Set the `animation-iteration-count` to `infinite`, which means this animation will run forever. You could set this to 1, 2, or as many iterations as you wish.
-
-- Set the `animation-direction`  to `alternate`. This property decides if our animation should alternate direction on the completion of one cycle, or reset to the start point and repeat itself. Here it means that the `#ball` will smoothly change back to its original color instead of "jumping" straight back to red.
+</div>
 
 ### Animation keyframes
 
