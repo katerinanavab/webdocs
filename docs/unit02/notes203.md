@@ -285,7 +285,7 @@ on <a href="https://codepen.io">CodePen</a>.</span>
 #### 🧠 Knowledge check
 {:.no_toc}
 
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material.
 
 - [What are the four main functions of the `transform` property?](#two-dimensional-transforms)
 - [Which function can be used to move an object through space on the X, Y, or Z axis?](#translate)
@@ -306,7 +306,7 @@ The following questions are an opportunity to reflect on key topics in this less
 
 ## CSS Animations
 
-Now let's explore CSS animations using `keyframes`. Animations let you animate elements from one style configuration to another. Once you have your elements in place and CSS defined, an animation will start running immediately if that's what you told it to do.
+Now let's explore CSS animations using `keyframes`. Animations let you animate elements from one style configuration to another. Once you have your elements in place and CSS defined, an animation will start running immediately if that's what you told it to do!
 
 #### 📖 Learning goals:
 {:.no_toc}
@@ -340,7 +340,7 @@ Note how the animation is already running and how it keeps repeating itself. We'
 }
 ```
 
-This is known as the configuration stage where we define our animation properties on the `#ball` element, and it is only the first half of defining an animation. In our example, we have:
+This is known as the **configuration stage** where we define our animation properties on the `#ball` element, and it is only the first half of defining an animation. In our example, we have:
 
 - An `animation-duration` of two seconds. This means that it will take two seconds for the `#ball` element to complete one animation cycle.
 
@@ -350,7 +350,7 @@ This is known as the configuration stage where we define our animation propertie
 
 - Set the `animation-direction`  to `alternate`. This property decides if our animation should alternate direction on the completion of one cycle, or reset to the start point and repeat itself. Here it means that the `#ball` will smoothly change back to its original color instead of "jumping" straight back to red.
 
-### The `@keyframes` at-rule
+### Animation keyframes
 
 Now it's time to tackle the second half of our animation definition by exploring the `@keyframes` at-rule.
 
