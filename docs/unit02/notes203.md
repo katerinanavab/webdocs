@@ -344,9 +344,11 @@ Let's see an animation in action to see what we've been talking about.
 
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-Note how the animation is already running and how it keeps repeating itself. We'll cover that `@keyframes` rule at the bottom of our example in a bit, so for now focus on the actual `animation` **properties** used in the example above:
+> Note how the animation is already running and how it keeps repeating itself. We'll cover that `@keyframes` rule at the bottom of our example in a bit, so for now focus on the actual `animation` **properties** used in the example above.
 
 <div class="imp" markdown="block">
+
+The code below is known as the **configuration stage** where we _define animation properties_ to be applied on the element, and it is only the first half of defining an animation.
 
 ```css
 #ball {
@@ -358,7 +360,7 @@ Note how the animation is already running and how it keeps repeating itself. We'
 }
 ```
 
-This is known as the **configuration stage** where we define our animation properties on the `#ball` element, and it is only the first half of defining an animation. In our example, we have:
+In our example, we have:
 
 - An `animation-duration` of two seconds. This means that it will take two seconds for the `#ball` element to _complete one animation cycle_.
 - Defined the `animation-name` to be "change-color" which is essential for the `@keyframes` section coming up next.
