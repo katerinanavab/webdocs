@@ -344,7 +344,7 @@ Let's see an animation in action to see what we've been talking about.
 
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-> Note how the animation is already running and how it keeps repeating itself. We'll cover that `@keyframes` rule at the bottom of our example in a bit, so for now focus on the actual `animation` **properties** used in the example above.
+Note how the animation is already running and how it keeps repeating itself. We'll cover that `@keyframes` rule at the bottom of our example in a bit, so for now focus on the actual `animation` **properties** used in the example above.
 
 <div class="imp" markdown="block">
 
