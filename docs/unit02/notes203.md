@@ -31,8 +31,456 @@ nav_order: 3
 
 ---
 
-## CSS Animations
+## CSS Transforms
 
+### Introduction
+
+The `transform` property is a powerful tool to change the appearance of elements without affecting the natural document flow.
+
+You have likely seen it in action on many of your favorite websites! Transforms are very commonly used for animated effects. While we are sure you'll like to create sleek animations of your own, we first need to understand how transforms work.
+
+### Lesson overview
+
+This section contains a general overview of topics that you will learn in this lesson.
+
+- How to use 2D transforms.
+- How to use 3D transforms.
+- How to chain multiple transforms.
+- The benefits of using the `transform` property.
+
+### Basics of transforms
+
+The `transform` property takes in one or more CSS transform functions as its values, with those functions taking in their own value, usually an angle or a number.
+
+Almost all elements can have the `transform` property applied to it, with the exceptions being `<col>`, `<colgroup>`, and non-replaced inline elements. "Non-replaced" refers to elements whose content is contained within the HTML document (`<span>`, `<b>`, and `<em>`, for example), as opposed to a "replaced" element's content being contained outside of the document (`<a>`, `<iframe>`, and `<img>`, for example). You do not need to memorize every element that is non-replaced, but rather keep this knowledge in mind should you try to apply the `transform` property to an element and aren't sure why it isn't working.
+
+### Two-dimensional transforms
+
+In this section, we'll go through 2D transforms with the following transform functions: `rotate`, `scale`, `skew`, and `translate`.
+
+#### Rotate
+
+This is the transform function value to rotate an element on a 2D plane:
+
+```css
+.element {
+  transform: rotate();
+}
+```
+
+Below is a CodePen that shows how the value affects the target element.
+
+<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="GRMgKeE" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+
+<span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/GRMgKeE">
+2D Rotate | CSS Transform</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
+on <a href="https://codepen.io">CodePen</a>.</span>
+
+</p>
+
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+#### Scale
+
+These are the transform function values to scale an element on a 2D plane:
+
+```css
+.element {
+  transform: scaleX();
+  transform: scaleY();
+  transform: scale();
+}
+```
+
+Below is a CodePen that shows how each value affects the target element.
+
+<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="XWeJrGL" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+
+<span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/XWeJrGL">
+2D Scale | CSS Transform</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
+on <a href="https://codepen.io">CodePen</a>.</span>
+
+</p>
+
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+#### Skew
+
+These are the transform function values to skew an element on a 2D plane:
+
+```css
+.element {
+  transform: skewX();
+  transform: skewY();
+  transform: skew();
+}
+```
+
+Below is a CodePen that shows how each value affects the target element.
+
+<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="mdBybgm" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+
+<span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/mdBybgm">
+2D Skew | CSS Transform</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
+on <a href="https://codepen.io">CodePen</a>.</span>
+
+</p>
+
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+#### Translate
+
+These are the transform function values to translate an element on a 2D plane:
+
+```css
+.element {
+  transform: translateX();
+  transform: translateY();
+  transform: translate();
+}
+```
+
+Below is a CodePen that shows how each value affects the target element.
+
+<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="PoJwYrO" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+
+<span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/PoJwYrO">
+2D Translate | CSS Transform</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
+on <a href="https://codepen.io">CodePen</a>.</span>
+
+</p>
+
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+### Chaining multiple transforms
+
+Now that you have a grasp of 2D transforms, we will learn how to chain them. Chaining multiple transforms is done by adding more transform functions with a space between each one. Take a look at the code below:
+
+```html
+<div class="red-box"></div>
+<div class="blue-box"></div>
+```
+
+```css
+.red-box,
+.blue-box {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+}
+
+.red-box {
+  background: red;
+  transform: rotate(45deg) translate(200%);
+}
+
+.blue-box {
+  background: blue;
+  transform: translate(200%) rotate(45deg);
+}
+```
+
+There are two boxes located at the same position. We chained `rotate` and `translate` function values to both boxes, but in different orders. Make a guess on what happens to each box, then click the "Result" link in the Codepen below to see if you were right.
+
+<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css" data-slug-hash="XWeJWWr" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+
+<span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/XWeJWWr">
+Chaining | CSS Transform</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
+on <a href="https://codepen.io">CodePen</a>.</span>
+
+</p>
+
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+If you guessed correctly, congratulations! But this is a tricky concept. MDN's transform docs state that "[composite transforms are effectively applied in order from right to left](https://developer.mozilla.org/en-US/docs/Web/CSS/transform#values)".
+
+The blue box rotates 45 degrees on the spot, then translates on the X axis by 200%, moving it directly to the right. The red box translates by 200% first, so moves to the right, but the transform origin is still where it used to be. Therefore, it rotates 45 degrees around that original point, making the red box "swing down" to end up diagonally from where it started.
+
+While you can generally chain multiple transforms in any order for various results, there is one exception: `perspective`. This brings us nicely to the next section where `perspective` is involved.
+
+### Three-dimensional transforms
+
+The `rotate`, `scale`, and `translate` transform functions aren't limited to just 2D planes. They also work for 3D planes as well! However, to perceive a 3D effect on some of these function values, `perspective` is required.
+
+From here on, the examples get more complicated. Feel free to play around with these properties, but be careful not to get too sidetracked with them.
+
+#### Perspective
+
+This is the transform function value to set the distance from the user to the z = 0 plane:
+
+```css
+.element {
+  transform: perspective();
+}
+```
+
+Essentially, by setting a `perspective` value, we are telling the object to render as if we were viewing it from a specific distance on the z-axis.
+
+Unlike other transform function values, `perspective` must be declared first (leftmost) when there are multiple transform function values. In the upcoming examples for `rotate`, `scale`, and `translate`, we will be able to see how it affects the target element.
+
+#### Rotate specific axis
+
+These are the additional transform function values to rotate an element in a 3D space:
+
+```css
+.element {
+  transform: rotateX();
+  transform: rotateY();
+  transform: rotateZ();
+  transform: rotate3d();
+}
+```
+
+Below is a CodePen that shows how the first three values affects the target element.
+
+<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="PoJwozR" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+
+<span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/PoJwozR">
+3D Rotate | CSS Transform</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
+on <a href="https://codepen.io">CodePen</a>.</span>
+
+</p>
+
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+#### Scale specific axis
+
+These are the additional transform function values to scale an element in a 3D space:
+
+```css
+.element {
+  transform: scaleZ();
+  transform: scale3d();
+}
+```
+
+See MDN's 3D cube in action with [`scaleZ`](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/scaleZ()) and [`scale3d`](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/scale3d()).
+
+#### Translate specific axis
+
+These are the additional transform function values to translate an element in a 3D space:
+
+```css
+.element {
+  transform: translateZ();
+  transform: translate3d();
+}
+```
+
+`translateZ` doesn't do much without `perspective`. Instead, `perspective` and `translateZ` work together to create the illusion of 3-dimensional distance from the rendered object, as shown in the example below.
+
+<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="MWEYWpN" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+
+<span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/MWEYWpN">
+TranslateZ | CSS Transform</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
+on <a href="https://codepen.io">CodePen</a>.</span>
+
+</p>
+
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+#### Matrix
+
+While not strictly a 3D transform function, matrix is mentioned last in this lesson due to how uncommonly used it is. These are the transform function values for it.
+
+```css
+.element {
+  transform: matrix();
+  transform: matrix3d();
+}
+```
+
+Matrix is a way of combining all transform functions into one. It is seldom used due to its poor readability, and almost never written by hand. Unless you have a very complex transformation to apply, you should use other transform function values instead.
+
+It is enough for you to know *that* these functions exist and generally how they work. However, it is not important for you to feel comfortable building with them.
+
+### Benefits of transforms
+
+In order to understand why the `transform` property is great, you have to be aware of CSS triggers. You can learn about it in [The Pixel Pipeline](https://developers.google.com/web/fundamentals/performance/rendering/#the_pixel_pipeline) section from Google's Web Fundamentals.
+
+The key benefit of using `transform` is that it occurs during **composition**. This makes it cheaper to use compared to many other CSS properties. You can see what triggers are executed with each CSS property in this [table of CSS triggers](https://web.archive.org/web/20220727225220/https://csstriggers.com/).
+
+Another benefit of `transform` is that it can be hardware-accelerated via a device's [GPU](https://en.wikipedia.org/wiki/Graphics_processing_unit) (you don't have to understand how a GPU works but it is good to be aware of the term and what it means). This benefit is more prominent when it comes to transitions and animations which you will learn about in the following lessons.
+
+### Assignment
+
+<div class="lesson-content__panel" markdown="1">
+
+1. Take a look at this [MDN demonstration of `rotate3d`](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/rotate3d()) then read more about the property in this [Quackit article on `rotate3d`](https://www.qhmit.com/css/functions/css_rotate3d_function.cfm).
+1. Learn more about [the `perspective` property on CSS Tricks](https://css-tricks.com/how-css-perspective-works/).
+1. MDN has another great [demonstration using `translate3d`](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/translate3d()).
+1. Go through [The World of CSS Transforms](https://www.joshwcomeau.com/css/transforms/) by Josh Comeau.
+
+</div>
+
+### Knowledge check
+
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
+
+- [What are the four main functions of the `transform` property?](#two-dimensional-transforms)
+- [Which function can be used to move an object through space on the X, Y, or Z axis?](#translate)
+- [Which function can be used to make an object larger or smaller on the X, Y, or Z axis?](#scale)
+- [What additional function is required for 3D transforms?](#three-dimensional-transforms)
+
+### Additional resources
+
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
+
+- Learn more about `matrix` by checking Quackit's article on the [matrix function](https://www.quackit.com/css/functions/css_matrix_function.cfm).
+- For a full reference, there’s always [MDN's documentation on CSS transform functions](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function).
+- For more on the 3D transform functions, [W3Schools' page on CSS transforms](https://www.w3schools.com/css/css3_3dtransforms.asp) is a good article demonstrating how they work.
+
+---
+
+## CSS Animations
+### Introduction
+
+Now let's explore CSS animations using keyframes. This will expand upon your encounter with CSS transitions and delve into the differences between them.
+
+### Lesson overview
+
+This section contains a general overview of topics that you will learn in this lesson.
+
+- The differences between CSS transitions and CSS animations.
+- How to configure animation sub-properties.
+- How to sequence an animation using keyframes.
+
+### Animations vs transitions
+
+Animations let you animate elements from one style configuration to another. Does this sound familiar? You wouldn't be wrong for thinking, "Well, what's the point in learning animations if they are basically the same as transitions?", but animations greatly expand on some capabilities that transitions do not have. A few of the differences include:
+
+- Transitions were designed to animate an element from one state to another. They *can* loop, but they weren't designed for that. Animations, on the other hand, *were* designed with the purpose of explicitly enabling loops.
+
+- Transitions need a trigger, such as the use of pseudo-classes like `:hover` or `:focus`, or by adding/removing a class via JavaScript. Animations, on the other hand, do not need such a trigger. Once you have your elements in place and CSS defined, an animation will start running immediately if that's what you told it to do.
+
+- Transitions are not as flexible as using animations. When you define a transition, imagine you are sending that element on a journey in a straight line from point A to point B. Yes, the `transition-timing-function` can add some variation to the timing of this change, but it doesn't compare to the amount of flexibility added by using animations.
+
+All in all, both animations and transitions have their use, so in addition to considering the above differences you should also use your best judgment. For example, if you need to change the opacity of an element when it is active then an animation would be overkill, but if you need to carry out something more complicated, animations will provide you with the tools you need.
+
+### Animation properties
+
+Let's see an animation in action to see what we've been talking about.
+
+<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="jOGENZz" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+
+  <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/jOGENZz">
+  keyframes 1 longhand</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+
+</p>
+
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+Note how the animation is already running and how it keeps repeating itself. We'll cover that `@keyframes` rule at the bottom of our example in a bit, so for now focus on the actual animation properties used in the example above:
+
+```css
+#ball {
+  /* ... other CSS properties ... */
+  animation-duration: 2s;
+  animation-name: change-color;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+```
+
+This is known as the configuration stage where we define our animation properties on the `#ball` element, and it is only the first half of defining an animation. In our example, we have:
+
+- An `animation-duration` of two seconds. This means that it will take two seconds for the `#ball` element to complete one animation cycle.
+
+- Defined the `animation-name` to be "change-color" which is essential for the `@keyframes` section coming up next. This is just a custom name that is not a particular CSS value. We could have called it "pineapples" if we so wished, but for our purposes "change-color" suits us well.
+
+- Set the `animation-iteration-count` to `infinite`, which means this animation will run forever. You could set this to 1, 2, or as many iterations as you wish.
+
+- Set the `animation-direction`  to `alternate`. This property decides if our animation should alternate direction on the completion of one cycle, or reset to the start point and repeat itself. Here it means that the `#ball` will smoothly change back to its original color instead of "jumping" straight back to red.
+
+### Keyframes
+
+Now it's time to tackle the second half of our animation definition by exploring the `@keyframes` at-rule.
+
+```css
+@keyframes change-color {
+  from {
+    background-color: red;
+  }
+
+  to {
+    background-color: green;
+  }
+}
+```
+
+The `@keyframes` at-rule references the 'change-color' name we defined earlier. Then, we use the `from` and `to` properties to change the `background-color` of `#ball` from red to green.
+
+It's important to know that keyframes use a percentage to indicate the times for an animation to take place and that the `from` and `to` statements are actually aliases for `0%` and `100%`, respectively. You can read `from/0%` as meaning 'at zero seconds' and `to/100%` as 'at 2 seconds' according to our `animation-duration` in our example from above. There is no hard and fast rule on whether or not you should use `from/to` or `0%/100%`. Just pick a style and be consistent with it.
+
+The `@keyframes` at-rule also defines one animation cycle. So if we were to change our `animation-iteration-count` from earlier to 2 then the ball would change its `background-color` from red to green, then from green to red, and then the animation would stop. Be careful not to think of one iteration as a complete loop, but rather a single cycle from beginning to end (or end to beginning when alternating the direction).
+
+Now it's time to introduce the shorthand notation for our animation properties and glimpse a little into the added flexibility of the keyframe notation. Check out the live example below then have a look at the notation.
+
+<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="zYExOLQ" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+
+  <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/zYExOLQ">
+  keyframes 2 shorthand</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+
+</p>
+
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+```css
+#ball {
+  /* ... other CSS properties ... */
+  background-color: red;
+  animation: 2s change-color infinite alternate;
+}
+
+@keyframes change-color {
+  from {
+    background-color: red;
+  }
+  
+  50% {
+    transform: scale(2);
+    background-color: blue;
+  }
+
+  to {
+    background-color: green;
+  }
+}
+```
+
+Here we added another keyframe for when the `animation-duration` is at 50%, or 1 second. This means as well as the `background-color` changing to an additional value, we have also specified that the ball double in size. Just be aware that additional keyframes are always defined in percentages. Only the `0%/100%` values may use the `from/to` alias.
+
+Hopefully, this gives you a glimpse into the power the `@keyframes` syntax provides to you when it comes to controlling the animation of an element's properties. You can add keyframes whenever you want, control whatever CSS-animatable properties you want, and have the control to add some real creative flair to your website elements.
+
+### Assignment
+
+<div class="lesson-content__panel" markdown="1">
+
+1. Code along with this [MDN article for using CSS animations](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations).
+1. Read the [@keyframes reference](https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes) to gain a deeper understanding of how keyframes are implemented.
+1. Read this [interactive guide to keyframes](https://www.joshwcomeau.com/animation/keyframe-animations/).
+1. Now let's make some cool animations! Go to the `animation` folder in the [CSS exercises repository](https://github.com/TheOdinProject/css-exercises) and review each README file prior to completing the following exercises in order:
+   - `01-button-hover`
+   - `02-pop-up`
+   - `03-dropdown-menu`
+
+</div>
+
+### Knowledge check
+
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
+
+- [What are the long and short-hand notations for CSS animations?](https://developer.mozilla.org/en-US/docs/Web/CSS/animation)
+- [How do you add keyframes to an animation?](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations#defining_the_animation_sequence_using_keyframes)
+- [When would you use an animation over a transition (and vice versa)?](#animations-vs-transitions)
+
+### Additional resources
+
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
+
+- [Video from DevTips on CSS Animations and Keyframes](https://www.youtube.com/watch?v=f1WMjDx4snI&list=PLqGj3iMvMa4LvJ8VctoXnPI0dtE40wfid&index=2&ab_channel=DevTips).
 
 ---
 
