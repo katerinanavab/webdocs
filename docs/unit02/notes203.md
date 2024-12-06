@@ -33,9 +33,11 @@ nav_order: 3
 
 ## CSS Transforms
 
-The `transform` property is a powerful tool to change the appearance of elements without affecting the natural document flow.
+The `transform` **property** is a powerful tool to *change the appearance of elements* without affecting the natural document flow.
 
-You have likely seen it in action on many of your favorite websites! Transforms are very commonly used for animated effects. While we are sure you'll like to create sleek animations of your own, we first need to understand how transforms work.
+You have likely seen it in action on many of your favorite websites! Transforms are very commonly used for animated effects. While we are sure you'll like to create sleek **animations** of your own, we first need to understand how transforms work. 
+
+![image](https://miro.medium.com/v2/resize:fit:960/1*R2IxrEjMVm6QiRYdEo-lvQ.png)
 
 #### 📖 Learning goals:
 {:.no_toc}
