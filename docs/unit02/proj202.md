@@ -105,9 +105,6 @@ body {
 
 </div>
 
-{:.highlight}
-📖 **RESOURCES:** While working on this project, you are encouraged to look up CSS `properties` on Google or [W3Schools](https://www.w3schools.com/css/), review our [Unit 1 Notes](https://coderina.dev/webdocs/unit01) or [Unit 2 Notes](https://coderina.dev/webdocs/unit02), and make use of the helpful [SheCodes CSS Tools](https://generators.shecodes.io/). 
-
 ### Minimum Requirements
 
 #### Buildings or Structures:
@@ -132,10 +129,6 @@ body {
 - [ ] Use **CSS positioning** (like `absolute` or `relative`) to place elements creatively around the town.
 	* Experiment with different `top`, `left`, `right`, or `bottom` values to arrange your buildings and icons in a way that resembles a town layout.
 
----
-
-#### Acknowledgement
-
-Content on this page is adapted from [The Odin Project](https://www.theodinproject.com/).
-{: .fs-2 }
+{:.highlight}
+📖 **RESOURCES:** While working on this project, you are encouraged to look up CSS `properties` on Google or [W3Schools](https://www.w3schools.com/css/), review our [Unit 1 Notes](https://coderina.dev/webdocs/unit01) or [Unit 2 Notes](https://coderina.dev/webdocs/unit02), and make use of the helpful [SheCodes CSS Tools](https://generators.shecodes.io/). 
 
