@@ -112,19 +112,20 @@ body {
 4. **Define CSS Animations**
     * Use the `@keyframes` rule to define the **sequence** of an animation.
     * Incorporate `transform` functions like `rotate`, `scale`, and `translate` within your animation sequence.
+    * 📖 See [W3Schools - Transforms](https://www.w3schools.com/css/css3_2dtransforms.asp)
     * _Example:_
 ```css
 @keyframes spin {
-    0% {
+    from {
         transform: rotate(0deg);
     }
-    100% {
+    to {
         transform: rotate(360deg);
     }
 }
 ```
 5. **Attach Animations to Elements**
-```
+```css
 #ball {
     animation-name: spin;
     animation-duration: 2s;
@@ -132,7 +133,8 @@ body {
 }
 ```
 6. **Test and Adjust**
-    * Ensure the animations are smooth and work well together. Adjust **durations**, **delays**, and **timing functions** as needed.
+    * Ensure the animations are smooth and work well together, adjusting **durations**, **delays**, and **timing functions** as needed.
+    * 📖 See [W3Schools - Animations](https://www.w3schools.com/css/css3_animations.asp)
 
 </div> 
 
