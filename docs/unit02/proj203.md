@@ -55,7 +55,6 @@ body {
 3. **Add the Scene Description Section**
     * Inside the `<body>` tag in `index.html`, create a container to describe the scene: `<div id="scene-description"></div>`
     * Inside that `<div>`, include an `<h1>` element with the scene **title** and a `<p>` element with a brief **description** of the scene. 
-```
 4. **Style the Scene Description**
     * In `style.css`:
 ```css
@@ -69,10 +68,7 @@ body {
 }
 ```
 5. **Add the Scene Container Section**
-    * Below the `#scene-description`, add the main animation space:
-```html
-    <div id="scene-container"></div>
-```
+    * Below the `#scene-description` div in HTML, add another container for the main animation space: `<div id="scene-container"></div>`
 6. **Style the Scene Container**
     * In `style.css`:
 ```css
@@ -92,16 +88,15 @@ body {
 
 <div class="task" markdown="block">
 
-1. Plan your Scene
+1. **Plan your Scene**
     * Pick an **iconic scene** from a movie, TV show, or book that you'd like to model.
-    * Identify several possible animations to make your scene dynamic (e.g., a bouncing ball, flying objects, spinning elements, people walking, etc.).
-2. Add Elements to the Scene
-    * Inside the #scene-container, add HTML elements to animate. For example:
-```html
-<div id="ground"></div>
-<span id="football">🏈</span>
-<img id="actor" src="">
-````
+    * Identify several possible animations to make your scene dynamic (_e.g., a bouncing ball, flying objects, spinning elements, people walking, etc._)
+2. **Add Elements to the Scene**
+    * Inside the `#scene-container`, add HTML elements to animate.
+    * _For example:_
+        * `<div id="ground"></div>` for blocks/shapes
+        * `<span id="football">🏈</span>` for emojis/symbols
+        * `<img id="actor" src=" ">` for clipart images
 3. Style the Elements
     * Define styles for the new elements in the style.css file or within the <style> tag. Example:
 css
