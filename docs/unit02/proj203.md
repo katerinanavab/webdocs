@@ -71,7 +71,7 @@ body {
 }
 ```
 4. Add the Scene Container
-  * Below the #scene-description, add the main animation space:
+  * Below the `#scene-description`, add the main animation space:
 ```html
 <div id="scene-container"></div>
 ```
@@ -105,7 +105,7 @@ body {
 ### Minimum Requirement Checklist
 
 - _HTML Content:_
-  - [ ] Include at least **6 HTML elements** inside the `#scene-container` `div` with distinct classes/ids, using the appropriate tags (e.g., `<div>`, `<p>`, `<span>`, `<img>`).
+  - [ ] Include at least **6 HTML elements** inside the `#scene-container` with distinct classes or ids, using the appropriate tags (e.g., `<div>`, `<p>`, `<span>`, `<img>`).
 - _CSS Base Styles:_
   - [ ] Style all elements to fit your **theme** (e.g., colors, sizes, positioning).
 - _CSS Animations:_
