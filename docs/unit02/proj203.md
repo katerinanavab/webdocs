@@ -33,7 +33,6 @@ nav_order: 7
 
 ### Minimum Requirement Checklist
 
-#### HTML
 - _HTML Content:_
   - [ ] Include at least **6 HTML elements** inside the `#scene-container` `div` with distinct classes/ids, using the appropriate tags (e.g., `<div>`, `<p>`, `<span>`, `<img>`).
 - _CSS Base Styles:_
