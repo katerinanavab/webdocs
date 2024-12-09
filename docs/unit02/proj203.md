@@ -31,7 +31,7 @@ nav_order: 7
 <div class="task" markdown="block">
   
 1. Add Starter CSS Code
-        * Write the following style rules in `style.css`:
+    * Write the following style rules in `style.css`:
 ```css
 * {
     margin: 0;
@@ -44,7 +44,7 @@ html, body {
 }
 ```
 2. Set the Background
-        * Add a `body` style to include a background image:
+    * Add a `body` style to include a background image:
 ```css
 body {
     background-image: url("https://wallpaper.dog/large/20552168.jpg");
@@ -52,13 +52,15 @@ body {
 }
 ```
 3. Add the Scene Description Section
-        * Inside the `<body>` tag in `index.html`, create a container to describe the scene:
+    * Inside the `<body>` tag in `index.html`, create a container to describe the scene:
 ```html
 <div id="scene-description">
     <h1>Scene Title</h1>
     <p>Scene Description</p>
 </div>
 ```
+4. Style the Scene Description
+    * In `style.css`:
 ```css
 #scene-description {
     width: 600px;
@@ -69,11 +71,13 @@ body {
     color: white;
 }
 ```
-4. Add the Scene Container
-        * Below the `#scene-description`, add the main animation space:
+5. Add the Scene Container Section
+    * Below the `#scene-description`, add the main animation space:
 ```html
 <div id="scene-container"></div>
 ```
+6. Style the Scene Container
+    * In `style.css`:
 ```css
 #scene-container {
     width: 600px;
@@ -84,7 +88,7 @@ body {
     overflow: hidden;
 }
 ```
-5. Test Your Page
+7. Test Your Page
   * _You should see:_
     * A background image covering the whole page.
     * A centered description section with text.
