@@ -92,52 +92,28 @@ body {
     * Pick an **iconic scene** from a movie, TV show, or book that you'd like to model.
     * Identify several possible animations to make your scene dynamic (_e.g., a bouncing ball, flying objects, spinning elements, people walking, etc._)
 2. **Add Elements to the Scene**
-    * Inside the `#scene-container`, add HTML elements to animate.
+    * Inside the `#scene-container`, add HTML elements to represent props, actors, etc.
     * _For example:_
-        * `<div id="ground"></div>` for blocks/shapes
-        * `<span id="football">🏈</span>` for emojis/symbols
-        * `<img id="actor" src=" ">` for clipart images
-3. Style the Elements
-    * Define styles for the new elements in the style.css file or within the <style> tag. Example:
-css
-Copy code
-.object {
-    width: 50px;
-    height: 50px;
-    background-color: red;
-    border-radius: 50%;
+        * `<div id="ground"></div>` for **blocks/shapes**
+        * `<span id="ball">🏈</span>` for **emojis/symbols**
+        * `<img id="actor" src=" ">` for **images/clipart**
+3. **Style the Elements**
+    * Define styles for the new elements to position and size them.
+    * Example styling for a `span`: 
+```css
+#ball {
+    font-size: 30px;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 20%;
+    left: 15%;
+    z-index: 5;
 }
-4. Add CSS Animations
-
-Use the @keyframes rule to define animations. Example:
-css
-Copy code
-@keyframes bounce {
-    0%, 100% {
-        top: 50%;
-    }
-    50% {
-        top: 10%;
-    }
-}
-
-.object {
-    animation: bounce 2s infinite;
-}
-5. Experiment with Transforms
-
-Use transform properties like rotate, scale, and translate to enhance animations:
-css
-Copy code
-.object {
-    transform: scale(1);
-    animation: bounce 2s infinite, spin 4s linear infinite;
-}
-
+```
+4. **Define CSS Animations**
+    * Use the `@keyframes` rule to define the **sequence** of an animation.
+    * Incorporate `transform` functions like `rotate`, `scale`, and `translate` within your animation sequence.
+    * _Example:_
+```css
 @keyframes spin {
     0% {
         transform: rotate(0deg);
@@ -146,9 +122,17 @@ Copy code
         transform: rotate(360deg);
     }
 }
-
-6. Test and Adjust
-    * Ensure the animations are smooth and work well together. Adjust durations, delays, and easing functions as needed.
+```
+5. **Attach Animations to Elements**
+```
+#ball {
+    animation-name: spin;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+```
+6. **Test and Adjust**
+    * Ensure the animations are smooth and work well together. Adjust **durations**, **delays**, and **timing functions** as needed.
 
 </div> 
 
@@ -162,7 +146,7 @@ Copy code
   - [ ] Style all elements to fit your **theme** (e.g., colors, sizes, positioning).
 - _CSS Animations:_
   - [ ] Define at least 2 distinct `@keyframes` **animation sequences**. One of these must have _more than 2 points_ in the animation sequence (e.g. `0%`, `50%`, `100%` rather than just `from` and `to`).
-  - [ ] In a selector for the **element** to be animated, specify the relevant **animation** **properties** (e.g., `animation-name`, `animation-duration`, `animation-timing-function`, `animation-delay`).
+  - [ ] In a selector for the **element** to be animated, specify the relevant **animation** **properties** (e.g., `animation-name`, `animation-duration`, `animation-iteration-count`, `animation-timing-function`, `animation-delay`).
 - _CSS Transforms:_
   - [ ] Apply at least 4 different `transform` functions (e.g., `rotate`, `scale`, `translate`).
 - _CSS Positioning:_
