@@ -35,5 +35,33 @@ nav_order: 7
 
 ### Minimum Requirements
 
+#### HTML
+Include at least **6 HTML elements** inside the `#scene-container` `div` with distinct classes/ids.
+Use semantic tags (e.g., <div>, <p>, <span>) as necessary.
+
+#### CSS
+Base Styles:
+
+Style all elements to fit your theme (e.g., colors, sizes, positioning).
+Animations:
+
+Define at least 2 @keyframes animations.
+Use animation properties (e.g., animation-name, animation-duration, animation-timing-function, animation-delay).
+Transforms:
+
+Apply at least 2 different transform functions (e.g., rotate, scale, translate).
+Transitions:
+
+Include at least 1 interactive effect (e.g., :hover with transition).
+Positioning:
+
+Use at least 2 different positioning techniques (e.g., absolute, relative, or flexbox).
+Customization:
+
+Adjust the background or border styles for visual appeal.
+Bonus Features (Optional but encouraged)
+Use CSS variables for repeated values.
+Create a "start" button that triggers animations using a class toggle.
+Experiment with clip-path or filter for advanced effects.
 
 
