@@ -99,7 +99,66 @@ body {
 1. Plan your Scene
     * Pick an **iconic scene** from a movie, TV show, or book that you'd like to model.
     * Identify several possible animations to make your scene dynamic (e.g., a bouncing ball, flying objects, spinning elements, people walking, etc.).
-2. 
+2. Add Elements to the Scene
+    * Inside the #scene-container, add HTML elements to animate. For example:
+```html
+<div id="ground"></div>
+<span id="football">🏈</span>
+<img id="actor" src="">
+````
+3. Style the Elements
+    * Define styles for the new elements in the style.css file or within the <style> tag. Example:
+css
+Copy code
+.object {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+4. Add CSS Animations
+
+Use the @keyframes rule to define animations. Example:
+css
+Copy code
+@keyframes bounce {
+    0%, 100% {
+        top: 50%;
+    }
+    50% {
+        top: 10%;
+    }
+}
+
+.object {
+    animation: bounce 2s infinite;
+}
+5. Experiment with Transforms
+
+Use transform properties like rotate, scale, and translate to enhance animations:
+css
+Copy code
+.object {
+    transform: scale(1);
+    animation: bounce 2s infinite, spin 4s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+6. Test and Adjust
+    * Ensure the animations are smooth and work well together. Adjust durations, delays, and easing functions as needed.
+
 </div> 
 
 --- 
