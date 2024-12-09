@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "💻PROJECT #2.3"
-projectname: "CSS Movie Scene"
+projectname: "Animated Scene"
 parent: "2️⃣ Advanced CSS"
 nav_order: 7
 ---
