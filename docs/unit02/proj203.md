@@ -112,7 +112,7 @@ body {
 4. **Define CSS Animations**
     * Use the `@keyframes` rule to define the **sequence** of an animation.
     * Incorporate `transform` functions like `rotate`, `scale`, and `translate` within your animation sequence.
-    * 📖 See [W3Schools - Transforms](https://www.w3schools.com/css/css3_2dtransforms.asp)
+    * **Reference:** [📖 W3Schools - Transforms](https://www.w3schools.com/css/css3_2dtransforms.asp)
     * _Example:_
 ```css
 @keyframes spin {
@@ -125,6 +125,9 @@ body {
 }
 ```
 5. **Attach Animations to Elements**
+    * In the selector for an object you want to animate, define the `animation` sub-properties.
+    * **Reference:** [📖 W3Schools - Animations](https://www.w3schools.com/css/css3_animations.asp)
+    * _Example:_
 ```css
 #ball {
     animation-name: spin;
@@ -134,7 +137,7 @@ body {
 ```
 6. **Test and Adjust**
     * Ensure the animations are smooth and work well together, adjusting **durations**, **delays**, and **timing functions** as needed.
-    * 📖 See [W3Schools - Animations](https://www.w3schools.com/css/css3_animations.asp)
+    * You may also need to adjust your `@keyframes` definitions to include more points (e.g. `0%`, `50%`, `100%` rather than just `from` and `to`)
 
 </div> 
 
@@ -159,10 +162,10 @@ body {
 
 #### Bonus Features
 - Include an **interactive** effect (e.g., `:hover` pseudo-class selector with a `transition` property).
-  - See [W3Schools - Transitions](https://www.w3schools.com/css/css3_transitions.asp) and [W3Schools - Pseudoclasses](https://www.w3schools.com/css/css_pseudo_classes.asp)
+  - See [📖 W3Schools - Pseudoclasses](https://www.w3schools.com/css/css_pseudo_classes.asp) and [📖 W3Schools - Transitions](https://www.w3schools.com/css/css3_transitions.asp)
 - Use CSS **variables** for repeated values.
-  - See [W3Schools - Variables](https://www.w3schools.com/css/css3_variables.asp) 
-- Create a "start" `button` that triggers animations using a class toggle (requires some `JavaScript`).
+  - See [📖 W3Schools - Variables](https://www.w3schools.com/css/css3_variables.asp) 
+- Create a "start" `button` that triggers animations using a `class` toggle (_requires some JavaScript_).
 - Experiment with CSS `clip-path` or `filter` for advanced effects.
 
 {:.highlight}
