@@ -33,7 +33,7 @@ In this project, you'll practice these techniques by building an **animated scen
 
 <div class="task" markdown="block">
   
-1. Add Starter CSS Code
+1. **Add Starter CSS Code**
     * Write the following style rules in `style.css`:
 ```css
 html, body {
@@ -44,23 +44,23 @@ html, body {
     box-sizing: border-box;
 }
 ```
-2. Set the Background
-    * Add a `body` style to include a background image:
+2. **Set the Background**
+    * Add a `body` style rule to include a background image:
 ```css
 body {
     background-image: url("https://wallpaper.dog/large/20552168.jpg");
     background-size: cover;
 }
 ```
-3. Add the Scene Description Section
+3. **Add the Scene Description Section**
     * Inside the `<body>` tag in `index.html`, create a container to describe the scene:
 ```html
-<div id="scene-description">
-    <h1>Scene Title</h1>
-    <p>Scene Description</p>
-</div>
+    <div id="scene-description">
+        <h1>Scene Title</h1>
+        <p>Scene Description</p>
+    </div>
 ```
-4. Style the Scene Description
+4. **Style the Scene Description**
     * In `style.css`:
 ```css
 #scene-description {
@@ -72,12 +72,12 @@ body {
     color: white;
 }
 ```
-5. Add the Scene Container Section
+5. **Add the Scene Container Section**
     * Below the `#scene-description`, add the main animation space:
 ```html
-<div id="scene-container"></div>
+    <div id="scene-container"></div>
 ```
-6. Style the Scene Container
+6. **Style the Scene Container**
     * In `style.css`:
 ```css
 #scene-container {
