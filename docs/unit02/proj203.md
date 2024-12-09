@@ -30,38 +30,32 @@ nav_order: 7
 
 </div> 
 
-{:.highlight}
-📖 **RESOURCES:** While working on this project, you are encouraged to look up CSS `properties` on Google or [W3Schools](https://www.w3schools.com/css/), review our [Unit 1 Notes](https://coderina.dev/webdocs/unit01) or [Unit 2 Notes](https://coderina.dev/webdocs/unit02), and make use of the helpful [SheCodes CSS Tools](https://generators.shecodes.io/). 
 
-### Minimum Requirements
+### Minimum Requirement Checklist
 
 #### HTML
-Include at least **6 HTML elements** inside the `#scene-container` `div` with distinct classes/ids.
-Use semantic tags (e.g., <div>, <p>, <span>) as necessary.
+- _HTML Content:_
+  - [ ] Include at least **6 HTML elements** inside the `#scene-container` `div` with distinct classes/ids, using the appropriate tags (e.g., `<div>`, `<p>`, `<span>`, `<img>`).
+- _CSS Base Styles:_
+  - [ ] Style all elements to fit your **theme** (e.g., colors, sizes, positioning).
+- _CSS Animations:_
+  - [ ] Define at least 2 distinct `@keyframes` **animation sequences**. One of these must have _more than 2 points_ in the animation sequence (e.g. `0%`, `50%`, `100%` rather than just `from` and `to`).
+  - [ ] In a selector for the **element** to be animated, specify the relevant **animation** **properties** (e.g., `animation-name`, `animation-duration`, `animation-timing-function`, `animation-delay`).
+- _CSS Transforms:_
+  - [ ] Apply at least 4 different `transform` functions (e.g., `rotate`, `scale`, `translate`).
+- _CSS Positioning:_
+  - [ ] Use at least 2 different **positioning techniques** (e.g., `absolute`, `relative`, or `fixed`).
+- _CSS Customization:_
+  - [ ] Adjust the `background` of the movie scene, or `border` styles for visual appeal.
+  - [ ] Ensure that the final product of your movie scene looks **cohesive**.
 
-#### CSS
-Base Styles:
+#### Bonus Features
+- Include an **interactive** effect (e.g., `:hover` selector with a `transition` property).
+- Use CSS **variables** for repeated values.
+- Create a "start" `button` that triggers animations using a class toggle (simple `JavaScript`).
+- Experiment with CSS `clip-path` or `filter` for advanced effects.
 
-Style all elements to fit your theme (e.g., colors, sizes, positioning).
-Animations:
-
-Define at least 2 @keyframes animations.
-Use animation properties (e.g., animation-name, animation-duration, animation-timing-function, animation-delay).
-Transforms:
-
-Apply at least 2 different transform functions (e.g., rotate, scale, translate).
-Transitions:
-
-Include at least 1 interactive effect (e.g., :hover with transition).
-Positioning:
-
-Use at least 2 different positioning techniques (e.g., absolute, relative, or flexbox).
-Customization:
-
-Adjust the background or border styles for visual appeal.
-Bonus Features (Optional but encouraged)
-Use CSS variables for repeated values.
-Create a "start" button that triggers animations using a class toggle.
-Experiment with clip-path or filter for advanced effects.
+{:.highlight}
+**RESOURCES:** While working on this project or attempting the bonus features, you are encouraged to look up any CSS `properties` on Google or [📖 W3Schools](https://www.w3schools.com/css/), review our [📓 Unit 1 Notes](https://coderina.dev/webdocs/unit01) or [📓 Unit 2 Notes](https://coderina.dev/webdocs/unit02), and make use of the helpful [🎨 SheCodes CSS Tools](https://generators.shecodes.io/). 
 
 
