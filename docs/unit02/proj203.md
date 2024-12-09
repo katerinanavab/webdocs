@@ -94,9 +94,13 @@ nav_order: 7
 
 </div>
 
-#### Part B: 
+#### Part B: Adding Animations and Transforms
 
 <div class="task" markdown="block">
+
+1. Plan your Scene
+  * Pick an **iconic scene** from a movie, TV show, or book that you'd like to model.
+  * Identify several possible animations to make your scene dynamic (e.g., a bouncing ball, flying objects, spinning elements, people walking, etc.).
 
 </div> 
 
