@@ -88,11 +88,6 @@ body {
     overflow: hidden;
 }
 ```
-7. Test Your Page
-  * _You should see:_
-    * A background image covering the whole page.
-    * A centered description section with text.
-    * A bordered white box (`#scene-container`) for your scene.
 
 </div>
 
@@ -101,9 +96,9 @@ body {
 <div class="task" markdown="block">
 
 1. Plan your Scene
-  * Pick an **iconic scene** from a movie, TV show, or book that you'd like to model.
-  * Identify several possible animations to make your scene dynamic (e.g., a bouncing ball, flying objects, spinning elements, people walking, etc.).
-
+    * Pick an **iconic scene** from a movie, TV show, or book that you'd like to model.
+    * Identify several possible animations to make your scene dynamic (e.g., a bouncing ball, flying objects, spinning elements, people walking, etc.).
+2. 
 </div> 
 
 --- 
@@ -126,9 +121,11 @@ body {
   - [ ] Ensure that the final product of your movie scene looks **cohesive**.
 
 #### Bonus Features
-- Include an **interactive** effect (e.g., `:hover` selector with a `transition` property).
+- Include an **interactive** effect (e.g., `:hover` pseudo-class selector with a `transition` property).
+  - See [W3Schools - Transitions](https://www.w3schools.com/css/css3_transitions.asp) and [W3Schools - Pseudoclasses](https://www.w3schools.com/css/css_pseudo_classes.asp)
 - Use CSS **variables** for repeated values.
-- Create a "start" `button` that triggers animations using a class toggle (simple `JavaScript`).
+  - See [W3Schools - Variables](https://www.w3schools.com/css/css3_variables.asp) 
+- Create a "start" `button` that triggers animations using a class toggle (requires some `JavaScript`).
 - Experiment with CSS `clip-path` or `filter` for advanced effects.
 
 {:.highlight}
