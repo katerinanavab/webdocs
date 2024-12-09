@@ -13,7 +13,7 @@ CSS **animations** and **transforms** are powerful tools that bring life to web 
 
 In this project, you'll practice these techniques by building an **animated scene** inside a defined container. You’ll experiment with movement, resizing, and interactivity to make a creative and engaging display. 
 
-> 🧠 **BRAINSTORM:** Pick your favorite movie, TV show, or book! Look up on Google Images: _"iconic scenes from..."_ + the title. 
+> 🧠 **BRAINSTORM:** Look up on Google Images: _"iconic scenes from..."_ + the title of your favorite **movie**, **show**, or **book**. 
 
 <div class="setup" markdown="block">
 
