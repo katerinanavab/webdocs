@@ -9,8 +9,11 @@ nav_order: 7
 
 ### Overview & Setup
 
+CSS **animations** and **transforms** are powerful tools that bring life to web pages. With **animations**, we can create smooth transitions, moving objects, or even complex _sequences_ of changes, making websites more interactive and visually appealing. **Transforms** allow us to _manipulate elements_ by rotating, scaling, or repositioning them, enabling unique and dynamic designs.
 
-> 🧠 **BRAINSTORM:** Pick your favorite movie! 
+In this project, you'll practice these techniques by building an **animated scene** inside a defined container. You’ll experiment with movement, resizing, and interactivity to make a creative and engaging display. 
+
+> 🧠 **BRAINSTORM:** Pick your favorite movie, TV show, or book! Look up on Google Images: _"iconic scenes from..."_ + the title. 
 
 <div class="setup" markdown="block">
 
@@ -33,14 +36,12 @@ nav_order: 7
 1. Add Starter CSS Code
     * Write the following style rules in `style.css`:
 ```css
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 html, body {
     height: 100%;
     width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 ```
 2. Set the Background
