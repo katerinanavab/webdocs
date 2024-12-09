@@ -53,12 +53,8 @@ body {
 }
 ```
 3. **Add the Scene Description Section**
-    * Inside the `<body>` tag in `index.html`, create a container to describe the scene:
-```html
-    <div id="scene-description">
-        <h1>Scene Title</h1>
-        <p>Scene Description</p>
-    </div>
+    * Inside the `<body>` tag in `index.html`, create a container to describe the scene: `<div id="scene-description"></div>`
+    * Inside that `<div>`, include an `<h1>` element with the scene **title** and a `<p>` element with a brief **description** of the scene. 
 ```
 4. **Style the Scene Description**
     * In `style.css`:
