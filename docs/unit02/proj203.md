@@ -31,66 +31,64 @@ nav_order: 7
 <div class="task" markdown="block">
   
 1. Add Starter CSS Code
-  * Write the following style rules in `style.css`:
-  ```css
-  * {
+        * Write the following style rules in `style.css`:
+```css
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
-  html, body {
+}
+html, body {
     height: 100%;
     width: 100%;
-  }
-  ```
+}
+```
 2. Set the Background
-  * Add a `body` style to include a background image:
-  ```css
-  body {
+        * Add a `body` style to include a background image:
+```css
+body {
     background-image: url("https://wallpaper.dog/large/20552168.jpg");
     background-size: cover;
-  }
-  ```
+}
+```
 3. Add the Scene Description Section
-  * Inside the `<body>` tag in `index.html`, create a container to describe the scene:
-  ```html
-  <div id="scene-description">
+        * Inside the `<body>` tag in `index.html`, create a container to describe the scene:
+```html
+<div id="scene-description">
     <h1>Scene Title</h1>
     <p>Scene Description</p>
-  </div>
-  ```
-  * Update the CSS to style it:
-  ```css
-  #scene-description {
+</div>
+```
+```css
+#scene-description {
     width: 600px;
     margin: 20px auto;
     text-align: center;
     font-family: "Trebuchet MS", Sans-Serif;
     font-size: 0.8em;
     color: white;
-  }
-  ```
+}
+```
 4. Add the Scene Container
-  * Below the `#scene-description`, add the main animation space:
-  ```html
-  <div id="scene-container"></div>
-  ```
-  * Style it in CSS:
-  ```css
-  #scene-container {
+        * Below the `#scene-description`, add the main animation space:
+```html
+<div id="scene-container"></div>
+```
+```css
+#scene-container {
     width: 600px;
     height: 400px;
     margin: auto;
     border: 5px solid black;
     background-color: white;
     overflow: hidden;
-  }
-  ```
+}
+```
 5. Test Your Page
   * _You should see:_
     * A background image covering the whole page.
     * A centered description section with text.
-    * A bordered white box ( `#scene-container`) for your scene.
+    * A bordered white box (`#scene-container`) for your scene.
 
 </div>
 
