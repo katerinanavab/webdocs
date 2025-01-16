@@ -59,6 +59,7 @@ Bootstrap provides a collection of CSS and JavaScript-based design templates for
 Bootstrap can be used to build websites of any scale, from small blogs to large corporate websites. Organizations that use Bootstrap include [NASA](https://www.nasa.gov/), [FIFA](https://www.fifa.com/en), [Newsweek](https://www.newsweek.com/), [VOGUE](https://www.vogue.com/) and many more.
 
 #### Why Use Bootstrap?
+{:.no_toc} 
 * **Ease of Use:** Prebuilt styles and components.
 * **Responsiveness:** Automatic adjustment to different screen sizes.
 * **Consistency:** Uniform design across devices and browsers.
