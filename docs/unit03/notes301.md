@@ -31,9 +31,27 @@ nav_order: 1
 
 ---
 
-## What is Bootstrap?
+## Introduction to Responsive Websites
 
-🥾 Bootstrap is a popular _front-end framework_ for developing **responsive** and **mobile-first** websites. It provides a collection of CSS and JavaScript-based design templates for typography, forms, buttons, navigation, and other components.
+![image]()
+
+🥾 Bootstrap is a popular _front-end framework_ for developing **responsive** and **mobile-first** websites. 
+
+<dl>
+  <dt>Responsive</dt>
+  <dd>Websites that <strong>automatically scale</strong> between devices — whether the device is a mobile phone, tablet, laptop, desktop computer, screen reader, etc.</dd>
+</dl>
+
+<dl>
+  <dt>Mobile-First</dt>
+  <dd>Websites that are primarily designed for mobile devices, then scales up from there (as opposed to being designed first for desktop, then trying to scale it down to mobile devices)</dd>
+</dl>
+
+### What is Bootstrap?
+
+Bootstrap provides a collection of CSS and JavaScript-based design templates for **layout**, **typography**, **forms**, **buttons**, **navigation**, and other reusable **components**. You are free to use whichever Bootstrap components you choose, while adding your own on top. There are thousands of websites out there that are built on Bootstrap, but with their own design.
+
+Bootstrap can be used to build websites of any scale, from small blogs to large corporate websites. Organizations that use Bootstrap include [NASA](https://www.nasa.gov/), [FIFA](https://www.fifa.com/en), [Newsweek](https://www.newsweek.com/), [VOGUE](https://www.vogue.com/) and many more.
 
 #### Why Use Bootstrap?
 * **Ease of Use:** Prebuilt styles and components.
@@ -44,24 +62,17 @@ nav_order: 1
 
 ### Installing Bootstrap 5 via CDN
 
-The simplest way to use Bootstrap is by including its **CDN** (Content Delivery Network) link in your HTML file:
+The simplest way to use Bootstrap is by including its **CDN** (Content Delivery Network) link in your HTML file.
 
+1. Include the CDN link to Bootstrap's CSS code in the `<head>` section:
 ```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Art Gallery Landing Page</title>
-  <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-</head>
-<body>
-  <!-- Page content goes here -->
-  <!-- Bootstrap JS (optional) -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-</html>
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+```
+1. To use interactive elements like **carousels** (slideshows) and **modals** (pop-up windows), include the CDN link to Bootstrap's JavaScript code at the _END_ of your `<body>` section:
+```html
+<!-- Bootstrap JS (optional) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 ```
 
 ---
