@@ -37,15 +37,19 @@ nav_order: 1
 
 ![image](responsive_design.png)
 
+<html>
 <dl>
   <dt>Responsive</dt>
   <dd>Websites that <strong>automatically scale</strong> between devices — whether the device is a mobile phone, tablet, laptop, desktop computer, screen reader, etc.</dd>
 </dl>
+</html>
 
+<html>
 <dl>
   <dt>Mobile-First</dt>
   <dd>Websites that are primarily designed for mobile devices, then scales up from there (as opposed to being designed first for desktop, then trying to scale it down to mobile devices)</dd>
 </dl>
+</html>
 
 ### What is Bootstrap?
 {:.no_toc} 
