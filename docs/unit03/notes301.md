@@ -31,7 +31,7 @@ nav_order: 1
 
 ---
 
-## Developing Responsive Websites with Bootstrap
+## Developing Responsive Websites
 
 🥾 Bootstrap is a popular _front-end framework_ for developing **responsive** and **mobile-first** websites. 
 
@@ -89,6 +89,44 @@ The simplest way to load/use Bootstrap is by including its **CDN link** in your 
 
 ## Bootstrap Tutorial
 
+### Containers
+
+Containers are a fundamental building block of Bootstrap that **contain**, **pad**, and **align** your content within a given device or viewport. Bootstrap requires a *containing element* to wrap elements and contain its grid system (more on the grid system next). Bootstrap's container **classes** were created specifically for this purpose.
+
+Bootstrap 5 includes three different container types:
+* Fixed
+* Fluid
+* Responsive (see [Bootstrap Documentation](https://getbootstrap.com/docs/5.3/layout/containers/))
+
+#### Fixed Containers
+{:.no_toc}
+A fixed container is a (responsive) **fixed width** container. As you resize your browser, its width remains intact, until it passes a certain _breakpoint_ (as specified by you — more on that next), at which time it will resize to the new width for that break point.
+
+```html
+<div class="container"></div>
+```
+
+#### Fluid Containers
+{:.no_toc}
+
+A fluid container spans the **full width of the viewport**. It will expand and contract fluidly as you _resize_ the browser. This is in contrast to the fixed width container which will appear to "jump" to the new size as you pass a given break point.
+
+
+```html
+<div class="container-fluid"></div>
+```
+
+### Grid System
+
+### Typography
+
+### Images
+
+### Buttons
+
+### Navigation
+
+### Components
 
 ---
 
