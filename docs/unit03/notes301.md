@@ -118,6 +118,9 @@ A fluid container spans the **full width of the viewport**. It will expand and c
 
 ### Grid System
 
+Grid systems enable you to create advanced layouts using **rows** and **columns**. The Bootstrap grid system can have up to **12 columns**, and you can specify how these columns scale for different viewport sizes.
+
+
 ### Typography
 
 ### Images
