@@ -1,6 +1,6 @@
 ---
 layout: notes
-title: "📓3.1: Bootstrap Styling" 
+title: "📓3.1: Using the Bootstrap Framework" 
 parent: "3️⃣ Bootstrap"
 nav_order: 1
 ---
@@ -31,11 +31,11 @@ nav_order: 1
 
 ---
 
-## Introduction to Responsive Websites
-
-![image]()
+## Developing Responsive Websites with Bootstrap
 
 🥾 Bootstrap is a popular _front-end framework_ for developing **responsive** and **mobile-first** websites. 
+
+![image](responsive_design.png)
 
 <dl>
   <dt>Responsive</dt>
@@ -48,6 +48,7 @@ nav_order: 1
 </dl>
 
 ### What is Bootstrap?
+{:.no_toc} 
 
 Bootstrap provides a collection of CSS and JavaScript-based design templates for **layout**, **typography**, **forms**, **buttons**, **navigation**, and other reusable **components**. You are free to use whichever Bootstrap components you choose, while adding your own on top. There are thousands of websites out there that are built on Bootstrap, but with their own design.
 
@@ -77,7 +78,7 @@ The simplest way to use Bootstrap is by including its **CDN** (Content Delivery 
 
 ---
 
-## Building a Bootstrap-styled Page
+## Bootstrap Tutorial
 
 
 ---
