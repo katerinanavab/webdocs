@@ -67,7 +67,7 @@ Bootstrap can be used to build websites of any scale, from small blogs to large 
 
 ### Installing Bootstrap 5 via CDN
 
-The simplest way to use Bootstrap is by including its **CDN** (Content Delivery Network) link in your HTML file.
+The simplest way to load/use Bootstrap is by including its **CDN link** in your HTML file. A **CDN** (**C**ontent **D**elivery **N**etwork) is a distributed network of servers strategically located in different parts of the world to deliver content, such as files, images, and scripts, to users faster and more reliably.
 
 1. Include the CDN link to Bootstrap's CSS code in the `<head>` section:
     ```html
