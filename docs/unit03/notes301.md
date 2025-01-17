@@ -93,7 +93,7 @@ The simplest way to load/use Bootstrap is by including its **CDN link** in your 
 
 ### Containers
 
-Containers are a fundamental building block of Bootstrap that **contain**, **pad**, and **align** your content within a given device or viewport. Bootstrap requires a *containing element* to wrap elements and contain its grid system (more on the grid system next). Bootstrap's container **classes** were created specifically for this purpose.
+Containers are a fundamental building block of Bootstrap that **contain**, **pad**, and **align** your content within a given device or viewport. Bootstrap requires a *containing element* to wrap elements and contain its <a href='#grid'>Grid System</a> (more on this later on in the tutorial). Bootstrap's container **classes** were created specifically for this purpose.
 
 Bootstrap 5 includes three different container types:
 * Fixed
@@ -118,20 +118,22 @@ A fluid container spans the **full width of the viewport**. It will expand and c
 <div class="container-fluid"></div>
 ```
 
+### Typography
+
+### Color Utilities
+
 ### Grid System
+<span id='grid'></span>
 
 Grid systems enable you to create advanced layouts using **rows** and **columns**. The Bootstrap grid system can have up to **12 columns**, and you can specify how these columns scale for different viewport sizes.
-
-
-### Typography
 
 ### Images
 
 ### Buttons
 
-### Navigation
-
 ### Components
+
+### Navigation
 
 ---
 
