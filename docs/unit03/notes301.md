@@ -66,22 +66,24 @@ Bootstrap can be used to build websites of any scale, from small blogs to large 
 * **Customizability:** Override or extend styles as needed.
 * **Fast Development:** Reusable components save time.
 
-### Installing Bootstrap 5 via CDN
+### Installing Bootstrap 5 via CDN Link
 
-The simplest way to load/use Bootstrap is by including its **CDN link** in your HTML file. A **CDN** (**C**ontent **D**elivery **N**etwork) is a distributed network of servers strategically located in different parts of the world to deliver content, such as files, images, and scripts, to users faster and more reliably.
+The simplest way to load/use Bootstrap is by including its **CDN link** in your HTML file. 
+
+📥 A **CDN** (**C**ontent **D**elivery **N**etwork) is a distributed network of servers strategically located in different parts of the world to deliver content, such as files, images, and scripts, to users faster and more reliably.
 
 1. Include the CDN link to Bootstrap's CSS code in the `<head>` section:
     ```html
     {% raw %}
         <!-- Bootstrap CSS -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     {% endraw %} 
     ```
-1. To use interactive elements like **carousels** (slideshows) and **modals** (pop-up windows), include the CDN link to Bootstrap's JavaScript code at the _END_ of your `<body>` section:
+1. To use interactive elements like **carousels** (slideshows) and **modals** (pop-up windows), include the CDN link to Bootstrap's JavaScript code too:
     ```html
     {% raw %}
         <!-- Bootstrap JS (optional) -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     {% endraw %} 
     ```
 
