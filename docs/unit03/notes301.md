@@ -146,6 +146,7 @@ To see an image scale, insert an image element of your choice into a container, 
 ```
 
 #### Image Borders
+{:.no_toc}
 
 You can use Bootstrap to render images with rounded corners or as a circle. This is acheived with the `.rounded-*` utility classes.
 
@@ -181,7 +182,24 @@ Whenever an image isn't centering as expected, here are two solutions:
 
 ### 🎨 Style Utilities
 
+<div class="imp" markdown="block">
+
+A major feature of using Bootstrap is that you can apply sets of **pre-defined styling rules** to elements directly in the HTML document, essentially adding style to your page _without having to write any of your own CSS code_!
+
+Styling with Bootstrap is as simple as specifying a `class` name attribute in an element's **opening tag**:
+```html
+<h1 class="display-1 text-primary">Gallery Title</h1>
+```
+
+**Multiple class names** can be added to the same element, as long as they are separated with a SPACE. Here, the CSS rules associated with Bootstrap's `.display-1` class AND `.text-primary` class are **both** applied to the `<h1>` element. 
+> 💬 **DISCUSS:** What aspects of the heading's style were changed by applying these two classes? What do you think the actual CSS rules for these classes are? 
+
+</div>
+
 #### Typography
+
+Bootstrap includes many classes that define how **text elements** appear. Automatically, Bootstrap sets some basic **global settings** for `display`, typography, and link styles. When more control is needed, check out the textual utility classes below. 
+> Note that Bootstrap changes the default `font-family` used!
 
 #### Colors 
 
