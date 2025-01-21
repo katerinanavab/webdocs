@@ -299,8 +299,43 @@ Check out some of Bootstrap's most useful **border** and **shadow** utility clas
 ### 🔲 Grid System Layouts
 <span id='grid'></span>
 
-Grid systems enable you to create advanced layouts using **rows** and **columns**. The Bootstrap grid system can have up to **12 columns**, and you can specify how these columns scale for different viewport sizes.
+Bootstrap’s **grid system** uses a series of **containers**, **rows**, and **columns** to layout and align content. It’s built with CSS flexbox and is fully **responsive**. 
 
+The Bootstrap grid system separates a page's `width` into up to **12 columns**, and you can specify _how many columns_ a column should take up in a row:  
+
+![image](bootstrap_grid.png)
+
+{:.highlight}
+For grids that are the same from the smallest of devices to the largest, use the `.col` and `.col-*` classes. Replace the `*` in the class name with a number between `1` and `12`. 
+
+![image](bootstrap_columns.png)
+
+* Specify a numbered class when you need a **particularly-sized** column:
+    ```html
+    <div class="container">
+      <div class="row">
+        <div class="col-8"></div>
+        <div class="col-4"></div>
+      </div>
+    </div>
+    ```
+* Otherwise, feel free to stick to `.col` for **equal-width** columns:
+    ```html
+    <div class="container">
+      <div class="row">
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+      </div>
+    </div>
+    ```
+
+#### Customized Breakpoints
+{:.no_toc}
+
+You can further customize how columns scale for different viewport sizes. This is a complex topic, so please refer to Bootstrap's official documentation on 
+[📖 Grid Options](https://getbootstrap.com/docs/5.3/layout/grid/#stacked-to-horizontal).
 
 ---
 
