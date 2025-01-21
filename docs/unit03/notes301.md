@@ -182,9 +182,9 @@ Whenever an image isn't centering as expected, here are two solutions:
 
 ### 🎨 Style Utilities
 
-<div class="imp" markdown="block">
-
 A major feature of using Bootstrap is that you can apply sets of **pre-defined styling rules** to elements directly in the HTML document, essentially adding style to your page _without having to write any of your own CSS code_!
+
+<div class="imp" markdown="block">
 
 Styling with Bootstrap is as simple as specifying a `class` name attribute in an element's **opening tag**:
 ```html
@@ -192,7 +192,7 @@ Styling with Bootstrap is as simple as specifying a `class` name attribute in an
 ```
 
 **Multiple class names** can be added to the same element, as long as they are separated with a SPACE. Here, the CSS rules associated with Bootstrap's `.display-1` class AND `.text-primary` class are **both** applied to the `<h1>` element. 
-> 💬 **DISCUSS:** What aspects of the heading's style were changed by applying these two classes? What do you think the actual CSS rules for these classes are? 
+> 💬 **DISCUSS:** What aspects of the heading's style were changed by applying these two classes? What do you think the actual CSS rules (`property: value`) for these classes are? 
 
 </div>
 
@@ -200,6 +200,28 @@ Styling with Bootstrap is as simple as specifying a `class` name attribute in an
 
 Bootstrap includes many classes that define how **text elements** appear. Automatically, Bootstrap sets some basic **global settings** for `display`, typography, and link styles. When more control is needed, check out the textual utility classes below. 
 > Note that Bootstrap changes the default `font-family` used!
+
+* `.lead` makes a paragraph stand out:
+    ```html
+    <p class="lead"></p>
+    ```
+* `.small` represents side-comments and small print, like copyright and legal text:
+    ```html
+    <p class="small"></p>
+    ```
+* `.mark` represents text which is marked or highlighted for reference or notation purposes:
+    ```html
+    <span class="mark"></span>
+    ```
+    > Use an **inline** `<span>` container around individual words or phrases to apply styles like `.mark`, since typically you don't want to highlight an entire paragraph.
+* `.fs-*` allows you to change the `font-size` property quickly, to a range of different sizes chosen by Bootstrap:
+    ```html
+    <p></p>
+    ```
+
+##### 
+{:.no_toc}
+
 
 #### Colors 
 
