@@ -124,13 +124,13 @@ We will build a webpage for a fictional **art gallery** to demonstrate using Boo
 
 1. Decide on a **theme**! Your gallery can be focused on an _art history period_ (Renaissance, impressionist, postmodern, etc.), an _artistic medium_ (photography, sculpture, etc.), or specific _subject_.  
 
-2. In your HTML's `<body>` section, add two `<div>` elements with Bootstrap container classes. One should be a **fluid container**, the other a **fixed container**.
+1. In your HTML's `<body>` section, add two `<div>` elements with Bootstrap container classes. One should be a **fluid container**, the other a **fixed container**.
 
-3. In the **fluid** container div, include an `<h1>` element with a title for your gallery, and a `<p>` element with a description of your gallery. 
+1. In the **fluid** container div, include an `<h1>` element with a title for your gallery, and a `<p>` element with a description of your gallery. 
 
-3. Download an **image** that represents the storefront of your gallery and upload it to your repository's File Explorer tab.
+1. Download an **image** that represents the storefront of your gallery and upload it to your repository's File Explorer tab.
 
-4. In the **fixed** container div, include an `<img>` element with the `src` set to your storefront image.
+1. In the **fixed** container div, include an `<img>` element with the `src` set to your storefront image.
 
 </div>
 
@@ -332,8 +332,27 @@ For grids that are the same from the smallest of devices to the largest, use the
 #### Customized Breakpoints
 {:.no_toc}
 
-You can further customize how columns scale for different viewport sizes. This is a complex topic, so please refer to Bootstrap's official documentation on 
+You can further customize how columns scale for different viewport sizes at different **breakpoints**. This is a complex topic, so please refer to Bootstrap's official documentation on 
 [📖 Grid Options](https://getbootstrap.com/docs/5.3/layout/grid/#stacked-to-horizontal).
+
+<div class="task" markdown="block">
+
+We'll make a grid of images for our fictional **art galleries**. 
+
+1. Gather at least **12 images** that go with your gallery's theme.  
+
+1. Insert `<img>` elements into the grid structure we started above. Remember that _CONTENT_ goes in _COLUMNS_:
+    ```html
+    <div class="container">
+      <div class="row">
+        <div class="col">
+            <img src="" class="img-fluid">
+        </div>
+      </div>
+    </div>
+    ```
+    
+</div>
 
 ---
 
