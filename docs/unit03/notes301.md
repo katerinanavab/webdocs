@@ -299,7 +299,7 @@ Check out some of Bootstrap's most useful **border** and **shadow** utility clas
 ### 🔲 Grid System Layouts
 <span id='grid'></span>
 
-Bootstrap’s **grid system** uses a series of **containers**, **rows**, and **columns** to layout and align content. It’s built with CSS flexbox and is fully **responsive**. 
+Bootstrap’s **grid system** uses a series of `container` ➡️ `row` ➡️ `column` _nested structures_ to layout and align content. It’s built with CSS **flexbox** and is fully **responsive**. 
 
 The Bootstrap grid system separates a page's `width` into up to **12 columns**, and you can specify _how many columns_ a column should take up in a row:  
 
