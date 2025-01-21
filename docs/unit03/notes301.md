@@ -91,9 +91,9 @@ The simplest way to load/use Bootstrap is by including its **CDN link** in your 
 
 ## Bootstrap Tutorial
 
-### Containers
+### 📦 Containers
 
-📦 Containers are a fundamental building block of Bootstrap that **contain**, **pad**, and **align** your content within a given device or viewport. Bootstrap requires a *containing element* to wrap elements and contain its <a href='#grid'>Grid System</a> (more on this later on in the tutorial). Bootstrap's container **classes** were created specifically for this purpose.
+Containers are a fundamental building block of Bootstrap that **contain**, **pad**, and **align** your content within a given device or viewport. Bootstrap requires a *containing element* to wrap elements and contain its <a href='#grid'>Grid System</a> (more on this later on in the tutorial). Bootstrap's container **classes** were created specifically for this purpose.
 
 Bootstrap 5 includes three different container types:
 * Fixed (`class="container"`)
@@ -113,35 +113,64 @@ A fixed container is a (responsive) **fixed width** container. As you resize you
 
 A fluid container spans the **full width of the viewport**. It will expand and contract fluidly as you _resize_ the browser. This is in contrast to the fixed width container which will appear to "jump" to the new size as you pass a given break point.
 
-
 ```html
 <div class="container-fluid"></div>
 ```
 
-### Style Utilities
+### 🖼️ Responsive Images
 
+Bootstrap provides classes that can be used when working with the `<img>` element. Most of these are utility classes that can be applied to any element (not just images). However, there is a class specifically for responsive images.
 
+Bootstrap provides the `.img-fluid` class to make an image **scale** appropriately across devices. Behind the scenes, this class applies the `max-width: 100%` and `height: auto` **CSS properties** to the image. This ensures that the image scales to the parent element.
+
+To see an image scale, insert an image element of your choice into a container, then try resizing your browser window:
+```html
+<img src="" class="img-fluid">
+```
+
+#### Image Borders
+
+You can use Bootstrap to render images with rounded corners or as a circle. This is acheived with the `.rounded-*` utility classes.
+
+You can also use the `.img-thumbnail` class to give it a rounded 1 pixel border.
+
+```html
+<img src="" class="rounded">
+<img src="" class="rounded-circle">
+<img src="" class="rounded-pill">
+<img src="" class="img-thumbnail">
+```
+
+{:.highlight}
+The **border radius** utility classes like `.rounded` and `.rounded-circle` can be applied to _any element_ (not just images)!
+
+#### Centering Images
+
+You can include Bootstrap's `.text-center` class on the image's **parent** element to center an image.
+```html
+<div class="container text-center">
+    <img src="" class="">
+</div>
+```
+
+Alternatively, you can force the image to "behave" like a block with Bootstrap's class `.d-block` class, which applies the CSS rule `display: block;`. Then, add Bootstrap's `.mx-auto` to center the block image, which sets `margin: auto;`.
+
+```html
+<img src="" class="mx-auto d-block">
+```
+
+### 🎨 Style Utilities
 
 #### Typography
 
-#### Background
+#### Colors 
 
-#### Color 
+#### Borders
 
-### Responsive Images
-
-### Grid System
+### 🔲 Grid System Layouts
 <span id='grid'></span>
 
 Grid systems enable you to create advanced layouts using **rows** and **columns**. The Bootstrap grid system can have up to **12 columns**, and you can specify how these columns scale for different viewport sizes.
-
-### UI Components
-
-#### Buttons
-
-#### Cards
-
-#### Modals
 
 
 ---
