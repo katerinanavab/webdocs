@@ -238,7 +238,42 @@ Often, more control over specific styles is needed. Check out some of the most u
 
 #### Colors 
 
+Check out some of Bootstrap's most useful **text color** and **background color** utility classes below. This list does not contain all the possiblities, so please refer to Bootstrap's official documentation on 
+[📖 Colors](https://getbootstrap.com/docs/5.3/utilities/colors/) and [📖 Background](https://getbootstrap.com/docs/5.3/utilities/background/) for more class names.
+
 #### Borders
+
+Check out some of Bootstrap's most useful **border** and **shadow** utility classes below. This list does not contain all the possiblities, so please refer to Bootstrap's official documentation on 
+[📖 Borders](https://getbootstrap.com/docs/5.3/utilities/borders/) and [📖 Shadows](https://getbootstrap.com/docs/5.3/utilities/shadows/) for more class names.
+
+* Use **border** utilities to apply a simple `border` around an element:
+    ```html
+    <span class="border"></span>
+    ```
+    > Great for images, buttons, or any other element.
+* Adjust the `border-width` property with Bootstrap's `.border-*` classes, where `*` can be replaced with a number between `1` and `5`: 
+    ```html
+    <span class="border border-1"></span>
+    <span class="border border-2"></span>
+    <span class="border border-3"></span>
+    <span class="border border-4"></span>
+    <span class="border border-5"></span>
+    ```
+    > Note that you still need to include the simple `.border` class too. 
+* Adjust the `border-color` to use any of Bootstrap's **built-in colors**: 
+    ```html
+    <span class="border border-primary"></span>
+    <span class="border border-secondary"></span>
+    <span class="border border-light"></span>
+    <span class="border border-dark"></span>
+    ```
+    > There are also options for the `subtle` variation of each color, like `border-primary-subtle`.
+* You can also quickly add or remove a **shadow** on an element with `box-shadow` utility classes:
+    ```html
+    <div class="shadow-sm">Small shadow</div>
+    <div class="shadow">Regular shadow</div>
+    <div class="shadow-lg">Larger shadow</div>
+    ```
 
 ### 🔲 Grid System Layouts
 <span id='grid'></span>
