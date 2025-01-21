@@ -238,9 +238,35 @@ Often, more control over specific styles is needed. Check out some of the most u
 
 #### Colors 
 
+Bootstrap offers a subset of **default colors**, designed to _convey meaning_ on a standard webpage:
+
+![image](bootstrap_colors.png)
+
 Check out some of Bootstrap's most useful **text color** and **background color** utility classes below. This list does not contain all the possiblities, so please refer to Bootstrap's official documentation on 
 [📖 Colors](https://getbootstrap.com/docs/5.3/utilities/colors/) and [📖 Background](https://getbootstrap.com/docs/5.3/utilities/background/) for more class names.
 
+* Colorize text with `color` utilities:
+    ```html
+    <p class="text-primary">Primary color text</p>
+    <p class="text-secondary">Secondary color text</p>
+    <p class="text-light">Light color text</p>
+    <p class="text-dark">Dark color text</p>
+    ```
+    > There are also **emphasized** versions of each Bootstrap color, just add `-emphasis` to the class name.
+* Similar to the contextual text color classes, set the `background-color` of an element to any contextual class:
+    ```html
+    <div class="bg-primary">Primary background</div>
+    <div class="bg-secondary text-white">Secondary background with white text</div>
+    <div class="bg-light text-dark">Light background with dark text</div>
+    <div class="bg-dark text-light">Dark background with light text</div>
+    ```
+    > There are also **subtle** versions of each Bootstrap color, just add `-subtle` to the class name.
+* By adding a `.bg-gradient` class, a **linear gradient** is added as background image to the backgrounds:
+    ```html
+    <div class="bg-secondary bg-gradient"></div>
+    ```
+    > This gradient starts with a semi-transparent white which fades out to the bottom.
+    
 #### Borders
 
 Check out some of Bootstrap's most useful **border** and **shadow** utility classes below. This list does not contain all the possiblities, so please refer to Bootstrap's official documentation on 
@@ -261,8 +287,6 @@ Check out some of Bootstrap's most useful **border** and **shadow** utility clas
     ```html
     <span class="border border-primary"></span>
     <span class="border border-secondary"></span>
-    <span class="border border-light"></span>
-    <span class="border border-dark"></span>
     ```
     > There are also options for the `subtle` variation of each color, like `border-primary-subtle`.
 * You can also quickly add or remove a **shadow** on an element with `box-shadow` utility classes:
