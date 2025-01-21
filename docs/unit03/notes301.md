@@ -254,9 +254,6 @@ Check out some of Bootstrap's most useful **border** and **shadow** utility clas
 * Adjust the `border-width` property with Bootstrap's `.border-*` classes, where `*` can be replaced with a number between `1` and `5`: 
     ```html
     <span class="border border-1"></span>
-    <span class="border border-2"></span>
-    <span class="border border-3"></span>
-    <span class="border border-4"></span>
     <span class="border border-5"></span>
     ```
     > Note that you still need to include the simple `.border` class too. 
