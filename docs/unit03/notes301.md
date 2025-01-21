@@ -96,17 +96,9 @@ The simplest way to load/use Bootstrap is by including its **CDN link** in your 
 Containers are a fundamental building block of Bootstrap that **contain**, **pad**, and **align** your content within a given device or viewport. Bootstrap requires a *containing element* to wrap elements and contain its <a href='#grid'>Grid System</a> (more on this later on in the tutorial). Bootstrap's container **classes** were created specifically for this purpose.
 
 Bootstrap 5 includes three different container types:
-* Fixed (`class="container"`)
-* Fluid (`class="container-fluid"`)
+* Fluid (class `.container-fluid`)
+* Fixed (class `.container`)
 * Responsive (see [Bootstrap Documentation](https://getbootstrap.com/docs/5.3/layout/containers/))
-
-#### Fixed Containers
-{:.no_toc}
-A fixed container is a (responsive) **fixed width** container. As you resize your browser, its width remains intact, until it passes a certain screen size _breakpoint_, at which time it will resize to the new width for that break point.
-
-```html
-<div class="container"></div>
-```
 
 #### Fluid Containers
 {:.no_toc}
@@ -116,6 +108,29 @@ A fluid container spans the **full width of the viewport**. It will expand and c
 ```html
 <div class="container-fluid"></div>
 ```
+
+#### Fixed Containers
+{:.no_toc}
+
+A fixed container is a (responsive) **fixed width** container. As you resize your browser, its width remains intact, until it passes a certain screen size _breakpoint_, at which time it will resize to the new width for that break point.
+
+```html
+<div class="container"></div>
+```
+
+<div class="task" markdown="block">
+
+We will build a webpage for a fictional **art gallery** to demonstrate using Bootstrap classes for all of the styling and layout. Let's get started: 
+
+1. Decide on a **theme**! Your gallery can be focused on an _art history period_ (Renaissance, impressionist, postmodern, etc.), an _artistic medium_ (photography, sculpture, etc.), or specific _subject_. 
+
+2. Download an **image** that represents the storefront of your gallery and upload it to your repository's File Explorer tab. 
+
+3. In your HTML's `<body>` section, add two `<div>` elements with Bootstrap container classes. One should be a **fluid container**, the other a **fixed container**.
+
+4. In the **fixed** container, include an `<img>` element with the `src` set to your storefront image.
+
+</div>
 
 ### 🖼️ Responsive Images
 
