@@ -118,22 +118,31 @@ A fluid container spans the **full width of the viewport**. It will expand and c
 <div class="container-fluid"></div>
 ```
 
-### Typography
+### Style Utilities
 
-### Color Utilities
+
+
+#### Typography
+
+#### Background
+
+#### Color 
+
+### Responsive Images
 
 ### Grid System
 <span id='grid'></span>
 
 Grid systems enable you to create advanced layouts using **rows** and **columns**. The Bootstrap grid system can have up to **12 columns**, and you can specify how these columns scale for different viewport sizes.
 
-### Images
+### UI Components
 
-### Buttons
+#### Buttons
 
-### Components
+#### Cards
 
-### Navigation
+#### Modals
+
 
 ---
 
