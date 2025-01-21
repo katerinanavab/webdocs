@@ -1,7 +1,7 @@
 ---
 layout: notes
-title: "📓3.1: Using the Bootstrap Framework" 
-parent: "3️⃣ Bootstrap"
+title: "📓3.1: Using Bootstrap Classes" 
+parent: "3️⃣ Bootstrap Framework"
 nav_order: 1
 ---
 
@@ -20,7 +20,7 @@ nav_order: 1
 
 1. Go to the public template **repository** for our class: [BWL-CS HTML/CSS/JS Template](https://github.com/BWL-CS/html-css-js-template)
 2. Click the <button type="button" name="button" class="btn btn-green">Use this template</button> button above the list of files then select `Create a new repository`
-3. Specify the **repository name**: `CS1-Unit-3-Notes`
+3. Specify the **repository name**: `CS1-Unit-3-Notes` or `CS1-Bootstrap-Notes`
 4. Click <button type="button" name="button" class="btn btn-green">Create repository</button>
     > Now you have **your own personal copy** of this starter code that you can always access under the `Your repositories` section of GitHub! 
 5. Now on your repository, click <button type="button" name="button" class="btn btn-green"> < > Code </button> and select the `Codespaces` tab
@@ -54,13 +54,13 @@ nav_order: 1
 ### What is Bootstrap?
 {:.no_toc} 
 
-Bootstrap provides a collection of CSS and JavaScript-based design templates for **layout**, **typography**, **forms**, **buttons**, **navigation**, and other reusable **components**. You are free to use whichever Bootstrap components you choose, while adding your own on top. There are thousands of websites out there that are built on Bootstrap, but with their own design.
+Bootstrap provides a collection of `CSS` classes and JavaScript-based design templates for **layout**, **typography**, **forms**, **buttons**, **navigation**, and other reusable webpage **components**. You are free to use whichever Bootstrap components you choose, while adding your own on top! There are thousands of websites out there that are built on Bootstrap, but with their own customizations.
 
 Bootstrap can be used to build websites of any scale, from small blogs to large corporate websites. Organizations that use Bootstrap include [NASA](https://www.nasa.gov/), [FIFA](https://www.fifa.com/en), [Newsweek](https://www.newsweek.com/), [VOGUE](https://www.vogue.com/) and many more.
 
 #### Why Use Bootstrap?
 {:.no_toc} 
-* **Ease of Use:** Prebuilt styles and components.
+* **Ease of Use:** Prebuilt CSS styles and components.
 * **Responsiveness:** Automatic adjustment to different screen sizes.
 * **Consistency:** Uniform design across devices and browsers.
 * **Customizability:** Override or extend styles as needed.
