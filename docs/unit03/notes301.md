@@ -308,8 +308,6 @@ The Bootstrap grid system separates a page's `width` into up to **12 columns**, 
 {:.highlight}
 For grids that are the same from the smallest of devices to the largest, use the `.col` and `.col-*` classes. Replace the `*` in the class name with a number between `1` and `12`. 
 
-![image](bootstrap_columns.png)
-
 * Specify a numbered class when you need a **particularly-sized** column:
     ```html
     <div class="container">
