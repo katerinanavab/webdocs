@@ -93,16 +93,16 @@ The simplest way to load/use Bootstrap is by including its **CDN link** in your 
 
 ### Containers
 
-Containers are a fundamental building block of Bootstrap that **contain**, **pad**, and **align** your content within a given device or viewport. Bootstrap requires a *containing element* to wrap elements and contain its <a href='#grid'>Grid System</a> (more on this later on in the tutorial). Bootstrap's container **classes** were created specifically for this purpose.
+📦 Containers are a fundamental building block of Bootstrap that **contain**, **pad**, and **align** your content within a given device or viewport. Bootstrap requires a *containing element* to wrap elements and contain its <a href='#grid'>Grid System</a> (more on this later on in the tutorial). Bootstrap's container **classes** were created specifically for this purpose.
 
 Bootstrap 5 includes three different container types:
-* Fixed
-* Fluid
+* Fixed (`class="container"`)
+* Fluid (`class="container-fluid"`)
 * Responsive (see [Bootstrap Documentation](https://getbootstrap.com/docs/5.3/layout/containers/))
 
 #### Fixed Containers
 {:.no_toc}
-A fixed container is a (responsive) **fixed width** container. As you resize your browser, its width remains intact, until it passes a certain _breakpoint_ (as specified by you — more on that next), at which time it will resize to the new width for that break point.
+A fixed container is a (responsive) **fixed width** container. As you resize your browser, its width remains intact, until it passes a certain screen size _breakpoint_, at which time it will resize to the new width for that break point.
 
 ```html
 <div class="container"></div>
