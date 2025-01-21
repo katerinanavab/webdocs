@@ -198,8 +198,11 @@ Styling with Bootstrap is as simple as specifying a `class` name attribute in an
 
 #### Typography
 
-Bootstrap includes many classes that define how **text elements** appear. Automatically, Bootstrap sets some basic **global settings** for `display`, typography, and link styles. When more control is needed, check out the textual utility classes below. 
-> Note that Bootstrap changes the default `font-family` used!
+Bootstrap includes many classes that define how **text elements** appear. Automatically, Bootstrap sets some basic 🌎 **global settings** for `display`, typography, and link styles that make HTML pages appear more modern overall. 
+> Did you notice that Bootstrap changes the default `font-family` used?
+
+Often, more control over specific styles is needed. Check out some of the most useful **textual utility classes** below. This list does not contain everything, so please refer to Bootstrap's official documentation on 
+[📖 Typography](https://getbootstrap.com/docs/5.3/content/typography/) and [📖 Text](https://getbootstrap.com/docs/5.3/utilities/text/) for even more class names you can use to style text. 
 
 * `.lead` makes a paragraph stand out:
     ```html
@@ -213,15 +216,25 @@ Bootstrap includes many classes that define how **text elements** appear. Automa
     ```html
     <span class="mark"></span>
     ```
-    > Use an **inline** `<span>` container around individual words or phrases to apply styles like `.mark`, since typically you don't want to highlight an entire paragraph.
-* `.fs-*` allows you to change the `font-size` property quickly, to a range of different sizes chosen by Bootstrap:
+    > Use an **inline container** like `<span>` around individual words or phrases to apply eye-catching styles like `.mark`, since typically you don't want to highlight an entire _paragraph_.
+* Text **alignment** classes allow you to set the `text-align` property:
     ```html
-    <p></p>
+    <p class="text-start">Start aligned text.</p>
+    <p class="text-center">Center aligned text.</p>
+    <p class="text-end">End aligned text.</p>
     ```
-
-##### 
-{:.no_toc}
-
+* `.fs-*` allows you to modify the `font-size` property quickly, to a range of different **sizes**. Replace the `*` in the class name with a number from `1` to `6`:
+    ```html
+    <p class="fs-1">Largest text size.</p>
+    <p class="fs-6">Smallest text size.</p>
+    ```
+* Quickly change the `font-weight` or `font-style` of text with these utilities. `font-style` utilities are abbreviated as `.fst-*` and `font-weight` utilities are abbreviated as `.fw-*.`:
+    ```html
+    <p class="fw-bold">Bold text.</p>
+    <p class="fw-semibold">Semibold weight text.</p>
+    <p class="fw-light">Light weight text.</p>
+    <p class="fst-italic">Italic text.</p>
+    ```
 
 #### Colors 
 
