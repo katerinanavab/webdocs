@@ -145,15 +145,20 @@ You can also use the `.img-thumbnail` class to give it a rounded 1 pixel border.
 The **border radius** utility classes like `.rounded` and `.rounded-circle` can be applied to _any element_ (not just images)!
 
 #### Centering Images
+{:.no_toc}
 
-You can include Bootstrap's `.text-center` class on the image's **parent** element to center an image.
+If your `<img>` element is placed in a Bootstrap `container` or `container-fluid`, it will usually be **centered automatically**, especially if you include the class `.img-fluid`! 
+
+Whenever an image isn't centering as expected, here are two solutions: 
+
+1. You can include Bootstrap's `.text-center` class on the image's **parent** element to center an image.
 ```html
-<div class="container text-center">
+<div class="text-center">
     <img src="" class="">
 </div>
 ```
 
-Alternatively, you can force the image to "behave" like a block with Bootstrap's class `.d-block` class, which applies the CSS rule `display: block;`. Then, add Bootstrap's `.mx-auto` to center the block image, which sets `margin: auto;`.
+2. Alternatively, you can force the image to "behave" like a block with Bootstrap's class `.d-block` class, which applies the CSS rule `display: block;`. Then, add Bootstrap's `.mx-auto` to center the block image, which sets `margin: auto;`.
 
 ```html
 <img src="" class="mx-auto d-block">
