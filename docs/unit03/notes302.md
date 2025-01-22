@@ -43,16 +43,22 @@ To use interactive elements like **carousels** (slideshows) and **modals** (pop-
 </div>
 
 ### Buttons
+[📖 Buttons](https://getbootstrap.com/docs/5.3/components/buttons/)
 
-### Badge
+### Badges
+[📖 Badges](https://getbootstrap.com/docs/5.3/components/badge/)
 
-### Card
+### Cards
+[📖 Cards](https://getbootstrap.com/docs/5.3/components/card/)
 
 ### Alerts
+[📖 Alerts](https://getbootstrap.com/docs/5.3/components/alerts/)
 
-### Modal
+### Modals
+[📖 Modals](https://getbootstrap.com/docs/5.3/components/modal/)
 
-### Carousel
+### Carousels
+[📖 Carousels](https://getbootstrap.com/docs/5.3/components/carousel/)
 
 ---
 
