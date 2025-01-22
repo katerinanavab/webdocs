@@ -43,22 +43,83 @@ To use interactive elements like **carousels** (slideshows) and **modals** (pop-
 </div>
 
 ### Buttons
+
+Bootstrap 5 provides nine predefined styles for buttons — each serving a different semantic purpose.
+
 [📖 Buttons](https://getbootstrap.com/docs/5.3/components/buttons/)
 
+To style a button, use Bootstrap's `.btn` class, followed by the desired style. For example, `class="btn btn-primary"` results in a primary button.
+
 ### Badges
+
+Bootstrap's badge classes can be used to highlight additional information that's appended to a string of text.
+
 [📖 Badges](https://getbootstrap.com/docs/5.3/components/badge/)
 
+To create a badge, apply the `.badge` class, as well as one of the `.bg-*` contextual classes to the `<span>` element that represents the badge.
+
 ### Cards
+
+A **card** is a container with light styling that you can place virtually any content into. Plenty of styling options are available such as alignment, padding, colors, headings, and more.
+
 [📖 Cards](https://getbootstrap.com/docs/5.3/components/card/)
 
+To create a basic card:
+* Apply the `.card` and `.card-body` classes to an element to create the outer card container.
+* Add `.card-title` to any heading elements and `.card-text` to text elements.
+  ```html
+  <div class="card card-body">
+    <h4 class="card-title">Boot Polish</h4>
+    <p class="card-text">Boot polish is a waxy paste, cream, or liquid used to polish, shine, and waterproof leather shoes or boots to extend the footwear's life, and restore, maintain and improve their appearance.</p>
+    <a href="#" class="btn btn-primary">More</a>
+  </div>
+  ```
+* You can add a **header** and/or **footer** by adding a `<div>` with `.card-header` or `.card-footer`.
+  ```html
+  <div class="card" style="max-width: 20rem;">
+    <div class="card-header">
+      Sponsored Content
+    </div>
+    <div class="card-body">
+      <h4 class="card-title">Ugg Boots</h4>
+      <p class="card-text">Best ugg boots on the planet. Free shipping, 24/7 customer service.</p>
+    </div>
+    <div class="card-footer">
+      By Uuuuggghhh.com
+    </div>
+  </div>
+  ```
+  > Here I've also moved the `.card-body` to a new `<div>` inside the card. I did this to allow the card header to line up flush against the card border (the `.card-body` has padding which I don't want).
+
 ### Alerts
+
+Bootstrap provides an easy way to create a stylized alert message box with its alert component.
+
 [📖 Alerts](https://getbootstrap.com/docs/5.3/components/alerts/)
 
+To create an alert box, use the `.alert` class along with one of the `.alert-*` classes to specify the kind of alert.
+
 ### Modals
+
+Bootstrap enables you to add a **modal** dialog box (pop-up window) to your site. A modal is a dialog box that takes the focus while the rest of the screen is dimmed or grayed out. This forces the user to take action on the dialog box before continuing.
+
 [📖 Modals](https://getbootstrap.com/docs/5.3/components/modal/)
 
+To create a modal, use the `.modal` class along with various other `.modal-*` classes to define each section of the modal.
+
 ### Carousels
+
+The Bootstrap carousel component enables you to add scrolling images and text that slide in, pause, then slide out. Controls enable the user to scroll forwards or backwards within the set. Basically a scrolling marquee (slideshow) with user controls.
+
 [📖 Carousels](https://getbootstrap.com/docs/5.3/components/carousel/)
+
+To create a basic carousel:
+
+* Apply `.carousel` and `.slide` to an outer container (with its own **unique ID**).
+* For the scrollable contents, wrap all items in a `.carousel-inner` and give each item a `.carousel-item` class.
+* Also, you must apply `.active` to one of the slides in the carousel, otherwise the carousel won't be visible. This class allows you to set one slide as the initial slide (i.e. the starting slide).
+* Use the `.data-bs-ride` attribute to **auto-play** the carousel.
+
 
 ---
 
