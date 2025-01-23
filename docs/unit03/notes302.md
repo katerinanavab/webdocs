@@ -61,6 +61,40 @@ Refer to Bootstrap's official documentation on <a href="https://getbootstrap.com
 
 To style a button, use Bootstrap's `.btn` class, followed by the desired style. For example, `class="btn btn-primary"` results in a primary colored button.
 
+![image]()
+
+```html
+<button type="button" class="btn btn-primary">Primary</button>
+<button type="button" class="btn btn-secondary">Secondary</button>
+<button type="button" class="btn btn-success">Success</button>
+<button type="button" class="btn btn-danger">Danger</button>
+<button type="button" class="btn btn-warning">Warning</button>
+<button type="button" class="btn btn-info">Info</button>
+<button type="button" class="btn btn-light">Light</button>
+<button type="button" class="btn btn-dark">Dark</button>
+```
+
+#### Outline Buttons
+{:.no_toc}
+
+In need of a button, but not the hefty background colors they bring? Replace the default modifier classes with the `.btn-outline-*` ones to remove all background images and colors on any button.
+
+![image]()
+
+```html
+<button type="button" class="btn btn-outline-primary">Primary Outline</button>
+```
+
+#### Sizes
+{:.no_toc}
+
+Fancy larger or smaller buttons? Add `.btn-lg` or `.btn-sm` for additional sizes.
+
+```html
+<button type="button" class="btn btn-primary btn-lg">Larger</button>
+<button type="button" class="btn btn-primary btn-sm">Smaller</button>
+```
+
 ### Badges
 
 Bootstrap's **badge** classes can be used to highlight additional information that's appended to a string of text. 
