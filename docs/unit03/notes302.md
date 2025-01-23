@@ -16,7 +16,7 @@ nav_order: 2
 
 ## Bootstrap's User Interface (UI) Components
 
-Bootstrap **components** are pre-styled, professional-looking UI elements like _buttons_, _forms_, _navigation bars_, and more – implemented simply by using Bootstrap's `class` names. 
+Bootstrap **components** are pre-styled, professional-looking UI elements like _buttons_, _forms_, _navigation bars_, and more – implemented simply by using Bootstrap's `class` names in your HTML code. 
 
 <html>
 <dl>
