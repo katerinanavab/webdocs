@@ -46,13 +46,13 @@ Optional sections could include:
 - **Hobbies**: Showcase things you enjoy doing.
   
 **Include Bootstrap**:
-   - Add the Bootstrap CSS CDN link to your `index.html` file:
+   - Add the Bootstrap CDN links to your `index.html` file, in the `<head>` section:
      ```html
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
      ```
 
 #### Create Your Layout
-1. **Navbar**: Add a responsive navigation bar at the top of your website using Bootstrap's navbar component. Ensure links scroll to the corresponding sections of the page.
 2. **Hero Section**:
    - Use a full-width background image or gradient.
    - Add a large heading and a short tagline centered in the section.
@@ -64,10 +64,10 @@ Optional sections could include:
 
 #### Customize with CSS
 1. Create a `custom.css` file in the `css/` folder to override Bootstrap styles and personalize your website.
-2. Example: Override the `.text-primary` class to change its color:
+2. _Example:_ Override the `.text-primary` class to change its color:
    ```css
    .text-primary {
-       color: #ff5733 !important; /* Custom orange color */
+       color: #ff5733 !important; 
    }
    ```
 3. Apply your custom styles to make the website uniquely yours, such as changing font sizes, background colors, or adding padding.
@@ -104,6 +104,7 @@ Before submitting, ensure your website includes the following:
 
 #### Bonus Challenges
 - Add a **carousel** to showcase images or testimonials.
+- Add a responsive **navigation bar** at the top of your website using Bootstrap's navbar component. Ensure links scroll to the corresponding sections of the page.
 - Use Bootstrap's **scrollspy** to highlight the current section in the navbar as users scroll.
 - Experiment with more Bootstrap components like alerts or badges.
 
