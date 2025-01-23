@@ -120,32 +120,30 @@ To create a basic card:
 * Apply the `.card` and `.card-body` classes to an element to create the outer card container.
 * Add `.card-title` to any heading elements and `.card-text` to text elements.
   ```html
-  <div class="card card-body">
-    <h4 class="card-title">Boot Polish</h4>
-    <p class="card-text">Boot polish is a waxy paste, cream, or liquid used to polish, shine, and waterproof leather shoes or boots to extend the footwear's life, and restore, maintain and improve their appearance.</p>
-    <a href="#" class="btn btn-primary">More</a>
-  </div>
-  ```
-* You can add a **header** and/or **footer** by adding a `<div>` with `.card-header` or `.card-footer`.
-  ```html
-  <div class="card" style="max-width: 20rem;">
-    <div class="card-header">
-      Sponsored Content
-    </div>
+  <div class="card" style="max-width: 18rem;">
     <div class="card-body">
-      <h4 class="card-title">Ugg Boots</h4>
-      <p class="card-text">Best ugg boots on the planet. Free shipping, 24/7 customer service.</p>
-    </div>
-    <div class="card-footer">
-      By Uuuuggghhh.com
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to make up the bulk of the card's content.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
     </div>
   </div>
   ```
-  > Here I've also moved the `.card-body` to a new `<div>` inside the card. I did this to allow the card header to line up flush against the card border (the `.card-body` has padding which I don't want).
+* You can add a **header** with `.card-header`, or a **card image** with `.card-img-top`:
+  ```html
+  <div class="card" style="max-width: 18rem;">
+    <h5 class="card-header">Sponsored</div>
+    <img src="..." class="card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to make up the bulk of the card's content.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+  ```
 
 ### Alerts
 
-Bootstrap provides an easy way to create a stylized alert message box with its **alert** component. Alerts offer contextual feedback messages for typical user actions with the handful of available and flexible alert messages.
+Bootstrap provides an easy way to create a stylized alert message box with its **alert** component. Alerts make messages stand out, and can also offer contextual feedback messages for typical user actions.
 
 {:.highlight}
 Refer to Bootstrap's official documentation on <a href="https://getbootstrap.com/docs/5.3/components/alerts//"><button type="button" name="button" class="btn">📖 Alerts</button></a> for more examples beyond those listed below.
@@ -163,6 +161,8 @@ To create an alert box, use the `.alert` class along with one of the `.alert-*` 
 </div>
 ```
 
+<!--
+
 #### Interactive Alert
 {:.no_toc}
 
@@ -174,6 +174,8 @@ In this example, the button can be **clicked** to show an alert (hidden with inl
 <div id="liveAlertPlaceholder"></div>
 <button type="button" class="btn btn-primary" id="liveAlertBtn">Show live alert</button>
 ```
+
+-->
 
 ### Modals
 
@@ -191,7 +193,7 @@ To create a modal, use the `.modal` class along with various other `.modal-*` cl
 ```html
 <!-- Button trigger modal -->
 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-  Launch demo modal
+  Launch Modal
 </button>
 
 <!-- Modal -->
@@ -205,10 +207,6 @@ To create a modal, use the `.modal` class along with various other `.modal-*` cl
       <div class="modal-body">
         ...
       </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
     </div>
   </div>
 </div>
@@ -217,20 +215,35 @@ To create a modal, use the `.modal` class along with various other `.modal-*` cl
 
 ### Carousels
 
-The Bootstrap **carousel** component enables you to add scrolling images and text that slide in, pause, then slide out. Controls enable the user to scroll forwards or backwards within the set. Basically a scrolling marquee (_slideshow_) with user controls. 
+The Bootstrap **carousel** component enables you to add scrolling images and text that slide in, pause, then slide out. Controls enable the user to scroll forwards or backwards within the set. Basically a scrolling _slideshow_ with (optional) user controls. 
 
 {:.highlight}
 Refer to Bootstrap's official documentation on <a href="https://getbootstrap.com/docs/5.3/components/carousel/"><button type="button" name="button" class="btn">📖 Carousels</button></a> for more examples beyond those listed below.
 
 ![image](bs-carousel.png)
 
-To create a basic carousel:
+To create a basic carousel with **autoplay** (no controls):
 
 * Apply `.carousel` and `.slide` to an outer container (with its own **unique ID**).
 * For the scrollable contents, wrap all items in a `.carousel-inner` and give each item a `.carousel-item` class.
 * Also, you must apply `.active` to one of the slides in the carousel, otherwise the carousel won't be visible. This class allows you to set one slide as the initial slide (i.e. the starting slide).
-* Use the `.data-bs-ride` attribute to **auto-play** the carousel.
+* Use the `data-bs-ride` attribute to **auto-play** the carousel.
 
+```html
+<div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="..." class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="..." class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="..." class="d-block w-100">
+    </div>
+  </div>
+</div>
+```
 
 ---
 
