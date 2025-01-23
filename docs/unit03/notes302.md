@@ -174,7 +174,6 @@ In this example, the button can be **clicked** to show an alert (hidden with inl
 <div id="liveAlertPlaceholder"></div>
 <button type="button" class="btn btn-primary" id="liveAlertBtn">Show live alert</button>
 ```
-
 -->
 
 ### Modals
