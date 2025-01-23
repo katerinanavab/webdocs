@@ -9,7 +9,10 @@ nav_order: 5
 
 ### Overview & Setup
 
+In this project, you will create a **responsive one-page personal website** that demonstrates your mastery of Bootstrap and the concepts covered in the tutorials. The project is open-ended to encourage creativity while giving you the opportunity to practice building a responsive and visually appealing website.
 
+#### Project Goal
+Design and develop a **one-page personal website** using Bootstrap classes and components. Your website should reflect your _personality_, _interests_, or _goals_ and include well-organized sections with responsive layouts.
 
 <div class="setup" markdown="block">
 
@@ -25,13 +28,84 @@ nav_order: 5
 
 ### Instructions
 
+#### Plan & Set Up Your Website
+
+Decide on the _content_ and _structure_ of your website. At a minimum, your site should include the following sections:
+- **Hero Section**: A welcoming section with your name, a title, and a short tagline.
+- **About Me**: A section describing who you are, your interests, or your goals.
+- **Portfolio/Showcase**: Highlight your work, hobbies, or achievements using cards, images, or a grid layout.
+
+**Brainstorming Content Ideas**:
+- **Hero Section**: Think about how you want to introduce yourself. Consider a tagline or quote that represents your values or aspirations.
+- **About Me**: What makes you unique? Share your hobbies, favorite activities, or personal story. Include a profile picture.
+- **Portfolio/Showcase**: If you have completed projects, hobbies, or any creative work, showcase them here. If not, create placeholders for future content.
+
+Optional sections could include:
+- **Skills**: Highlight your technical or personal skills.
+- **Testimonials**: Add quotes or feedback from others.
+- **Hobbies**: Showcase things you enjoy doing.
+  
+**Include Bootstrap**:
+   - Add the Bootstrap CSS CDN link to your `index.html` file:
+     ```html
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+     ```
+
+#### Create Your Layout
+1. **Navbar**: Add a responsive navigation bar at the top of your website using Bootstrap's navbar component. Ensure links scroll to the corresponding sections of the page.
+2. **Hero Section**:
+   - Use a full-width background image or gradient.
+   - Add a large heading and a short tagline centered in the section.
+3. **Grid-Based Layout**:
+   - Use Bootstrap's grid system to create responsive layouts for your content.
+   - Experiment with different column sizes for each section (e.g., `.col-6`, `.col-md-4`).
+4. **Components**:
+   - Use Bootstrap components like cards, buttons, badges, or alerts to make your site visually appealing.
+
+#### Customize with CSS
+1. Create a `custom.css` file in the `css/` folder to override Bootstrap styles and personalize your website.
+2. Example: Override the `.text-primary` class to change its color:
+   ```css
+   .text-primary {
+       color: #ff5733 !important; /* Custom orange color */
+   }
+   ```
+3. Apply your custom styles to make the website uniquely yours, such as changing font sizes, background colors, or adding padding.
+
+#### Content and Images
+1. Add meaningful content for each section.
+2. Use images that reflect your personality, work, or interests.
+3. Optimize images by resizing them to appropriate dimensions for the web.
+
 
 --- 
 
 ### Minimum Requirement Checklist
 
+Before submitting, ensure your website includes the following:
 
-#### Bonus Features
+1. **Hero Section**:
+   - [ ] Full-width background (color, image or gradient).
+   - [ ] Large heading and a short tagline.
+
+2. **About Me Section**:
+   - [ ] Text content describing who you are, your interests, or your goals.
+   - [ ] A profile image styled with Bootstrap classes (e.g., `rounded-circle`).
+
+3. **Portfolio/Showcase Section**:
+   - [ ] At least three items displayed.
+
+4. **Responsive Design**:
+   - [ ] Use Bootstrap's **grid system** to ensure your website adapts to different screen sizes.
+   - [ ] Use Bootstrap **UI components** like cards or carousels.
+
+5. **Custom CSS**:
+   - [ ] Include a `style.css` file with at least one overridden Bootstrap class (e.g., `.text-primary`).
+
+#### Bonus Challenges
+- Add a **carousel** to showcase images or testimonials.
+- Use Bootstrap's **scrollspy** to highlight the current section in the navbar as users scroll.
+- Experiment with more Bootstrap components like alerts or badges.
 
 
 {:.highlight}
