@@ -33,13 +33,14 @@ nav_order: 2
 
 <div class="imp" markdown="block">
 
-To use interactive elements like **carousels** (slideshows) and **modals** (pop-up windows), include the CDN link to Bootstrap's JavaScript code too (under your `<link>` to the CSS code):
-    ```html
-    {% raw %}
-        <!-- Bootstrap JS (optional) -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    {% endraw %} 
-    ```
+📥 To use interactive elements like **carousels** (slideshows) and **modals** (pop-up windows), include the CDN link to Bootstrap's JavaScript code too (under your `<link>` to the CSS code):
+
+```html
+{% raw %}
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+{% endraw %} 
+```
+    
 </div>
 
 ### Buttons
