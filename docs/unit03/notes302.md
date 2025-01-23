@@ -61,7 +61,7 @@ Refer to Bootstrap's official documentation on <a href="https://getbootstrap.com
 
 To style a button, use Bootstrap's `.btn` class, followed by the desired style. For example, `class="btn btn-primary"` results in a primary colored button.
 
-![image]()
+![image](bs-button.png)
 
 ```html
 <button type="button" class="btn btn-primary">Primary</button>
@@ -75,7 +75,7 @@ To style a button, use Bootstrap's `.btn` class, followed by the desired style. 
 
 In need of a button, but not the hefty background colors they bring? Replace the default modifier classes with the `.btn-outline-*` ones to remove all background images and colors on any button.
 
-![image]()
+![image](bs-button-outline.png)
 
 ```html
 <button type="button" class="btn btn-outline-primary">Primary Outline</button>
@@ -100,7 +100,7 @@ Refer to Bootstrap's official documentation on <a href="https://getbootstrap.com
 
 To create a badge, apply the `.badge` class, as well as one of the `.bg-*` contextual classes to the `<span>` element that represents the badge.
 
-![image]()
+![image](bs-badge.png)
 
 ```html
 <h1>Example heading <span class="badge text-bg-primary">New</span></h1>
@@ -113,6 +113,8 @@ A **card** is a container with light styling that you can place virtually any co
 
 {:.highlight}
 Refer to Bootstrap's official documentation on <a href="https://getbootstrap.com/docs/5.3/components/card/"><button type="button" name="button" class="btn">📖 Cards</button></a> for more examples beyond those listed below.
+
+![image](bs-card.png)
 
 To create a basic card:
 * Apply the `.card` and `.card-body` classes to an element to create the outer card container.
@@ -150,7 +152,7 @@ Refer to Bootstrap's official documentation on <a href="https://getbootstrap.com
 
 To create an alert box, use the `.alert` class along with one of the `.alert-*` classes to specify the kind of alert.
 
-![image]()
+![image](bs-alert.png)
 
 ```html
 <div class="alert alert-success" role="alert">
@@ -166,7 +168,7 @@ To create an alert box, use the `.alert` class along with one of the `.alert-*` 
 
 In this example, the button can be **clicked** to show an alert (hidden with inline styles to start), then **dismissed** (and destroy) with the built-in close button.
 
-![image]()
+![image](bs-live-alert.png)
 
 ```html
 <div id="liveAlertPlaceholder"></div>
@@ -182,7 +184,7 @@ Refer to Bootstrap's official documentation on <a href="https://getbootstrap.com
 
 Below is a _static_ modal example (meaning its `position` and `display` have been overridden). Included are the modal **header**, modal **body** (required for padding), and modal **footer** (optional). 
 
-![image]()
+![image](bs-modal.png)
 
 To create a modal, use the `.modal` class along with various other `.modal-*` classes to define each section of the modal.
 
@@ -220,6 +222,7 @@ The Bootstrap **carousel** component enables you to add scrolling images and tex
 {:.highlight}
 Refer to Bootstrap's official documentation on <a href="https://getbootstrap.com/docs/5.3/components/carousel/"><button type="button" name="button" class="btn">📖 Carousels</button></a> for more examples beyond those listed below.
 
+![image](bs-carousel.png)
 
 To create a basic carousel:
 
