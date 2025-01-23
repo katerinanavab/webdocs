@@ -66,10 +66,6 @@ To style a button, use Bootstrap's `.btn` class, followed by the desired style. 
 ```html
 <button type="button" class="btn btn-primary">Primary</button>
 <button type="button" class="btn btn-secondary">Secondary</button>
-<button type="button" class="btn btn-success">Success</button>
-<button type="button" class="btn btn-danger">Danger</button>
-<button type="button" class="btn btn-warning">Warning</button>
-<button type="button" class="btn btn-info">Info</button>
 <button type="button" class="btn btn-light">Light</button>
 <button type="button" class="btn btn-dark">Dark</button>
 ```
@@ -103,6 +99,13 @@ Bootstrap's **badge** classes can be used to highlight additional information th
 Refer to Bootstrap's official documentation on <a href="https://getbootstrap.com/docs/5.3/components/badge/"><button type="button" name="button" class="btn">📖 Badges</button></a> for more examples beyond those listed below.
 
 To create a badge, apply the `.badge` class, as well as one of the `.bg-*` contextual classes to the `<span>` element that represents the badge.
+
+![image]()
+
+```html
+<h1>Example heading <span class="badge text-bg-primary">New</span></h1>
+<h2>Example heading <span class="badge text-bg-secondary">New</span></h2>
+```
 
 ### Cards
 
