@@ -47,25 +47,35 @@ Bootstrap **components** are pre-styled, professional-looking UI elements like _
 
 ### Buttons
 
-Bootstrap 5 provides nine predefined styles for buttons — each serving a different semantic purpose.
+Bootstrap 5 provides nine predefined styles for **buttons** — each serving a different _semantic_ purpose. 
 
-[📖 Buttons](https://getbootstrap.com/docs/5.3/components/buttons/)
+<html>
+<dl>
+  <dt>Semantic</dt>
+  <dd>In web design, semantic refers to the the practice of making design choices that convey the <strong>inherent meaning</strong> of the content on a webpage. For example, a <span style="color: #198754">green</span> colored alert message is often used to indicate that a user action was <em>successful</em>.</dd>
+</dl>
+</html>
 
-To style a button, use Bootstrap's `.btn` class, followed by the desired style. For example, `class="btn btn-primary"` results in a primary button.
+{:.highlight}
+Refer to Bootstrap's official documentation for more examples beyond those listed below: [📖 Buttons](https://getbootstrap.com/docs/5.3/components/buttons/)
+
+To style a button, use Bootstrap's `.btn` class, followed by the desired style. For example, `class="btn btn-primary"` results in a primary colored button.
 
 ### Badges
 
-Bootstrap's badge classes can be used to highlight additional information that's appended to a string of text.
+Bootstrap's **badge** classes can be used to highlight additional information that's appended to a string of text. 
 
-[📖 Badges](https://getbootstrap.com/docs/5.3/components/badge/)
+{:.highlight}
+Refer to Bootstrap's official documentation for more examples beyond those listed below: [📖 Badges](https://getbootstrap.com/docs/5.3/components/badge/)
 
 To create a badge, apply the `.badge` class, as well as one of the `.bg-*` contextual classes to the `<span>` element that represents the badge.
 
 ### Cards
 
-A **card** is a container with light styling that you can place virtually any content into. Plenty of styling options are available such as alignment, padding, colors, headings, and more.
+A **card** is a container with light styling that you can place virtually any content into. It can make your pages look clear and cohesive! Plenty of styling options are available such as alignment, padding, colors, headings, and more. 
 
-[📖 Cards](https://getbootstrap.com/docs/5.3/components/card/)
+{:.highlight}
+Refer to Bootstrap's official documentation for more examples beyond those listed below: [📖 Cards](https://getbootstrap.com/docs/5.3/components/card/)
 
 To create a basic card:
 * Apply the `.card` and `.card-body` classes to an element to create the outer card container.
@@ -96,25 +106,28 @@ To create a basic card:
 
 ### Alerts
 
-Bootstrap provides an easy way to create a stylized alert message box with its alert component.
+Bootstrap provides an easy way to create a stylized alert message box with its **alert** component.
 
-[📖 Alerts](https://getbootstrap.com/docs/5.3/components/alerts/)
+{:.highlight}
+Refer to Bootstrap's official documentation for more examples beyond those listed below: [📖 Alerts](https://getbootstrap.com/docs/5.3/components/alerts/)
 
 To create an alert box, use the `.alert` class along with one of the `.alert-*` classes to specify the kind of alert.
 
 ### Modals
 
-Bootstrap enables you to add a **modal** dialog box (pop-up window) to your site. A modal is a dialog box that takes the focus while the rest of the screen is dimmed or grayed out. This forces the user to take action on the dialog box before continuing.
+Bootstrap enables you to add a **modal** dialog box (pop-up window) to your site. A modal is a dialog box that takes the focus while the rest of the screen is dimmed or grayed out. This forces the user to take action on the dialog box before continuing. 
 
-[📖 Modals](https://getbootstrap.com/docs/5.3/components/modal/)
+{:.highlight}
+Refer to Bootstrap's official documentation for more examples beyond those listed below: [📖 Modals](https://getbootstrap.com/docs/5.3/components/modal/)
 
 To create a modal, use the `.modal` class along with various other `.modal-*` classes to define each section of the modal.
 
 ### Carousels
 
-The Bootstrap carousel component enables you to add scrolling images and text that slide in, pause, then slide out. Controls enable the user to scroll forwards or backwards within the set. Basically a scrolling marquee (slideshow) with user controls.
+The Bootstrap **carousel** component enables you to add scrolling images and text that slide in, pause, then slide out. Controls enable the user to scroll forwards or backwards within the set. Basically a scrolling marquee (_slideshow_) with user controls. 
 
-[📖 Carousels](https://getbootstrap.com/docs/5.3/components/carousel/)
+{:.highlight}
+Refer to Bootstrap's official documentation for more examples beyond those listed below: [📖 Carousels](https://getbootstrap.com/docs/5.3/components/carousel/)
 
 To create a basic carousel:
 
