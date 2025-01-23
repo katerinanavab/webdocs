@@ -143,12 +143,35 @@ To create a basic card:
 
 ### Alerts
 
-Bootstrap provides an easy way to create a stylized alert message box with its **alert** component.
+Bootstrap provides an easy way to create a stylized alert message box with its **alert** component. Alerts offer contextual feedback messages for typical user actions with the handful of available and flexible alert messages.
 
 {:.highlight}
 Refer to Bootstrap's official documentation on <a href="https://getbootstrap.com/docs/5.3/components/alerts//"><button type="button" name="button" class="btn">📖 Alerts</button></a> for more examples beyond those listed below.
 
 To create an alert box, use the `.alert` class along with one of the `.alert-*` classes to specify the kind of alert.
+
+![image]()
+
+```html
+<div class="alert alert-success" role="alert">
+  A simple success alert—check it out!
+</div>
+<div class="alert alert-danger" role="alert">
+  A simple danger alert—check it out!
+</div>
+```
+
+#### Interactive Alert
+{:.no_toc}
+
+In this example, the button can be **clicked** to show an alert (hidden with inline styles to start), then **dismissed** (and destroy) with the built-in close button.
+
+![image]()
+
+```html
+<div id="liveAlertPlaceholder"></div>
+<button type="button" class="btn btn-primary" id="liveAlertBtn">Show live alert</button>
+```
 
 ### Modals
 
@@ -157,7 +180,38 @@ Bootstrap enables you to add a **modal** dialog box (pop-up window) to your site
 {:.highlight}
 Refer to Bootstrap's official documentation on <a href="https://getbootstrap.com/docs/5.3/components/modal/"><button type="button" name="button" class="btn">📖 Modals</button></a> for more examples beyond those listed below.
 
+Below is a _static_ modal example (meaning its `position` and `display` have been overridden). Included are the modal **header**, modal **body** (required for padding), and modal **footer** (optional). 
+
+![image]()
+
 To create a modal, use the `.modal` class along with various other `.modal-*` classes to define each section of the modal.
+
+```html
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+```
 
 ### Carousels
 
