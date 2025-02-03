@@ -13,7 +13,6 @@ In this project, you will create a **responsive one-page personal website** that
 
 #### Project Goal
 Design and develop a **one-page personal website** using Bootstrap classes and UI components. Your website should reflect your _personality_, _interests_, or _goals_ and include well-organized sections with responsive layouts.
-> 💡 **INSPIRATION:** [Developer Portfolio Websites](https://github.com/emmabostian/developer-portfolios) → scroll down to links, open random pages, make notes of _design choices_ that resonate with you.
 
 <div class="setup" markdown="block">
 
@@ -29,51 +28,53 @@ Design and develop a **one-page personal website** using Bootstrap classes and U
 
 ### Instructions
 
-#### Plan & Set Up Your Website
+#### Plan Your Personal Website
 
 Decide on the _content_ and _structure_ of your website. At a minimum, your site should include the following sections:
-- **Hero Section**: A welcoming section with your name, a title, and a short tagline.
+- **Hero Section**: A welcoming section with your name, a title, and a short tagline. 
 - **About Me**: A section describing who you are, your interests, or your goals.
 - **Portfolio/Showcase**: Highlight your work, hobbies, or achievements using cards, images, or a grid layout.
 
-**Brainstorming Content Ideas**:
-- **Hero Section**: Think about how you want to introduce yourself. Consider a tagline or quote that represents your values or aspirations.
-- **About Me**: What makes you unique? Share your hobbies, favorite activities, or personal story. Include a profile picture.
-- **Portfolio/Showcase**: If you have completed projects, hobbies, or any creative work, showcase them here. If not, create placeholders for future content.
-
-Optional sections could include:
-- **Skills**: Highlight your technical or personal skills.
-- **Testimonials**: Add quotes or feedback from others.
-- **Hobbies**: Showcase things you enjoy doing.
+<div class="task" markdown="block">
   
-**Include Bootstrap**:
-   - Add the Bootstrap CDN links to your `index.html` file, in the `<head>` section:
-     ```html
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-     ```
+🧠 **BRAINSTORMING CONTENT:**
+- **Hero Section**: Think about how you want to introduce yourself. Consider a tagline or quote that represents your values or aspirations.
+- **About Me**: What makes you unique? Share your hobbies, favorite activities, or personal story. Include a profile picture or avatar.
+- **Portfolio/Showcase**: If you have completed projects, hobbies, or any creative work, showcase them here. If not, create placeholders for future content.
+- **Skills**: Highlight your technical or personal skills.
+- **Testimonials**: Add quotes from your peers or feedback from others.
+- **Hobbies**: Showcase things you enjoy doing.
+
+💡 **DESIGN INSPIRATION:** 
+- [Developer Portfolio Websites](https://github.com/emmabostian/developer-portfolios)
+  - Scroll down to the list of links, open random pages, and make notes of _design choices_ that resonate with you, such as interesting layouts or font styles
+- Explore [Coolors - Trending Color Palettes](https://coolors.co/palettes/trending) and [SheCodes - Color Palette Ideas](https://www.shecodes.io/palettes)
+
+</div>
 
 #### Create Your Layout
-2. **Hero Section**:
+1. **Hero Section**:
    - Use a full-width background image or gradient.
    - Add a large heading and a short tagline centered in the section.
-3. **Grid-Based Layout**:
+   - You can deviate from the suggestions above, but you should still have an eye-catching section at the top.
+1. **Grid-Based Layout**:
    - Use Bootstrap's grid system to create responsive layouts for your content.
    - Experiment with different column sizes for each section (e.g., `.col-6`, `.col-md-4`).
-4. **Components**:
-   - Use Bootstrap components like cards, buttons, badges, or alerts to make your site visually appealing.
+1. **Include UI Components**:
+   - Use Bootstrap components like cards, buttons, badges, or carousels to make your site visually appealing.
 
 #### Customize with CSS
-1. Create a `custom.css` file in the `css/` folder to override Bootstrap styles and personalize your website.
-2. _Example:_ Override the `.text-primary` class to change its color:
+1. Create a `style.css` file to override Bootstrap styles and personalize your website. Apply custom styles to make the website uniquely yours, such as changing fonts/colors, or adding special CSS animations. 
+2. _Example:_ Override the `.bg-primary` class to change its color:
    ```css
-   .text-primary {
-       color: #ff5733 !important; 
+   .bg-primary {
+       background-color: #ff5733 !important; 
    }
    ```
-3. Apply your custom styles to make the website uniquely yours, such as changing font sizes, background colors, or adding padding.
 
-#### Content and Images
+
+
+#### Fill in Content and Images
 1. Add meaningful content for each section.
 2. Use images that reflect your personality, work, or interests.
 3. Optimize images by resizing them to appropriate dimensions for the web.
