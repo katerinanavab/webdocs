@@ -63,6 +63,13 @@ Decide on the _content_ and _structure_ of your website. At a minimum, your site
 1. **Include UI Components**:
    - Use Bootstrap components like cards, buttons, badges, or carousels to make your site visually appealing.
 
+
+#### Fill in Content and Images
+1. Add meaningful text content for each section.
+2. Use images that reflect your personality, work, or interests.
+3. Optimize images by resizing them to appropriate dimensions for the web.
+
+
 #### Customize with CSS
 1. Create a `style.css` file to override Bootstrap styles and personalize your website. Apply custom styles to make the website uniquely yours, such as changing fonts/colors, or adding special CSS animations. 
 2. _Example:_ Override the `.bg-primary` class to change its color:
@@ -72,13 +79,8 @@ Decide on the _content_ and _structure_ of your website. At a minimum, your site
    }
    ```
 
-
-
-#### Fill in Content and Images
-1. Add meaningful content for each section.
-2. Use images that reflect your personality, work, or interests.
-3. Optimize images by resizing them to appropriate dimensions for the web.
-
+{:.warning}
+Overriding Bootstrap's pre-defined class names DOES NOT ALWAYS work! In this case, just add your own `id` or `class` attribute to the HTML element and select for it in CSS. 
 
 --- 
 
@@ -102,7 +104,7 @@ Before submitting, ensure your website includes the following:
    - [ ] Use Bootstrap **UI components** like cards or carousels.
 
 5. **Custom CSS**:
-   - [ ] Include a `style.css` file with at least one overridden Bootstrap class (e.g., `.text-primary`).
+   - [ ] Include a `style.css` file with at least five custom styles.
 
 #### Bonus Challenges
 - Add a **carousel** to showcase images or testimonials.
