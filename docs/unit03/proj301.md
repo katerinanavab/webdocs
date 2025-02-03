@@ -54,32 +54,33 @@ Decide on the _content_ and _structure_ of your website. At a minimum, your site
 </div>
 
 #### Create Your Layout
-1. **Hero Section**:
-   - Use a full-width background image or gradient.
+1. Start with an eye-catching **Hero Section**:
+   - Create a `<div class="container-fluid"></div>` at the top of your page. 
+   - Use a Bootstrap background color, or a full-width background image or custom gradient.
    - Add a large heading with your name and a short tagline centered in the section.
-   - You can deviate from the suggestions above as long as you still have an eye-catching section at the top.
-1. **Grid-Based Layout**:
-   - Organize _every section_ in at least one `<div>`, and decide whether you want to use a `.container` or `.container-fluid`.  
+1. Build out a variety of **Grid-Based Layouts**:
+   - Organize _every section_ of content in at least one outer `<div>`, and decide whether you want it to be a fixed `.container` or full-width `.container-fluid`.  
    - Within some sections, use Bootstrap's [grid system](https://getbootstrap.com/docs/5.3/layout/grid/) to create interesting layouts for your content.
      - Remember that grids must follow the pattern: `.container` → `.row` → `.col` → CONTENT
      - Experiment with different column sizes for each section (e.g., `.col-6`, `.col-md-4`).
-1. **Include UI Components**:
-   - Use Bootstrap UI Components like cards, buttons, badges, or carousels to make your site visually appealing.
+1. Include **UI Components**:
+   - Use [Bootstrap UI Components](https://coderina.dev/webdocs/docs/unit03/notes302.html) like cards, buttons, badges, or carousels to make your site visually appealing.
 
-#### Fill in Content and Images
-1. Add meaningful text content for each section.
-2. Use images that reflect your personality, work, or interests.
-3. Optimize images by resizing them to appropriate dimensions for the web.
+#### Fill in Content & Images
+1. Write meaningful **text** content for each section.
+2. Use **images** that reflect your personality, work, or interests.
+3. Add **decorations** like icons, emojis, or clipart (transparent background pictures).
 
-#### Customize with CSS
-1. Create a `style.css` file to override Bootstrap styles and personalize your website. Apply custom styles to make the website uniquely yours, such as changing fonts/colors or adding special CSS effects/animations. 
-2. _Example:_
-   ```css
-   /* Override a Bootstrap class */
-   .bg-primary {
-       background-color: #ff5733 !important; 
-   }
-   ```
+#### Style with Bootstrap Classes & Custom CSS
+1. Use [Bootstrap Formatting Classes](https://coderina.dev/webdocs/docs/unit03/notes301.html) to quickly style your page,
+2. Write styling rules in a `style.css` file to personalize your website. Apply custom styles to make the website uniquely yours, such as changing fonts/colors or adding special CSS effects/animations. 
+  > _Example:_
+  ```css
+  /* Override a Bootstrap class */
+  .bg-primary {
+    background-color: #ff5733 !important;
+  }
+  ```
 
 {:.warning}
 Overriding Bootstrap's pre-defined class names DOES NOT ALWAYS work! In this case, just add your own `id` or `class` attribute to the HTML element and select for it in CSS as usual. 
@@ -93,6 +94,7 @@ Before submitting, ensure your website includes the following:
 1. **Hero Section**:
    - [ ] Full-width background (color, image or gradient).
    - [ ] Large heading and a short tagline.
+   > You can deviate from the suggestions above as long as you still have an _eye-catching_ section at the top.
 
 2. **About Me Section**:
    - [ ] Text content describing who you are, your interests, or your goals.
@@ -103,7 +105,7 @@ Before submitting, ensure your website includes the following:
 
 4. **Responsive Design**:
    - [ ] Use Bootstrap's **grid system** to ensure your website adapts to different screen sizes.
-   - [ ] Use Bootstrap **UI components** like cards or carousels.
+   - [ ] Use Bootstrap **UI components** like cards or buttons.
 
 5. **Custom CSS**:
    - [ ] Include a `style.css` file with at least five custom styles.
