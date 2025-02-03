@@ -30,17 +30,14 @@ Design and develop a **one-page personal website** using Bootstrap classes and U
 
 #### Plan Your Personal Website
 
-Decide on the _content_ and _structure_ of your website. At a minimum, your site should include the following 3 sections:
-① **Hero Section**: A welcoming section with your name, a title, and a short tagline. 
-② **About Me**: A section describing who you are, your interests, or your goals.
-③ **Portfolio/Showcase**: Highlight your work, hobbies, or achievements using cards, images, or a grid layout.
-
 <div class="task" markdown="block">
   
 🧠 **BRAINSTORMING CONTENT:**
-- **Hero Section**: Think about how you want to introduce yourself. Consider a tagline or quote that represents your values or aspirations.
-- **About Me**: What makes you unique? Share your hobbies, favorite activities, or personal story. Include a profile picture or avatar.
-- **Portfolio/Showcase**: If you have completed projects, hobbies, or any creative work, showcase them here. If not, create placeholders for future content.
+- **Hero Section**: A welcoming section with your name, a title, and a short tagline.
+  - Think about how you want to introduce yourself. Consider a tagline or quote that represents your values or aspirations.
+- **About Me**: A section describing who you are, your interests, or your goals.
+  - What makes you unique? Share your hobbies, favorite activities, or personal story. Include a profile picture or avatar.
+- **Portfolio/Showcase**: If you have completed projects, hobbies, achievements, or any creative work, showcase them here. If not, create placeholders for future content.
 - _Other ideas for sections:_
   - **Skills**: Highlight your technical or personal skills. 
   - **Testimonials**: Add quotes from your peers, or feedback from others.
