@@ -12,7 +12,8 @@ nav_order: 5
 In this project, you will create a **responsive one-page personal website** that demonstrates your mastery of Bootstrap and the concepts covered in the tutorials. The project is open-ended to encourage creativity while giving you the opportunity to practice building a responsive and visually appealing website.
 
 #### Project Goal
-Design and develop a **one-page personal website** using Bootstrap classes and components. Your website should reflect your _personality_, _interests_, or _goals_ and include well-organized sections with responsive layouts.
+Design and develop a **one-page personal website** using Bootstrap classes and UI components. Your website should reflect your _personality_, _interests_, or _goals_ and include well-organized sections with responsive layouts.
+> 💡 **INSPIRATION:** [Developer Portfolio Websites](https://github.com/emmabostian/developer-portfolios) → scroll down to links, open random pages, make notes of _design choices_ that resonate with you.
 
 <div class="setup" markdown="block">
 
