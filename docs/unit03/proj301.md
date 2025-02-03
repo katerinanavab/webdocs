@@ -72,8 +72,8 @@ Decide on the _content_ and _structure_ of your website. At a minimum, your site
 3. Add **decorations** like icons, emojis, or clipart (transparent background pictures).
 
 #### Style with Bootstrap Classes & Custom CSS
-1. Use [Bootstrap Formatting Classes](https://coderina.dev/webdocs/docs/unit03/notes301.html) to quickly style your page,
-2. Write styling rules in a `style.css` file to personalize your website. Apply custom styles to make the website uniquely yours, such as changing fonts/colors or adding special CSS effects/animations. 
+1. Use [Bootstrap Formatting Classes](https://coderina.dev/webdocs/docs/unit03/notes301.html) to quickly add style to your page.
+2. Write your own styling rules in a `style.css` file to personalize your website. Apply custom styles to make the website uniquely yours, such as changing fonts/colors or adding special CSS effects/animations. 
   > _Example:_
   ```css
   /* Override a Bootstrap class */
