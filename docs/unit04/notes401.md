@@ -40,5 +40,5 @@ nav_order: 1
 #### Acknowledgement
 {: .no_toc }
 
-Content on this page is adapted from the [JavaScript MDN Docs]() and [Coding Analogies Blog]().
+Content on this page is adapted from the [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide), [The Modern JavaScript Tutorial](https://javascript.info/), and [CodeAnalogies Blog](https://www.codeanalogies.com/).
 {: .fs-2 }
