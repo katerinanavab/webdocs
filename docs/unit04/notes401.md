@@ -33,7 +33,19 @@ nav_order: 1
 
 ## JavaScript Basics
 
+<dl>
+<dt>Syntax</dt>
+<dd>The "grammar" rules of a programming language.</dd>
+</dl>
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cXUWYZXru6o?si=sB54GV-STb2ipVhL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<div class="task" markdown="block">
+
+Complete **steps 1-7** in the following _interactive tutorial_: 
+[🏗️ JS Construction Site](https://www.codeanalogies.com/jsconstruction/)
+
+</div>
 
 ---
 
