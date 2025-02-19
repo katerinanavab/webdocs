@@ -38,11 +38,49 @@ nav_order: 1
 <dd>The "grammar" rules of a programming language.</dd>
 </dl>
 
+### Variables
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/cXUWYZXru6o?si=sB54GV-STb2ipVhL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <div class="task" markdown="block">
 
-Complete **steps 1-7** in the following _interactive tutorial_: 
+Complete **steps 1-6** in the following _interactive tutorial_: 
+[🏗️ JS Construction Site](https://www.codeanalogies.com/jsconstruction/)
+
+</div>
+
+### Comparison Logic
+
+<div class="task" markdown="block">
+
+Complete **steps 7-9** in the following _interactive tutorial_: 
+[🏗️ JS Construction Site](https://www.codeanalogies.com/jsconstruction/)
+
+</div>
+
+### Conditional (`if`) Statements
+
+<div class="task" markdown="block">
+
+Complete **steps 10-14** in the following _interactive tutorial_: 
+[🏗️ JS Construction Site](https://www.codeanalogies.com/jsconstruction/)
+
+</div>
+
+### Using Methods
+
+<div class="task" markdown="block">
+
+Complete **steps 15-20** in the following _interactive tutorial_: 
+[🏗️ JS Construction Site](https://www.codeanalogies.com/jsconstruction/)
+
+</div>
+
+### Writing Functions
+
+<div class="task" markdown="block">
+
+Complete **steps 21-?** in the following _interactive tutorial_: 
 [🏗️ JS Construction Site](https://www.codeanalogies.com/jsconstruction/)
 
 </div>
