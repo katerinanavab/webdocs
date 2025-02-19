@@ -33,10 +33,12 @@ nav_order: 1
 
 ## JavaScript Basics
 
+<html>
 <dl>
 <dt>Syntax</dt>
 <dd>The "grammar" rules of a programming language.</dd>
 </dl>
+</html>
 
 ### Variables
 
