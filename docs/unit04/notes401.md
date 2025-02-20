@@ -33,6 +33,28 @@ nav_order: 1
 
 ## Introduction to Programming in JavaScript (JS)
 
+*JavaScript* was initially created to "make web pages alive"!
+
+{:.highlight}
+📝 The programs coded in this language are called *scripts*. They can be written right in a web page's HTML and are run **automatically** as the page loads.
+
+> **NOTE:** In this aspect, JavaScript is very different from another language called [Java](https://en.wikipedia.org/wiki/Java_(programming_language)). When JavaScript was created, it initially had another name: "LiveScript". Java was very popular at that time, so it was decided that positioning a new language as a "younger brother" of Java would help.
+
+Today, JavaScript can execute not only in the **browser**, but also on the server, or actually on any device that has a special program called [the JavaScript engine](https://en.wikipedia.org/wiki/JavaScript_engine). The browser has an embedded engine sometimes called a "JavaScript virtual machine".
+
+### What can in-browser JavaScript do?
+{:.no_toc}
+
+🌐 _In-browser_ JavaScript can do everything related to **webpage manipulation** as well as **interaction** with the user and the webserver.
+
+For instance, in-browser JavaScript is able to:
+
+- ⭐️ Add **new HTML** to the page, **change** the existing content, **modify CSS** styles.
+- ⭐️ React to user **actions**, like mouse clicks, pointer movements, key presses.
+- ⭐️ Ask **questions** to the visitor, **display** messages and alerts.
+- Remember the data on the client-side ("local storage").
+- Send requests over the network to remote servers, download and upload files (so-called [AJAX](https://en.wikipedia.org/wiki/Ajax_(programming)) and [COMET](https://en.wikipedia.org/wiki/Comet_(programming)) technologies).
+
 <html>
 <dl>
 <dt>Syntax</dt>
