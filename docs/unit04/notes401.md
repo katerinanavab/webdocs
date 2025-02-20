@@ -1,6 +1,6 @@
 ---
 layout: notes
-title: "📓NOTES 4.1: JavaScript Basics" 
+title: "📓NOTES 4.1: JavaScript Programming" 
 parent: "4️⃣ JavaScript"
 nav_order: 1
 ---
@@ -31,7 +31,7 @@ nav_order: 1
 
 ---
 
-## JavaScript Basics
+## Introduction to Programming in JavaScript (JS)
 
 <html>
 <dl>
