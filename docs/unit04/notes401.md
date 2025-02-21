@@ -55,14 +55,8 @@ For instance, in-browser JavaScript is able to:
 - Remember the data on the client-side ("local storage").
 - Send requests over the network to remote servers, download and upload files (so-called [AJAX](https://en.wikipedia.org/wiki/Ajax_(programming)) and [COMET](https://en.wikipedia.org/wiki/Comet_(programming)) technologies).
 
-<html>
-<dl>
-<dt>Syntax</dt>
-<dd>The "grammar" rules of a programming language.</dd>
-</dl>
-</html>
-
 ### The script tag
+{:.no_toc}
 
 JavaScript programs can be inserted almost anywhere into an HTML document using the `<script>` tag: 
 
@@ -72,7 +66,7 @@ JavaScript programs can be inserted almost anywhere into an HTML document using 
   <p>Before the script...</p>
 
   <script>
-    alert( 'Hello, world!' );
+    console.log('Hello, world!');
   </script>
 
   <p>...After the script.</p>
@@ -111,7 +105,22 @@ To attach **several scripts**, use multiple tags:
 As a rule, only the simplest scripts are put _directly_ into HTML. More complex ones reside in **separate files**. The benefit of a separate file is that **the browser will download it** and store it in its [cache](https://en.wikipedia.org/wiki/Web_cache). 
 > Other pages that reference the same script will take it from the cache instead of downloading it, so the file is actually downloaded only _once_. That reduces traffic and makes pages faster!
 
-### Variables
+### JS Code Structure
+
+<html>
+<dl>
+<dt>Syntax</dt>
+<dd>The "grammar" rules of a programming language.</dd>
+<dt>Statements</dt>
+<dd>Statements are syntax constructs and commands that perform actions.
+
+</dd>
+</dl>
+</html>
+
+
+
+### Variables & Data Types
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/cXUWYZXru6o?si=sB54GV-STb2ipVhL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -122,7 +131,7 @@ Complete **steps 1-6** in the following _interactive tutorial_:
 
 </div>
 
-### Comparison Logic
+### Operators & Logic
 
 <div class="task" markdown="block">
 
@@ -131,7 +140,7 @@ Complete **steps 7-9** in the following _interactive tutorial_:
 
 </div>
 
-### Conditional (`if`) Statements
+### Conditional Branching (`if`)
 
 <div class="task" markdown="block">
 
@@ -139,6 +148,10 @@ Complete **steps 10-14** in the following _interactive tutorial_:
 [🏗️ JS Construction Site](https://www.codeanalogies.com/jsconstruction/)
 
 </div>
+
+### Iteration/Loops (`while`, `for`)
+
+<!--
 
 ### Using Methods
 
@@ -157,6 +170,8 @@ Complete **steps 21-?** in the following _interactive tutorial_:
 [🏗️ JS Construction Site](https://www.codeanalogies.com/jsconstruction/)
 
 </div>
+
+-->
 
 ---
 
