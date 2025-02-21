@@ -110,11 +110,9 @@ As a rule, only the simplest scripts are put _directly_ into HTML. More complex 
 <html>
 <dl>
 <dt>Syntax</dt>
-<dd>The "grammar" rules of a programming language.</dd>
+<dd>The "grammar" rules of a programming language, which include meaningful <strong>symbols</strong>, <strong>keywords</strong>, and <strong>patterns</strong>.</dd>
 <dt>Statements</dt>
-<dd>Statements are syntax constructs and commands that perform actions.
-
-</dd>
+<dd>Statements are <strong>syntax constructs</strong> and <strong>commands</strong> that perform <em>actions</em>.</dd>
 </dl>
 </html>
 
