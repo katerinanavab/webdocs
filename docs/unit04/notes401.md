@@ -80,8 +80,7 @@ JavaScript programs can be inserted almost anywhere into an HTML document using 
 </body>
 ```
 
-{
-The `<script>` tag contains JavaScript code which is **automatically executed** when the browser processes the tag.
+▶️ The `<script>` tag contains JavaScript code which is **automatically executed** when the browser processes the tag.
 
 {:.highlight}
 If we have a lot of JavaScript code, we can put it into a **separate file**, like the `script.js` file already in your project repository.
