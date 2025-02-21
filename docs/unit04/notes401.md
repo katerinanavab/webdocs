@@ -169,6 +169,121 @@ alert('World');
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/cXUWYZXru6o?si=sB54GV-STb2ipVhL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+Most of the time, a JavaScript application needs to work with information. Here are two examples:
+1. An online shop -- the information might include goods being sold and a shopping cart.
+2. A chat application -- the information might include users, messages, and much more.
+
+Variables are used to store this information.
+
+A [variable](https://en.wikipedia.org/wiki/Variable_(computer_science)) is a "named storage" for data. We can use variables to store goodies, visitors, and other data.
+
+To create a variable in JavaScript, use the `let` keyword.
+
+The statement below creates (in other words: *declares*) a variable with the name "message":
+
+```js
+let message;
+```
+
+Now, we can put some data into it by using the assignment operator `=`:
+
+```js
+let message;
+
+*!*
+message = 'Hello'; // store the string 'Hello' in the variable named message
+*/!*
+```
+
+The string is now saved into the memory area associated with the variable. We can access it using the variable name:
+
+```js
+let message;
+message = 'Hello!';
+
+*!*
+alert(message); // shows the variable content
+*/!*
+```
+
+To be concise, we can combine the variable declaration and assignment into a single line:
+
+```js
+let message = 'Hello!'; // define the variable and assign the value
+
+alert(message); // Hello!
+```
+
+#### `var` instead of `let`
+{:.no_toc}
+
+In older scripts, you may also find another keyword: `var` instead of `let`:
+
+```js
+var message = 'Hello';
+```
+
+The `var` keyword is *almost* the same as `let`. It also declares a variable but in a slightly different, "old-school" way.
+
+There are subtle differences between `let` and `var`, but they do not matter to us yet. 
+
+
+#### A real-life analogy
+{:.no_toc}
+
+We can easily grasp the concept of a "variable" if we imagine it as a "box" for data, with a uniquely-named sticker on it.
+
+For instance, the variable `message` can be imagined as a box labelled `"message"` with the value `"Hello!"` in it:
+
+![image](variable.svg)
+
+We can put any value in the box.
+
+We can also change it as many times as we want:
+
+```js run
+let message;
+
+message = 'Hello!';
+
+message = 'World!'; // value changed
+
+alert(message);
+```
+
+When the value is changed, the old data is removed from the variable:
+
+![image](variable-change.svg)
+
+We can also declare two variables and copy data from one into the other.
+
+```js
+let hello = 'Hello world!';
+
+let message;
+
+// copy 'Hello world' from hello into message
+message = hello;
+
+// now two variables hold the same data
+alert(hello); // Hello world!
+alert(message); // Hello world!
+```
+
+<div class="warn" markdown="block">
+
+A variable should be **DECLARED** only once. A repeated declaration of the same variable triggers an error:
+
+```js run
+let message = "This";
+
+// repeated 'let' leads to an error
+let message = "That"; // SyntaxError: 'message' has already been declared
+```
+So, we should declare a variable once and then refer to it without `let`.
+
+</div>
+
 <div class="task" markdown="block">
 
 Complete **steps 1-6** in the following _interactive tutorial_: 
