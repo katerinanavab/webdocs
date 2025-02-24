@@ -39,8 +39,7 @@ Most of the time, a JavaScript application needs to work with **data** (informat
 | `Array` | a **list** of multiple values, each value has an **index** number that indicates its position/order in the collection  |
 | `Object` | *custom* data types that hold a **group** of data, usually to represent a real-world object or an HTML document |
 
-#### Creating Variables
-{:no_toc}
+### Creating Variables
 
 <!--
 [A Visual Guide to Understanding Variables in JavaScript](https://blog.codeanalogies.com/2017/12/20/a-visual-guide-to-understanding-the-sign-in-javascript/)
