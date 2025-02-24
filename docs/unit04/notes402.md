@@ -176,7 +176,7 @@ So, we should declare a variable once and then refer to it without `let`.
 
 <div class="task" markdown="block">
 
-Complete **steps 1-6** in the following _interactive tutorial_: 
+Complete the **Variables** section (steps 1-6) in the following _interactive tutorial_: 
 [🏗️ JS Construction Site](https://www.codeanalogies.com/jsconstruction/)
 
 </div>
@@ -278,13 +278,6 @@ So, there are special operators for it:
 {:.warning}
 Increment/decrement operators can only be applied to **variables**. Trying to use it on a _value_, like `5++`, will give an error.
 
-<div class="task" markdown="block">
-
-Complete **steps 7-9** in the following _interactive tutorial_: 
-[🏗️ JS Construction Site](https://www.codeanalogies.com/jsconstruction/)
-
-</div>
-
 ---
 
 ## Functions
@@ -329,21 +322,12 @@ Let's think about the general concept of **cooking with a recipe** first. Using 
       
 {:.highlight}
 For a more in-depth description of the **recipe analogy**, check out this blog post: [JavaScript Functions Explained by Making a Recipe](https://www.codeanalogies.com/javascript-functions-explained#javascript)
-  
-### Using Methods
-
-<div class="task" markdown="block">
-
-Complete **steps 15-20** in the following _interactive tutorial_: 
-[🏗️ JS Construction Site](https://www.codeanalogies.com/jsconstruction/)
-
-</div>
 
 ### Writing Functions
 
 <div class="task" markdown="block">
 
-Complete **steps 21-?** in the following _interactive tutorial_: 
+Complete the **Functions** section (steps 16-20) in the following _interactive tutorial_: 
 [🏗️ JS Construction Site](https://www.codeanalogies.com/jsconstruction/)
 
 </div>
