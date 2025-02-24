@@ -14,141 +14,7 @@ nav_order: 2
 
 ---
 
-
-## Introduction to Programming in JavaScript (JS)
-
-*JavaScript* was initially created to "make web pages alive"!
-
-{:.highlight}
-📝 The programs coded in this language are called *scripts*. They can be written right in a web page's HTML and are run **automatically** as the page loads.
-
-> **NOTE:** In this aspect, JavaScript is very different from another language called [Java](https://en.wikipedia.org/wiki/Java_(programming_language)). When JavaScript was created, it initially had another name: "LiveScript". Java was very popular at that time, so it was decided that positioning a new language as a "younger brother" of Java would help.
-
-Today, JavaScript can execute not only in the **browser**, but also on the server, or actually on any device that has a special program called [the JavaScript engine](https://en.wikipedia.org/wiki/JavaScript_engine). The browser has an embedded engine sometimes called a "JavaScript virtual machine".
-
-### What can in-browser JavaScript do?
-{:.no_toc}
-
-🌐 _In-browser_ JavaScript can do everything related to **webpage manipulation** as well as **interaction** with the user and the webserver.
-
-For instance, in-browser JavaScript is able to:
-
-- ⭐️ Add **new HTML** to the page, **change** the existing content, **modify CSS** styles.
-- ⭐️ React to user **actions**, like mouse clicks, pointer movements, key presses.
-- ⭐️ Ask **questions** to the visitor, **display** messages and alerts.
-- Remember the data on the client-side ("local storage").
-- Send requests over the network to remote servers, download and upload files (so-called [AJAX](https://en.wikipedia.org/wiki/Ajax_(programming)) and [COMET](https://en.wikipedia.org/wiki/Comet_(programming)) technologies).
-
-### The script tag
-{:.no_toc}
-
-JavaScript programs can be inserted almost anywhere into an HTML document using the `<script>` tag: 
-
-```html
-<body>
-
-  <p>Before the script...</p>
-
-  <script>
-    console.log('Hello, world!');
-  </script>
-
-  <p>...After the script.</p>
-
-</body>
-```
-
-{:.highlight}
-The `<script>` tag contains JavaScript code which is **automatically executed** when the browser processes the tag. If we have a lot of JavaScript code, we can put it into a **separate file**, like the `script.js` file already in your project repository.
-
-Script files are attached to HTML with the `src` **attribute**:
-
-```html
-<script src="/path/to/script.js"></script>
-```
-
-> Here, `/path/to/script.js` is an **absolute path** to the script from the site root. One can also provide a **relative path** from the current page. For instance, `src="script.js"`, just like `src="./script.js"`, would mean a file `"script.js"` in the current folder.
-
-We can give a **full URL** as well. For instance:
-
-```html
-<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.11/lodash.js"></script>
-```
-
-To attach **several scripts**, use multiple tags:
-
-```html
-<script src="/js/script1.js"></script>
-<script src="/js/script2.js"></script>
-…
-```
-
-{:.highlight}
-As a rule, only the simplest scripts are put _directly_ into HTML. More complex ones reside in **separate files**. The benefit of a separate file is that **the browser will download it** and store it in its [cache](https://en.wikipedia.org/wiki/Web_cache). 
-> Other pages that reference the same script will take it from the cache instead of downloading it, so the file is actually downloaded only _once_. That reduces traffic and makes pages faster!
-
-### JS Code Structure
-
-The first thing we'll study is the **building blocks** of JavaScript code.
-
-<html>
-<dl>
-<dt>Syntax</dt>
-<dd>The "grammar" rules of a programming language, which include meaningful <strong>symbols</strong>, <strong>keywords</strong>, and <strong>patterns</strong>.</dd>
-<dt>Statements</dt>
-<dd>Statements are <strong>syntax constructs</strong> and <strong>commands</strong> that perform <em>actions</em>.</dd>
-</dl>
-</html>
-
-We've already seen a _statement_, `console.log('Hello world!');`, which shows the message "Hello, world!" in the **OUTPUT** frame.
-
-{:.highlight}
-We can include as many **statements** (_commands/instructions_) in our code as we want! Statements are separated with a **semicolon** (` ; `), which acts like a _stop sign_ 🛑 after an instruction.
-
-#### Comments
-{:.no_toc}
-
-As time goes on, programs become more and more complex. It becomes necessary to add *comments* which describe what the code does and why.
-
-Comments can be put into any place of a script. They don't affect its execution because the engine simply **ignores** them.
-
-{:.important}
-**One-line comments start with two forward slash characters `//`.**
-
-The rest of the line is a comment. It may occupy a full line of its own or follow a statement.
-
-Like here:
-```js
-// This comment occupies a line of its own
-alert('Hello');
-
-alert('World'); // This comment follows the statement
-```
-
-{:.important}
-**Multiline comments** start with a forward slash and an asterisk <code>/&#42;</code> and end with an asterisk and a forward slash <code>&#42;/</code>.
-
-Like this:
-```js
-/* An example with two messages.
-This is a multiline comment.
-*/
-alert('Hello');
-alert('World');
-```
-
-The content of comments is **ignored**, so if we put code inside <code>/&#42; ... &#42;/</code>, it won't execute.
-
-Sometimes it can be handy to _temporarily disable_ a part of code:
-
-```js
-/* Commenting out the code
-alert('Hello');
-*/
-alert('World');
-```
-
-### Variables & Data Types
+## Variables & Data Types
 
 Most of the time, a JavaScript application needs to work with **data** (information). Here are two examples:
 1. An online shop - the information might include goods being sold and a shopping cart.
@@ -263,7 +129,7 @@ We can put any value in the box.
 
 We can also change it as many times as we want:
 
-```js run
+```js
 let message;
 
 message = 'Hello!';
@@ -296,7 +162,7 @@ alert(message); // Hello world!
 
 A variable should be **DECLARED** only once. A repeated declaration of the same variable triggers an error:
 
-```js run
+```js
 let message = "This";
 
 // repeated 'let' leads to an error
@@ -313,7 +179,18 @@ Complete **steps 1-6** in the following _interactive tutorial_:
 
 </div>
 
-### Functions
+### Arithmetic Operators & Logic
+
+<div class="task" markdown="block">
+
+Complete **steps 7-9** in the following _interactive tutorial_: 
+[🏗️ JS Construction Site](https://www.codeanalogies.com/jsconstruction/)
+
+</div>
+
+---
+
+## Functions
 
 <div class="imp" markdown="block">
     
@@ -329,28 +206,31 @@ Complete **steps 1-6** in the following _interactive tutorial_:
 console.log("Hello World!");
 ```
 
-<!--
+Let's think about the general concept of **cooking with a recipe** first. Using a recipe means that:
+    1. You start with a specific set of ingredients
+    2. You perform a specific procedure using those ingredients
+    3. You will get a reliable product at the end
+- A **FUNCTION** is also a **reusable recipe** that performs the same set of actions over and over again on a set of ingredients.
+- Those **ingredients** are called **PARAMETERS → “INPUT”**
+- Some functions **RETURN** a value, which means that they ***give you a new value*** that you can then use throughout your script **→** “**OUTPUT”**
 
-### Operators & Logic
+![image](function-void.png)
 
-<div class="task" markdown="block">
-
-Complete **steps 7-9** in the following _interactive tutorial_: 
-[🏗️ JS Construction Site](https://www.codeanalogies.com/jsconstruction/)
-
-</div>
-
-### Conditional Branching (`if`)
-
-<div class="task" markdown="block">
-
-Complete **steps 10-14** in the following _interactive tutorial_: 
-[🏗️ JS Construction Site](https://www.codeanalogies.com/jsconstruction/)
-
-</div>
-
-### Iteration/Loops (`while`, `for`)
-
+- Other functions **do not return** a value, instead, they might ***change a value that already exists*** in your script or carry out an action like `console.log()`
+    - Think of it like chopping onions. There is no "new" product, just the same product in a new format.
+    - Boiling water to make pasta is another example of a function that just “does/changes something” but doesn’t necessarily give you something new in return
+    
+![image](function-nonvoid.png)
+    
+- Check out the example below to see the general layout of a function. In this example, we are **DEFINING** **a function** (“documenting the recipe”) called `makeSandwich`.
+    - It does **return** a value here: one full sandwich.
+    - *Why is this useful in real life? Why is this useful in code?*
+    
+![image](function-example.png)
+      
+{:.highlight}
+For a more in-depth description of the **recipe analogy**, check out this blog post: [JavaScript Functions Explained by Making a Recipe](https://www.codeanalogies.com/javascript-functions-explained#javascript)
+  
 ### Using Methods
 
 <div class="task" markdown="block">
@@ -369,7 +249,6 @@ Complete **steps 21-?** in the following _interactive tutorial_:
 
 </div>
 
--->
 
 ---
 
