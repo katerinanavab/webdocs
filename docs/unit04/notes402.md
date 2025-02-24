@@ -26,7 +26,8 @@ Most of the time, a JavaScript application needs to work with **data** (informat
 
 - **DATA** is information 🧠
 - **VARIABLES** store data → *like a **box*** 📦
-- **DATA TYPES** are categories of data → *like **labels** on the boxes* 🏷️
+- **IDENTIFIERS** are the names we give variables → *like a **label** on the box* 🏷️
+- **DATA TYPES** are the categories of information → *like the **size/shape** of the box*
     
 </div>
 
