@@ -24,11 +24,8 @@ Most of the time, a JavaScript application needs to work with **data** (informat
 
 <div class="imp" markdown="block">
 
-##### Key points:
-{:.no_toc}
-
 - **DATA** is information 🧠
-- **VARIABLES** store data → *like a **box** * 📦
+- **VARIABLES** store data → *like a **box*** 📦
 - **DATA TYPES** are categories of data → *like **labels** on the boxes* 🏷️
     
 </div>
