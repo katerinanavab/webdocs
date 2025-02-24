@@ -79,11 +79,8 @@ let message;
 Now, we can put some data into it by using the assignment operator `=`:
 
 ```js
-let message;
-
-*!*
-message = 'Hello'; // store the string 'Hello' in the variable named message
-*/!*
+// store the string 'Hello' in the variable named message
+message = 'Hello';
 ```
 
 The string is now saved into the memory area associated with the variable. We can access it using the variable name:
@@ -92,9 +89,7 @@ The string is now saved into the memory area associated with the variable. We ca
 let message;
 message = 'Hello!';
 
-*!*
-alert(message); // shows the variable content
-*/!*
+console.log(message); // shows the variable content
 ```
 
 To be concise, we can combine the variable declaration and assignment into a single line:
@@ -102,7 +97,7 @@ To be concise, we can combine the variable declaration and assignment into a sin
 ```js
 let message = 'Hello!'; // define the variable and assign the value
 
-alert(message); // Hello!
+console.log(message); // Hello!
 ```
 
 #### `var` instead of `let`
@@ -139,7 +134,7 @@ message = 'Hello!';
 
 message = 'World!'; // value changed
 
-alert(message);
+console.log(message);
 ```
 
 When the value is changed, the old data is removed from the variable:
@@ -157,8 +152,8 @@ let message;
 message = hello;
 
 // now two variables hold the same data
-alert(hello); // Hello world!
-alert(message); // Hello world!
+console.log(hello); // Hello world!
+console.log(message); // Hello world!
 ```
 
 <div class="warn" markdown="block">
@@ -203,9 +198,9 @@ The **remainder operator** `%`, despite its appearance, is not related to percen
 The result of `a % b` is the [remainder](https://en.wikipedia.org/wiki/Remainder) of the integer division of `a` by `b`.
 
 ```js
-alert( 5 % 2 ); // 1, the remainder of 5 divided by 2
-alert( 8 % 3 ); // 2, the remainder of 8 divided by 3
-alert( 8 % 4 ); // 0, the remainder of 8 divided by 4
+console.log( 5 % 2 ); // 1, the remainder of 5 divided by 2
+console.log( 8 % 3 ); // 2, the remainder of 8 divided by 3
+console.log( 8 % 4 ); // 0, the remainder of 8 divided by 4
 ```
 
 #### Exponentiation `**`
@@ -215,9 +210,9 @@ The **exponentiation operator** `a ** b` raises `a` to the power of `b`.
 > In school math, we write that as: a<sup>b</sup>.
 
 ```js
-alert( 2 ** 2 ); // 2² = 4
-alert( 2 ** 3 ); // 2³ = 8
-alert( 2 ** 4 ); // 2⁴ = 16
+console.log( 2 ** 2 ); // 2² = 4
+console.log( 2 ** 3 ); // 2³ = 8
+console.log( 2 ** 4 ); // 2⁴ = 16
 ```
 
 Just like in math, the exponentiation operator is defined for non-integer numbers as well.
@@ -225,8 +220,8 @@ Just like in math, the exponentiation operator is defined for non-integer number
 For example, a square root is an exponentiation by ½:
 
 ```js
-alert( 4 ** (1/2) ); // 2 (power of 1/2 is the same as a square root)
-alert( 8 ** (1/3) ); // 2 (power of 1/3 is the same as a cubic root)
+console.log( 4 ** (1/2) ); // 2 (power of 1/2 is the same as a square root)
+console.log( 8 ** (1/3) ); // 2 (power of 1/3 is the same as a cubic root)
 ```
 
 ### String Concatenation
@@ -237,23 +232,21 @@ Usually, the plus operator `+` sums numbers. But, if the binary `+` is applied t
 
 ```js
 let s = "my" + "string";
-alert(s); // mystring
+console.log(s); 
 ```
 
-Note that if any of the operands is a string, then the other one is converted to a string too.
-
-For example:
+Note that if any of the operands is a string, then the other one is **converted** to a string too. For example:
 
 ```js
-alert( '1' + 2 ); // "12"
-alert( 2 + '1' ); // "21"
+console.log( '1' + 2 ); // "12"
+console.log( 2 + '1' ); // "21"
 ```
 > See, it doesn't matter whether the first operand is a string or the second one.
 
 Here's a more complex example:
 
 ```js
-alert(2 + 2 + '1' ); // "41" and not "221"
+console.log(2 + 2 + '1' ); // "41" and not "221"
 ```
 > Here, operators work one after another. The first `+` sums two numbers, so it returns `4`, then the next `+` adds the string `1` to it, so it's like `4 + '1' = '41'`.
 
@@ -267,15 +260,15 @@ So, there are special operators for it:
 
     ```js
     let counter = 2;
-    counter++;        // works the same as counter = counter + 1, but is shorter
-    alert( counter ); // 3
+    counter++; // works the same as counter = counter + 1, but is shorter
+    console.log( counter ); 
     ```
 - **Decrement** `--` decreases a variable by 1:
 
     ```js
     let counter = 2;
-    counter--;        // works the same as counter = counter - 1, but is shorter
-    alert( counter ); // 1
+    counter--; // works the same as counter = counter - 1, but is shorter
+    console.log( counter );
     ```
 
 {:.warning}
