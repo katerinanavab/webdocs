@@ -60,7 +60,7 @@ For instance, in-browser JavaScript is able to:
 ### The script tag
 {:.no_toc}
 
-JavaScript programs can be inserted almost anywhere into an HTML document using the `<script>` tag: 
+JavaScript programs can be inserted almost anywhere **into an HTML document** using the `<script>` tag: 
 
 ```html
 <body>
@@ -131,28 +131,28 @@ As time goes on, programs become more and more complex. It becomes necessary to 
 Comments can be put into any place of a script. They don't affect its execution because the engine simply **ignores** them.
 
 {:.important}
-**One-line comments start with two forward slash characters `//`.**
+**Single-line comments** start with _two forward slash_ characters `//`.
 
-The rest of the line is a comment. It may occupy a full line of its own or follow a statement.
+The rest of the line is considered a comment. It may occupy a full line of its own, or follow a statement.
 
 Like here:
 ```js
 // This comment occupies a line of its own
-alert('Hello');
+console.log('Hello');
 
-alert('World'); // This comment follows the statement
+console.log('World'); // This comment follows the statement
 ```
 
 {:.important}
-**Multiline comments** start with a forward slash and an asterisk <code>/&#42;</code> and end with an asterisk and a forward slash <code>&#42;/</code>.
+**Multiline comments** start with a _forward slash_ and an _asterisk_ <code>/&#42;</code>, and end with an _asterisk_ then a _forward slash_ <code>&#42;/</code>.
 
 Like this:
 ```js
 /* An example with two messages.
 This is a multiline comment.
 */
-alert('Hello');
-alert('World');
+console.log('Hello');
+console.log('World');
 ```
 
 The content of comments is **ignored**, so if we put code inside <code>/&#42; ... &#42;/</code>, it won't execute.
@@ -161,9 +161,9 @@ Sometimes it can be handy to _temporarily disable_ a part of code:
 
 ```js
 /* Commenting out the code
-alert('Hello');
+console.log('Hello');
 */
-alert('World');
+console.log('World');
 ```
 
 ---
