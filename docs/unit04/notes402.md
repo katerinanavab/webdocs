@@ -20,7 +20,7 @@ Most of the time, a JavaScript application needs to work with **data** (informat
 1. An online shop - the information might include goods being sold and a shopping cart.
 2. A chat application - the information might include users, messages, and much more.
 
-**Variables** are used to _store_ information. A [variable](https://en.wikipedia.org/wiki/Variable_(computer_science)) is a "named storage" for data. We can use variables to store goodies, visitors, and other data.
+**Variables** are used to _store_ information. A [variable](https://en.wikipedia.org/wiki/Variable_(computer_science)) is a "named storage" for data. 
 
 <div class="imp" markdown="block">
 
