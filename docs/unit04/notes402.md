@@ -207,9 +207,11 @@ console.log("Hello World!");
 ```
 
 Let's think about the general concept of **cooking with a recipe** first. Using a recipe means that:
-    1. You start with a specific set of ingredients
-    2. You perform a specific procedure using those ingredients
-    3. You will get a reliable product at the end
+
+1. You start with a specific set of ingredients
+2. You perform a specific procedure using those ingredients
+3. You will get a reliable product at the end
+
 - A **FUNCTION** is also a **reusable recipe** that performs the same set of actions over and over again on a set of ingredients.
 - Those **ingredients** are called **PARAMETERS → “INPUT”**
 - Some functions **RETURN** a value, which means that they ***give you a new value*** that you can then use throughout your script **→** “**OUTPUT”**
