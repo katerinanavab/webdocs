@@ -119,7 +119,7 @@ The first thing we'll study is the **building blocks** of JavaScript code.
 We've already seen a _statement_, `console.log('Hello world!');`, which shows the message "Hello, world!" in the **OUTPUT** frame.
 
 {:.highlight}
-We can include as many **statements** (commands/instructions) in our code as we want! Statements are separated with a _semicolon_ (` ; `).
+We can include as many **statements** (_commands/instructions_) in our code as we want! Statements are separated with a **semicolon** (` ; `), which acts like a _stop sign_ 🛑 after an instruction.
 
 #### Comments
 {:.no_toc}
@@ -164,21 +164,59 @@ alert('Hello');
 alert('World');
 ```
 
-
 ### Variables & Data Types
+
+Most of the time, a JavaScript application needs to work with **data** (information). Here are two examples:
+1. An online shop - the information might include goods being sold and a shopping cart.
+2. A chat application - the information might include users, messages, and much more.
+
+**Variables** are used to _store_ information. A [variable](https://en.wikipedia.org/wiki/Variable_(computer_science)) is a "named storage" for data. We can use variables to store goodies, visitors, and other data.
+
+<div class="imp" markdown="block">
+
+##### Key points:
+{:.no_toc}
+
+- **DATA** is information 🧠
+- **VARIABLES** store data → *like a **box** * 📦
+- **DATA TYPES** are categories of data → *like **labels** on the boxes* 🏷️
+    
+</div>
+
+#### JS DATA TYPES
+{:.no_toc}
+
+| `Number` | 🔢 a **quantity/amount** that is either a **whole/integer** number or a **decimal/fractional** number |
+| `String` | 🔤 a collection of **individual characters** (letters/numbers/symbols) that are “*strung together*” to form **text/words/sentences** |
+| `Boolean` | either `true` or `false` |
+| `Array` | a **list** of multiple values, each value has an **index** number that indicates its position/order in the collection  |
+| `Object` | *custom* data types that hold a **group** of data, usually to represent a real-world object or an HTML document |
+
+#### Creating Variables
+{:no_toc}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/cXUWYZXru6o?si=sB54GV-STb2ipVhL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-Most of the time, a JavaScript application needs to work with information. Here are two examples:
-1. An online shop -- the information might include goods being sold and a shopping cart.
-2. A chat application -- the information might include users, messages, and much more.
-
-Variables are used to store this information.
-
-A [variable](https://en.wikipedia.org/wiki/Variable_(computer_science)) is a "named storage" for data. We can use variables to store goodies, visitors, and other data.
-
 To create a variable in JavaScript, use the `let` keyword.
 
+- **VARIABLES** are containers for *carrying values* within your script
+
+![image](truck-declare-var.gif)
+
+- This is called **declaring** a variable. It creates a new truck called *days* that can drive around your script and deliver its **value** OR pick up a new **value**.
+- The `let` **KEYWORD (also** `var` but no one uses that anymore**)** allows us to create **mutable** variables whose values can be changed.
+    - `let` announces that you are creating a new variable. Or, in the analogy we are about to use, buying a new truck.
+    - If we used the `const` keyword, it would mean that the value is **immutable** and unchangeable.
+- The variable needs a unique **name**, which is *days* here. This distinguishes this truck from all the other trucks.
+- The **assignment operator**, or `=` sign, is NOT an “equals sign” like in math equations → it’s more like **a ramp that loads up a truck**
+    - In this example, it loads the **value** 7, into the *days* truck
+- The variable `days` is not “equal” to anything! It merely carries around the value that you assign to it.
+- In JS, unlike math, you can simply **RE-ASSIGN** a new value to the variable later: `days = 5;` → the assignment operator loads a new value on to the *days* truck
+- You can **PASS** a variable into **FUNCTIONS** like this:
+    
+![image](truck-use-var.gif)
+
+   
 The statement below creates (in other words: *declares*) a variable with the name "message":
 
 ```js
@@ -291,6 +329,24 @@ Complete **steps 1-6** in the following _interactive tutorial_:
 
 </div>
 
+### Functions
+
+<div class="imp" markdown="block">
+    
+- **FUNCTIONS** are **reusable** sets of **code** **statements** that accomplish a specific task in a certain way
+    - `console.log()` is a built-in **function** that **prints** data by *logging* information in the console
+    - Inside the **parenthesis** (`()`) goes the data to be printed
+    - Indicate `String` data by surrounding it with **quotations** (`””`) → 💬
+
+</div>
+
+```jsx
+// Print a String to the console
+console.log("Hello World!");
+```
+
+<!--
+
 ### Operators & Logic
 
 <div class="task" markdown="block">
@@ -310,8 +366,6 @@ Complete **steps 10-14** in the following _interactive tutorial_:
 </div>
 
 ### Iteration/Loops (`while`, `for`)
-
-<!--
 
 ### Using Methods
 
