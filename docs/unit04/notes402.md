@@ -20,7 +20,7 @@ Most of the time, a JavaScript application needs to work with **data** (informat
 1. An online shop - the information might include goods being sold and a shopping cart.
 2. A chat application - the information might include users, messages, and much more.
 
-**Variables** are used to _store_ information. A [variable](https://en.wikipedia.org/wiki/Variable_(computer_science)) is a "named storage" for data. 
+**Variables** are used to _store_ information. In programming languages, a [variable](https://en.wikipedia.org/wiki/Variable_(computer_science)) is a "named storage container" for data. 
 
 <div class="imp" markdown="block">
 
@@ -42,34 +42,8 @@ Most of the time, a JavaScript application needs to work with **data** (informat
 
 ### Creating Variables
 
-<!--
-[A Visual Guide to Understanding Variables in JavaScript](https://blog.codeanalogies.com/2017/12/20/a-visual-guide-to-understanding-the-sign-in-javascript/)
-
-[How JavaScript variable scoping is just like multiple levels of government](https://blog.codeanalogies.com/2017/11/22/how-javascript-variable-scoping-is-just-like-multiple-levels-of-government/)
--->
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/cXUWYZXru6o?si=sB54GV-STb2ipVhL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
 To create a variable in JavaScript, use the `let` keyword.
 
-- **VARIABLES** are containers for *carrying values* within your script
-
-![image](truck-declare-var.gif)
-
-- This is called **declaring** a variable. It creates a new truck called *days* that can drive around your script and deliver its **value** OR pick up a new **value**.
-- The `let` **KEYWORD (also** `var` but no one uses that anymore**)** allows us to create **mutable** variables whose values can be changed.
-    - `let` announces that you are creating a new variable. Or, in the analogy we are about to use, buying a new truck.
-    - If we used the `const` keyword, it would mean that the value is **immutable** and unchangeable.
-- The variable needs a unique **name**, which is *days* here. This distinguishes this truck from all the other trucks.
-- The **assignment operator**, or `=` sign, is NOT an “equals sign” like in math equations → it’s more like **a ramp that loads up a truck**
-    - In this example, it loads the **value** 7, into the *days* truck
-- The variable `days` is not “equal” to anything! It merely carries around the value that you assign to it.
-- In JS, unlike math, you can simply **RE-ASSIGN** a new value to the variable later: `days = 5;` → the assignment operator loads a new value on to the *days* truck
-- You can **PASS** a variable into **FUNCTIONS** like this:
-    
-![image](truck-use-var.gif)
-
-   
 The statement below creates (in other words: *declares*) a variable with the name "message":
 
 ```js
@@ -123,9 +97,9 @@ For instance, the variable `message` can be imagined as a box labelled `"message
 
 ![image](variable.svg)
 
-We can put any value in the box.
+> We can put any value in the box.
 
-We can also change it as many times as we want:
+We can also **change** it as many times as we want:
 
 ```js
 let message;
@@ -169,6 +143,36 @@ let message = "That"; // SyntaxError: 'message' has already been declared
 So, we should declare a variable once and then refer to it without `let`.
 
 </div>
+
+
+#### The Assignment Operator
+{:.no_toc}
+
+<!--
+[A Visual Guide to Understanding Variables in JavaScript](https://blog.codeanalogies.com/2017/12/20/a-visual-guide-to-understanding-the-sign-in-javascript/)
+
+[How JavaScript variable scoping is just like multiple levels of government](https://blog.codeanalogies.com/2017/11/22/how-javascript-variable-scoping-is-just-like-multiple-levels-of-government/)
+-->
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cXUWYZXru6o?si=sB54GV-STb2ipVhL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+- **VARIABLES** are containers for *carrying values* within your script
+
+![image](truck-declare-var.gif)
+
+- This is called **declaring** a variable. It creates a new truck called *days* that can drive around your script and deliver its **value** OR pick up a new **value**.
+- The `let` **KEYWORD (also** `var` but no one uses that anymore**)** allows us to create **mutable** variables whose values can be changed.
+    - `let` announces that you are creating a new variable. Or, in the analogy we are about to use, buying a new truck.
+    - If we used the `const` keyword, it would mean that the value is **immutable** and unchangeable.
+- The variable needs a unique **name**, which is *days* here. This distinguishes this truck from all the other trucks.
+- The **assignment operator**, or `=` sign, is NOT an “equals sign” like in math equations → it’s more like **a ramp that loads up a truck**
+    - In this example, it loads the **value** 7, into the *days* truck
+- The variable `days` is not “equal” to anything! It merely carries around the value that you assign to it.
+- In JS, unlike math, you can simply **RE-ASSIGN** a new value to the variable later: `days = 5;` → the assignment operator loads a new value on to the *days* truck
+- You can **PASS** a variable into **FUNCTIONS** like this:
+    
+![image](truck-use-var.gif)
+
 
 <div class="task" markdown="block">
 
