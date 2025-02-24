@@ -42,6 +42,8 @@ nav_order: 1
 
 Today, JavaScript can execute not only in the **browser**, but also on the server, or actually on any device that has a special program called [the JavaScript engine](https://en.wikipedia.org/wiki/JavaScript_engine). The browser has an embedded engine sometimes called a "JavaScript virtual machine".
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gT0Lh1eYk78?si=nXbuPeJMd8GCFsv7&amp;start=30" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ### What can in-browser JavaScript do?
 {:.no_toc}
 
