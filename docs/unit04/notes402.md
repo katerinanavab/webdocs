@@ -185,7 +185,104 @@ Complete **steps 1-6** in the following _interactive tutorial_:
 
 </div>
 
-### Arithmetic Operators & Logic
+### Arithmetic Operators
+
+The following math operations are supported:
+
+- Addition `+`,
+- Subtraction `-`,
+- Multiplication `*`,
+- Division `/`,
+- Remainder `%`,
+- Exponentiation `**`.
+
+The first four are straightforward, while `%` and `**` need a few words about them.
+
+#### Remainder `%`
+{:.no_toc}
+
+The **remainder operator** `%`, despite its appearance, is not related to percents.
+
+The result of `a % b` is the [remainder](https://en.wikipedia.org/wiki/Remainder) of the integer division of `a` by `b`.
+
+```js
+alert( 5 % 2 ); // 1, the remainder of 5 divided by 2
+alert( 8 % 3 ); // 2, the remainder of 8 divided by 3
+alert( 8 % 4 ); // 0, the remainder of 8 divided by 4
+```
+
+#### Exponentiation `**`
+{:.no_toc}
+
+The **exponentiation operator** `a ** b` raises `a` to the power of `b`.
+> In school math, we write that as: a<sup>b</sup>.
+
+```js
+alert( 2 ** 2 ); // 2² = 4
+alert( 2 ** 3 ); // 2³ = 8
+alert( 2 ** 4 ); // 2⁴ = 16
+```
+
+Just like in math, the exponentiation operator is defined for non-integer numbers as well.
+
+For example, a square root is an exponentiation by ½:
+
+```js
+alert( 4 ** (1/2) ); // 2 (power of 1/2 is the same as a square root)
+alert( 8 ** (1/3) ); // 2 (power of 1/3 is the same as a cubic root)
+```
+
+### String Concatenation
+
+Let's meet the features of JavaScript operators that are beyond school arithmetics.
+
+Usually, the plus operator `+` sums numbers. But, if the binary `+` is applied to `strings`, it **concatenates** (_merges_) them:
+
+```js
+let s = "my" + "string";
+alert(s); // mystring
+```
+
+Note that if any of the operands is a string, then the other one is converted to a string too.
+
+For example:
+
+```js
+alert( '1' + 2 ); // "12"
+alert( 2 + '1' ); // "21"
+```
+> See, it doesn't matter whether the first operand is a string or the second one.
+
+Here's a more complex example:
+
+```js
+alert(2 + 2 + '1' ); // "41" and not "221"
+```
+> Here, operators work one after another. The first `+` sums two numbers, so it returns `4`, then the next `+` adds the string `1` to it, so it's like `4 + '1' = '41'`.
+
+### Increment/Decrement
+
+Increasing or decreasing a number by one is among the most common numerical operations.
+
+So, there are special operators for it:
+
+- **Increment** `++` increases a variable by 1:
+
+    ```js
+    let counter = 2;
+    counter++;        // works the same as counter = counter + 1, but is shorter
+    alert( counter ); // 3
+    ```
+- **Decrement** `--` decreases a variable by 1:
+
+    ```js
+    let counter = 2;
+    counter--;        // works the same as counter = counter - 1, but is shorter
+    alert( counter ); // 1
+    ```
+
+{:.warning}
+Increment/decrement operators can only be applied to **variables**. Trying to use it on a _value_, like `5++`, will give an error.
 
 <div class="task" markdown="block">
 
