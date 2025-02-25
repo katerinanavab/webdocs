@@ -328,7 +328,7 @@ Functions are **actions**. So their name is usually a _verb_. It should be brief
 - A name should clearly describe what the function _does_. When we see a function call in the code, a good name instantly gives us an understanding what it does and returns.
 - There exist many well-known function **prefixes** like `create…`, `show…`, `get…`, `check…` and so on. Use them to hint what a function does.
 
-#### Parameters (Input)
+### Parameters (Input)
 
 We can _pass_ arbitrary **data** to functions using **parameters**.
 
@@ -359,7 +359,7 @@ When a value is passed as a function parameter, it's also called an *argument*. 
 We **declare** functions listing their _parameters_, then **call** them passing _arguments_.
 > In the example above, one might say: "the function `showMessage` is declared with two parameters, then called with two arguments: `from` and `"Hello"`".
 
-#### Return (Output)
+### Return (Output)
 
 A function can **return** ("_output_") a value back into the calling code as the result.
 
