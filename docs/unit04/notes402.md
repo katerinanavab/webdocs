@@ -336,7 +336,7 @@ In the example below, the function has two parameters: `from` and `text`:
 
 ```js
 function showMessage(from, text) { 
-  alert(from + ': ' + text);
+  console.log(from + ': ' + text);
 }
 
 showMessage('Ann', 'Hello!');
