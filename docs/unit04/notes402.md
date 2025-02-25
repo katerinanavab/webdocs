@@ -384,32 +384,35 @@ console.log( result );
 
 Functions can be **visualized** as _recipes_ for different actions/processes in your script.
 
-{:.highlight}
-For a more in-depth description of the **recipe analogy** below, check out this blog post: [JavaScript Functions Explained by Making a Recipe](https://www.codeanalogies.com/javascript-functions-explained#javascript)
-
 Let's think about the general concept of **cooking with a recipe** first. Using a recipe means that:
 
 1. You start with a specific set of ingredients
 2. You perform a specific procedure using those ingredients
 3. You will get a reliable product at the end
 
-- A **FUNCTION** is also a **reusable recipe** that performs the same set of actions over and over again on a set of ingredients.
-- Those **ingredients** are called **PARAMETERS → “INPUT”**
-- Some functions **RETURN** a value, which means that they ***give you a new value*** that you can then use throughout your script **→** “**OUTPUT”**
+{:.highlight}
+A **FUNCTION** can be considered a *reusable recipe* that reliably performs the same set of actions, over and over again, on a set of ingredients. Those *ingredients* are the **PARAMETERS**. 
 
-![image](function-void.png)
+- Some functions **RETURN** a value, which means that they ***give you a new value*** that you can then use throughout your script: 
 
-- Other functions **do not return** a value, instead, they might ***change a value that already exists*** in your script or carry out an action like `console.log()`
-    - Think of it like chopping onions. There is no "new" product, just the same product in a new format.
-    - Boiling water to make pasta is another example of a function that just “does/changes something” but doesn’t necessarily give you something new in return
-    
 ![image](function-nonvoid.png)
+
+- Other functions **do not return** a value and are missing a `return` directive in the function body. Instead, the process might just ***change a value that already exists*** in your script or carry out an action, like `console.log()`.
+    - Think of this like chopping onions. There is no "new" product, just the same product in a different format.
+    - Boiling water to make pasta is another example of a function that just “does/changes something” but doesn’t necessarily give you something new in return:
     
-- Check out the example below to see the general layout of a function. In this example, we are **DEFINING** **a function** (“documenting the recipe”) called `makeSandwich`.
-    - It does **return** a value here: one full sandwich.
-    - *Why is this useful in real life? Why is this useful in code?*
+![image](function-void.png)
+    
+- Check out the example below to review the general layout of a function. In this example, we are **DEFINING** a function (“documenting the recipe”) called `makeSandwich`:
     
 ![image](function-example.png)
+
+> 💬 **DISCUSS:**
+> - Does this recipe's process produce something new? 
+> - Why is a recipe useful in _real life_? Why is this useful in _code_?
+
+{:.highlight}
+For a more in-depth description of the **recipe analogy** above, check out this blog post: [JavaScript Functions Explained by Making a Recipe](https://www.codeanalogies.com/javascript-functions-explained#javascript)
       
 
 <div class="task" markdown="block">
