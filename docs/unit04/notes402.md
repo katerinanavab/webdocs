@@ -53,9 +53,15 @@ let message;
 Now, we can put some data into it by using the assignment operator `=`:
 
 ```js
-// store the string 'Hello' in the variable named message
+// Store the string 'Hello' in the variable named message
 message = 'Hello';
 ```
+
+We can grasp the concept of a "variable" if we imagine it as a "box" for data, with a uniquely-named "label" stuck on it for easy retrieval. For instance, the variable `message` can be imagined as a box labelled `"message"` with the value `"Hello!"` in it:
+
+![image-small](variable.svg)
+
+> We can put any value in the box.
 
 The string is now saved into the memory area associated with the variable. We can access it using the variable name:
 
@@ -64,14 +70,6 @@ let message;
 message = 'Hello!';
 
 console.log(message); // shows the variable content
-```
-
-To be concise, we can combine the variable declaration and assignment into a single line:
-
-```js
-let message = 'Hello!'; // define the variable and assign the value
-
-console.log(message); // Hello!
 ```
 
 #### `var` instead of `let`
@@ -86,18 +84,6 @@ var message = 'Hello';
 The `var` keyword is *almost* the same as `let`. It also declares a variable but in a slightly different, "old-school" way.
 
 There are subtle differences between `let` and `var`, but they do not matter to us yet. 
-
-
-#### A real-life analogy
-{:.no_toc}
-
-We can easily grasp the concept of a "variable" if we imagine it as a "box" for data, with a uniquely-named sticker on it.
-
-For instance, the variable `message` can be imagined as a box labelled `"message"` with the value `"Hello!"` in it:
-
-![image-small](variable.svg)
-
-> We can put any value in the box.
 
 We can also **change** it as many times as we want:
 
