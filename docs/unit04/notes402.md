@@ -374,132 +374,47 @@ showMessage(from, "Hello"); // *Ann*: Hello
 alert( from ); // Ann
 ```
 
-When a value is passed as a function parameter, it's also called an *argument*.
+When a value is passed as a function parameter, it's also called an *argument*. In other words, to put these terms straight:
 
-In other words, to put these terms straight:
+<html>
+<dl>
+<dt>Parameter</dt>
+<dd>The <strong>variable</strong> listed inside the parentheses in the function <em>declaration</em> (it's a declaration-time term).</dd>
+<dt>Argument</dt>
+<dd>The <strong>value</strong> that is passed to the function when it is <em>called</em> (it's a call-time term).</dd>
+</dl>
+</html>
 
-- A parameter is the variable listed inside the parentheses in the function declaration (it's a declaration time term).
-- An argument is the value that is passed to the function when it is called (it's a call time term).
-
-We declare functions listing their parameters, then call them passing arguments.
-
-In the example above, one might say: "the function `showMessage` is declared with two parameters, then called with two arguments: `from` and `"Hello"`".
+We **declare** functions listing their _parameters_, then **call** them passing _arguments_.
+> In the example above, one might say: "the function `showMessage` is declared with two parameters, then called with two arguments: `from` and `"Hello"`".
 
 #### Return (Output)
 
-Returning a value
-
-A function can return a value back into the calling code as the result.
+A function can **return** ("_output_") a value back into the calling code as the result.
 
 The simplest example would be a function that sums two values:
 
-```js run no-beautify
+```js
 function sum(a, b) {
-  *!*return*/!* a + b;
+  return a + b;
 }
 
 let result = sum(1, 2);
-alert( result ); // 3
+console.log( result );
 ```
 
-The directive `return` can be in any place of the function. When the execution reaches it, the function stops, and the value is returned to the calling code (assigned to `result` above).
+> The directive `return` can be in any part of the function, but typically at the end. When the execution reaches it, **the function stops**, and the value is returned as a _new piece of data_ to the calling code (assigned to `result` above).
 
-There may be many occurrences of `return` in a single function. For instance:
-
-```js run
-function checkAge(age) {
-  if (age >= 18) {
-*!*
-    return true;
-*/!*
-  } else {
-*!*
-    return confirm('Do you have permission from your parents?');
-*/!*
-  }
-}
-
-let age = prompt('How old are you?', 18);
-
-if ( checkAge(age) ) {
-  alert( 'Access granted' );
-} else {
-  alert( 'Access denied' );
-}
-```
-
-It is possible to use `return` without a value. That causes the function to exit immediately.
-
-For example:
-
-```js
-function showMovie(age) {
-  if ( !checkAge(age) ) {
-*!*
-    return;
-*/!*
-  }
-
-  alert( "Showing you the movie" ); // (*)
-  // ...
-}
-```
-
-In the code above, if `checkAge(age)` returns `false`, then `showMovie` won't proceed to the `alert`.
-
-````smart header="A function with an empty `return` or without it returns `undefined`"
-If a function does not return a value, it is the same as if it returns `undefined`:
-
-```js run
-function doNothing() { /* empty */ }
-
-alert( doNothing() === undefined ); // true
-```
-
-An empty `return` is also the same as `return undefined`:
-
-```js run
-function doNothing() {
-  return;
-}
-
-alert( doNothing() === undefined ); // true
-```
-````
-
-````warn header="Never add a newline between `return` and the value"
-For a long expression in `return`, it might be tempting to put it on a separate line, like this:
-
-```js
-return
- (some + long + expression + or + whatever * f(a) + f(b))
-```
-That doesn't work, because JavaScript assumes a semicolon after `return`. That'll work the same as:
-
-```js
-return*!*;*/!*
- (some + long + expression + or + whatever * f(a) + f(b))
-```
-
-So, it effectively becomes an empty return.
-
-If we want the returned expression to wrap across multiple lines, we should start it at the same line as `return`. Or at least put the opening parentheses there as follows:
-
-```js
-return (
-  some + long + expression
-  + or +
-  whatever * f(a) + f(b)
-  )
-```
-And it will work just as we expect it to.
-````
+{:.warning}
+🚫 Never add a new line between `return` and the **value**!!! For a long expression in `return`, it might be tempting to put it on a separate line, but it doesn't work.
 
 #### RECIPE ANALOGY FOR FUNCTIONS
 {:.no_toc}
 
+Functions can be **visualized** as _recipes_ for different actions/processes in your script.
+
 {:.highlight}
-For a more in-depth description of the **recipe analogy**, check out this blog post: [JavaScript Functions Explained by Making a Recipe](https://www.codeanalogies.com/javascript-functions-explained#javascript)
+For a more in-depth description of the **recipe analogy** below, check out this blog post: [JavaScript Functions Explained by Making a Recipe](https://www.codeanalogies.com/javascript-functions-explained#javascript)
 
 Let's think about the general concept of **cooking with a recipe** first. Using a recipe means that:
 
