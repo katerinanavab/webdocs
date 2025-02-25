@@ -95,7 +95,7 @@ We can easily grasp the concept of a "variable" if we imagine it as a "box" for 
 
 For instance, the variable `message` can be imagined as a box labelled `"message"` with the value `"Hello!"` in it:
 
-![image](variable.svg)
+![image-small](variable.svg)
 
 > We can put any value in the box.
 
