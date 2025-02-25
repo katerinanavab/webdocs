@@ -33,7 +33,13 @@ Complete **steps 7-14** in the following _interactive tutorial_:
 
 ### "Truthiness"
 
-When we use `if()` statements, we are not always going to be able to plug in a variable with a value of true or false. Many times, we must plug in a **statement** that will be _evaluated_ by JavaScript as `true` or `false`.
+When we use `if()` statements, we are not always going to be able to plug in a variable that already holds the **value** of `true` or `false`. Many times, we must plug in a **statement** that will be _evaluated_ by JavaScript as `true` or `false`.
+
+For example, do you know if the value 0 is true or false?
+
+This is not a philosophy question. JavaScript has an answer.
+
+Anyways, this happens because JavaScript is a weakly typed language. This means that in the context of an if() statement, it will convert other variable values to true or false in order to run the code. This is known as determining the “truthiness” of a value.
 
 > This is similar to the legal system! Although it is POSSIBLE that there will be one piece of evidence that makes the “guilty” or “not guilty” sentence obvious, it is also likely that a judge or jury will need to evaluate the evidence and make a decision.
 
