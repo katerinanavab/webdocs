@@ -295,38 +295,30 @@ It looks like this:
 
 ```js
 function showMessage() {
-  console.log( 'Hello everyone!' );
+  console.log('Hello everyone!');
 }
 ```
 
-The `function` keyword goes first, then goes the *name of the function*, then a list of *parameters* between the parentheses (comma-separated, empty in the example above, we'll see examples later) and finally the code of the function, also named "the function body", between curly braces.
+<div class="imp" markdown="block">
+    
+When **DECLARING** a function:
+1. The `function` keyword goes first
+2. Then put the **name** of the function
+3. Then a possible list of **parameters** between the *parentheses* (comma-separated, empty in the example above)
+4. Finally the **code** of the function (called the "function body") goes between _curly braces_.
 
 ```js
 function name(parameter1, parameter2, ... parameterN) {
- // body
+    // body
 }
 ```
 
-Our new function can be called by its name: `showMessage()`.
+</div>
 
-For instance:
+As seen above with the `console.log();` example, a function can be **CALLED** (_activated/run_) by its name.
+> The call `showMessage();` executes the code inside the `showMessage` function. We can call this as many times as we want!
 
-```js run
-function showMessage() {
-  alert( 'Hello everyone!' );
-}
-
-*!*
-showMessage();
-showMessage();
-*/!*
-```
-
-The call `showMessage()` executes the code of the function. Here we will see the message two times.
-
-This example clearly demonstrates one of the main purposes of functions: to avoid code duplication.
-
-If we ever need to change the message or the way it is shown, it's enough to modify the code in one place: the function which handles it.
+If we ever need to change the message or the way it is shown, it's enough to modify the code in one place: the **function** which handles it.
 
 #### Function Naming
 {:.no_toc}
@@ -334,45 +326,24 @@ If we ever need to change the message or the way it is shown, it's enough to mod
 Functions are **actions**. So their name is usually a _verb_. It should be brief, as accurate as possible and describe what the function does, so that someone reading the code gets an indication of what the function does.
 
 - A name should clearly describe what the function _does_. When we see a function call in the code, a good name instantly gives us an understanding what it does and returns.
-- A function is an action, so function names are usually verbal.
-- There exist many well-known function prefixes like `create…`, `show…`, `get…`, `check…` and so on. Use them to hint what a function does.
+- There exist many well-known function **prefixes** like `create…`, `show…`, `get…`, `check…` and so on. Use them to hint what a function does.
 
 #### Parameters (Input)
 
-We can pass arbitrary data to functions using parameters.
+We can _pass_ arbitrary **data** to functions using **parameters**.
 
-In the example below, the function has two parameters: `from` and `text`.
+In the example below, the function has two parameters: `from` and `text`:
 
-```js run
-function showMessage(*!*from, text*/!*) { // parameters: from, text
+```js
+function showMessage(from, text) { 
   alert(from + ': ' + text);
 }
 
-*!*showMessage('Ann', 'Hello!');*/!* // Ann: Hello! (*)
-*!*showMessage('Ann', "What's up?");*/!* // Ann: What's up? (**)
+showMessage('Ann', 'Hello!');
+showMessage('Ann', "What's up?");
 ```
 
-When the function is called in lines `(*)` and `(**)`, the given values are copied to local variables `from` and `text`. Then the function uses them.
-
-Here's one more example: we have a variable `from` and pass it to the function. Please note: the function changes `from`, but the change is not seen outside, because a function always gets a copy of the value:
-
-```js run
-function showMessage(from, text) {
-
-*!*
-  from = '*' + from + '*'; // make "from" look nicer
-*/!*
-
-  alert( from + ': ' + text );
-}
-
-let from = "Ann";
-
-showMessage(from, "Hello"); // *Ann*: Hello
-
-// the value of "from" is the same, the function modified a local copy
-alert( from ); // Ann
-```
+When the function is called, the given values are **copied** to local variables `from` and `text`. Then the function uses them.
 
 When a value is passed as a function parameter, it's also called an *argument*. In other words, to put these terms straight:
 
