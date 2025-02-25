@@ -59,7 +59,7 @@ Now, store some data in it using the **ASSIGNMENT OPERATOR** `=`:
 message = 'Hello';
 ```
 
-**DECLARATION** + **ASSIGNMENT** can be combined into _one statement_:
+⭐️ **DECLARATION** + **ASSIGNMENT** can be combined into _one statement_:
 
 ```js
 let message = 'Hello';
@@ -79,51 +79,50 @@ The `string` is now saved into the memory area associated with the variable. So 
 console.log(message); // shows the variable content
 ```
 
-{:.highlight}
-In older scripts, you may also find another **keyword** for declaring variables: `var message = 'Hello';` The `var` keyword is *almost* the same as `let`. It also declares a variable but in a slightly different, "old-school" way. 
-> There are subtle differences between `let` and `var`, but they do not matter to us yet. 
+<div class="warn" markdown="block">
 
-We can also **CHANGE** the value of a variable as many times as we want:
+A new variable can be **DECLARED** only once. A repeated declaration of the same variable triggers an error:
 
 ```js
-let message;
-message = 'Hello!';
-message = 'World!'; // value changed
-console.log(message);
+let word = "This";
+
+// Repeated 'let' declaration leads to error
+let word = "That"; // SyntaxError
 ```
 
-When a value is modified, the old data is **removed** from the variable:
+So, we should declare a variable _once_, and then afterwards, only refer to it without the `let` keyword.
+
+</div>
+
+After declaring a variable, we can **CHANGE** the value of a variable as many times as we want:
+
+```js
+let status = "Crashed Out";
+status = "Locked In"; // value changed
+console.log(status);
+```
+
+Whenever a value is modified, the old data is **removed** from the variable:
 
 ![image](variable-change.svg)
 
 We can also declare two variables and **copy data** from one into the other:
 
 ```js
-let hello = 'Hello world!';
+let lunch = "Pizza";
+let dinner;
 
-let message;
+// Copy the string from hello into message
+dinner = lunch;
 
-// copy 'Hello world' from hello into message
-message = hello;
-
-// now two variables hold the same data
-console.log(hello); // Hello world!
-console.log(message); // Hello world!
+// Now both variables hold the same data
+console.log(lunch);
+console.log(dinner);
 ```
 
-<div class="warn" markdown="block">
-
-A variable should be **DECLARED** only once. A repeated declaration of the same variable triggers an error:
-
-```js
-let message = "This";
-
-// Repeated 'let' declaration leads to an error
-let message = "That"; // SyntaxError: 'message' has already been declared
-```
-So, we should declare a variable _once_, and then afterwards, only refer to it without the `let` keyword.
-
-</div>
+{:.highlight}
+In older scripts, you may also find another **keyword** for declaring variables: `var message = 'Hello';` The `var` keyword is *almost* the same as `let`. It also declares a variable but in a slightly different, "old-school" way. 
+> There are subtle differences between `let` and `var`, but they do not matter to us yet. 
 
 
 #### The Assignment Operator
@@ -137,23 +136,24 @@ So, we should declare a variable _once_, and then afterwards, only refer to it w
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/cXUWYZXru6o?si=sB54GV-STb2ipVhL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-- **VARIABLES** are containers for *carrying values* within your script
+{:.highlight}
+**VARIABLES** are containers for *carrying values* within your script, and the **assignment operator**, or `=` sign, is NOT an “equals sign” like in math equations → it’s more like **a ramp that loads up** a value. 
+
+Using the [truck ramp analogy](https://blog.codeanalogies.com/2017/12/20/a-visual-guide-to-understanding-the-sign-in-javascript/), **DECLARING** a variable works like this:
 
 ![image](truck-declare-var.gif)
 
-- This is called **declaring** a variable. It creates a new truck called *days* that can drive around your script and deliver its **value** OR pick up a new **value**.
-- The `let` **KEYWORD (also** `var` but no one uses that anymore**)** allows us to create **mutable** variables whose values can be changed.
-    - `let` announces that you are creating a new variable. Or, in the analogy we are about to use, buying a new truck.
-    - If we used the `const` keyword, it would mean that the value is **immutable** and unchangeable.
-- The variable needs a unique **name**, which is *days* here. This distinguishes this truck from all the other trucks.
-- The **assignment operator**, or `=` sign, is NOT an “equals sign” like in math equations → it’s more like **a ramp that loads up a truck**
-    - In this example, it loads the **value** 7, into the *days* truck
-- The variable `days` is not “equal” to anything! It merely carries around the value that you assign to it.
-- In JS, unlike math, you can simply **RE-ASSIGN** a new value to the variable later: `days = 5;` → the assignment operator loads a new value on to the *days* truck
-- You can **PASS** a variable into **FUNCTIONS** like this:
+> - The statement above creates a new truck called `days` that can "_drive_" around your script and "_deliver_" its **value** OR even pick up a new **value**. Breaking down the statement:
+    > - `let` "announces" that you are creating a new variable. Or, in the analogy we are about to use, buying a new truck.
+    > - The variable needs a unique **name**, which is `days` here. This distinguishes this truck from all the other trucks.
+    > - The **assignment operator**, or `=` sign, "_loads_" the **value** `7`, into the `days` truck
+> - The variable `days` is not “equal” to anything! It merely *carries* around the value that you assign to it.
+> - In JS, unlike math, you can simply **RE-ASSIGN** a new value to the variable later. For example:
+    > - `days = 5;` → the assignment operator _loads_ a new value on to the `days` truck
+
+Using the [truck ramp analogy](https://blog.codeanalogies.com/2017/12/20/a-visual-guide-to-understanding-the-sign-in-javascript/), passing a variable into **FUNCTIONS** works like this:
     
 ![image](truck-use-var.gif)
-
 
 <div class="task" markdown="block">
 
