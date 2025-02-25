@@ -260,6 +260,11 @@ Increment/decrement operators can only be applied to **variables**. Trying to us
 
 ## Functions
 
+Quite often we need to perform a **similar action or process** in _multiple places_ of the script. 
+> For example, we need to show a nice-looking message when a visitor logs in, logs out and maybe somewhere else. Or for a game, a random number needs to be generated over and over again for loot picks. 
+
+**Functions** are the main "building blocks" of a program – they allow blocks of code to be called many times without too much repetition.
+
 <html>
 <dl>
 <dt>Function</dt>
@@ -269,15 +274,15 @@ Increment/decrement operators can only be applied to **variables**. Trying to us
 
 <div class="imp" markdown="block">
     
-`console.log` is a built-in **function** that **displays** data by *logging* information in the console:
+📝 `console.log` is a built-in **function** that **displays** data by *logging* information in the console. Here's an example of **using** (_calling_) that function in a statement:
 
-```jsx
+```js
 console.log("Hello World!");
 ```
 
 - Inside the **parenthesis** `()` goes the data to be displayed. Options:
-    - Indicate `String` data by surrounding the text with **quotations** (`""`) → 💬
-    - `Number` or `Boolean` data can be entered directly
+    - 💬 Indicate `String` data by surrounding the text with **quotations** (`""`)
+    - `Number` or `Boolean` type data can be entered directly (`3.14`, `7`, `true`)
     - Can also "_pass in_" **expressions** or **variables**
 
 </div>
