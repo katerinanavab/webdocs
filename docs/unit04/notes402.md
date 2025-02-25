@@ -55,7 +55,6 @@ let message;
 Now, store some data in it using the **ASSIGNMENT OPERATOR** `=`:
 
 ```js
-// Store the string 'Hello' in the variable named message
 message = 'Hello';
 ```
 
@@ -67,26 +66,21 @@ let message = 'Hello';
 
 </div>
 
-📦 We can **visualize** the concept of a "variable" if we imagine it as a "box" for data, with a uniquely-named "label" stuck on it for easy retrieval. 
+📦 We can **visualize** the concept of a variable if we imagine it as a "box" for data, with a uniquely-named "label" stuck on it for easy retrieval. 
 
-For instance, the variable `message` can be imagined as a box labelled `"message"` with the value `"Hello!"` in it:
+For instance, the variable `message` can be imagined as a box labelled `"message"` with the value `"Hello!"` packed in it: 
 
 ![image-small](variable.svg)
 
-The `string` is now saved into the memory area associated with the variable. So from now on, we can **ACCESS** it using the variable name:
-
-```js
-console.log(message); // shows the variable content
-```
 
 <div class="warn" markdown="block">
 
-A new variable can be **DECLARED** only once. A repeated declaration of the same variable triggers an error:
+A new variable can be **DECLARED** only once! A repeated declaration of the same variable triggers an error:
 
 ```js
 let word = "This";
 
-// Repeated 'let' declaration leads to error
+// Repeated 'let' declaration leads to error!!!
 let word = "That"; // SyntaxError
 ```
 
@@ -94,7 +88,16 @@ So, we should declare a variable _once_, and then afterwards, only refer to it w
 
 </div>
 
-After declaring a variable, we can **CHANGE** the value of a variable as many times as we want:
+#### Working with Variables
+{:.no_toc}
+
+After declaring a variable, the **value** is now _saved_ into the memory area associated with the **variable**. So from now on, we can **ACCESS** that value using the variable name: 
+
+```js
+console.log(message); // shows the variable content
+```
+
+We can also **CHANGE** the value of a variable as many times as we want:
 
 ```js
 let status = "Crashed Out";
@@ -106,7 +109,7 @@ Whenever a value is modified, the old data is **removed** from the variable:
 
 ![image](variable-change.svg)
 
-We can also declare two variables and **copy data** from one into the other:
+We can also declare two variables and **COPY DATA** from one into the other:
 
 ```js
 let lunch = "Pizza";
@@ -128,12 +131,6 @@ In older scripts, you may also find another **keyword** for declaring variables:
 #### The Assignment Operator
 {:.no_toc}
 
-<!--
-[A Visual Guide to Understanding Variables in JavaScript](https://blog.codeanalogies.com/2017/12/20/a-visual-guide-to-understanding-the-sign-in-javascript/)
-
-[How JavaScript variable scoping is just like multiple levels of government](https://blog.codeanalogies.com/2017/11/22/how-javascript-variable-scoping-is-just-like-multiple-levels-of-government/)
--->
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/cXUWYZXru6o?si=sB54GV-STb2ipVhL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 {:.highlight}
@@ -141,19 +138,19 @@ In older scripts, you may also find another **keyword** for declaring variables:
 
 Using the [truck ramp analogy](https://blog.codeanalogies.com/2017/12/20/a-visual-guide-to-understanding-the-sign-in-javascript/), **DECLARING** a variable works like this:
 
-![image](truck-declare-var.gif)
+![image-small](truck-declare-var.gif)
 
 > - The statement above creates a new truck called `days` that can "_drive_" around your script and "_deliver_" its **value** OR even pick up a new **value**. Breaking down the statement:
-    > - `let` "announces" that you are creating a new variable. Or, in the analogy we are about to use, buying a new truck.
-    > - The variable needs a unique **name**, which is `days` here. This distinguishes this truck from all the other trucks.
-    > - The **assignment operator**, or `=` sign, "_loads_" the **value** `7`, into the `days` truck
+>     - `let` "announces" that you are creating a new variable. Or, in the analogy we are about to use, buying a new truck.
+>     - The variable needs a unique **name**, which is `days` here. This distinguishes this truck from all the other trucks.
+>     - The **assignment operator**, or `=` sign, "_loads_" the **value** `7`, into the `days` truck
 > - The variable `days` is not “equal” to anything! It merely *carries* around the value that you assign to it.
 > - In JS, unlike math, you can simply **RE-ASSIGN** a new value to the variable later. For example:
-    > - `days = 5;` → the assignment operator _loads_ a new value on to the `days` truck
+>     - `days = 5;` → the assignment operator _loads_ a new value on to the `days` truck
 
 Using the [truck ramp analogy](https://blog.codeanalogies.com/2017/12/20/a-visual-guide-to-understanding-the-sign-in-javascript/), passing a variable into **FUNCTIONS** works like this:
     
-![image](truck-use-var.gif)
+![image-small](truck-use-var.gif)
 
 <div class="task" markdown="block">
 
