@@ -141,7 +141,7 @@ Using the [truck ramp analogy](https://blog.codeanalogies.com/2017/12/20/a-visua
 ![image-small](truck-declare-var.gif)
 
 > - The statement above creates a new truck called `days` that can "_drive_" around your script and "_deliver_" its **value** OR even pick up a new **value**. Breaking down the statement:
->     - `let` "announces" that you are creating a new variable. Or, in the analogy we are about to use, buying a new truck.
+>     - `let` announces that you are creating a new variable ("_buying a new truck_").
 >     - The variable needs a unique **name**, which is `days` here. This distinguishes this truck from all the other trucks.
 >     - The **assignment operator**, or `=` sign, "_loads_" the **value** `7`, into the `days` truck
 > - The variable `days` is not “equal” to anything! It merely *carries* around the value that you assign to it.
@@ -161,7 +161,7 @@ Complete the **Variables** section (steps 1-6) in the following _interactive tut
 
 ### Arithmetic Operators
 
-The following math operations are supported:
+The following math **operations** are supported:
 
 - Addition `+`,
 - Subtraction `-`,
