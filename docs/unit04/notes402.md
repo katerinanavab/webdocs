@@ -260,19 +260,27 @@ Increment/decrement operators can only be applied to **variables**. Trying to us
 
 ## Functions
 
+<html>
+<dl>
+<dt>Function</dt>
+<dd>A <em>reusable</em> set of <strong>code statements</strong> that accomplish a specific task in a certain way.</dd>
+</dl>
+</html>
+
 <div class="imp" markdown="block">
     
-- **FUNCTIONS** are **reusable** sets of **code** **statements** that accomplish a specific task in a certain way
-    - `console.log()` is a built-in **function** that **prints** data by *logging* information in the console
-    - Inside the **parenthesis** (`()`) goes the data to be printed
-    - Indicate `String` data by surrounding it with **quotations** (`””`) → 💬
-
-</div>
+`console.log` is a built-in **function** that **displays** data by *logging* information in the console:
 
 ```jsx
-// Print a String to the console
 console.log("Hello World!");
 ```
+
+- Inside the **parenthesis** `()` goes the data to be displayed. Options:
+    - Indicate `String` data by surrounding the text with **quotations** (`""`) → 💬
+    - `Number` or `Boolean` data can be entered directly
+    - Can also "_pass in_" **expressions** or **variables**
+
+</div>
 
 Let's think about the general concept of **cooking with a recipe** first. Using a recipe means that:
 
