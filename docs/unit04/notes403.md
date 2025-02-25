@@ -20,23 +20,20 @@ nav_order: 3
 
 ## Branching (Conditionals)
 
-### Booleans & Logic
-
-<div class="task" markdown="block">
-
-Complete **steps 7-9** in the following _interactive tutorial_: 
-[🏗️ JS Construction Site](https://www.codeanalogies.com/jsconstruction/)
-
-</div>
-
 ### `if` Statements
 
 <div class="task" markdown="block">
 
-Complete **steps 10-14** in the following _interactive tutorial_: 
+Complete **steps 7-14** in the following _interactive tutorial_: 
 [🏗️ JS Construction Site](https://www.codeanalogies.com/jsconstruction/)
 
 </div>
+
+### Comparison Operators
+
+### "Truthiness"
+
+<iframe src="https://blog.codeanalogies.com/wp-admin/admin-ajax.php?action=h5p_embed&id=19" width="680" height="322" frameborder="0" allowfullscreen="allowfullscreen" title="True Value in If Statement"></iframe><script src="https://blog.codeanalogies.com/wp-content/plugins/h5p/h5p-php-library/js/h5p-resizer.js" charset="UTF-8"></script>
 
 ---
 
