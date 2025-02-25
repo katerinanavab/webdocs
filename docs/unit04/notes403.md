@@ -35,18 +35,16 @@ Complete **steps 7-14** in the following _interactive tutorial_:
 
 When we use `if()` statements, we are not always going to be able to plug in a variable that already holds the **value** of `true` or `false`. Many times, we must plug in a **statement** that will be _evaluated_ by JavaScript as `true` or `false`.
 
-For example, do you know if the value 0 is true or false?
+For example, do you know if the value `0` is `true` or `false`?
 
-This is not a philosophy question. JavaScript has an answer.
+This is not a philosophy question – JavaScript has an answer. This happens because JavaScript is a _weakly typed_ language. This means that in the context of an `if()` statement, it will convert other variable values to `true` or `false` in order to run the code. This is known as determining the “truthiness” of a value.
 
-Anyways, this happens because JavaScript is a weakly typed language. This means that in the context of an if() statement, it will convert other variable values to true or false in order to run the code. This is known as determining the “truthiness” of a value.
+> This is similar to the legal system! Although it is POSSIBLE that there will be one piece of evidence that makes the “guilty” or “not guilty” sentence obvious, it is also likely that a judge or jury will need to _evaluate_ the evidence and make a decision.
 
-> This is similar to the legal system! Although it is POSSIBLE that there will be one piece of evidence that makes the “guilty” or “not guilty” sentence obvious, it is also likely that a judge or jury will need to evaluate the evidence and make a decision.
-
-For this analogy, let's assume a `true` statement is one that will lead to the conviction of the accused car theft, while a `false` statement will let him/her walk free. Let’s create a variable called `evidence` and set it to `true`: 
+For this analogy, let's assume a `true` statement is one that will lead to the conviction of the accused car theft, while a `false` statement will let him/her walk free. 
 
 ```js
-let evidence = true;
+let evidence = "Fingerprints";
  
 if (evidence) {
   convict();
@@ -56,7 +54,7 @@ else {
   release();
 }
 ```
-> `convict()` and `release()` are made-up functions. In this case, since evidence is set to true, the judge would convict the car thief. 
+> `convict()` and `release()` are made-up functions. In this case, since `evidence` has a non-zero/non-empty value, the `if()` statement _evaluates_ to `true`, so the judge would convict the car thief. 
 
 Here’s an interactive diagram of this scenario:
 
