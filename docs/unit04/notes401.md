@@ -13,14 +13,16 @@ nav_order: 1
 {:toc}
 
 ---
-#### New Unit! Use a GitHub Template for class notes:
-{:.no_toc}
+
+<html>
+<details>
+<summary>📓<strong>DEMO PROGRAM SETUP INSTRUCTIONS</strong></summary>
 
 <div class="setup" markdown="block">
 
 1. Go to the public template **repository** for our class: [BWL-CS HTML/CSS/JS Template](https://github.com/BWL-CS/html-css-js-template)
 2. Click the <button type="button" name="button" class="btn btn-green">Use this template</button> button above the list of files then select `Create a new repository`
-3. Specify the **repository name**: `CS1-Unit-4-Notes` or `CS1-JavaScript-Notes`
+3. Specify the **repository name**: `CS1-Unit-4-Notes` or `CS1-JavaScript-Demo`
 4. Click <button type="button" name="button" class="btn btn-green">Create repository</button>
     > Now you have **your own personal copy** of this starter code that you can always access under the `Your repositories` section of GitHub! 
 5. Now on your repository, click <button type="button" name="button" class="btn btn-green"> < > Code </button> and select the `Codespaces` tab
@@ -28,6 +30,9 @@ nav_order: 1
 7. 📝 Take notes in this Codespace during class, coding along with the instructor.
 
 </div>
+
+</details>
+</html>
 
 ---
 
