@@ -38,7 +38,9 @@ nav_order: 1
 
 ## The JavaScript (JS) Programming Language
 
-*JavaScript* was initially created to "make web pages alive"!
+*JavaScript* was initially created to "make web pages alive"! 🪄 
+
+![image](html-css-js.png)
 
 {:.highlight}
 📝 The programs coded in this language are called *scripts*. They can be written right in a web page's HTML and are run **automatically** as the page loads.
