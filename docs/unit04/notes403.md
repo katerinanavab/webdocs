@@ -1,6 +1,6 @@
 ---
 layout: notes
-title: "📓NOTES 4.3: Conditionals & Iteration" 
+title: "📓NOTES 4.3: Conditionals & Loops" 
 parent: "4️⃣ JavaScript"
 nav_order: 3
 ---
@@ -86,7 +86,7 @@ Here’s an interactive diagram of this scenario:
 
 ---
 
-## Looping (Iteration)
+## Iteration (Looping)
 
 ### `while` Loops 
 
