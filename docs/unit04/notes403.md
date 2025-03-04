@@ -16,10 +16,10 @@ nav_order: 3
 
 ## Program Control Flow
 
+![image-small](river-flow.webp)
+
 **Control flow** or flow of control is a fundamental concept that simply shows the _order_ in which your program’s code is being _executed_. 
 > 📣 It's basically you dictating or telling your program’s code “Hey this is how I want you to run under various scenarios or conditions until a particular condition is being met”.
-
-![image-small](river-flow.webp)
  
 <html>
  <dl>
@@ -51,6 +51,8 @@ Complete **steps 7-14** in the following _interactive tutorial_:
 
 </div>
 
+<!--
+
 ### "Truthiness"
 
 When we use `if()` statements, we are not always going to be able to plug in a variable that already holds the **value** of `true` or `false`. Many times, we must plug in a **statement** that will be _evaluated_ by JavaScript as `true` or `false`.
@@ -79,6 +81,8 @@ else {
 Here’s an interactive diagram of this scenario:
 
 <iframe src="https://blog.codeanalogies.com/wp-admin/admin-ajax.php?action=h5p_embed&id=19" width="680" height="322" frameborder="0" allowfullscreen="allowfullscreen" title="True Value in If Statement"></iframe><script src="https://blog.codeanalogies.com/wp-content/plugins/h5p/h5p-php-library/js/h5p-resizer.js" charset="UTF-8"></script>
+
+-->
 
 ---
 
