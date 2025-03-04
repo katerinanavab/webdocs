@@ -19,7 +19,7 @@ nav_order: 3
 **Control flow** or flow of control is a fundamental concept that simply shows the _order_ in which your program’s code is being _executed_. 
 > 📣 It's basically you dictating or telling your program’s code “Hey this is how I want you to run under various scenarios or conditions until a particular condition is being met”.
 
-![image](river-flow.webp)
+![image-small](river-flow.webp)
 
 <html>
  <dl>
