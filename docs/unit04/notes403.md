@@ -16,9 +16,16 @@ nav_order: 3
 
 ## Program Flow Control
 
+![image]()
+
 ---
 
 ## Branching (Conditionals)
+
+Sometimes, we need to perform different actions based on different **conditions**.
+
+### Comparison Operators
+
 
 ### `if` Statements
 
@@ -28,8 +35,6 @@ Complete **steps 7-14** in the following _interactive tutorial_:
 [🏗️ JS Construction Site](https://www.codeanalogies.com/jsconstruction/)
 
 </div>
-
-### Comparison Operators
 
 ### "Truthiness"
 
