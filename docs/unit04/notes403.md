@@ -19,21 +19,23 @@ nav_order: 3
 **Control flow** or flow of control is a fundamental concept that simply shows the _order_ in which your program’s code is being _executed_. 
 > 📣 It's basically you dictating or telling your program’s code “Hey this is how I want you to run under various scenarios or conditions until a particular condition is being met”.
 
+![image](river-flow.webp)
+
 <html>
  <dl>
   <dt>Control Statements</dt>
-  <dd>Structures of code that lets your code execute an action depending on the context of the scenario or condition</dd>
+  <dd>Structures of code that lets your code execute an action depending on the context of the scenario or condition.</dd>
  </dl>
 </html>
 
-![image]()
+![image](flow-control.png)
 
 {:.highlight}
 **Flow control statements** affect the _execution order_ of **statements** or instructions in a program. They are often used to make _decisions_, _repeat_ blocks of code, and _jump_ to specific sections of code.
 
 ---
 
-## Branching (Conditionals)
+## Selection (Conditionals)
 
 Sometimes, we need to perform different actions based on different **conditions**.
 
