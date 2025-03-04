@@ -14,7 +14,17 @@ nav_order: 3
 
 ---
 
-## Program Flow Control
+## Program Control Flow
+
+**Control flow** or flow of control is a fundamental concept that simply shows the _order_ in which your program’s code is being _executed_. 
+> 📣 It's basically you dictating or telling your program’s code “Hey this is how I want you to run under various scenarios or conditions until a particular condition is being met”.
+
+<html>
+ <dl>
+  <dt>Control Statements</dt>
+  <dd>Structures of code that lets your code execute an action depending on the context of the scenario or condition</dd>
+ </dl>
+</html>
 
 ![image]()
 
