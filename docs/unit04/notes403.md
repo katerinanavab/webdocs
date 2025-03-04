@@ -20,7 +20,7 @@ nav_order: 3
 > 📣 It's basically you dictating or telling your program’s code “Hey this is how I want you to run under various scenarios or conditions until a particular condition is being met”.
 
 ![image-small](river-flow.webp)
-
+ 
 <html>
  <dl>
   <dt>Control Statements</dt>
