@@ -41,6 +41,12 @@ Sometimes, we need to perform different actions based on different **conditions*
 
 ### Comparison Operators
 
+We know many comparison operators from math, which can be used in code to write **conditional statements**. 
+
+- Greater/less than: <code>a &gt; b</code>, <code>a &lt; b</code>.
+- Greater/less than or equals: <code>a &gt;= b</code>, <code>a &lt;= b</code>.
+- Equals: `a == b`, please note the double equality sign `==` means the equality test, while a single one `a = b` means an assignment.
+- Not equals: In maths the notation is <code>&ne;</code>, but in JavaScript it's written as <code>a != b</code>.
 
 ### `if` Statements
 
