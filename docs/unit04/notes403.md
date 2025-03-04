@@ -30,7 +30,7 @@ nav_order: 3
 
 ![image](flow-control.png)
 
-{:.highlight}
+{:.important}
 **Flow control statements** affect the _execution order_ of **statements** or instructions in a program. They are often used to make _decisions_, _repeat_ blocks of code, and _jump_ to specific sections of code.
 
 ---
