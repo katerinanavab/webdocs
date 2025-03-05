@@ -94,12 +94,12 @@ console.log( 'Bee' > 'Be' );
 The `if(...)` statement _evaluates_ a **condition** in parentheses and, if the result is `true`, _executes_ a block of code. It is considered good practice to wrap the code block inside curly braces:
 
 ```js
-if (year == 2015) {
-  console.log( "That's correct!" );
-  console.log( "You're so smart!" );
+if (currentYear == 2025) {
+  console.log( "What a time to be alive!" );
+  console.log( "New Year New Me" );
 }
 ```
-> In the example above, the condition is a simple _equality check_ (`year == 2015`), but it can be much more complex.
+> In the example above, the condition is a simple _equality check_ ("is the current year 2025?"), but it can be much more complex.
 
 
 #### Boolean conversion
@@ -110,7 +110,7 @@ The `if (…)` statement _evaluates_ the expression in its parentheses and _conv
 <div class="imp" markdown="block">
 
 **What is "_Truthiness_"?**
-- A number `0`, an empty string `""`, `null`, `undefined`, and `NaN` all get converted to `false`. Because of that they are called "_falsy_" values.
+- The number `0` or `0.0`, an empty string `""`, `null`, `undefined`, and `NaN` all get converted to `false`. Because of that they are called "_falsy_" values.
 - Other values become `true`, so they are called "_truthy_".
 
 </div>
