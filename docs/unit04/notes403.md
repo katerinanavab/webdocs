@@ -50,7 +50,7 @@ Sometimes, we need to _perform different actions_ based on different **condition
 
 ### Comparison Operators
 
-We know many comparison operators from math, which can be used in code to build **conditional statements**. All statements that include **comparison operators** get _evaluated_ and return a **boolean** value: either `true` or `false`.
+We know many comparison operators from math, which can be used in code to build **conditional expressions**. 
 
 - **Greater/Less than:** <code>a &gt; b</code>, <code>a &lt; b</code>
 - **Greater/Less than or Equal to:** <code>a &gt;= b</code>, <code>a &lt;= b</code>
@@ -59,7 +59,111 @@ We know many comparison operators from math, which can be used in code to build 
 - **NOT Equal:** `a != b`
   > In math, the notation is <code>&ne;</code>
 
+All expressions that include **comparison operators** get _evaluated_ and return a **boolean** value: either `true` or `false`.
+
+For example:
+
+```js 
+console.log( 2 > 1 ); 
+console.log( 2 == 1 );
+console.log( 2 != 1 ); 
+```
+
+A comparison **result** can be _assigned_ to a variable, just like any value:
+
+```js
+let result = 5 > 4; // assign the result of the comparison
+console.log( result ); 
+```
+
+#### String comparison
+{:.no_toc}
+
+To see whether a **string** is greater than another, JavaScript uses the so-called "dictionary" or "lexicographical" order. In other words, strings are compared letter-by-letter.
+
+For example:
+
+```js 
+console.log( 'Z' > 'A' ); 
+console.log( 'Glow' > 'Glee' ); 
+console.log( 'Bee' > 'Be' ); 
+```
+
 ### `if` Statements
+
+The `if(...)` statement _evaluates_ a **condition** in parentheses and, if the result is `true`, _executes_ a block of code. It is considered good practice to wrap the code block inside curly braces:
+
+```js
+if (year == 2015) {
+  console.log( "That's correct!" );
+  console.log( "You're so smart!" );
+}
+```
+> In the example above, the condition is a simple _equality check_ (`year == 2015`), but it can be much more complex.
+
+
+#### Boolean conversion
+{:.no_toc}
+
+The `if (…)` statement _evaluates_ the expression in its parentheses and _converts_ the result to a **boolean**.
+
+<div class="imp" markdown="block">
+
+**What is "_Truthiness_"?**
+- A number `0`, an empty string `""`, `null`, `undefined`, and `NaN` all get converted to `false`. Because of that they are called "_falsy_" values.
+- Other values become `true`, so they are called "_truthy_".
+
+So, the code under this condition would never execute:
+
+```js
+if (0) { // 0 is falsy
+  ...
+}
+```
+
+...and inside this condition -- it always will:
+
+```js
+if (1) { // 1 is truthy
+  ...
+}
+```
+
+#### The `else` clause
+{:.no_toc}
+
+The `if` statement may contain an optional `else` block. It executes when the condition is falsy.
+
+```js 
+let year = prompt('In which year was the ECMAScript-2015 specification published?', '');
+
+if (year == 2015) {
+  alert( 'You guessed it right!' );
+} else {
+  alert( 'How can you be so wrong?' ); // any value except 2015
+}
+```
+
+#### Several conditions: `else if`
+{:.no_toc}
+
+Sometimes, we'd like to test _several variants_ of a condition. The `else if` clause lets us do that.
+
+```js 
+let year = prompt('In which year was the ECMAScript-2015 specification published?', '');
+
+if (year < 2015) {
+  alert( 'Too early...' );
+} else if (year > 2015) {
+  alert( 'Too late' );
+} else {
+  alert( 'Exactly!' );
+}
+```
+> In the code above, JavaScript first checks `year < 2015`. If that is falsy, it goes to the next condition `year > 2015`. If that is also falsy, it shows the last `alert`.
+
+{:.highlight}
+After any `if` block, there can be as many `else if` blocks as needed! The final `else` is optional, which can be considered the "_otherwise_..." situation. 
 
 <div class="task" markdown="block">
 
