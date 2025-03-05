@@ -37,11 +37,15 @@ nav_order: 3
 
 ## Selection (Conditionals)
 
-Sometimes, we need to perform different actions based on different **conditions**.
+A **CONDITION** in code is like a _question_. Sometimes, we need to perform different actions based on different **conditions**. 
+
+❓ **BOOLEAN** values are like _answers_ to a _question_:
+- `true` -- means "yes", "correct" or "the truth".
+- `false` -- means "no", "wrong" or "not the truth".
 
 ### Comparison Operators
 
-We know many comparison operators from math, which can be used in code to write **conditional statements**. 
+We know many comparison operators from math, which can be used in code to build **conditional statements**. All statements that include **comparison operators** get _evaluated_ and return a **boolean** value: either `true` or `false`.
 
 - **Greater/less than:** <code>a &gt; b</code>, <code>a &lt; b</code>
 - **Greater/less than or equal to:** <code>a &gt;= b</code>, <code>a &lt;= b</code>
