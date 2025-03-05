@@ -30,18 +30,23 @@ nav_order: 3
 
 ![image](flow-control.png)
 
-{:.important}
+{:.highlight}
 **Flow control statements** affect the _execution order_ of **statements** or instructions in a program. They are often used to make _decisions_, _repeat_ blocks of code, and _jump_ to specific sections of code.
 
 ---
 
 ## Selection (Conditionals)
 
-A **CONDITION** in code is like a _question_. Sometimes, we need to perform different actions based on different **conditions**. 
+Sometimes, we need to _perform different actions_ based on different **conditions**. 
 
-❓ **BOOLEAN** values are like _answers_ to a _question_:
-- `true` -- means "yes", "correct" or "the truth".
-- `false` -- means "no", "wrong" or "not the truth".
+<div class="imp" markdown="block">
+ 
+❓ A **CONDITION** in code is like a _question_...
+❕ Where **BOOLEAN** values are the possible _answers_:
+- `true` - means "yes", "correct" or "the truth".
+- `false` - means "no", "wrong" or "not the truth".
+
+</div>
 
 ### Comparison Operators
 
