@@ -17,8 +17,8 @@ nav_order: 2
 ## Variables & Data Types
 
 Most of the time, a JavaScript application needs to work with **data** (information). Here are two examples:
-1. An online shop - the information might include goods being sold and a shopping cart.
-2. A chat application - the information might include users, messages, and much more.
+1. _An online shop_ - the information might include the goods being sold and a shopping cart.
+2. _A chat application_ - the information might include users, messages, and much more.
 
 In programming languages, a [variable](https://en.wikipedia.org/wiki/Variable_(computer_science)) is a "named storage container" for data. **Variables** are used to _store_ information.
 
@@ -33,6 +33,14 @@ In programming languages, a [variable](https://en.wikipedia.org/wiki/Variable_(c
 
 #### JS DATA TYPES
 {:.no_toc}
+
+<div class="task" markdown="block">
+
+🎯 Work together to **categorize** the information you've each been given on individual post-it notes. As a class, compare the data you have, and decide how many categories make sense (at least two, but could be more!). Then, post your notes on the board, grouped into the categories you've identified.   
+
+</div>
+
+When dealing with data, the **TYPE** of it is important – it determines how much space is needed to store the data, as well as what you're able to do with the data. Here's how the JavaScript language chooses to categorize data: 
 
 | `Number` | 🔢 a **quantity/amount** that is either a **whole/integer** number or a **decimal/fractional** number |
 | `String` | 🔤 a collection of **individual characters** (letters/numbers/symbols) that are “*strung together*” to form **text/words/sentences** |
