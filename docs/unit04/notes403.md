@@ -113,6 +113,8 @@ The `if (…)` statement _evaluates_ the expression in its parentheses and _conv
 - A number `0`, an empty string `""`, `null`, `undefined`, and `NaN` all get converted to `false`. Because of that they are called "_falsy_" values.
 - Other values become `true`, so they are called "_truthy_".
 
+</div>
+
 So, the code under this condition would never execute:
 
 ```js
@@ -128,6 +130,40 @@ if (1) { // 1 is truthy
   ...
 }
 ```
+
+<!--
+
+### "Truthiness"
+
+When we use `if()` statements, we are not always going to be able to plug in a variable that already holds the **value** of `true` or `false`. Many times, we must plug in a **statement** that will be _evaluated_ by JavaScript as `true` or `false`.
+
+For example, do you know if the value `0` is `true` or `false`?
+
+This is not a philosophy question – JavaScript has an answer. This happens because JavaScript is a _weakly typed_ language. This means that in the context of an `if()` statement, it will convert other variable values to `true` or `false` in order to run the code. This is known as determining the “truthiness” of a value.
+
+> This is similar to the legal system! Although it is POSSIBLE that there will be one piece of evidence that makes the “guilty” or “not guilty” sentence obvious, it is also likely that a judge or jury will need to _evaluate_ the evidence and make a decision.
+
+For this analogy, let's assume a `true` statement is one that will lead to the conviction of the accused car theft, while a `false` statement will let him/her walk free. 
+
+```js
+let evidence = "Fingerprints";
+ 
+if (evidence) {
+  convict();
+}
+ 
+else {
+  release();
+}
+```
+> `convict()` and `release()` are made-up functions. In this case, since `evidence` has a non-zero/non-empty value, the `if()` statement _evaluates_ to `true`, so the judge would convict the car thief. 
+
+Here’s an interactive diagram of this scenario:
+
+<iframe src="https://blog.codeanalogies.com/wp-admin/admin-ajax.php?action=h5p_embed&id=19" width="680" height="322" frameborder="0" allowfullscreen="allowfullscreen" title="True Value in If Statement"></iframe><script src="https://blog.codeanalogies.com/wp-content/plugins/h5p/h5p-php-library/js/h5p-resizer.js" charset="UTF-8"></script>
+
+-->
+
 
 #### The `else` clause
 {:.no_toc}
@@ -171,39 +207,6 @@ Complete **steps 7-14** in the following _interactive tutorial_:
 [🏗️ JS Construction Site](https://www.codeanalogies.com/jsconstruction/)
 
 </div>
-
-<!--
-
-### "Truthiness"
-
-When we use `if()` statements, we are not always going to be able to plug in a variable that already holds the **value** of `true` or `false`. Many times, we must plug in a **statement** that will be _evaluated_ by JavaScript as `true` or `false`.
-
-For example, do you know if the value `0` is `true` or `false`?
-
-This is not a philosophy question – JavaScript has an answer. This happens because JavaScript is a _weakly typed_ language. This means that in the context of an `if()` statement, it will convert other variable values to `true` or `false` in order to run the code. This is known as determining the “truthiness” of a value.
-
-> This is similar to the legal system! Although it is POSSIBLE that there will be one piece of evidence that makes the “guilty” or “not guilty” sentence obvious, it is also likely that a judge or jury will need to _evaluate_ the evidence and make a decision.
-
-For this analogy, let's assume a `true` statement is one that will lead to the conviction of the accused car theft, while a `false` statement will let him/her walk free. 
-
-```js
-let evidence = "Fingerprints";
- 
-if (evidence) {
-  convict();
-}
- 
-else {
-  release();
-}
-```
-> `convict()` and `release()` are made-up functions. In this case, since `evidence` has a non-zero/non-empty value, the `if()` statement _evaluates_ to `true`, so the judge would convict the car thief. 
-
-Here’s an interactive diagram of this scenario:
-
-<iframe src="https://blog.codeanalogies.com/wp-admin/admin-ajax.php?action=h5p_embed&id=19" width="680" height="322" frameborder="0" allowfullscreen="allowfullscreen" title="True Value in If Statement"></iframe><script src="https://blog.codeanalogies.com/wp-content/plugins/h5p/h5p-php-library/js/h5p-resizer.js" charset="UTF-8"></script>
-
--->
 
 ---
 
