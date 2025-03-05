@@ -52,11 +52,12 @@ Sometimes, we need to _perform different actions_ based on different **condition
 
 We know many comparison operators from math, which can be used in code to build **conditional statements**. All statements that include **comparison operators** get _evaluated_ and return a **boolean** value: either `true` or `false`.
 
-- **Greater/less than:** <code>a &gt; b</code>, <code>a &lt; b</code>
-- **Greater/less than or equal to:** <code>a &gt;= b</code>, <code>a &lt;= b</code>
-- **Equals:** `a == b`
+- **Greater/Less than:** <code>a &gt; b</code>, <code>a &lt; b</code>
+- **Greater/Less than or Equal to:** <code>a &gt;= b</code>, <code>a &lt;= b</code>
+- **Equal:** `a == b`
   > ⚠️ The double equality sign `==` means the _equality test_, while a single one `a = b` means a variable _assignment_!
-- **NOT equals:** In math the notation is <code>&ne;</code>, but in JavaScript it's written as <code>a != b</code>.
+- **NOT Equal:** `a != b`
+  > In math, the notation is <code>&ne;</code>
 
 ### `if` Statements
 
