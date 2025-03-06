@@ -108,9 +108,9 @@ console.log(message); // shows the variable content
 We can also **CHANGE** the value of a variable as many times as we want:
 
 ```js
-let status = "Crashed Out";
-status = "Locked In"; // value changed
-console.log(status);
+let mood = "Stressed";
+mood = "Chill"; // value changed
+console.log(mood);
 ```
 
 Whenever a value is modified, the old data is **removed** from the variable:
