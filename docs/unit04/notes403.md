@@ -99,7 +99,7 @@ if (currentYear == 2025) {
   console.log( "New Year New Me" );
 }
 ```
-> In the example above, the condition is a simple _equality check_ ("is the current year 2025?"), but it can be much more complex.
+> In the example above, the condition is a simple _equality check_ ("is the **value** of the `currentYear` **variable** equal to 2025?"), but it can be much more complex.
 
 
 #### Boolean conversion
