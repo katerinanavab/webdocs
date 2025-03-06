@@ -94,12 +94,11 @@ console.log( 'Bee' > 'Be' );
 The `if(...)` statement _evaluates_ a **condition** in parentheses and, if the result is `true`, _executes_ a block of code. It is considered good practice to wrap the code block inside curly braces:
 
 ```js
-if (currentYear == 2025) {
-  console.log( "What a time to be alive!" );
-  console.log( "New Year New Me" );
+if (age == 16) {
+  console.log( 'Sweet sixteen!' );
 }
 ```
-> In the example above, the condition is a simple _equality check_ ("is the **value** of the `currentYear` **variable** equal to 2025?"), but it can be much more complex.
+> In the example above, the condition is a simple _equality check_ ("is the **value** of the `age` **variable** equal to 18?"), but it can be much more complex.
 
 
 #### Boolean conversion
@@ -171,13 +170,13 @@ Here’s an interactive diagram of this scenario:
 The `if` statement may contain an optional `else` block. It executes when the condition is falsy.
 
 ```js 
-let year = prompt('In which year was the ECMAScript-2015 specification published?', '');
-
-if (year == 2015) {
-  alert( 'You guessed it right!' );
-} else {
-  alert( 'How can you be so wrong?' ); // any value except 2015
+if (age == 16) {
+  console.log( 'Sweet sixteen!' );
 }
+else {
+  console.log( 'You can't have a sweet sixteen party...' ); // any value except 16
+}
+
 ```
 
 #### Several conditions: `else if`
@@ -186,14 +185,14 @@ if (year == 2015) {
 Sometimes, we'd like to test _several variants_ of a condition. The `else if` clause lets us do that.
 
 ```js 
-let year = prompt('In which year was the ECMAScript-2015 specification published?', '');
-
-if (year < 2015) {
-  alert( 'Too early...' );
-} else if (year > 2015) {
-  alert( 'Too late' );
-} else {
-  alert( 'Exactly!' );
+if (age < 18) {
+  console.log( 'Too young to vote...' );
+}
+else if (age > 18) {
+  console.log( 'Old enough to vote!' );
+}
+else {
+  console.log( 'It's the first year you can vote!' );
 }
 ```
 > In the code above, JavaScript first checks `year < 2015`. If that is falsy, it goes to the next condition `year > 2015`. If that is also falsy, it shows the last `alert`.
