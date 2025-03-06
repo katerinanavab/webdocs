@@ -98,7 +98,7 @@ if (age == 16) {
   console.log( "Sweet sixteen! 🥳" );
 }
 ```
-> In the example above, the condition is a simple _equality check_ ("is the **value** of the `age` **variable** equal to 18?"), but it can be much more complex.
+> In the example above, the condition is a simple _equality check_ ("is the **value** of the `age` **variable** equal to 16?"), but it can be much more complex.
 
 
 #### Boolean conversion
@@ -167,7 +167,7 @@ Here’s an interactive diagram of this scenario:
 #### The `else` clause
 {:.no_toc}
 
-The `if` statement may contain an optional `else` block. It executes when the condition is falsy.
+The `if` statement may contain an optional `else` block. It executes when the **condition** is _falsy_.
 
 ```js 
 if (age == 16) {
@@ -195,7 +195,7 @@ else {
   console.log( "It's the first year you can vote!" );
 }
 ```
-> In the code above, JavaScript first checks `year < 2015`. If that is falsy, it goes to the next condition `year > 2015`. If that is also falsy, it shows the last `alert`.
+> In the code above, JavaScript first checks `year < 2015`. If that is _falsy_, it goes to the next condition `year > 2015`. If that is also falsy, it shows the last message.
 
 {:.highlight}
 After any `if` block, there can be as many `else if` blocks as needed! The final `else` is optional, which can be considered the "_otherwise_..." situation. 
@@ -211,7 +211,7 @@ Complete **steps 7-14** in the following _interactive tutorial_:
 
 ## Iteration (Looping)
 
-We often need to **repeat** actions. For example, outputting goods from a list of goods, one after another. *Loops* are a way to repeat the same code multiple times.
+🔁 We often need to **repeat** actions. For example, outputting goods from a list of goods, one after another. *Loops* are a way to repeat the same code multiple times.
 
 
 ### `while` Loops 
@@ -225,7 +225,7 @@ while (condition) {
 }
 ```
 
-While the `condition` is truthy, the `code` from the loop body is executed.
+While the `condition` is _truthy_, the `code` from the loop body is executed.
 
 For instance, the loop below outputs `i` while `i < 3`:
 
