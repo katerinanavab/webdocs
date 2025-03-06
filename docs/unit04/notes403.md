@@ -61,8 +61,6 @@ We know many comparison operators from math, which can be used in code to build 
 
 All expressions that include **comparison operators** get _evaluated_ and return a **boolean** value: either `true` or `false`.
 
-For example:
-
 ```js 
 console.log( 2 > 1 ); 
 console.log( 2 == 1 );
@@ -80,8 +78,6 @@ console.log( result );
 {:.no_toc}
 
 To see whether a **string** is greater than another, JavaScript uses the so-called "dictionary" or "lexicographical" order. In other words, strings are compared letter-by-letter.
-
-For example:
 
 ```js 
 console.log( 'Z' > 'A' ); 
@@ -211,66 +207,75 @@ Complete **steps 7-14** in the following _interactive tutorial_:
 
 ## Iteration (Looping)
 
-🔁 We often need to **repeat** actions. For example, outputting goods from a list of goods, one after another. *Loops* are a way to repeat the same code multiple times.
-
+🔁 We often need to **repeat** actions. *Loops* are structures that allow us to repeat the same code multiple times.
+> For example, outputting goods from a list of goods, one after another. 
 
 ### `while` Loops 
 
+<div class="imp" markdown="block">
+ 
 The `while` loop has the following syntax:
 
 ```js
 while (condition) {
-  // code
-  // so-called "loop body"
+  // LOOP BODY CODE
+}
+```
+> While the `condition` is _truthy_, the `code` from the **loop body** is executed.
+
+</div>
+
+For instance, the loop below **outputs** `num` while `num <= 8`:
+
+```js 
+let num = 5;
+while (num <= 8) { 
+  console.log( num );
+  num++;
 }
 ```
 
-While the `condition` is _truthy_, the `code` from the loop body is executed.
+A _single execution_ of the loop body is called an **iteration**. 
+> The loop in the example above makes 3 iterations.
 
-For instance, the loop below outputs `i` while `i < 3`:
+{:.warning}
+♾️ **INFINITE LOOPS:** If `i++` was missing from the example above, the loop would repeat (in theory) _forever_. In practice, the browser provides ways to stop such loops, and in server-side JavaScript, we can kill the process.
 
-```js 
-let i = 0;
-while (i < 3) { // shows 0, then 1, then 2
-  alert( i );
-  i++;
-}
-```
+Any *expression* or *variable* can be used as a loop **condition**, not just *comparisons*: the condition is always evaluated and converted to a `boolean` by `while`.
 
-A single execution of the loop body is called *an iteration*. The loop in the example above makes three iterations.
-
-If `i++` was missing from the example above, the loop would repeat (in theory) forever. In practice, the browser provides ways to stop such loops, and in server-side JavaScript, we can kill the process.
-
-Any expression or variable can be a loop condition, not just comparisons: the condition is evaluated and converted to a boolean by `while`.
-
-For instance, a shorter way to write `while (i != 0)` is `while (i)`:
+For instance, a shorter way to write `while (count != 0)` is `while (count)`:
 
 ```js 
-let i = 3;
-while (i) { // when i becomes 0, the condition becomes falsy, and the loop stops
-  alert( i );
-  i--;
+let count = 10;
+// when count becomes 0, the condition becomes FALSY -> loop stops
+while (count) { 
+  console.log( count );
+  count--;
 }
 ```
 
 
 ### `for` Loops
 
-The `for` loop is more complex, but it's also the most commonly used loop.
+The `for` loop is more complex, but it's also the most commonly used loop. It can be used whenever you **know how many times** the loop will need to run. 
 
-It looks like this:
+<div class="imp" markdown="block">
+
+The `for` loop has the following syntax:
 
 ```js
 for (begin; condition; step) {
-  // ... loop body ...
+  // LOOP BODY CODE
 }
 ```
 
-Let's learn the meaning of these parts by example. The loop below runs `alert(i)` for `i` from `0` up to (but not including) `3`:
+</div>
+
+Let's learn the meaning of these parts by example. The loop below runs `console.log(i)` for `i` from `0` up to (_but not including_) `3`:
 
 ```js
 for (let i = 0; i < 3; i++) { // shows 0, then 1, then 2
-  alert(i);
+  console.log(i);
 }
 ```
 
@@ -278,12 +283,12 @@ Let's examine the `for` statement part-by-part:
 
 | part  |          |                                                                            |
 |-------|----------|----------------------------------------------------------------------------|
-| begin | `let i = 0`    | Executes once upon entering the loop.                                      |
-| condition | `i < 3`| Checked before every loop iteration. If false, the loop stops.              |
-| body | `alert(i)`| Runs again and again while the condition is truthy.                         |
-| step| `i++`      | Executes after the body on each iteration. |
+| begin | `let i = 0`    | Executes **once** upon entering the loop.                                      |
+| condition | `i < 3`| Checked **before** every loop iteration. If _falsy_, the loop **stops**.              |
+| body | `console.log(i)`| **Runs repeatedly** while the condition is _truthy_.                         |
+| step| `i++`      | Executes **after** the body on each iteration. |
 
-The general loop algorithm works like this:
+The general **loop algorithm** works like this:
 
 ```
 Run begin
@@ -293,56 +298,41 @@ Run begin
 → ...
 ```
 
-That is, `begin` executes once, and then it iterates: after each `condition` test, `body` and `step` are executed.
+{:.highlight}
+In a `for` loop, `begin` executes **once**, and then it **iterates**: after each `condition` test, `body` and `step` are executed.
 
-If you are new to loops, it could help to go back to the example and reproduce how it runs step-by-step on a piece of paper.
-
-Here's exactly what happens in our case:
+📝 If you are new to loops, it could help to go back to the example and reproduce how it runs step-by-step on a piece of paper. Here's exactly what happens in our case:
 
 ```js
-// for (let i = 0; i < 3; i++) alert(i)
-
-// run begin
+// run BEGIN
 let i = 0
-// if condition → run body and run step
-if (i < 3) { alert(i); i++ }
-// if condition → run body and run step
-if (i < 3) { alert(i); i++ }
-// if condition → run body and run step
-if (i < 3) { alert(i); i++ }
-// ...finish, because now i == 3
+// if condition → run body and run STEP
+if (i < 3) { console.log(i); i++ }
+// if condition → run body and run STEP
+if (i < 3) { console.log(i); i++ }
+// if condition → run body and run STEP
+if (i < 3) { console.log(i); i++ }
+// ...STOP, because now i == 3
 ```
 
 #### Inline Variable Declaration
 {:.no_toc}
 
-Here, the "counter" variable `i` is declared right in the loop. This is called an "inline" variable declaration. Such variables are visible only inside the loop.
+Here, the "counter" variable `i` is declared right inside the loop header. This is called an **inline variable declaration**. Such variables *exist only inside the loop*!
 
 ```js 
 for (let i = 0; i < 3; i++) {
-  alert(i); // 0, 1, 2
+  console.log(i); // 0, 1, 2
 }
-alert(i); // error, no such variable
-```
-
-Instead of defining a variable, we could use an existing one:
-
-```js 
-let i = 0;
-
-for (i = 0; i < 3; i++) { // use an existing variable
-  alert(i); // 0, 1, 2
-}
-
-alert(i); // 3, visible, because declared outside of the loop
+console.log(i); // error, no such variable
 ```
 
 #### Breaking the loop
 {:.no_toc}
 
-Normally, a loop exits when its condition becomes falsy.
+Normally, a loop exits when its condition becomes _falsy_.
 
-But we can force the exit at any time using the special `break` directive.
+But we can **force the exit** at any time using the special `break` directive.
 
 For example, the loop below asks the user for a series of numbers, "breaking" when no number is entered:
 
@@ -350,15 +340,15 @@ For example, the loop below asks the user for a series of numbers, "breaking" wh
 let sum = 0;
 
 while (true) {
-
   let value = +prompt("Enter a number", '');
 
-  if (!value) break;
+  if (!value) {
+   break;
+  }
 
   sum += value;
-
 }
-alert( 'Sum: ' + sum );
+console.log( 'Sum: ' + sum );
 ```
 
 The `break` directive is activated at the line `(*)` if the user enters an empty line or cancels the input. It stops the loop immediately, passing control to the first line after the loop. Namely, `alert`.
@@ -368,9 +358,9 @@ The combination "infinite loop + `break` as needed" is great for situations when
 #### Continue to the next iteration 
 {:.no_toc}
 
-The `continue` directive is a "lighter version" of `break`. It doesn't stop the whole loop. Instead, it stops the current iteration and forces the loop to start a new one (if the condition allows).
+The `continue` directive is a "lighter version" of `break`. It doesn't stop the whole loop. Instead, it **stops the current iteratio**n and forces the loop to start a new one (if the condition allows).
 
-We can use it if we're done with the current iteration and would like to move on to the next one.
+We can use it if we're done with the current iteration and would like to **skip ahead** to the next one.
 
 The loop below uses `continue` to output only odd values:
 
@@ -378,9 +368,11 @@ The loop below uses `continue` to output only odd values:
 for (let i = 0; i < 10; i++) {
 
   // if true, skip the remaining part of the body
-  if (i % 2 == 0) continue;
+  if (i % 2 == 0) {
+    continue;
+  }
 
-  alert(i); // 1, then 3, 5, 7, 9
+  console.log(i); // 1, then 3, 5, 7, 9
 }
 ```
 
@@ -389,10 +381,10 @@ For even values of `i`, the `continue` directive stops executing the body and pa
 #### Summary
 {:.no_toc}
 
-- `while ( )` - condition is checked before each iteration.
-- `for ( ; ; )` - condition is checked before each iteration, additional settings available.
-- To make an "infinite" loop, usually the `while(true)` construct is used. Such a loop, just like any other, can be stopped with the `break` directive.
-- If we don't want to do anything in the current iteration and would like to forward to the next one, we can use the `continue` directive.
+- `while ( condition )` - condition is checked before each iteration, loop body executes if _truthy_. 
+- `for (begin; condition; step)` - condition is checked before each iteration, additional settings available.
+- To make an "infinite" loop, usually the `while(true)` construct is used. Such a loop, just like any other, can be **stopped** with the `break` directive.
+- If we don't want to do anything in the current iteration and would like to **forward** to the next one, we can use the `continue` directive.
 
 
 ---
