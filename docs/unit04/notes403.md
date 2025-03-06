@@ -95,7 +95,7 @@ The `if(...)` statement _evaluates_ a **condition** in parentheses and, if the r
 
 ```js
 if (age == 16) {
-  console.log( 'Sweet sixteen!' );
+  console.log( "Sweet sixteen! 🥳" );
 }
 ```
 > In the example above, the condition is a simple _equality check_ ("is the **value** of the `age` **variable** equal to 18?"), but it can be much more complex.
@@ -171,10 +171,10 @@ The `if` statement may contain an optional `else` block. It executes when the co
 
 ```js 
 if (age == 16) {
-  console.log( 'Sweet sixteen!' );
+  console.log( "Sweet sixteen! 🥳" );
 }
 else {
-  console.log( 'You can't have a sweet sixteen party...' ); // any value except 16
+  console.log( "You can't have a sweet sixteen party..." ); // any value except 16
 }
 
 ```
@@ -186,13 +186,13 @@ Sometimes, we'd like to test _several variants_ of a condition. The `else if` cl
 
 ```js 
 if (age < 18) {
-  console.log( 'Too young to vote...' );
+  console.log( "Too young to vote..." );
 }
 else if (age > 18) {
-  console.log( 'Old enough to vote!' );
+  console.log( "Old enough to vote!" );
 }
 else {
-  console.log( 'It's the first year you can vote!' );
+  console.log( "It's the first year you can vote!" );
 }
 ```
 > In the code above, JavaScript first checks `year < 2015`. If that is falsy, it goes to the next condition `year > 2015`. If that is also falsy, it shows the last `alert`.
