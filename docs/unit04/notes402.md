@@ -225,6 +225,8 @@ let s = "my" + "string";
 console.log(s); 
 ```
 
+![image](concatenation.png)
+
 Note that if any of the operands is a string, then the other one is **converted** to a string too. For example:
 
 ```js
